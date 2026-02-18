@@ -1,0 +1,123 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "meshery-logo-light-text" [ref=e5]
+    - 'heading "YAML: The only language that can make you long for the sweet embrace of death." [level=1] [ref=e37]'
+  - generic [ref=e39]:
+    - navigation [ref=e40]:
+      - generic [ref=e43]:
+        - generic [ref=e45] [cursor=pointer]:
+          - img [ref=e46]
+          - img [ref=e47]
+        - list [ref=e48]:
+          - button "Dashboard" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - img [ref=e53]
+              - generic:
+                - generic: Dashboard
+          - button "Lifecycle" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]:
+              - img [ref=e61]
+              - generic:
+                - generic: Lifecycle
+          - button "Configuration" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]:
+              - img [ref=e67]
+              - generic:
+                - generic: Configuration
+          - button "meshery-button-2 Performance" [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]:
+              - img "meshery-button-2" [ref=e75]
+              - generic:
+                - generic: Performance
+          - button "Extensions" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]:
+              - img [ref=e104]
+              - generic:
+                - generic: Extensions
+          - separator [ref=e130]
+          - list [ref=e131]:
+            - button "Kanvas" [ref=e132] [cursor=pointer]:
+              - generic [ref=e134]:
+                - img [ref=e136]
+                - generic:
+                  - generic: Kanvas
+          - separator [ref=e137]
+        - generic [ref=e138]:
+          - img [ref=e141] [cursor=pointer]
+          - group [ref=e143]:
+            - listitem [ref=e144]:
+              - button [ref=e145] [cursor=pointer]:
+                - img [ref=e146]
+          - listitem [ref=e148]:
+            - generic [ref=e149]: v0.8.205-1
+    - generic [ref=e150]:
+      - banner [ref=e151]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - img [ref=e157]
+            - generic [ref=e174]:
+              - button [ref=e176] [cursor=pointer]:
+                - img [ref=e177]
+              - text: /
+              - button [ref=e186] [cursor=pointer]:
+                - img [ref=e187]
+              - group [ref=e191]:
+                - generic [ref=e196]:
+                  - combobox [ref=e197] [cursor=pointer]:
+                    - generic [ref=e198]: My other workspace
+                  - textbox: dcba6398-f859-49f7-99af-1041234fc6cd
+                  - img
+                  - group
+              - text: /
+              - heading "KanvasBETA" [level=5] [ref=e199]:
+                - text: Kanvas
+                - superscript [ref=e200]: BETA
+          - generic [ref=e202]:
+            - button "contexts" [ref=e205] [cursor=pointer]:
+              - generic [ref=e206]:
+                - img [ref=e207]
+                - generic [ref=e208]: "2"
+            - button "59" [ref=e211] [cursor=pointer]:
+              - generic [ref=e212]:
+                - img [ref=e213]
+                - generic [ref=e216]: "59"
+            - button [ref=e220] [cursor=pointer]:
+              - img [ref=e222]
+            - button [ref=e224] [cursor=pointer]:
+              - img [ref=e225]
+      - main [ref=e228]:
+        - generic [ref=e231]:
+          - generic:
+            - button "Feedback" [ref=e237] [cursor=pointer]
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - img [ref=e242]
+                - paragraph [ref=e245]: Feedback
+                - generic [ref=e246]:
+                  - img [ref=e249]
+                  - img [ref=e253] [cursor=pointer]
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - button "Issue" [ref=e259] [cursor=pointer]:
+                    - img [ref=e261]
+                    - paragraph [ref=e263]: Issue
+                  - button "Suggestion" [ref=e264] [cursor=pointer]:
+                    - img [ref=e266]
+                    - paragraph [ref=e272]: Suggestion
+                  - button "Meet Request" [ref=e273] [cursor=pointer]:
+                    - img [ref=e275]
+                    - paragraph [ref=e280]: Meet Request
+                - textbox "I’m having an issue with..." [ref=e282]
+              - generic [ref=e284]:
+                - generic [ref=e285]:
+                  - generic [ref=e286] [cursor=pointer]:
+                    - checkbox [ref=e287]
+                    - img [ref=e288]
+                  - paragraph [ref=e290]: We may email you for more information or updates
+                - button "Send" [disabled]
+          - status [ref=e291]
+  - alert [ref=e292]
+```
