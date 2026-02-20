@@ -1,0 +1,23 @@
+{
+  "uuid": "f03004c8-8598-4036-aaea-f0a3ca069c16",
+  "name": "given all requirements are met, when running mesheryctl system check --operator then operators are shown in running state",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771546016189,
+  "stop": 1771546016190,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
