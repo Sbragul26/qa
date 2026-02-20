@@ -1,0 +1,25 @@
+{
+  "uuid": "db868d19-a96b-4e6d-9632-c639bc5c0c4a",
+  "name": "given no required flags when mesheryctl design onboard then an appropriate error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771596107136,
+  "stop": 1771596107137,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 003-design/05-design-onboard.bats, line 32)\n  `assert_output --partial \"Invalid design source type was provided\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Invalid design source type was provided\noutput (4 lines):\n  Error: Unable to connect to Meshery server at http://localhost:9081 (current context).\n  Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n\n  For additional details see https://docs.meshery.io/reference/error-codes#ErrFailRequestCode-1090 | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

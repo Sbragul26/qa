@@ -1,0 +1,25 @@
+{
+  "uuid": "8ee5a40a-2c6e-487c-93be-f05bd5970423",
+  "name": "mesheryctl model export handles discard flags correctly",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1771596107128,
+  "stop": 1771596107129,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/03-model-export.bats, line 51)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Get \"http://localhost:9081/api/meshmodels/export?name=accurate&output_format=yaml&file_type=oci&components=true&relationships=true&pagesize=all&version=v1.7.0\": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

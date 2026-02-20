@@ -1,0 +1,25 @@
+{
+  "uuid": "146f456d-8765-44f2-b07f-df381bc5b371",
+  "name": "mesheryctl perf apply runs successfully with test-profile and valid URL",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1771596107136,
+  "stop": 1771596107137,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 004-perf/00-perf-apply.bats, line 13)\n  `assert_output --partial \"authentication token\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Unable to get URL for performing test\noutput (4 lines):\n  Test Name not provided\n  Using random test name: bsqmhgzd\n  Fetching performance profile\n  Error: Get \"http://localhost:9081/api/user/performance/profiles?pagesize=25&page=0&search=dummy-test-profile\": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n\n\n-- output does not contain substring --\nsubstring (1 lines):\n  authentication token\noutput (4 lines):\n  Test Name not provided\n  Using random test name: bsqmhgzd\n  Fetching performance profile\n  Error: Get \"http://localhost:9081/api/user/performance/profiles?pagesize=25&page=0&search=dummy-test-profile\": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

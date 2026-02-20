@@ -1,0 +1,25 @@
+{
+  "uuid": "9a2691d0-6264-4a2a-9644-c191416fe3d3",
+  "name": "mesehry auth.json file as been created",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771596107124,
+  "stop": 1771596107125,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 000-prerequisites/00-config.bats, line 18)\n  `assert_output  --partial \"Layer5\"' failed\n\n-- output does not contain substring --\nsubstring : Layer5\noutput    : null\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
