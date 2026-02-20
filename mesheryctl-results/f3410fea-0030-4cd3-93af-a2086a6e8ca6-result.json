@@ -1,0 +1,23 @@
+{
+  "uuid": "f3410fea-0030-4cd3-93af-a2086a6e8ca6",
+  "name": "given all requirements met when running  mesheryctl connection --count then total number of available connections is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771621017324,
+  "stop": 1771621017325,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
