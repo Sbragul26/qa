@@ -1,0 +1,25 @@
+{
+  "uuid": "c43c7505-f032-43b0-979a-da2cd8a5349d",
+  "name": "mesheryctl system context view display valid content",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1771717560333,
+  "stop": 1771717560334,
+  "statusDetails": {
+    "message": "tags: system:context\n(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,\n in test file 001-system/01-system-context.bats, line 19)\n  `assert_line --regexp \"$ENDPOINT_REGEX_MATCH\"' failed\n\n-- no output line matches regular expression --\nregexp : ^[[:space:]]*endpoint:[[:space:]](http|https)://.*:[[:digit:]]+$\noutput : time=\"2026-02-21T23:44:17Z\" level=info msg=\"local:\\n  endpoint: http://localhost:9081\\n  token: default\\n  token-location: auth.json\\n  platform: kubernetes\\n  components: []\\n  channel: stable\\n  version: latest\\n  provider: \\\"\\\"\\n\"\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
