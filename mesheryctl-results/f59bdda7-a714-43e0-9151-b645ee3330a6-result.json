@@ -1,0 +1,23 @@
+{
+  "uuid": "f59bdda7-a714-43e0-9151-b645ee3330a6",
+  "name": "given an invalid source type when mesheryctl design onboard --file file-path --source invalid-source-type then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771716219202,
+  "stop": 1771716219203,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
