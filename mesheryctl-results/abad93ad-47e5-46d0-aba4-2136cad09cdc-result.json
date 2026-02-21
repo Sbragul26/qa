@@ -1,0 +1,25 @@
+{
+  "uuid": "abad93ad-47e5-46d0-aba4-2136cad09cdc",
+  "name": "mesheryctl model export displays usage instructions when no model name provided",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1771678833957,
+  "stop": 1771678833958,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/02-model-import.bats, line 71)\n  `assert_output --partial \"Imported model model-import_cli-e2e-test (1 component)\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Imported model model-import_cli-e2e-test (1 component)\noutput (2 lines):\n  Response Status Code 500. Server emitted an error: Error downloading file from URL\n   | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
