@@ -1,0 +1,25 @@
+{
+  "uuid": "d0235e59-800d-49a6-873f-23cfc870bb0a",
+  "name": "mesheryctl system status display meshery operator running pods",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772058420477,
+  "stop": 1772058420478,
+  "statusDetails": {
+    "message": "tags: system:context\n(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,\n in test file 001-system/01-system-context.bats, line 30)\n  `assert_line --regexp \"$CONTEXT_REGEXP_MATCH\"' failed\n\n-- no output line matches regular expression --\nregexp : ^Current[[:space:]]Context:[[:space:]][a-zA-Z]+$\noutput (2 lines):\n  time=\"2026-02-25T22:25:11Z\" level=info msg=\"\\nCurrent Context: local\\n\"\n  time=\"2026-02-25T22:25:11Z\" level=info msg=\"endpoint: http://localhost:9081\\ntoken: default\\ntoken-location: auth.json\\nplatform: kubernetes\\ncomponents: []\\nchannel: stable\\nversion: latest\\nprovider: \\\"\\\"\\n\"\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
