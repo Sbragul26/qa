@@ -1,0 +1,23 @@
+{
+  "uuid": "78c35fbf-10d5-4b54-9396-a98918c76aba",
+  "name": "given non valid argument for --type flag when running mesheryctl connection create --type then it fails displaying error message",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772207631343,
+  "stop": 1772207631344,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
