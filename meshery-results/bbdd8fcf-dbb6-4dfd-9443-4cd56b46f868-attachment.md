@@ -1,0 +1,336 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - img [ref=e11]
+        - list [ref=e12]:
+          - button [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]:
+              - img [ref=e17]
+              - generic [ref=e22]: Dashboard
+          - button [ref=e24] [cursor=pointer]:
+            - generic [ref=e25]:
+              - img [ref=e27]
+              - generic [ref=e30]: Lifecycle
+          - button [ref=e32] [cursor=pointer]:
+            - generic [ref=e33]:
+              - img [ref=e35]
+              - generic [ref=e40]: Configuration
+          - button [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]:
+              - img [ref=e45]
+              - generic [ref=e71]: Performance
+          - button [ref=e73] [cursor=pointer]:
+            - generic [ref=e74]:
+              - img [ref=e76]
+              - generic [ref=e103]: Extensions
+          - separator [ref=e104]
+        - generic [ref=e105]:
+          - img [ref=e108] [cursor=pointer]
+          - group [ref=e110]:
+            - listitem [ref=e111]:
+              - link [ref=e112] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e114]
+            - listitem [ref=e116]:
+              - link [ref=e117] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e119]
+            - listitem [ref=e128]:
+              - link [ref=e129] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e131]
+            - listitem [ref=e133]:
+              - link [ref=e134] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e136]
+          - listitem [ref=e138]:
+            - generic [ref=e139]:
+              - text: v0.8.205
+              - link [ref=e141] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.205
+                - img [ref=e142]
+              - text: Running latest
+    - generic [ref=e144]:
+      - banner [ref=e145]:
+        - generic [ref=e147]:
+          - generic [ref=e149]:
+            - button [ref=e151] [cursor=pointer]:
+              - img [ref=e152]
+            - text: /
+            - button [ref=e161] [cursor=pointer]:
+              - img [ref=e162]
+            - text: /
+            - heading [level=5] [ref=e166]: Settings
+          - generic [ref=e168]:
+            - button [ref=e171] [cursor=pointer]:
+              - generic [ref=e172]:
+                - img [ref=e173]
+                - generic [ref=e174]: "1"
+            - button [ref=e177] [cursor=pointer]:
+              - img [ref=e178]
+            - button [ref=e185] [cursor=pointer]:
+              - img [ref=e187]
+            - button [ref=e190] [cursor=pointer]:
+              - img [ref=e191]
+      - generic [ref=e193]:
+        - main [ref=e194]:
+          - generic [ref=e195]:
+            - tablist [ref=e199]:
+              - tab [ref=e200] [cursor=pointer]:
+                - img [ref=e201]
+                - text: Overview
+              - tab [ref=e202] [cursor=pointer]:
+                - img [ref=e203]
+                - text: Adapters
+              - tab [ref=e205] [cursor=pointer]:
+                - img [ref=e206]
+                - text: Metrics
+              - tab [selected] [ref=e208] [cursor=pointer]:
+                - img [ref=e209]
+                - text: Registry
+              - tab [ref=e211] [cursor=pointer]:
+                - img [ref=e212]
+                - text: Reset
+            - generic [ref=e217]:
+              - generic [ref=e219]:
+                - button [ref=e220] [cursor=pointer]:
+                  - img [ref=e222]
+                  - text: Create Model
+                - button [ref=e224] [cursor=pointer]:
+                  - img [ref=e226]
+                  - text: Import Model
+              - generic [ref=e228]:
+                - generic [ref=e229] [cursor=pointer]:
+                  - generic [ref=e230]: (296)
+                  - text: Models
+                - generic [ref=e231] [cursor=pointer]:
+                  - generic [ref=e232]: (0)
+                  - text: Components
+                - generic [ref=e233] [cursor=pointer]:
+                  - generic [ref=e234]: (0)
+                  - text: Relationships
+                - generic [ref=e235] [cursor=pointer]:
+                  - generic [ref=e236]: (0)
+                  - text: Registrants
+              - generic [ref=e237]:
+                - generic [ref=e239]:
+                  - generic [ref=e240]:
+                    - generic [ref=e242]:
+                      - button [ref=e244] [cursor=pointer]:
+                        - img [ref=e245]
+                      - button [ref=e252] [cursor=pointer]:
+                        - img [ref=e253]
+                      - generic [ref=e260] [cursor=pointer]:
+                        - checkbox [ref=e263]
+                        - generic [ref=e266]: Duplicates
+                      - button [ref=e267] [cursor=pointer]:
+                        - img [ref=e268]
+                    - button [ref=e272] [cursor=pointer]:
+                      - img [ref=e273]
+                  - tree [ref=e276]:
+                    - treeitem [ref=e277]:
+                      - generic [ref=e278] [cursor=pointer]:
+                        - img [ref=e280]
+                        - generic [ref=e286]:
+                          - img [ref=e287]
+                          - generic [ref=e288]: AMD GPU
+                    - treeitem [ref=e289]:
+                      - generic [ref=e290] [cursor=pointer]:
+                        - img [ref=e292]
+                        - generic [ref=e298]:
+                          - img [ref=e299]
+                          - generic [ref=e300]: APISIX Ingress Controller
+                    - treeitem [ref=e301]:
+                      - generic [ref=e302] [cursor=pointer]:
+                        - img [ref=e304]
+                        - generic [ref=e311]: AWS API Gateway
+                    - treeitem [ref=e312]:
+                      - generic [ref=e313] [cursor=pointer]:
+                        - img [ref=e315]
+                        - generic [ref=e321]:
+                          - img [ref=e322]
+                          - generic [ref=e323]: AWS API Gateway v2
+                    - treeitem [ref=e324]:
+                      - generic [ref=e325] [cursor=pointer]:
+                        - img [ref=e327]
+                        - generic [ref=e333]:
+                          - img [ref=e334]
+                          - generic [ref=e335]: AWS App Mesh
+                    - treeitem [ref=e336]:
+                      - generic [ref=e337] [cursor=pointer]:
+                        - img [ref=e339]
+                        - generic [ref=e345]:
+                          - img [ref=e346]
+                          - generic [ref=e347]: AWS Applilcation Autoscaling
+                    - treeitem [ref=e348]:
+                      - generic [ref=e349] [cursor=pointer]:
+                        - img [ref=e351]
+                        - generic [ref=e357]:
+                          - img [ref=e358]
+                          - generic [ref=e359]: AWS CloudFront
+                    - treeitem [ref=e360]:
+                      - generic [ref=e361] [cursor=pointer]:
+                        - img [ref=e363]
+                        - generic [ref=e369]:
+                          - img [ref=e370]
+                          - generic [ref=e371]: AWS CloudTrail
+                    - treeitem [ref=e372]:
+                      - generic [ref=e373] [cursor=pointer]:
+                        - img [ref=e375]
+                        - generic [ref=e381]:
+                          - img [ref=e382]
+                          - generic [ref=e383]: AWS CloudWatch
+                    - treeitem [ref=e384]:
+                      - generic [ref=e385] [cursor=pointer]:
+                        - img [ref=e387]
+                        - generic [ref=e393]:
+                          - img [ref=e394]
+                          - generic [ref=e395]: AWS CloudWatch Logs
+                    - treeitem [ref=e396]:
+                      - generic [ref=e397] [cursor=pointer]:
+                        - img [ref=e399]
+                        - generic [ref=e405]:
+                          - img [ref=e406]
+                          - generic [ref=e407]: AWS DocumentDB
+                    - treeitem [ref=e408]:
+                      - generic [ref=e409] [cursor=pointer]:
+                        - img [ref=e411]
+                        - generic [ref=e417]:
+                          - img [ref=e418]
+                          - generic [ref=e419]: AWS DynamoDB
+                    - treeitem [ref=e420]:
+                      - generic [ref=e421] [cursor=pointer]:
+                        - img [ref=e423]
+                        - generic [ref=e429]:
+                          - img [ref=e430]
+                          - generic [ref=e431]: AWS EC2
+                    - treeitem [ref=e432]:
+                      - generic [ref=e433] [cursor=pointer]:
+                        - img [ref=e435]
+                        - generic [ref=e441]:
+                          - img [ref=e442]
+                          - generic [ref=e443]: AWS EMR Containers
+                    - treeitem [ref=e444]:
+                      - generic [ref=e445] [cursor=pointer]:
+                        - img [ref=e447]
+                        - generic [ref=e453]:
+                          - img [ref=e454]
+                          - generic [ref=e455]: AWS ElastiCache
+                    - treeitem [ref=e456]:
+                      - generic [ref=e457] [cursor=pointer]:
+                        - img [ref=e459]
+                        - generic [ref=e465]:
+                          - img [ref=e466]
+                          - generic [ref=e467]: AWS Elastic Container Registry
+                    - treeitem [ref=e468]:
+                      - generic [ref=e469] [cursor=pointer]:
+                        - img [ref=e471]
+                        - generic [ref=e477]:
+                          - img [ref=e478]
+                          - generic [ref=e479]: AWS Elastic Container Service
+                    - treeitem [ref=e480]:
+                      - generic [ref=e481] [cursor=pointer]:
+                        - img [ref=e483]
+                        - generic [ref=e489]:
+                          - img [ref=e490]
+                          - generic [ref=e491]: AWS Elastic File System
+                    - treeitem [ref=e492]:
+                      - generic [ref=e493] [cursor=pointer]:
+                        - img [ref=e495]
+                        - generic [ref=e501]:
+                          - img [ref=e502]
+                          - generic [ref=e503]: AWS Elastic Kubernetes Service
+                    - treeitem [ref=e504]:
+                      - generic [ref=e505] [cursor=pointer]:
+                        - img [ref=e507]
+                        - generic [ref=e513]:
+                          - img [ref=e514]
+                          - generic [ref=e515]: AWS ElasticSearch Service
+                    - treeitem [ref=e516]:
+                      - generic [ref=e517] [cursor=pointer]:
+                        - img [ref=e519]
+                        - generic [ref=e525]:
+                          - img [ref=e526]
+                          - generic [ref=e527]: AWS EventBridge
+                    - treeitem [ref=e528]:
+                      - generic [ref=e529] [cursor=pointer]:
+                        - img [ref=e531]
+                        - generic [ref=e537]:
+                          - img [ref=e538]
+                          - generic [ref=e539]: AWS Identity and Access Management
+                    - treeitem [ref=e540]:
+                      - generic [ref=e541] [cursor=pointer]:
+                        - img [ref=e543]
+                        - generic [ref=e549]:
+                          - img [ref=e550]
+                          - generic [ref=e551]: AWS KMS
+                    - treeitem [ref=e552]:
+                      - generic [ref=e553] [cursor=pointer]:
+                        - img [ref=e555]
+                        - generic [ref=e561]:
+                          - img [ref=e562]
+                          - generic [ref=e563]: AWS Kinesis
+                    - treeitem [ref=e564]:
+                      - generic [ref=e565] [cursor=pointer]:
+                        - img [ref=e567]
+                        - generic [ref=e573]:
+                          - img [ref=e574]
+                          - generic [ref=e575]: AWS Lambda
+                - paragraph [ref=e578]: No Models selected
+        - contentinfo [ref=e579]:
+          - paragraph [ref=e580]:
+            - generic [ref=e581] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e582]
+              - text: by the Meshery Community
+  - alert [ref=e584]: Settings | Meshery
+  - dialog [ref=e587]:
+    - generic [ref=e588]:
+      - generic [ref=e589]: Import CSV
+      - button [ref=e591] [cursor=pointer]:
+        - img [ref=e592]
+    - generic [ref=e596]:
+      - generic [ref=e598]:
+        - generic [ref=e600]:
+          - img [ref=e603]
+          - generic [ref=e606]: Model CSV
+        - generic [ref=e610]:
+          - img [ref=e613]
+          - generic [ref=e617]: Component CSV
+        - generic [ref=e621]:
+          - img [ref=e624]
+          - generic [ref=e627]: Relationship CSV
+        - generic [ref=e631]:
+          - img [ref=e634]
+          - generic [ref=e641]: Finish
+      - generic [ref=e643]:
+        - paragraph [ref=e644]: "SUMMARY: Import encountered error for 1 entity (1 unknown entity)."
+        - generic [ref=e645]:
+          - generic [ref=e646]:
+            - paragraph [ref=e647]:
+              - generic [ref=e648]: "MODEL:"
+              - text: .
+            - link "Registry" [ref=e649] [cursor=pointer]:
+              - /url: settings?settingsCategory=Registry&tab=Models&searchText=.
+              - heading "Registry" [level=5] [ref=e650]:
+                - text: Registry
+                - superscript [ref=e651]:
+                  - img [ref=e652]
+          - generic [ref=e654]:
+            - paragraph [ref=e655]: Import did not occur for 1 entity of type unknown.
+            - generic [ref=e661]:
+              - paragraph [ref=e662]:
+                - strong [ref=e663]: Details
+              - list [ref=e664]:
+                - listitem [ref=e665]:
+                  - paragraph [ref=e666]: No component found in model provided. Models must have at least one component.
+    - generic [ref=e669]:
+      - button "Back" [ref=e670] [cursor=pointer]
+      - button "Finish" [active] [ref=e671] [cursor=pointer]: Finish
+```
