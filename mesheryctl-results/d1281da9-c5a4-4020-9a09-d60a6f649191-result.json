@@ -1,0 +1,25 @@
+{
+  "uuid": "d1281da9-c5a4-4020-9a09-d60a6f649191",
+  "name": "given a non existing model-id is provided as an argument when running mesheryctl model delete non-existing-id then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772678135914,
+  "stop": 1772678135915,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/07-model-delete.bats, line 26)\n  `assert_output --partial \"Invalid ID format\"' failed\n\n-- output does not contain substring --\nsubstring : Invalid ID format\noutput    : Error: No model with name '0000' found | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
