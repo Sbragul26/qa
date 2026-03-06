@@ -1,0 +1,25 @@
+{
+  "uuid": "7d4f3775-0411-4678-945e-74fdca5fb2a9",
+  "name": "given an invalid format provided when mesheryctl component view component-name -o xml then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772831236898,
+  "stop": 1772831236899,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 005-component/03-component-view.bats, line 85)\n  `assert_output --partial \"Usage: mesheryctl component view [component-name]\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Usage: mesheryctl component view [component-name]\noutput (4 lines):\n  Error: too many arguments specified\n\n  Usage: mesheryctl component view [component-name | component-id]\n  Run 'mesheryctl component view --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

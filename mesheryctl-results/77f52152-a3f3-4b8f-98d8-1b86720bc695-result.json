@@ -1,0 +1,25 @@
+{
+  "uuid": "77f52152-a3f3-4b8f-98d8-1b86720bc695",
+  "name": "Search for non-existent component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772831236898,
+  "stop": 1772831236899,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 005-component/02-component-search.bats, line 23)\n  `assert_output --partial \"Run 'mesheryctl exp component search --help' to see detailed help message\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Run 'mesheryctl exp component search --help' to see detailed help message\noutput (4 lines):\n  Error: [search term] isn't specified. Please enter component name to search\n\n  Usage: mesheryctl exp component search [query-text]\n  Run 'mesheryctl component search --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
