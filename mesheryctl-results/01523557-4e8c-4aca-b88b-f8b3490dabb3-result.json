@@ -1,0 +1,23 @@
+{
+  "uuid": "01523557-4e8c-4aca-b88b-f8b3490dabb3",
+  "name": "given --file and --source flags provided when mesheryctl design onboard --file file-path --source source-type then design is onboarded",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1772843923343,
+  "stop": 1772843923344,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

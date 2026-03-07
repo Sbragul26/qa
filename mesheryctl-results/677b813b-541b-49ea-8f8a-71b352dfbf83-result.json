@@ -1,0 +1,23 @@
+{
+  "uuid": "677b813b-541b-49ea-8f8a-71b352dfbf83",
+  "name": "given a valid context-name provided when running mesheryctl system context switch context-name then the current context is switched to specified context # skip Temporarily skipping",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772843923235,
+  "stop": 1772843923236,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

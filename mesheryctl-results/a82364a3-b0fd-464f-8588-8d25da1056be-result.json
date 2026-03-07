@@ -1,0 +1,25 @@
+{
+  "uuid": "a82364a3-b0fd-464f-8588-8d25da1056be",
+  "name": "mesheryctl model view displays an existing model",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772843923240,
+  "stop": 1772843923241,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/05-model-view.bats, line 31)\n  `assert_output --partial \"Error: model name isn't specified\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Error: model name isn't specified\noutput (3 lines):\n  Error: must provide one argument: model name\n  Usage: mesheryctl model view [model-name]\n  Run 'mesheryctl model view --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

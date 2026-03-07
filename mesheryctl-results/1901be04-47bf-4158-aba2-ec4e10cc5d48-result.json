@@ -1,0 +1,23 @@
+{
+  "uuid": "1901be04-47bf-4158-aba2-ec4e10cc5d48",
+  "name": "meshery-operator service is deployed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772843923233,
+  "stop": 1772843923234,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
