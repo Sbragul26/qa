@@ -1,0 +1,25 @@
+{
+  "uuid": "397e00e9-a917-41a0-b52c-e6a107389dcb",
+  "name": "given no required flags when mesheryctl design onboard then an appropriate error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772930410857,
+  "stop": 1772930410858,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 003-design/05-design-onboard.bats, line 32)\n  `assert_output --partial \"Invalid design source type was provided\"' failed\n\n-- output does not contain substring --\nsubstring : Invalid design source type was provided\noutput    : Error: Invalid value for --source-type 'InvalidSourceType' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

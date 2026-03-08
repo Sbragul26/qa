@@ -1,0 +1,23 @@
+{
+  "uuid": "333308e5-6b16-4c67-a072-63da3db8067d",
+  "name": "given no connection-id provided as an argument when running mesheryctl connection delete then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1772930410863,
+  "stop": 1772930410864,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

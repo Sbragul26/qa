@@ -1,0 +1,23 @@
+{
+  "uuid": "b4ba94c0-e54b-4c40-ac78-aa2a78c4e2bc",
+  "name": "mesheryctl system dashboard fails when meshery server is unreachable",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772930410845,
+  "stop": 1772930410846,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "uuid": "cdf75592-753e-4ac6-9160-1b7c12af3c59",
+  "name": "given an invalid source type when mesheryctl design onboard --file file-path --source invalid-source-type then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1772930410857,
+  "stop": 1772930410858,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 003-design/05-design-onboard.bats, line 25)\n  `assert_output --partial \"no such file or directory\"' failed\n\n-- output does not contain substring --\nsubstring : no such file or directory\noutput    : Error: Invalid value for --file '/tmp/tmp.ACJIa68GZF/testdata/design/nonexistent.yaml' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

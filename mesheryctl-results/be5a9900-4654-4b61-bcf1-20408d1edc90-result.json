@@ -1,0 +1,23 @@
+{
+  "uuid": "be5a9900-4654-4b61-bcf1-20408d1edc90",
+  "name": "given all requirements met with --set flag when running mesheryctl system context create context-name --url valid-url --set then the new context is created and set it as current context # skip Temporarily skipping",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1772930410844,
+  "stop": 1772930410845,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
