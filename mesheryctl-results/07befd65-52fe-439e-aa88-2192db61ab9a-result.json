@@ -1,0 +1,25 @@
+{
+  "uuid": "07befd65-52fe-439e-aa88-2192db61ab9a",
+  "name": "mesheryctl model view supports JSON output",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1773087256027,
+  "stop": 1773087256028,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/05-model-view.bats, line 46)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: No model(s) found for the given name or ID non-existent-model | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
