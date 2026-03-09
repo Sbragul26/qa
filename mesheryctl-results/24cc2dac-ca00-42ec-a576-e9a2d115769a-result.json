@@ -1,0 +1,25 @@
+{
+  "uuid": "24cc2dac-ca00-42ec-a576-e9a2d115769a",
+  "name": "mesheryctl design import -f nginx.yaml displays imported and output the design Id",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1773095151443,
+  "stop": 1773095151444,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/07-model-delete.bats, line 44)\n  `assert_success' failed\n\n-- command failed --\nstatus : 5\noutput : jq: parse error: Invalid numeric literal at line 1, column 2\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
