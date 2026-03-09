@@ -1,0 +1,23 @@
+{
+  "uuid": "da6d358c-72f7-4f37-862b-64ad28a5a68b",
+  "name": "meshery-broker pod is deployed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1773077594469,
+  "stop": 1773077594470,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

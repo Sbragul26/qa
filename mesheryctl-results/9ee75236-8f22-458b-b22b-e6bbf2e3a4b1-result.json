@@ -1,0 +1,23 @@
+{
+  "uuid": "9ee75236-8f22-458b-b22b-e6bbf2e3a4b1",
+  "name": "mesheryctl model view handles non-existent models gracefully",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1773077594524,
+  "stop": 1773077594525,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
