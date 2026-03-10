@@ -1,0 +1,25 @@
+{
+  "uuid": "9aa5a87d-f2e5-46dc-a6e1-bfcea7f508c9",
+  "name": "given non-existent orgId provided when running mesheryctl exp workspace list --orgId non-existent-orgId then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1773160411649,
+  "stop": 1773160411650,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 008-workspace/02-workspace-list.bats, line 26)\n  `assert_output --partial \"Server emitted an error\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Server emitted an error\noutput (2 lines):\n  Error: Status Code: 500 .failed to get workspaces | Short Description: Unable to fetch data from the Provider.Workspaces | Short Description: unable to get result | Probable Cause: Result Identifier provided is not valid.Result did not persist in the database | Suggested Remediation: Make sure to provide the correct identifier for the result\n   | Short Description: Item Not Found | Probable Cause: The item you are searching for is not present. | Suggested Remediation: Check whether the item is present.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
