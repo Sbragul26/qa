@@ -1,0 +1,25 @@
+{
+  "uuid": "db28ddd4-2be9-4939-8887-fb1f2f2e7223",
+  "name": "given all requirements are met, when running mesheryctl system check then required sections are displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1773270236201,
+  "stop": 1773270236202,
+  "statusDetails": {
+    "message": "(from function `assert_line' in file /usr/lib/bats-assert/src/assert_line.bash, line 219,\n in test file 001-system/02-system-status.bats, line 14)\n  `assert_line --regexp \"Running\"' failed\n\n-- no output line matches regular expression --\nregexp : Running\noutput (4 lines):\n  NAME              READY  STATUS   RESTARTS  AGE\n  meshery           0/0    Pending  0         5m28s\n  meshery-operator  1/1    Pending  0         5m27s\n  time=\"2026-03-11T23:03:35Z\" level=info msg=\"\\nMeshery endpoint is http://localhost:9081\"\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
