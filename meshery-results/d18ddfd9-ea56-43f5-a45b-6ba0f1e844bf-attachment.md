@@ -1,0 +1,158 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - generic [ref=e32]:
+            - button "Configuration" [ref=e33] [cursor=pointer]:
+              - link "Configuration" [ref=e34]:
+                - /url: /configuration/designs
+                - generic [ref=e35]:
+                  - img [ref=e37]
+                  - generic [ref=e42]: Configuration
+            - list [ref=e46]:
+              - generic [ref=e47]:
+                - button "Catalog" [disabled]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: Catalog
+              - button "pattern_trans Designs" [ref=e49] [cursor=pointer]:
+                - generic [ref=e50]:
+                  - img "pattern_trans" [ref=e52]
+                  - generic [ref=e64]: Designs
+          - button "meshery-button-2 Performance" [ref=e66] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e67]:
+              - /url: /performance
+              - generic [ref=e68]:
+                - img "meshery-button-2" [ref=e70]
+                - generic [ref=e96]: Performance
+          - button "Extensions" [ref=e98] [cursor=pointer]:
+            - link "Extensions" [ref=e99]:
+              - /url: /extensions
+              - generic [ref=e100]:
+                - img [ref=e102]
+                - generic [ref=e129]: Extensions
+          - separator [ref=e130]
+        - generic [ref=e131]:
+          - img [ref=e134] [cursor=pointer]
+          - group [ref=e136]:
+            - listitem [ref=e137]:
+              - link [ref=e138] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e140]
+            - listitem [ref=e142]:
+              - link [ref=e143] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e145]
+            - listitem [ref=e154]:
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e157]
+            - listitem [ref=e159]:
+              - link [ref=e160] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e162]
+          - listitem [ref=e164]:
+            - generic [ref=e165]:
+              - text: v0.8.214
+              - link [ref=e167] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.214
+                - img [ref=e168]
+              - text: Running latest
+    - generic [ref=e170]:
+      - banner [ref=e171]:
+        - generic [ref=e173]:
+          - generic [ref=e175]:
+            - button [ref=e177] [cursor=pointer]:
+              - img [ref=e178]
+            - text: /
+            - button [ref=e187] [cursor=pointer]:
+              - img [ref=e188]
+            - text: /
+            - heading "Designs" [level=5] [ref=e192]
+          - generic [ref=e194]:
+            - button "contexts" [ref=e197] [cursor=pointer]:
+              - generic [ref=e198]:
+                - img [ref=e199]
+                - generic [ref=e200]: "1"
+            - button [ref=e203] [cursor=pointer]:
+              - img [ref=e204]
+            - button [ref=e211] [cursor=pointer]:
+              - img [ref=e213]
+            - button [ref=e216] [cursor=pointer]:
+              - img [ref=e217]
+      - generic [ref=e219]:
+        - main [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e224]:
+              - button "Add Pattern" [ref=e226] [cursor=pointer]:
+                - img [ref=e227]
+                - generic [ref=e229]: Create Design
+              - button "Add Pattern" [ref=e231] [cursor=pointer]:
+                - img [ref=e232]
+                - generic [ref=e234]: Import Design
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - generic:
+                  - generic:
+                    - textbox "Search designs..."
+                - button [ref=e238] [cursor=pointer]:
+                  - img [ref=e239]
+              - button [ref=e243] [cursor=pointer]:
+                - img [ref=e244]
+              - button "Switch View" [ref=e248] [cursor=pointer]:
+                - img [ref=e250]
+          - paragraph [ref=e255]: No Designs Found
+        - contentinfo [ref=e256]:
+          - paragraph [ref=e257]:
+            - generic [ref=e258] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e259]
+              - text: by the Meshery Community
+      - generic:
+        - generic [ref=e265]:
+          - img [ref=e266]
+          - paragraph [ref=e268]: Generated 33 components for model test-model-1773370056277
+          - group [ref=e270]:
+            - button "Open" [ref=e271] [cursor=pointer]:
+              - img [ref=e272]
+            - button "Close" [ref=e276] [cursor=pointer]:
+              - img [ref=e277]
+        - generic [ref=e283]:
+          - img [ref=e284]
+          - paragraph [ref=e286]: Imported model test-model-1773370056277 (1...
+          - group [ref=e288]:
+            - button "Open" [ref=e289] [cursor=pointer]:
+              - img [ref=e290]
+            - button "Close" [ref=e294] [cursor=pointer]:
+              - img [ref=e295]
+        - generic [ref=e301]:
+          - img [ref=e302]
+          - paragraph [ref=e304]: MeshSync connected in embedded mode
+          - group [ref=e306]:
+            - button "Open" [ref=e307] [cursor=pointer]:
+              - img [ref=e308]
+            - button "Close" [ref=e312] [cursor=pointer]:
+              - img [ref=e313]
+  - alert [ref=e315]: Meshery
+```
