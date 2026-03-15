@@ -1,0 +1,23 @@
+{
+  "uuid": "0b9d65e7-80fd-4263-8df4-51e7bb04a5e7",
+  "name": "given spreadsheet-id without spreadsheet-cred when running mesheryctl registry generate then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1773558895796,
+  "stop": 1773558895797,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
