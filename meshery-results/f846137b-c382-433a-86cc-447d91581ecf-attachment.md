@@ -1,0 +1,256 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - button "Configuration" [ref=e33] [cursor=pointer]:
+            - link "Configuration" [ref=e34]:
+              - /url: /configuration/designs
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e42]: Configuration
+          - button "meshery-button-2 Performance" [ref=e44] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e45]:
+              - /url: /performance
+              - generic [ref=e46]:
+                - img "meshery-button-2" [ref=e48]
+                - generic [ref=e74]: Performance
+          - button "Extensions" [ref=e76] [cursor=pointer]:
+            - link "Extensions" [ref=e77]:
+              - /url: /extensions
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e107]: Extensions
+          - separator [ref=e108]
+        - generic [ref=e109]:
+          - img [ref=e112] [cursor=pointer]
+          - group [ref=e114]:
+            - listitem [ref=e115]:
+              - link [ref=e116] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e118]
+            - listitem [ref=e120]:
+              - link [ref=e121] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e123]
+            - listitem [ref=e132]:
+              - link [ref=e133] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e135]
+            - listitem [ref=e137]:
+              - link [ref=e138] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e140]
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - text: v0.8.214
+              - link [ref=e145] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.8.214
+                - img [ref=e146]
+              - text: Running latest
+    - generic [ref=e148]:
+      - banner [ref=e149]:
+        - generic [ref=e151]:
+          - generic [ref=e153]:
+            - button [ref=e155] [cursor=pointer]:
+              - img [ref=e156]
+            - text: /
+            - button [ref=e165] [cursor=pointer]:
+              - img [ref=e166]
+            - text: /
+            - heading "Extensions" [level=5] [ref=e170]
+          - generic [ref=e172]:
+            - button "contexts" [ref=e175] [cursor=pointer]:
+              - generic [ref=e176]:
+                - img [ref=e177]
+                - generic [ref=e178]: "1"
+            - button [ref=e181] [cursor=pointer]:
+              - img [ref=e182]
+            - button [ref=e189] [cursor=pointer]:
+              - img [ref=e191]
+            - button [ref=e194] [cursor=pointer]:
+              - img [ref=e195]
+      - generic [ref=e197]:
+        - main [ref=e198]:
+          - generic [ref=e199]:
+            - generic [ref=e201]:
+              - generic [ref=e202]: "GitHub Action: Kanvas Snapshot"
+              - generic [ref=e203]:
+                - img "Kanvas Snapshot Logo" [ref=e204]
+                - generic [ref=e205]: Connect Kanvas to your GitHub repo and see changes pull request-to-pull request. Get snapshots of your infrastructure directly in your PRs.
+              - button "Enable" [ref=e207] [cursor=pointer]
+            - generic [ref=e209]:
+              - generic [ref=e210]: "GitHub Action: Performance Analysis"
+              - generic [ref=e211]:
+                - img "Meshery Performance Logo" [ref=e212]
+                - generic [ref=e213]: Characterize the performance of your services using Meshery's performance analysis GitHub Action to benchmark and visually compare percentiles (e.g. P99) over time.
+              - button "Enable" [ref=e215] [cursor=pointer]
+            - generic [ref=e217]:
+              - generic [ref=e218]: Kanvas
+              - generic [ref=e219]:
+                - img "Kanvas Icon" [ref=e220]
+                - generic [ref=e221]: Collaboratively design and manage your infra and apps. Kanvas is now publicly available. Sign-up today for access!
+              - button "Sign Up" [ref=e223] [cursor=pointer]
+            - generic [ref=e225]:
+              - generic [ref=e226]: Kanvas Snapshot Helm Plugin
+              - generic [ref=e227]:
+                - img "Helm Chart Logo" [ref=e228]
+                - generic [ref=e229]: The Kanvas Snapshot Helm Plugin allows you to generate a visual snapshot of your Helm charts directly from the command line. It simplifies the process of creating Meshery Snapshots, providing a visual representation of packaged Helm charts.
+              - button "Learn More" [ref=e231] [cursor=pointer]
+            - generic [ref=e233]:
+              - generic [ref=e234]: Meshery Docker Extension
+              - generic [ref=e235]:
+                - img "Docker Logo" [ref=e236]
+                - generic [ref=e237]: Connect Meshery to your Kubernetes cluster via Docker Desktop and let MeshSync discover your clusters. Use Kanvas's no-code designer to collaboratively design and manage your infrastructure with ready-made patterns from Meshery Catalog.
+              - button "Download" [ref=e239] [cursor=pointer]
+            - generic [ref=e241]:
+              - generic [ref=e242]: Meshery Design Embed
+              - generic [ref=e243]:
+                - img "Meshery Design Logo" [ref=e244]
+                - generic [ref=e245]: Meshery Design Embedding lets you export designs in an interactive format that seamlessly integrates with websites, blogs, and platforms using HTML, CSS, and JavaScript, making it easy to share with stakeholders.
+              - button "Learn More" [ref=e247] [cursor=pointer]
+            - generic [ref=e249]:
+              - generic [ref=e250]: Layer5 Cloud
+              - generic [ref=e251]:
+                - img "Layer5 Cloud Logo" [ref=e252]
+                - generic [ref=e253]: A comprehensive platform offering identity and collaboration services, private catalogs, GitOps, and multi-Meshery management. Leverage its extensible authorization framework and organizational hierarchy for streamlined cloud infrastructure management.
+              - button "Learn More" [ref=e255] [cursor=pointer]
+            - generic [ref=e257]:
+              - generic [ref=e258]: Kubectl Plugin for Kanvas Snapshot
+              - generic [ref=e259]:
+                - img "Kubectl Plugin Logo" [ref=e260]
+                - generic [ref=e261]: Generate visual snapshots of your Kubernetes manifests directly from kubectl. Cluster configurations and workflows with Kanvas Snapshots. Receive snapshots via email or get instant terminal URL display.
+              - button "Learn More" [ref=e263] [cursor=pointer]
+            - generic [ref=e265]:
+              - generic [ref=e266]: Kubectl Plugin for MeshSync Snapshot
+              - generic [ref=e267]:
+                - img "MeshSync Logo" [ref=e268]
+                - generic [ref=e269]: Capture cluster state directly from kubectl with simplified networking and access requirements. Generate MeshSync snapshots for offline management and visualization in Meshery Server, without requiring full Meshery Operator deployment.
+              - button "Learn More" [ref=e271] [cursor=pointer]
+            - generic [ref=e273]:
+              - generic [ref=e274]: Meshery Catalog
+              - generic [ref=e275]:
+                - img [ref=e276]
+                - generic [ref=e281]: Enable access to the cloud native catalog, supporting design patterns, WebAssembly filters (soon), and OPA policies (soon). Import any catalog item and customize.
+              - generic [ref=e282]:
+                - heading "Explore the Meshery Catalog" [level=6] [ref=e283]:
+                  - text: Explore the
+                  - link "Meshery Catalog" [ref=e284] [cursor=pointer]:
+                    - /url: https://meshery.io/catalog
+                - switch [checked] [ref=e287] [cursor=pointer]
+            - generic [ref=e291]:
+              - generic [ref=e292]: Meshery Adapter for Istio
+              - generic [ref=e293]:
+                - img [ref=e294]
+                - generic [ref=e295]: Deploy the Meshery Adapter for Istio in order to enable deeper lifecycle management of Istio.
+              - generic [ref=e296]:
+                - heading "Open Adapter docs" [level=6] [ref=e297]:
+                  - link "Open Adapter docs" [active] [ref=e298] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e302] [cursor=pointer]
+            - generic [ref=e306]:
+              - generic [ref=e307]: Meshery Adapter for Linkerd
+              - generic [ref=e308]:
+                - img [ref=e309]
+                - generic [ref=e310]: Deploy the Meshery Adapter for Linkerd in order to enable deeper lifecycle management of Linkerd.
+              - generic [ref=e311]:
+                - heading "Open Adapter docs" [level=6] [ref=e312]:
+                  - link "Open Adapter docs" [ref=e313] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e317] [cursor=pointer]
+            - generic [ref=e321]:
+              - generic [ref=e322]: Meshery Adapter for Consul
+              - generic [ref=e323]:
+                - img [ref=e324]
+                - generic [ref=e325]: Deploy the Meshery Adapter for Consul in order to enable deeper lifecycle management of Consul.
+              - generic [ref=e326]:
+                - heading "Open Adapter docs" [level=6] [ref=e327]:
+                  - link "Open Adapter docs" [ref=e328] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e332] [cursor=pointer]
+            - generic [ref=e336]:
+              - generic [ref=e337]: Meshery Adapter for Network Service Mesh
+              - generic [ref=e338]:
+                - img [ref=e339]
+                - generic [ref=e340]: Deploy the Meshery Adapter for Network Service Mesh in order to enable deeper lifecycle management of Network Service Mesh.
+              - generic [ref=e341]:
+                - heading "Open Adapter docs" [level=6] [ref=e342]:
+                  - link "Open Adapter docs" [ref=e343] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e347] [cursor=pointer]
+            - generic [ref=e351]:
+              - generic [ref=e352]: Meshery Adapter for Traefik Mesh
+              - generic [ref=e353]:
+                - img [ref=e354]
+                - generic [ref=e355]: Deploy the Meshery Adapter for Traefik Mesh in order to enable deeper lifecycle management of Traefik Mesh.
+              - generic [ref=e356]:
+                - heading "Open Adapter docs" [level=6] [ref=e357]:
+                  - link "Open Adapter docs" [ref=e358] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e362] [cursor=pointer]
+            - generic [ref=e366]:
+              - generic [ref=e367]: Meshery Adapter for Kuma
+              - generic [ref=e368]:
+                - img [ref=e369]
+                - generic [ref=e370]: Deploy the Meshery Adapter for Kuma in order to enable deeper lifecycle management of Kuma.
+              - generic [ref=e371]:
+                - heading "Open Adapter docs" [level=6] [ref=e372]:
+                  - link "Open Adapter docs" [ref=e373] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e377] [cursor=pointer]
+            - generic [ref=e381]:
+              - generic [ref=e382]: Meshery Adapter for NGINX Service Mesh
+              - generic [ref=e383]:
+                - img [ref=e384]
+                - generic [ref=e385]: Deploy the Meshery Adapter for NGINX Service Mesh in order to enable deeper lifecycle management of NGINX Service Mesh.
+              - generic [ref=e386]:
+                - heading "Open Adapter docs" [level=6] [ref=e387]:
+                  - link "Open Adapter docs" [ref=e388] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e392] [cursor=pointer]
+            - generic [ref=e396]:
+              - generic [ref=e397]: Meshery Adapter for Cilium Service Mesh
+              - generic [ref=e398]:
+                - img [ref=e399]
+                - generic [ref=e400]: Deploy the Meshery Adapter for Cilium Service Mesh in order to enable deeper lifecycle management of Cilium Service Mesh.
+              - generic [ref=e401]:
+                - heading "Open Adapter docs" [level=6] [ref=e402]:
+                  - link "Open Adapter docs" [ref=e403] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e407] [cursor=pointer]
+            - generic [ref=e411]:
+              - generic [ref=e412]: Meshery Adapter for Nighthawk
+              - generic [ref=e413]:
+                - img [ref=e414]
+                - generic [ref=e415]: Deploy the Meshery Adapter for Performance Characterization by Meshery Nighthawk in order to enable deeper lifecycle management of Performance Characterization by Meshery Nighthawk.
+              - generic [ref=e416]:
+                - heading "Open Adapter docs" [level=6] [ref=e417]:
+                  - link "Open Adapter docs" [ref=e418] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e422] [cursor=pointer]
+        - contentinfo [ref=e425]:
+          - paragraph [ref=e426]:
+            - generic [ref=e427] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e428]
+              - text: by the Meshery Community
+  - alert [ref=e430]: Extensions | Meshery
+```
