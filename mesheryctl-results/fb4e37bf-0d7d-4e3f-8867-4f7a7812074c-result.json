@@ -1,0 +1,25 @@
+{
+  "uuid": "fb4e37bf-0d7d-4e3f-8867-4f7a7812074c",
+  "name": "mesheryctl model view supports JSON output",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1773698482659,
+  "stop": 1773698482660,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/05-model-view.bats, line 47)\n  `assert_output --partial \"No model(s) found for the given name  non-existent-model\"' failed\n\n-- output does not contain substring --\nsubstring : No model(s) found for the given name  non-existent-model\noutput    : No model found with name or ID: non-existent-model\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
