@@ -1,0 +1,25 @@
+{
+  "uuid": "9087f361-a3b8-46a9-a923-a056be8f8839",
+  "name": "given a valid format provided when mesheryctl component view component-name -o json then the output is displayed in specified format",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1773788645680,
+  "stop": 1773788645681,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 005-component/03-component-view.bats, line 94)\n  `assert_output --partial \"Invalid Output Format\"' failed\n\n-- output does not contain substring --\nsubstring : Invalid Output Format\noutput    : Error: Invalid value for --output-format 'xml': valid values are json yaml | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
