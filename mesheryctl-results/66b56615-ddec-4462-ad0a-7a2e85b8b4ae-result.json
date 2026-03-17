@@ -1,0 +1,23 @@
+{
+  "uuid": "66b56615-ddec-4462-ad0a-7a2e85b8b4ae",
+  "name": "mesheryctl system status display meshery operator running pods",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1773790034490,
+  "stop": 1773790034491,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

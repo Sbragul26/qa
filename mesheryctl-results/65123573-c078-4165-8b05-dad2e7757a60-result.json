@@ -1,0 +1,25 @@
+{
+  "uuid": "65123573-c078-4165-8b05-dad2e7757a60",
+  "name": "given all requirements are met, when running mesheryctl system check --pre then required sections and prerequisites result are displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1773790034490,
+  "stop": 1773790034491,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 001-system/03-system-checks.bats, line 20)\n  `assert_output --partial \"$CHECK_MESHERY_OPERATORS_HEADER\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Meshery Operators\noutput (11 lines):\n  time=\"2026-03-17T23:25:25Z\" level=info msg=\"\\nKubernetes API \\n--------------\"\n  time=\"2026-03-17T23:25:25Z\" level=info msg=\"✓ can initialize Kubernetes client\"\n  time=\"2026-03-17T23:25:25Z\" level=info msg=\"✓ can query the Kubernetes API\"\n  time=\"2026-03-17T23:25:25Z\" level=info msg=\"\\nKubernetes Version \\n--------------\"\n  time=\"2026-03-17T23:25:25Z\" level=info msg=\"✓ running the minimum Kubernetes version\"\n  time=\"2026-03-17T23:25:25Z\" level=info msg=\"✓ running the minimum kubectl version\"\n  time=\"2026-03-17T23:25:25Z\" level=info msg=\"\\nMeshery Version \\n--------------\"\n  time=\"2026-03-17T23:25:25Z\" level=info msg=\"!! failed to check Meshery Server version. try starting Meshery with `mesheryctl system start`\"\n  time=\"2026-03-17T23:25:26Z\" level=info msg=\"!! CLI is not up-to-date (stable-)\"\n  time=\"2026-03-17T23:25:26Z\" level=info msg=\"\\nMeshery Components \\n--------------\"\n  Error: !! Authentication token not found. Please supply a valid user token. Login with `mesheryctl system login`\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
