@@ -1,0 +1,25 @@
+{
+  "uuid": "9f9f07d0-5011-4fe2-88fc-49704f6f742d",
+  "name": "meshery-operator pod is deployed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774116942025,
+  "stop": 1774116942026,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 000-prerequisites/00-servert.bats, line 25)\n  `assert_success' failed\n\n-- command failed --\nstatus : 3\noutput (2 lines):\n  Valid expression. Verification in progress...\n  Found 0 pod named ^meshery-meshsync-[a-z0-9]+-[a-z0-9]+$ (instead of more than 0 expected).\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

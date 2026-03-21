@@ -1,0 +1,25 @@
+{
+  "uuid": "1a0a331a-3686-49fa-b491-1ac6441573ff",
+  "name": "Error when no search query is provided",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774116942110,
+  "stop": 1774116942111,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 005-component/02-component-search.bats, line 13)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: Unable to process JSON response from server.\n  json: cannot unmarshal string into Go struct field Connection.components.model.registrant.deleted_at of type sql.NullTime | Short Description: Error unmarshalling response | Probable Cause: The JSON format from the response body is not valid. | Suggested Remediation: Ensure a valid JSON is provided for processing.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
