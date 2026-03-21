@@ -1,0 +1,25 @@
+{
+  "uuid": "e10d57a7-90b3-4bc1-9eb6-2cb5b19eda34",
+  "name": "mesheryctl design import -f nginx.yaml displays imported and output the design Id",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774062876982,
+  "stop": 1774062876983,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/07-model-delete.bats, line 50)\n  `assert_output --partial \"has been deleted\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  has been deleted\noutput (2 lines):\n  No model(s) found with the name: Error: Unable to process JSON response from server.\n  json: cannot unmarshal string into Go struct field Connection.models.registrant.deleted_at of type sql.NullTime | Short Description: Error unmarshalling response | Probable Cause: The JSON format from the response body is not valid. | Suggested Remediation: Ensure a valid JSON is provided for processing.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
