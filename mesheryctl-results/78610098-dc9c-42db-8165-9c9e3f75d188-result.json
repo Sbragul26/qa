@@ -1,0 +1,25 @@
+{
+  "uuid": "78610098-dc9c-42db-8165-9c9e3f75d188",
+  "name": "mesheryctl perf apply uses specified load generator wrk2",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774132291596,
+  "stop": 1774132291597,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 004-perf/00-perf-apply.bats, line 20)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: Short Description: unable to get: .performance profile | Probable Cause: Query parameter is not a part of the request | Suggested Remediation: Make sure to pass the query paramater in the request\n   | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

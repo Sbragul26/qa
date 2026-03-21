@@ -1,0 +1,25 @@
+{
+  "uuid": "42f9f492-e8c1-4c72-96c5-eb233f3f8f34",
+  "name": "given a multiple component-name provided when mesheryctl component view component1 component2 then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774132291597,
+  "stop": 1774132291598,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 005-component/03-component-view.bats, line 76)\n  `assert_output --partial \"Error: [component name] is required but not specified\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Error: [component name] is required but not specified\noutput (3 lines):\n  Error: Only one argument must be provided and needs to be enclosed by double quotes if it contains spaces (eg. \"model name\", modelName)\n  Usage: mesheryctl component view [component-name | component-id]\n  Run 'mesheryctl component view --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
