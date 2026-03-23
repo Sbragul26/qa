@@ -1,0 +1,23 @@
+{
+  "uuid": "bc00a248-57ab-4143-a657-7dec6f2ca043",
+  "name": "given an invalid context-name provided when running mesheryctl system context switch then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774268370177,
+  "stop": 1774268370178,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "bf0e2ac5-fbaf-470e-a445-9402a2765637",
+  "name": "given a valid connection-id is provided as an argument when running mesheryctl connection delete connection-id then the existing connection is deleted # skip No connection ID available to delete",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774268370309,
+  "stop": 1774268370310,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
