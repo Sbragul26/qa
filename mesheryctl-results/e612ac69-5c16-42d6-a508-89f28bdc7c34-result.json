@@ -1,0 +1,23 @@
+{
+  "uuid": "e612ac69-5c16-42d6-a508-89f28bdc7c34",
+  "name": "given valid type minikube is provided when running mesheryctl connection create --type minikube then a new connection is created # skip No connected connection found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774237384479,
+  "stop": 1774237384480,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

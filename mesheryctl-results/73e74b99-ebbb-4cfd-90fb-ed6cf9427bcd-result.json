@@ -1,0 +1,25 @@
+{
+  "uuid": "73e74b99-ebbb-4cfd-90fb-ed6cf9427bcd",
+  "name": "given a non existing connection-id is provided as an argument when running mesheryctl connection delete non-existing-id then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774237384480,
+  "stop": 1774237384481,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 007-connection/04-connection-delete.bats, line 17)\n  `assert_output --partial \"[ connection-id ] is required\" ' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  [ connection-id ] is required\noutput (2 lines):\n  Error: connection name or ID isn't specified\n  Usage: mesheryctl connection delete --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
