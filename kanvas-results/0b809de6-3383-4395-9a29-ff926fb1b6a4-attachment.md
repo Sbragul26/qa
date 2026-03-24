@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+        - img [ref=e8]
+      - list [ref=e9]:
+        - button [ref=e11] [cursor=pointer]:
+          - link [ref=e12]:
+            - /url: /
+            - generic [ref=e13]:
+              - img [ref=e15]
+              - generic [ref=e20]: Dashboard
+        - button [ref=e22] [cursor=pointer]:
+          - link [ref=e23]:
+            - /url: /management/connections
+            - generic [ref=e24]:
+              - img [ref=e26]
+              - generic [ref=e29]: Lifecycle
+        - button [ref=e31] [cursor=pointer]:
+          - link [ref=e32]:
+            - /url: /configuration/designs
+            - generic [ref=e33]:
+              - img [ref=e35]
+              - generic [ref=e40]: Configuration
+        - button [ref=e42] [cursor=pointer]:
+          - link [ref=e43]:
+            - /url: /performance
+            - generic [ref=e44]:
+              - img [ref=e46]
+              - generic [ref=e72]: Performance
+        - button [ref=e74] [cursor=pointer]:
+          - link [ref=e75]:
+            - /url: /extensions
+            - generic [ref=e76]:
+              - img [ref=e78]
+              - generic [ref=e105]: Extensions
+        - separator [ref=e106]
+        - list [ref=e107]:
+          - button [ref=e108] [cursor=pointer]:
+            - link [ref=e109]:
+              - /url: /extension/meshmap
+              - img [ref=e113]
+        - separator [ref=e114]
+      - generic [ref=e115]:
+        - img [ref=e118] [cursor=pointer]
+        - group [ref=e120]:
+          - listitem [ref=e121]:
+            - button [ref=e122] [cursor=pointer]:
+              - img [ref=e123]
+        - listitem [ref=e125]:
+          - generic [ref=e126]: v0.9.2-1
+    - generic [ref=e127]:
+      - banner [ref=e128]:
+        - generic [ref=e130]:
+          - generic [ref=e132]:
+            - button [ref=e134] [cursor=pointer]:
+              - img [ref=e135]
+            - text: /
+            - button [ref=e144] [cursor=pointer]:
+              - img [ref=e145]
+            - generic [ref=e149]: "Error:"
+            - text: /
+            - heading [level=5] [ref=e150]:
+              - text: Kanvas
+              - superscript [ref=e151]: BETA
+          - generic [ref=e153]:
+            - button [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]:
+                - img [ref=e158]
+                - generic [ref=e159]: "2"
+            - button [ref=e162] [cursor=pointer]:
+              - generic [ref=e163]:
+                - img [ref=e164]
+                - generic [ref=e167]: "59"
+            - button [ref=e171] [cursor=pointer]:
+              - img [ref=e173]
+            - button [ref=e175] [cursor=pointer]:
+              - img [ref=e176]
+      - main [ref=e179]:
+        - alert [ref=e180]:
+          - heading [level=2] [ref=e181]: Uh-oh!😔 Please pardon our mesh.
+          - code [ref=e183]: "Error: Could not require 'lodash'. 'lodash' does not exist in dependencies."
+          - generic [ref=e185]:
+            - button [ref=e186] [cursor=pointer]: Troubleshooting Guide
+            - button [ref=e187] [cursor=pointer]: Get Help
+            - button [ref=e188] [cursor=pointer]: Feedback
+            - generic [ref=e190]:
+              - generic [ref=e191]:
+                - img [ref=e193]
+                - paragraph [ref=e196]: Feedback
+                - generic [ref=e197]:
+                  - img [ref=e200]
+                  - img [ref=e204] [cursor=pointer]
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - button [ref=e210] [cursor=pointer]:
+                    - img [ref=e212]
+                    - paragraph [ref=e214]: Issue
+                  - button [ref=e215] [cursor=pointer]:
+                    - img [ref=e217]
+                    - paragraph [ref=e223]: Suggestion
+                  - button [ref=e224] [cursor=pointer]:
+                    - img [ref=e226]
+                    - paragraph [ref=e231]: Meet Request
+                - textbox [ref=e233]:
+                  - /placeholder: I’m having an issue with...
+              - generic [ref=e235]:
+                - generic [ref=e236]:
+                  - generic [ref=e237] [cursor=pointer]:
+                    - checkbox [ref=e238]
+                    - img [ref=e239]
+                  - paragraph [ref=e241]: We may email you for more information or updates
+                - button [disabled]: Send
+  - alert [ref=e242]
+  - generic [active] [ref=e244]:
+    - dialog:
+      - generic [ref=e246]:
+        - paragraph [ref=e247]:
+          - heading [level=5]
+          - heading "Extensions Troubleshooting Guide" [level=5] [ref=e248]
+          - button [ref=e249] [cursor=pointer]:
+            - img [ref=e250]
+        - heading "Stale Data" [level=3] [ref=e253]:
+          - button "Stale Data" [ref=e254] [cursor=pointer]:
+            - generic [ref=e256]:
+              - img [ref=e257]
+              - heading "Stale Data" [level=6] [ref=e260]
+            - img [ref=e262]
+        - heading "Missing Data" [level=3] [ref=e265]:
+          - button "Missing Data" [ref=e266] [cursor=pointer]:
+            - generic [ref=e268]:
+              - img [ref=e269]
+              - heading "Missing Data" [level=6] [ref=e272]
+            - img [ref=e274]
+        - heading "Additional Resources" [level=3] [ref=e277]:
+          - button "Additional Resources" [ref=e278] [cursor=pointer]:
+            - generic [ref=e280]:
+              - img [ref=e281]
+              - heading "Additional Resources" [level=6] [ref=e284]
+            - img [ref=e286]
+        - heading "Need help? Contact us via email or community forum." [level=6] [ref=e289]:
+          - text: Need help? Contact us via
+          - link "email" [ref=e290] [cursor=pointer]:
+            - /url: mailto:maintainers@meshery.io
+          - text: or
+          - link "community forum" [ref=e291] [cursor=pointer]:
+            - /url: https://meshery.io/community#community-forums
+          - text: .
+```
