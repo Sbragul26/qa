@@ -1,0 +1,162 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img [ref=e5]
+    - heading [level=1] [ref=e37]: Connect Meshery to your clusters and discover insights.
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e42] [cursor=pointer]:
+        - img [ref=e43]
+        - img [ref=e44]
+      - list [ref=e45]:
+        - button [ref=e47] [cursor=pointer]:
+          - link [ref=e48]:
+            - /url: /
+            - generic [ref=e49]:
+              - img [ref=e51]
+              - generic [ref=e56]: Dashboard
+        - button [ref=e58] [cursor=pointer]:
+          - link [ref=e59]:
+            - /url: /management/connections
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - generic [ref=e65]: Lifecycle
+        - button [ref=e67] [cursor=pointer]:
+          - link [ref=e68]:
+            - /url: /configuration/designs
+            - generic [ref=e69]:
+              - img [ref=e71]
+              - generic [ref=e76]: Configuration
+        - button [ref=e78] [cursor=pointer]:
+          - link [ref=e79]:
+            - /url: /performance
+            - generic [ref=e80]:
+              - img [ref=e82]
+              - generic [ref=e108]: Performance
+        - button [ref=e110] [cursor=pointer]:
+          - link [ref=e111]:
+            - /url: /extensions
+            - generic [ref=e112]:
+              - img [ref=e114]
+              - generic [ref=e141]: Extensions
+        - separator [ref=e142]
+        - list [ref=e143]:
+          - button [ref=e144] [cursor=pointer]:
+            - link [ref=e145]:
+              - /url: /extension/meshmap
+              - img [ref=e149]
+        - separator [ref=e150]
+      - generic [ref=e151]:
+        - img [ref=e154] [cursor=pointer]
+        - group [ref=e156]:
+          - listitem [ref=e157]:
+            - button [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+        - listitem [ref=e161]:
+          - generic [ref=e162]: v1.0.0-1
+    - generic [ref=e163]:
+      - banner [ref=e164]:
+        - generic [ref=e166]:
+          - generic [ref=e168]:
+            - button [ref=e170] [cursor=pointer]:
+              - img [ref=e171]
+            - text: /
+            - button [ref=e180] [cursor=pointer]:
+              - img [ref=e181]
+            - group [ref=e185]:
+              - generic [ref=e190]:
+                - combobox [ref=e191] [cursor=pointer]:
+                  - generic [ref=e192]: My other workspace
+                - textbox: dcba6398-f859-49f7-99af-1041234fc6cd
+                - img
+                - group
+            - text: /
+            - heading [level=5] [ref=e193]:
+              - text: Kanvas
+              - superscript [ref=e194]: BETA
+          - generic [ref=e196]:
+            - button [ref=e199] [cursor=pointer]:
+              - generic [ref=e200]:
+                - img [ref=e201]
+                - generic [ref=e202]: "2"
+            - button [ref=e205] [cursor=pointer]:
+              - generic [ref=e206]:
+                - img [ref=e207]
+                - generic [ref=e210]: "59"
+            - button [ref=e214] [cursor=pointer]:
+              - img [ref=e216]
+            - button [ref=e219] [cursor=pointer]:
+              - img [ref=e220]
+      - main [ref=e223]:
+        - alert [ref=e224]:
+          - heading [level=2] [ref=e225]: Uh-oh!😔 Please pardon our mesh.
+          - code [ref=e227]: "Error: Could not require 'lodash/isPlainObject'. 'lodash/isPlainObject' does not exist in dependencies."
+          - generic [ref=e229]:
+            - button [ref=e230] [cursor=pointer]: Troubleshooting Guide
+            - button [ref=e231] [cursor=pointer]: Get Help
+            - button [ref=e232] [cursor=pointer]: Feedback
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - img [ref=e237]
+                - paragraph [ref=e240]: Feedback
+                - generic [ref=e241]:
+                  - img [ref=e244]
+                  - img [ref=e248] [cursor=pointer]
+              - generic [ref=e252]:
+                - generic [ref=e253]:
+                  - button [ref=e254] [cursor=pointer]:
+                    - img [ref=e256]
+                    - paragraph [ref=e258]: Issue
+                  - button [ref=e259] [cursor=pointer]:
+                    - img [ref=e261]
+                    - paragraph [ref=e267]: Suggestion
+                  - button [ref=e268] [cursor=pointer]:
+                    - img [ref=e270]
+                    - paragraph [ref=e275]: Meet Request
+                - textbox [ref=e277]:
+                  - /placeholder: I’m having an issue with...
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e281] [cursor=pointer]:
+                    - checkbox [ref=e282]
+                    - img [ref=e283]
+                  - paragraph [ref=e285]: We may email you for more information or updates
+                - button [disabled]: Send
+  - alert [ref=e286]
+  - generic [active] [ref=e288]:
+    - dialog:
+      - generic [ref=e290]:
+        - paragraph [ref=e291]:
+          - heading [level=5]
+          - heading "Extensions Troubleshooting Guide" [level=5] [ref=e292]
+          - button [ref=e293] [cursor=pointer]:
+            - img [ref=e294]
+        - heading "Stale Data" [level=3] [ref=e297]:
+          - button "Stale Data" [ref=e298] [cursor=pointer]:
+            - generic [ref=e300]:
+              - img [ref=e301]
+              - heading "Stale Data" [level=6] [ref=e304]
+            - img [ref=e306]
+        - heading "Missing Data" [level=3] [ref=e309]:
+          - button "Missing Data" [ref=e310] [cursor=pointer]:
+            - generic [ref=e312]:
+              - img [ref=e313]
+              - heading "Missing Data" [level=6] [ref=e316]
+            - img [ref=e318]
+        - heading "Additional Resources" [level=3] [ref=e321]:
+          - button "Additional Resources" [ref=e322] [cursor=pointer]:
+            - generic [ref=e324]:
+              - img [ref=e325]
+              - heading "Additional Resources" [level=6] [ref=e328]
+            - img [ref=e330]
+        - heading "Need help? Contact us via email or community forum." [level=6] [ref=e333]:
+          - text: Need help? Contact us via
+          - link "email" [ref=e334] [cursor=pointer]:
+            - /url: mailto:maintainers@meshery.io
+          - text: or
+          - link "community forum" [ref=e335] [cursor=pointer]:
+            - /url: https://meshery.io/community#community-forums
+          - text: .
+```
