@@ -1,0 +1,25 @@
+{
+  "uuid": "e11ed0b5-e6be-4fce-b994-6736c2eaec31",
+  "name": "mesheryctl model generate fails with missing template for URL",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774562094602,
+  "stop": 1774562094603,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/06-model-generate.bats, line 26)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: open /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location /home/runner/work/meshery/meshery/mesheryctl/tests/e2e/002-model/fixtures/valid-model.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
