@@ -1,0 +1,25 @@
+{
+  "uuid": "27df37b3-dd7a-4bd2-9e4e-979321300c50",
+  "name": "given an invalid orgId provided as an argument when running mesheryctl exp workspace create --orgId invalid-org-id then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774609023767,
+  "stop": 1774609023768,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 008-workspace/00-workspace.bats, line 13)\n  `assert_output --partial \"Examples:\"    ' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Examples:\noutput (11 lines):\n  Commands under the Experimental group are for testing and evaluation prior to promotion to general availability. Experimental commands are subject to change.\n\n  Usage:\n    mesheryctl exp [flags]\n\n  Flags:\n    -h, --help   help for exp\n\n  Global Flags:\n        --config string   path to config file (default \"/home/runner/.meshery/config.yaml\")\n    -v, --verbose         verbose output\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
