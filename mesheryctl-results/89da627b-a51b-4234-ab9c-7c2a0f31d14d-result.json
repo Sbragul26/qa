@@ -1,0 +1,25 @@
+{
+  "uuid": "89da627b-a51b-4234-ab9c-7c2a0f31d14d",
+  "name": "given an invalid orgId is provided as an argument when running mesheryctl exp workspace list --orgId invalid-orgid then the error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774633828762,
+  "stop": 1774633828763,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 008-workspace/02-workspace-list.bats, line 15)\n  `assert_output --partial \"[ Organization ID ] isn't specified\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  [ Organization ID ] isn't specified\noutput (3 lines):\n  Error: 'workspace' is an invalid command. Use 'mesheryctl exp --help' to display usage guide.'\n\n  See https://docs.meshery.io/reference/mesheryctl/exp for usage details\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
