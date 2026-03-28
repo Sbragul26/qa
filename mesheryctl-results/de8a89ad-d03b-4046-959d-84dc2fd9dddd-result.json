@@ -1,0 +1,23 @@
+{
+  "uuid": "de8a89ad-d03b-4046-959d-84dc2fd9dddd",
+  "name": "given an already existing context-name is provided as an argument when running mesheryctl system context create then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774740373718,
+  "stop": 1774740373719,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "uuid": "65562346-d9bf-4211-8373-c8328905833e",
+  "name": "given no context-name provided when running mesheryctl system context delete then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774740373720,
+  "stop": 1774740373721,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

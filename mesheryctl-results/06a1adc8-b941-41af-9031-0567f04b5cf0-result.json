@@ -1,0 +1,23 @@
+{
+  "uuid": "06a1adc8-b941-41af-9031-0567f04b5cf0",
+  "name": "mesheryctl model generate displays usage instructions when no file, filePath or URL is provided",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774740373724,
+  "stop": 1774740373725,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
