@@ -1,0 +1,23 @@
+{
+  "uuid": "fef2922e-58d8-4031-8e83-6d49f434ec7a",
+  "name": "given --all flag provided when running mesheryctl system context view --all then all contexts details are displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774696087829,
+  "stop": 1774696087830,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

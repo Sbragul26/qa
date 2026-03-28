@@ -1,0 +1,23 @@
+{
+  "uuid": "204417f3-2a11-4db1-9dfe-745d017ae4f8",
+  "name": "given an invalid orgId provided as an argument when running mesheryctl workspace create --orgId invalid-org-id then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1774696087844,
+  "stop": 1774696087845,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
