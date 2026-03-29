@@ -1,0 +1,23 @@
+{
+  "uuid": "f49b5ef7-0055-4443-b905-ec7ac3ddfb2f",
+  "name": "mesheryctl system token delete fails for non existing token",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1774774688896,
+  "stop": 1774774688897,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
