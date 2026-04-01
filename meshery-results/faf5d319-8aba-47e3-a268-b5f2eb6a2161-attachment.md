@@ -1,0 +1,209 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button [ref=e13] [cursor=pointer]:
+            - link [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button [ref=e24] [cursor=pointer]:
+            - link [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - button [ref=e33] [cursor=pointer]:
+            - link [ref=e34]:
+              - /url: /configuration/designs
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e42]: Configuration
+          - button [ref=e44] [cursor=pointer]:
+            - link [ref=e45]:
+              - /url: /performance
+              - generic [ref=e46]:
+                - img [ref=e48]
+                - generic [ref=e74]: Performance
+          - button [ref=e76] [cursor=pointer]:
+            - link [ref=e77]:
+              - /url: /extensions
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e107]: Extensions
+          - separator [ref=e108]
+          - list [ref=e109]:
+            - button [ref=e110] [cursor=pointer]:
+              - link [ref=e111]:
+                - /url: /extension/meshmap
+                - generic [ref=e113]:
+                  - img [ref=e115]
+                  - generic [ref=e117]: Kanvas
+          - separator [ref=e118]
+        - generic [ref=e119]:
+          - img [ref=e122] [cursor=pointer]
+          - group [ref=e124]:
+            - listitem [ref=e125]:
+              - link [ref=e126] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e128]
+            - listitem [ref=e130]:
+              - link [ref=e131] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e133]
+            - listitem [ref=e142]:
+              - link [ref=e143] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e145]
+            - listitem [ref=e147]:
+              - link [ref=e148] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e150]
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - text: v0.9.2
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.9.2
+                - img [ref=e156]
+              - generic [ref=e158]:
+                - text: Update available
+                - link [ref=e159] [cursor=pointer]:
+                  - /url: https://docs.meshery.io/project/releases/v1.0.0
+                  - img [ref=e160]
+    - generic [ref=e162]:
+      - banner [ref=e163]:
+        - generic [ref=e165]:
+          - generic [ref=e167]:
+            - button [ref=e169] [cursor=pointer]:
+              - img [ref=e170]
+            - text: /
+            - button [ref=e179] [cursor=pointer]:
+              - img [ref=e180]
+            - generic [ref=e184]: "Error:"
+            - text: /
+            - heading [level=5] [ref=e185]: Settings
+          - generic [ref=e187]:
+            - button [ref=e190] [cursor=pointer]:
+              - generic [ref=e191]:
+                - img [ref=e192]
+                - generic [ref=e193]: "5310"
+            - button [ref=e196] [cursor=pointer]:
+              - img [ref=e197]
+            - button [ref=e204] [cursor=pointer]:
+              - img [ref=e206]
+            - button [ref=e209] [cursor=pointer]:
+              - img [ref=e210]
+      - generic [ref=e212]:
+        - main [ref=e213]:
+          - generic [ref=e214]:
+            - tablist [ref=e218]:
+              - tab [ref=e219] [cursor=pointer]:
+                - img [ref=e220]
+                - text: Overview
+              - tab [ref=e221] [cursor=pointer]:
+                - img [ref=e222]
+                - text: Adapters
+              - tab [ref=e224] [cursor=pointer]:
+                - img [ref=e225]
+                - text: Metrics
+              - tab [selected] [ref=e227] [cursor=pointer]:
+                - img [ref=e228]
+                - text: Registry
+              - tab [ref=e230] [cursor=pointer]:
+                - img [ref=e231]
+                - text: Reset
+            - generic [ref=e236]:
+              - generic [ref=e238]:
+                - button [ref=e239] [cursor=pointer]:
+                  - img [ref=e241]
+                  - text: Create Model
+                - button [ref=e243] [cursor=pointer]:
+                  - img [ref=e245]
+                  - text: Import Model
+              - generic [ref=e247]:
+                - generic [ref=e248] [cursor=pointer]:
+                  - generic [ref=e249]: (0)
+                  - text: Models
+                - generic [ref=e250] [cursor=pointer]:
+                  - generic [ref=e251]: (0)
+                  - text: Components
+                - generic [ref=e252] [cursor=pointer]:
+                  - generic [ref=e253]: (0)
+                  - text: Relationships
+                - generic [ref=e254] [cursor=pointer]:
+                  - generic [ref=e255]: (0)
+                  - text: Registrants
+              - generic [ref=e256]:
+                - generic [ref=e258]:
+                  - generic [ref=e259]:
+                    - generic [ref=e261]:
+                      - button [ref=e263] [cursor=pointer]:
+                        - img [ref=e264]
+                      - button [ref=e271] [cursor=pointer]:
+                        - img [ref=e272]
+                      - generic [ref=e279]:
+                        - generic [ref=e280]:
+                          - generic:
+                            - switch [disabled]
+                        - generic [ref=e282]: Duplicates
+                      - button [ref=e283] [cursor=pointer]:
+                        - img [ref=e284]
+                    - button [ref=e288] [cursor=pointer]:
+                      - img [ref=e289]
+                  - progressbar [ref=e292]:
+                    - img [ref=e293]
+                - paragraph [ref=e296]: No Models selected
+        - contentinfo [ref=e297]:
+          - paragraph [ref=e298]:
+            - generic [ref=e299] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e300]
+              - text: by the Meshery Community
+      - generic [ref=e306]:
+        - img [ref=e307]
+        - paragraph [ref=e309]: MeshSync connected in embedded mode
+        - group [ref=e311]:
+          - button [ref=e312] [cursor=pointer]:
+            - img [ref=e313]
+          - button [ref=e317] [cursor=pointer]:
+            - img [ref=e318]
+  - alert [ref=e320]: Settings | Meshery
+  - dialog [ref=e323]:
+    - generic [ref=e324]:
+      - generic [ref=e325]: Create Model
+      - button [ref=e327] [cursor=pointer]:
+        - img [ref=e328]
+    - generic [ref=e334]:
+      - generic [ref=e336]:
+        - img [ref=e339]
+        - generic [ref=e342]: Model Details
+      - generic [ref=e346]:
+        - img [ref=e349]
+        - generic [ref=e354]: Model Categorization
+      - generic [ref=e358]:
+        - img [ref=e361]
+        - generic [ref=e364]: Styling
+      - generic [ref=e368]:
+        - img [ref=e371]
+        - generic [ref=e374]: Source
+      - generic [ref=e378]:
+        - img [ref=e381]
+        - generic [ref=e384]: Additional Details
+      - generic [ref=e388]:
+        - img [ref=e391]
+        - generic [ref=e408]: Finalize Generation
+      - generic [ref=e412]:
+        - img [ref=e415]
+        - generic [ref=e422]: Finish
+    - generic [ref=e428]:
+      - button "Back" [ref=e429] [cursor=pointer]
+      - button "Finish" [active] [ref=e430] [cursor=pointer]: Finish
+```
