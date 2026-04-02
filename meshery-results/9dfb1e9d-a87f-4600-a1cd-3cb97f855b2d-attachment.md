@@ -1,0 +1,527 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - generic [ref=e23]:
+            - button "Lifecycle" [ref=e24] [cursor=pointer]:
+              - link "Lifecycle" [ref=e25]:
+                - /url: /management/connections
+                - generic [ref=e26]:
+                  - img [ref=e28]
+                  - generic [ref=e31]: Lifecycle
+            - list [ref=e35]:
+              - button "Connections" [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]:
+                  - img [ref=e40]
+                  - generic [ref=e42]: Connections
+              - button "Environments" [ref=e44] [cursor=pointer]:
+                - generic [ref=e45]:
+                  - img [ref=e47]
+                  - generic [ref=e49]: Environments
+              - button "Workspaces" [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]:
+                  - img [ref=e54]
+                  - generic [ref=e56]: Workspaces
+              - button "Adapters" [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]:
+                  - img [ref=e61]
+                  - generic [ref=e74]: Adapters
+          - button "Configuration" [ref=e76] [cursor=pointer]:
+            - link "Configuration" [ref=e77]:
+              - /url: /configuration/designs
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e85]: Configuration
+          - button "meshery-button-2 Performance" [ref=e87] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e88]:
+              - /url: /performance
+              - generic [ref=e89]:
+                - img "meshery-button-2" [ref=e91]
+                - generic [ref=e117]: Performance
+          - button "Extensions" [ref=e119] [cursor=pointer]:
+            - link "Extensions" [ref=e120]:
+              - /url: /extensions
+              - generic [ref=e121]:
+                - img [ref=e123]
+                - generic [ref=e150]: Extensions
+          - separator [ref=e151]
+          - list [ref=e152]:
+            - button "Kanvas" [ref=e153] [cursor=pointer]:
+              - link "Kanvas" [ref=e154]:
+                - /url: /extension/meshmap
+                - generic [ref=e156]:
+                  - img [ref=e158]
+                  - generic [ref=e160]: Kanvas
+          - separator [ref=e161]
+        - generic [ref=e162]:
+          - img [ref=e165] [cursor=pointer]
+          - group [ref=e167]:
+            - listitem [ref=e168]:
+              - link [ref=e169] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e171]
+            - listitem [ref=e173]:
+              - link [ref=e174] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e176]
+            - listitem [ref=e185]:
+              - link [ref=e186] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e188]
+            - listitem [ref=e190]:
+              - link [ref=e191] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e193]
+          - listitem [ref=e195]:
+            - generic [ref=e196]:
+              - text: v0.9.2
+              - link [ref=e198] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.9.2
+                - img [ref=e199]
+              - generic [ref=e201]:
+                - text: Update available
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: https://docs.meshery.io/project/releases/v1.0.0
+                  - img [ref=e203]
+    - generic [ref=e205]:
+      - banner [ref=e206]:
+        - generic [ref=e208]:
+          - generic [ref=e210]:
+            - button [ref=e212] [cursor=pointer]:
+              - img [ref=e213]
+            - text: /
+            - button [ref=e222] [cursor=pointer]:
+              - img [ref=e223]
+            - generic [ref=e227]: "Error:"
+            - text: /
+            - heading "Connections" [level=5] [ref=e228]
+          - generic [ref=e230]:
+            - button "contexts" [ref=e233] [cursor=pointer]:
+              - generic [ref=e234]:
+                - img [ref=e235]
+                - generic [ref=e236]: "5357"
+            - button [ref=e239] [cursor=pointer]:
+              - img [ref=e240]
+            - button [ref=e247] [cursor=pointer]:
+              - img [ref=e249]
+            - button [ref=e252] [cursor=pointer]:
+              - img [ref=e253]
+      - generic [ref=e255]:
+        - main [ref=e256]:
+          - generic [ref=e257]:
+            - tablist [ref=e261]:
+              - tab "Connections" [selected] [ref=e262] [cursor=pointer]:
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Connections
+                  - img [ref=e265]
+              - tab "MeshSync" [ref=e299] [cursor=pointer]:
+                - generic [ref=e300]:
+                  - generic [ref=e301]: MeshSync
+                  - img [ref=e302]
+            - generic [ref=e312]:
+              - button "Add Cluster" [ref=e315] [cursor=pointer]:
+                - img [ref=e316]
+                - paragraph [ref=e319]: Add Cluster
+              - generic [ref=e320]:
+                - generic [ref=e322]:
+                  - textbox "Search Connections..." [ref=e325]: kind-kind-cluster
+                  - button [ref=e327] [cursor=pointer]:
+                    - img [ref=e328]
+                - button [ref=e333] [cursor=pointer]:
+                  - img [ref=e334]
+                - button [ref=e339] [cursor=pointer]:
+                  - img [ref=e340]
+            - generic [ref=e342]:
+              - grid [ref=e344]:
+                - caption [ref=e345]
+                - rowgroup [ref=e346]:
+                  - row "Name Environments Kind Category Status Actions" [ref=e347]:
+                    - columnheader [ref=e348]:
+                      - generic [ref=e350] [cursor=pointer]:
+                        - checkbox [ref=e351]
+                        - img [ref=e352]
+                    - columnheader "Name" [ref=e354]:
+                      - generic [ref=e355]:
+                        - paragraph [ref=e357]: Name
+                        - button [ref=e358] [cursor=pointer]:
+                          - img [ref=e359]
+                    - columnheader "Environments" [ref=e361]:
+                      - generic [ref=e363]:
+                        - paragraph [ref=e364]: Environments
+                        - button [ref=e366] [cursor=pointer]:
+                          - img [ref=e367]
+                    - columnheader "Kind" [ref=e369]:
+                      - generic [ref=e370]:
+                        - paragraph [ref=e372]: Kind
+                        - button [ref=e373] [cursor=pointer]:
+                          - img [ref=e374]
+                    - columnheader "Category" [ref=e376]:
+                      - generic [ref=e377]:
+                        - paragraph [ref=e379]: Category
+                        - button [ref=e380] [cursor=pointer]:
+                          - img [ref=e381]
+                    - columnheader "Status" [ref=e383]:
+                      - generic [ref=e384]:
+                        - generic [ref=e385]:
+                          - paragraph [ref=e386]: Status
+                          - button [ref=e388] [cursor=pointer]:
+                            - img [ref=e389]
+                        - button [ref=e391] [cursor=pointer]:
+                          - img [ref=e392]
+                    - columnheader "Actions" [ref=e394]
+                - rowgroup [ref=e395]:
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e396] [cursor=pointer]:
+                    - gridcell [ref=e397]:
+                      - generic [ref=e399]:
+                        - checkbox [ref=e400]
+                        - img [ref=e401]
+                    - gridcell "kind-kind-cluster" [ref=e403]:
+                      - generic [ref=e404]:
+                        - button "kind-kind-cluster" [ref=e406]:
+                          - img [ref=e410]
+                          - generic [ref=e412]: kind-kind-cluster
+                          - img [ref=e413]
+                        - button [ref=e416]:
+                          - img [ref=e417]
+                    - gridcell [ref=e419]
+                    - gridcell "kubernetes" [ref=e420]:
+                      - generic [ref=e421]: kubernetes
+                    - gridcell "platform" [ref=e422]:
+                      - generic [ref=e423]: platform
+                    - gridcell "connected" [ref=e424]:
+                      - generic [ref=e427]:
+                        - combobox "connected" [ref=e428]:
+                          - menuitem "connected" [ref=e429]:
+                            - generic [ref=e430]:
+                              - img [ref=e431]
+                              - generic [ref=e433]: connected
+                        - textbox: connected
+                        - img
+                        - group
+                    - gridcell "more" [ref=e434]:
+                      - button "more" [ref=e437]:
+                        - img [ref=e438]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e440] [cursor=pointer]:
+                    - gridcell [ref=e441]:
+                      - generic [ref=e443]:
+                        - checkbox [ref=e444]
+                        - img [ref=e445]
+                    - gridcell "kind-kind-cluster" [ref=e447]:
+                      - generic [ref=e448]:
+                        - button "kind-kind-cluster" [ref=e450]:
+                          - img [ref=e454]
+                          - generic [ref=e456]: kind-kind-cluster
+                          - img [ref=e457]
+                        - button [ref=e460]:
+                          - img [ref=e461]
+                    - gridcell [ref=e463]
+                    - gridcell "kubernetes" [ref=e464]:
+                      - generic [ref=e465]: kubernetes
+                    - gridcell "platform" [ref=e466]:
+                      - generic [ref=e467]: platform
+                    - gridcell "connected" [ref=e468]:
+                      - generic [ref=e471]:
+                        - combobox "connected" [ref=e472]:
+                          - menuitem "not found" [ref=e473]:
+                            - generic [ref=e474]:
+                              - img [ref=e475]
+                              - generic [ref=e477]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e478]:
+                      - button "more" [ref=e481]:
+                        - img [ref=e482]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e484] [cursor=pointer]:
+                    - gridcell [ref=e485]:
+                      - generic [ref=e487]:
+                        - checkbox [ref=e488]
+                        - img [ref=e489]
+                    - gridcell "kind-kind-cluster" [ref=e491]:
+                      - generic [ref=e492]:
+                        - button "kind-kind-cluster" [ref=e494]:
+                          - img [ref=e498]
+                          - generic [ref=e500]: kind-kind-cluster
+                          - img [ref=e501]
+                        - button [ref=e504]:
+                          - img [ref=e505]
+                    - gridcell [ref=e507]
+                    - gridcell "kubernetes" [ref=e508]:
+                      - generic [ref=e509]: kubernetes
+                    - gridcell "platform" [ref=e510]:
+                      - generic [ref=e511]: platform
+                    - gridcell "connected" [ref=e512]:
+                      - generic [ref=e515]:
+                        - combobox "connected" [ref=e516]:
+                          - menuitem "not found" [ref=e517]:
+                            - generic [ref=e518]:
+                              - img [ref=e519]
+                              - generic [ref=e521]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e522]:
+                      - button "more" [ref=e525]:
+                        - img [ref=e526]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e528] [cursor=pointer]:
+                    - gridcell [ref=e529]:
+                      - generic [ref=e531]:
+                        - checkbox [ref=e532]
+                        - img [ref=e533]
+                    - gridcell "kind-kind-cluster" [ref=e535]:
+                      - generic [ref=e536]:
+                        - button "kind-kind-cluster" [ref=e538]:
+                          - img [ref=e542]
+                          - generic [ref=e544]: kind-kind-cluster
+                          - img [ref=e545]
+                        - button [ref=e548]:
+                          - img [ref=e549]
+                    - gridcell [ref=e551]
+                    - gridcell "kubernetes" [ref=e552]:
+                      - generic [ref=e553]: kubernetes
+                    - gridcell "platform" [ref=e554]:
+                      - generic [ref=e555]: platform
+                    - gridcell "connected" [ref=e556]:
+                      - generic [ref=e559]:
+                        - combobox "connected" [ref=e560]:
+                          - menuitem "not found" [ref=e561]:
+                            - generic [ref=e562]:
+                              - img [ref=e563]
+                              - generic [ref=e565]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e566]:
+                      - button "more" [ref=e569]:
+                        - img [ref=e570]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e572] [cursor=pointer]:
+                    - gridcell [ref=e573]:
+                      - generic [ref=e575]:
+                        - checkbox [ref=e576]
+                        - img [ref=e577]
+                    - gridcell "kind-kind-cluster" [ref=e579]:
+                      - generic [ref=e580]:
+                        - button "kind-kind-cluster" [ref=e582]:
+                          - img [ref=e586]
+                          - generic [ref=e588]: kind-kind-cluster
+                          - img [ref=e589]
+                        - button [ref=e592]:
+                          - img [ref=e593]
+                    - gridcell [ref=e595]
+                    - gridcell "kubernetes" [ref=e596]:
+                      - generic [ref=e597]: kubernetes
+                    - gridcell "platform" [ref=e598]:
+                      - generic [ref=e599]: platform
+                    - gridcell "connected" [ref=e600]:
+                      - generic [ref=e603]:
+                        - combobox "connected" [ref=e604]:
+                          - menuitem "not found" [ref=e605]:
+                            - generic [ref=e606]:
+                              - img [ref=e607]
+                              - generic [ref=e609]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e610]:
+                      - button "more" [ref=e613]:
+                        - img [ref=e614]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e616] [cursor=pointer]:
+                    - gridcell [ref=e617]:
+                      - generic [ref=e619]:
+                        - checkbox [ref=e620]
+                        - img [ref=e621]
+                    - gridcell "kind-kind-cluster" [ref=e623]:
+                      - generic [ref=e624]:
+                        - button "kind-kind-cluster" [ref=e626]:
+                          - img [ref=e630]
+                          - generic [ref=e632]: kind-kind-cluster
+                          - img [ref=e633]
+                        - button [ref=e636]:
+                          - img [ref=e637]
+                    - gridcell [ref=e639]
+                    - gridcell "kubernetes" [ref=e640]:
+                      - generic [ref=e641]: kubernetes
+                    - gridcell "platform" [ref=e642]:
+                      - generic [ref=e643]: platform
+                    - gridcell "connected" [ref=e644]:
+                      - generic [ref=e647]:
+                        - combobox "connected" [ref=e648]:
+                          - menuitem "not found" [ref=e649]:
+                            - generic [ref=e650]:
+                              - img [ref=e651]
+                              - generic [ref=e653]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e654]:
+                      - button "more" [ref=e657]:
+                        - img [ref=e658]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e660] [cursor=pointer]:
+                    - gridcell [ref=e661]:
+                      - generic [ref=e663]:
+                        - checkbox [ref=e664]
+                        - img [ref=e665]
+                    - gridcell "kind-kind-cluster" [ref=e667]:
+                      - generic [ref=e668]:
+                        - button "kind-kind-cluster" [ref=e670]:
+                          - img [ref=e674]
+                          - generic [ref=e676]: kind-kind-cluster
+                          - img [ref=e677]
+                        - button [ref=e680]:
+                          - img [ref=e681]
+                    - gridcell [ref=e683]
+                    - gridcell "kubernetes" [ref=e684]:
+                      - generic [ref=e685]: kubernetes
+                    - gridcell "platform" [ref=e686]:
+                      - generic [ref=e687]: platform
+                    - gridcell "connected" [ref=e688]:
+                      - generic [ref=e691]:
+                        - combobox "connected" [ref=e692]:
+                          - menuitem "not found" [ref=e693]:
+                            - generic [ref=e694]:
+                              - img [ref=e695]
+                              - generic [ref=e697]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e698]:
+                      - button "more" [ref=e701]:
+                        - img [ref=e702]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e704] [cursor=pointer]:
+                    - gridcell [ref=e705]:
+                      - generic [ref=e707]:
+                        - checkbox [ref=e708]
+                        - img [ref=e709]
+                    - gridcell "kind-kind-cluster" [ref=e711]:
+                      - generic [ref=e712]:
+                        - button "kind-kind-cluster" [ref=e714]:
+                          - img [ref=e718]
+                          - generic [ref=e720]: kind-kind-cluster
+                          - img [ref=e721]
+                        - button [ref=e724]:
+                          - img [ref=e725]
+                    - gridcell [ref=e727]
+                    - gridcell "kubernetes" [ref=e728]:
+                      - generic [ref=e729]: kubernetes
+                    - gridcell "platform" [ref=e730]:
+                      - generic [ref=e731]: platform
+                    - gridcell "connected" [ref=e732]:
+                      - generic [ref=e735]:
+                        - combobox "connected" [ref=e736]:
+                          - menuitem "not found" [ref=e737]:
+                            - generic [ref=e738]:
+                              - img [ref=e739]
+                              - generic [ref=e741]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e742]:
+                      - button "more" [ref=e745]:
+                        - img [ref=e746]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e748] [cursor=pointer]:
+                    - gridcell [ref=e749]:
+                      - generic [ref=e751]:
+                        - checkbox [ref=e752]
+                        - img [ref=e753]
+                    - gridcell "kind-kind-cluster" [ref=e755]:
+                      - generic [ref=e756]:
+                        - button "kind-kind-cluster" [ref=e758]:
+                          - img [ref=e762]
+                          - generic [ref=e764]: kind-kind-cluster
+                          - img [ref=e765]
+                        - button [ref=e768]:
+                          - img [ref=e769]
+                    - gridcell [ref=e771]
+                    - gridcell "kubernetes" [ref=e772]:
+                      - generic [ref=e773]: kubernetes
+                    - gridcell "platform" [ref=e774]:
+                      - generic [ref=e775]: platform
+                    - gridcell "connected" [ref=e776]:
+                      - generic [ref=e779]:
+                        - combobox "connected" [ref=e780]:
+                          - menuitem "not found" [ref=e781]:
+                            - generic [ref=e782]:
+                              - img [ref=e783]
+                              - generic [ref=e785]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e786]:
+                      - button "more" [ref=e789]:
+                        - img [ref=e790]
+                  - row "kind-kind-cluster kubernetes platform connected more" [ref=e792] [cursor=pointer]:
+                    - gridcell [ref=e793]:
+                      - generic [ref=e795]:
+                        - checkbox [ref=e796]
+                        - img [ref=e797]
+                    - gridcell "kind-kind-cluster" [ref=e799]:
+                      - generic [ref=e800]:
+                        - button "kind-kind-cluster" [ref=e802]:
+                          - img [ref=e806]
+                          - generic [ref=e808]: kind-kind-cluster
+                          - img [ref=e809]
+                        - button [ref=e812]:
+                          - img [ref=e813]
+                    - gridcell [ref=e815]
+                    - gridcell "kubernetes" [ref=e816]:
+                      - generic [ref=e817]: kubernetes
+                    - gridcell "platform" [ref=e818]:
+                      - generic [ref=e819]: platform
+                    - gridcell "connected" [ref=e820]:
+                      - generic [ref=e823]:
+                        - combobox "connected" [ref=e824]:
+                          - menuitem "not found" [ref=e825]:
+                            - generic [ref=e826]:
+                              - img [ref=e827]
+                              - generic [ref=e829]: not found
+                        - textbox: not found
+                        - img
+                        - group
+                    - gridcell "more" [ref=e830]:
+                      - button "more" [ref=e833]:
+                        - img [ref=e834]
+              - table [ref=e836]:
+                - rowgroup [ref=e837]:
+                  - 'row "Rows per page: 10 1-10 of 4964 Previous Page Next Page" [ref=e838]':
+                    - 'cell "Rows per page: 10 1-10 of 4964 Previous Page Next Page" [ref=e839]':
+                      - generic [ref=e842]:
+                        - paragraph [ref=e843]: "Rows per page:"
+                        - generic [ref=e844]:
+                          - 'combobox "Rows per page: 10" [ref=e845] [cursor=pointer]': "10"
+                          - textbox: "10"
+                          - img
+                        - paragraph [ref=e846]: 1-10 of 4964
+                        - generic [ref=e847]:
+                          - button "Previous Page" [disabled]:
+                            - img
+                          - button "Next Page" [ref=e848] [cursor=pointer]:
+                            - img [ref=e849]
+        - contentinfo [ref=e852]:
+          - paragraph [ref=e853]:
+            - generic [ref=e854] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e855]
+              - text: by the Meshery Community
+      - generic [ref=e861]:
+        - img [ref=e862]
+        - paragraph [ref=e864]: MeshSync connected in embedded mode
+        - group [ref=e866]:
+          - button "Open" [ref=e867] [cursor=pointer]:
+            - img [ref=e868]
+          - button "Close" [ref=e872] [cursor=pointer]:
+            - img [ref=e873]
+  - alert [ref=e875]: Meshery
+```
