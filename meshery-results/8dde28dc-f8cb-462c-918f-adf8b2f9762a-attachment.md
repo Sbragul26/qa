@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - button "Configuration" [ref=e33] [cursor=pointer]:
+            - link "Configuration" [ref=e34]:
+              - /url: /configuration/designs
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e42]: Configuration
+          - button "meshery-button-2 Performance" [ref=e44] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e45]:
+              - /url: /performance
+              - generic [ref=e46]:
+                - img "meshery-button-2" [ref=e48]
+                - generic [ref=e74]: Performance
+          - button "Extensions" [ref=e76] [cursor=pointer]:
+            - link "Extensions" [ref=e77]:
+              - /url: /extensions
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e107]: Extensions
+          - separator [ref=e108]
+        - generic [ref=e109]:
+          - img [ref=e112] [cursor=pointer]
+          - group [ref=e114]:
+            - listitem [ref=e115]:
+              - link [ref=e116] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e118]
+            - listitem [ref=e120]:
+              - link [ref=e121] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e123]
+            - listitem [ref=e132]:
+              - link [ref=e133] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e135]
+            - listitem [ref=e137]:
+              - link [ref=e138] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e140]
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - text: v0.9.2
+              - link [ref=e145] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.9.2
+                - img [ref=e146]
+              - generic [ref=e148]:
+                - text: Update available
+                - link [ref=e149] [cursor=pointer]:
+                  - /url: https://docs.meshery.io/project/releases/v1.0.0
+                  - img [ref=e150]
+    - generic [ref=e152]:
+      - banner [ref=e153]:
+        - generic [ref=e155]:
+          - generic [ref=e157]:
+            - button [ref=e159] [cursor=pointer]:
+              - img [ref=e160]
+            - text: /
+            - button [ref=e169] [cursor=pointer]:
+              - img [ref=e170]
+            - generic [ref=e174]: "Error:"
+            - text: /
+            - heading "Configure Design" [level=5] [ref=e175]
+          - generic [ref=e177]:
+            - button "contexts" [ref=e180] [cursor=pointer]:
+              - generic [ref=e181]:
+                - img [ref=e182]
+                - generic [ref=e183]: "0"
+            - button [ref=e186] [cursor=pointer]:
+              - img [ref=e187]
+            - button [ref=e194] [cursor=pointer]:
+              - img [ref=e196]
+            - button [ref=e199] [cursor=pointer]:
+              - img [ref=e200]
+      - generic [ref=e202]:
+        - main [ref=e203]:
+          - button [ref=e205] [cursor=pointer]:
+            - button [ref=e206]:
+              - img [ref=e207]
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - generic [ref=e214]:
+                - combobox "Database" [ref=e215] [cursor=pointer]
+                - textbox: Database
+                - img
+              - generic [ref=e218]:
+                - combobox "Azure Db For Mysql" [active] [ref=e219] [cursor=pointer]
+                - textbox:
+                  - /placeholder: select Model
+                  - text: azure-db-for-mysql
+                - img
+            - generic [ref=e220]:
+              - generic [ref=e221]: Design Name
+              - textbox "Design Name" [ref=e223]: Untitled Design
+            - button "Save" [ref=e225] [cursor=pointer]:
+              - img [ref=e226]
+          - generic [ref=e235]:
+            - generic [ref=e237]:
+              - generic [ref=e238]: "1"
+              - generic [ref=e239]: "2"
+              - generic [ref=e240]: "3"
+              - generic [ref=e241]: "4"
+            - textbox [ref=e244]:
+              - generic [ref=e245]: "name: Untitled Design"
+              - generic [ref=e246]: "components: []"
+              - generic [ref=e247]: "schemaVersion: designs.meshery.io/v1beta1"
+        - contentinfo [ref=e249]:
+          - paragraph [ref=e250]:
+            - generic [ref=e251] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e252]
+              - text: by the Meshery Community
+  - alert [ref=e254]
+```
