@@ -1,0 +1,153 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - button "Configuration" [ref=e33] [cursor=pointer]:
+            - link "Configuration" [ref=e34]:
+              - /url: /configuration/designs
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e42]: Configuration
+          - button "meshery-button-2 Performance" [ref=e44] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e45]:
+              - /url: /performance
+              - generic [ref=e46]:
+                - img "meshery-button-2" [ref=e48]
+                - generic [ref=e74]: Performance
+          - button "Extensions" [ref=e76] [cursor=pointer]:
+            - link "Extensions" [ref=e77]:
+              - /url: /extensions
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e107]: Extensions
+          - separator [ref=e108]
+          - list [ref=e109]:
+            - button "Kanvas" [ref=e110] [cursor=pointer]:
+              - link "Kanvas" [ref=e111]:
+                - /url: /extension/meshmap
+                - generic [ref=e113]:
+                  - img [ref=e115]
+                  - generic [ref=e117]: Kanvas
+          - separator [ref=e118]
+        - generic [ref=e119]:
+          - img [ref=e122] [cursor=pointer]
+          - group [ref=e124]:
+            - listitem [ref=e125]:
+              - link [ref=e126] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e128]
+            - listitem [ref=e130]:
+              - link [ref=e131] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e133]
+            - listitem [ref=e142]:
+              - link [ref=e143] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e145]
+            - listitem [ref=e147]:
+              - link [ref=e148] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e150]
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - text: v0.9.2
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v0.9.2
+                - img [ref=e156]
+              - generic [ref=e158]:
+                - text: Update available
+                - link [ref=e159] [cursor=pointer]:
+                  - /url: https://docs.meshery.io/project/releases/v1.0.0
+                  - img [ref=e160]
+    - generic [ref=e162]:
+      - banner [ref=e163]:
+        - generic [ref=e165]:
+          - generic [ref=e167]:
+            - button [ref=e169] [cursor=pointer]:
+              - img [ref=e170]
+            - text: /
+            - button [ref=e179] [cursor=pointer]:
+              - img [ref=e180]
+            - group [ref=e184]:
+              - generic [ref=e189]:
+                - combobox [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading "Configure Design" [level=5] [ref=e192]
+          - generic [ref=e194]:
+            - button "contexts" [ref=e197] [cursor=pointer]:
+              - generic [ref=e198]:
+                - img [ref=e199]
+                - generic [ref=e200]: "5479"
+            - button [ref=e203] [cursor=pointer]:
+              - img [ref=e204]
+            - button [ref=e211] [cursor=pointer]:
+              - img [ref=e213]
+            - button [ref=e216] [cursor=pointer]:
+              - img [ref=e217]
+      - generic [ref=e219]:
+        - main [ref=e220]:
+          - button [ref=e222] [cursor=pointer]:
+            - button [ref=e223]:
+              - img [ref=e224]
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - generic [ref=e231]:
+                - combobox "Database" [ref=e232] [cursor=pointer]
+                - textbox: Database
+                - img
+              - generic [ref=e235]:
+                - combobox "Azure Db For Mysql" [active] [ref=e236] [cursor=pointer]
+                - textbox:
+                  - /placeholder: select Model
+                  - text: azure-db-for-mysql
+                - img
+            - generic [ref=e237]:
+              - generic [ref=e238]: Design Name
+              - textbox "Design Name" [ref=e240]: Sample Design
+            - button "Save" [ref=e242] [cursor=pointer]:
+              - img [ref=e243]
+            - button "Update" [ref=e246] [cursor=pointer]:
+              - img [ref=e247]
+            - button "Delete" [ref=e250] [cursor=pointer]:
+              - img [ref=e251]
+          - generic [ref=e260]:
+            - generic [ref=e262]:
+              - generic [ref=e263]: "1"
+              - generic [ref=e264]: "2"
+              - generic [ref=e265]: "3"
+              - generic [ref=e266]: "4"
+            - textbox [ref=e269]:
+              - generic [ref=e270]: "name: Sample Design"
+              - generic [ref=e271]: "schemaVersion: designs.meshery.io/v1beta1"
+              - generic [ref=e272]: "components: []"
+        - contentinfo [ref=e274]:
+          - paragraph [ref=e275]:
+            - generic [ref=e276] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e277]
+              - text: by the Meshery Community
+  - alert [ref=e279]
+```
