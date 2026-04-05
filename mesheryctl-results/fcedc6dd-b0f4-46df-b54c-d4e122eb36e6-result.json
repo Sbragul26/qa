@@ -1,0 +1,23 @@
+{
+  "uuid": "fcedc6dd-b0f4-46df-b54c-d4e122eb36e6",
+  "name": "given non-existent orgId provided when running mesheryctl workspace list --orgId non-existent-orgId then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1775402012923,
+  "stop": 1775402012924,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

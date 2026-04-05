@@ -1,0 +1,23 @@
+{
+  "uuid": "8ed4a59e-d07c-4e68-b904-093c45fd854b",
+  "name": "given all requirements met when running mesheryctl connection list --pagesize size then the conections of specified size is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1775402012922,
+  "stop": 1775402012923,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
