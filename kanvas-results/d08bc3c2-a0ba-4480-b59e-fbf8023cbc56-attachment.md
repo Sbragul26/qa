@@ -1,0 +1,156 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - img [ref=e5]
+    - heading [level=1] [ref=e37]: What are you YAMLing on about now?
+  - generic [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e42] [cursor=pointer]:
+        - img [ref=e43]
+        - img [ref=e44]
+      - list [ref=e45]:
+        - button [ref=e47] [cursor=pointer]:
+          - link [ref=e48]:
+            - /url: /
+            - generic [ref=e49]:
+              - img [ref=e51]
+              - generic [ref=e56]: Dashboard
+        - button [ref=e58] [cursor=pointer]:
+          - link [ref=e59]:
+            - /url: /management/connections
+            - generic [ref=e60]:
+              - img [ref=e62]
+              - generic [ref=e65]: Lifecycle
+        - button [ref=e67] [cursor=pointer]:
+          - link [ref=e68]:
+            - /url: /configuration/designs
+            - generic [ref=e69]:
+              - img [ref=e71]
+              - generic [ref=e76]: Configuration
+        - button [ref=e78] [cursor=pointer]:
+          - link [ref=e79]:
+            - /url: /performance
+            - generic [ref=e80]:
+              - img [ref=e82]
+              - generic [ref=e108]: Performance
+        - button [ref=e110] [cursor=pointer]:
+          - link [ref=e111]:
+            - /url: /extensions
+            - generic [ref=e112]:
+              - img [ref=e114]
+              - generic [ref=e141]: Extensions
+        - separator [ref=e142]
+        - list [ref=e143]:
+          - button [ref=e144] [cursor=pointer]:
+            - link [ref=e145]:
+              - /url: /extension/meshmap
+              - img [ref=e149]
+        - separator [ref=e150]
+      - generic [ref=e151]:
+        - img [ref=e154] [cursor=pointer]
+        - group [ref=e156]:
+          - listitem [ref=e157]:
+            - button [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+        - listitem [ref=e161]:
+          - generic [ref=e162]: v1.0.1-1
+    - generic [ref=e163]:
+      - banner [ref=e164]:
+        - generic [ref=e166]:
+          - generic [ref=e168]:
+            - button [ref=e170] [cursor=pointer]:
+              - img [ref=e171]
+            - text: /
+            - button [ref=e180] [cursor=pointer]:
+              - img [ref=e181]
+            - generic [ref=e185]: "Error:"
+            - text: /
+            - heading [level=5] [ref=e186]:
+              - text: Kanvas
+              - superscript [ref=e187]: BETA
+          - generic [ref=e189]:
+            - button [ref=e192] [cursor=pointer]:
+              - generic [ref=e193]:
+                - img [ref=e194]
+                - generic [ref=e195]: "2"
+            - button [ref=e198] [cursor=pointer]:
+              - generic [ref=e199]:
+                - img [ref=e200]
+                - generic [ref=e203]: "59"
+            - button [ref=e207] [cursor=pointer]:
+              - img [ref=e209]
+            - button [ref=e211] [cursor=pointer]:
+              - img [ref=e212]
+      - main [ref=e215]:
+        - alert [ref=e216]:
+          - heading [level=2] [ref=e217]: Uh-oh!😔 Please pardon our mesh.
+          - code [ref=e219]: "TypeError: Cannot read properties of undefined (reading 'ReactCurrentOwner')"
+          - generic [ref=e221]:
+            - button [ref=e222] [cursor=pointer]: Troubleshooting Guide
+            - button [ref=e223] [cursor=pointer]: Get Help
+            - button [ref=e224] [cursor=pointer]: Feedback
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - img [ref=e229]
+                - paragraph [ref=e232]: Feedback
+                - generic [ref=e233]:
+                  - img [ref=e236]
+                  - img [ref=e240] [cursor=pointer]
+              - generic [ref=e244]:
+                - generic [ref=e245]:
+                  - button [ref=e246] [cursor=pointer]:
+                    - img [ref=e248]
+                    - paragraph [ref=e250]: Issue
+                  - button [ref=e251] [cursor=pointer]:
+                    - img [ref=e253]
+                    - paragraph [ref=e259]: Suggestion
+                  - button [ref=e260] [cursor=pointer]:
+                    - img [ref=e262]
+                    - paragraph [ref=e267]: Meet Request
+                - textbox [ref=e269]:
+                  - /placeholder: I’m having an issue with...
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - generic [ref=e273] [cursor=pointer]:
+                    - checkbox [ref=e274]
+                    - img [ref=e275]
+                  - paragraph [ref=e277]: We may email you for more information or updates
+                - button [disabled]: Send
+  - alert [ref=e278]
+  - generic [active] [ref=e280]:
+    - dialog:
+      - generic [ref=e282]:
+        - paragraph [ref=e283]:
+          - heading [level=5]
+          - heading "Extensions Troubleshooting Guide" [level=5] [ref=e284]
+          - button [ref=e285] [cursor=pointer]:
+            - img [ref=e286]
+        - heading "Stale Data" [level=3] [ref=e289]:
+          - button "Stale Data" [ref=e290] [cursor=pointer]:
+            - generic [ref=e292]:
+              - img [ref=e293]
+              - heading "Stale Data" [level=6] [ref=e296]
+            - img [ref=e298]
+        - heading "Missing Data" [level=3] [ref=e301]:
+          - button "Missing Data" [ref=e302] [cursor=pointer]:
+            - generic [ref=e304]:
+              - img [ref=e305]
+              - heading "Missing Data" [level=6] [ref=e308]
+            - img [ref=e310]
+        - heading "Additional Resources" [level=3] [ref=e313]:
+          - button "Additional Resources" [ref=e314] [cursor=pointer]:
+            - generic [ref=e316]:
+              - img [ref=e317]
+              - heading "Additional Resources" [level=6] [ref=e320]
+            - img [ref=e322]
+        - heading "Need help? Contact us via email or community forum." [level=6] [ref=e325]:
+          - text: Need help? Contact us via
+          - link "email" [ref=e326] [cursor=pointer]:
+            - /url: mailto:maintainers@meshery.io
+          - text: or
+          - link "community forum" [ref=e327] [cursor=pointer]:
+            - /url: https://meshery.io/community#community-forums
+          - text: .
+```
