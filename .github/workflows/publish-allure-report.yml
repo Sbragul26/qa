@@ -8,6 +8,7 @@ on:
       - "allure-results/**"
       - "kanvas-results/**"
       - "meshery-results/**"
+      - "meshery-server-results/**"
       - "mesheryctl-results/**"
       - "remote-provider-results/**"
       - "allurerc.mjs"

@@ -33,15 +33,20 @@ endef
 # --------------------------------------------------
 # Targets
 # --------------------------------------------------
-.PHONY: report-generate meshery-results-sync mesheryctl-results-sync report-open report
+.PHONY: report-generate meshery-results-sync meshery-server-results-sync mesheryctl-results-sync report-open report
 
 ## Sync Meshery Test Results
 meshery-results-sync: 
 	@echo "Syncing Meshery Test Results..."
 	$(call results-sync,MESHERY_RESULTS_PATH,meshery-results)
 
+## Sync Server Go Unit Test Results
+meshery-server-results-sync:
+	@echo "Syncing Server Go Unit Test Results..."
+	$(call results-sync,MESHERY_SERVER_RESULTS_PATH,meshery-server-results)
+
 ## Sync mesheryctl Test Results
-mesheryctl-results-sync: 
+mesheryctl-results-sync:
 	@echo "Syncing mesheryctl Test Results..."
 	$(call results-sync,MESHERYCTL_RESULTS_PATH,mesheryctl-results)
 
@@ -57,6 +62,7 @@ report-build:
 	mkdir -p allure-results
 	cp kanvas-results/* allure-results/ || true
 	cp meshery-results/* allure-results/ || true
+	cp meshery-server-results/* allure-results/ || true
 	cp mesheryctl-results/* allure-results/ || true
 	cp remote-provider-results/* allure-results/ || true
 	npm run report:generate
