@@ -1,0 +1,23 @@
+{
+  "uuid": "11d8f4b9-0427-4a14-86fc-bb8c168f7210",
+  "name": "given all requirements met when running mesheryctl connection list --status status then the conections of specified status is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1775593544414,
+  "stop": 1775593544415,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
