@@ -1,0 +1,23 @@
+{
+  "uuid": "16f28405-a927-43dd-b81e-443f1e71b3a4",
+  "name": "given --file and --source flags provided when mesheryctl design deploy --file file-path --source source-type then design is deployed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1775688913746,
+  "stop": 1775688913747,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
