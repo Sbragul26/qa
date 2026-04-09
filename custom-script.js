@@ -9,6 +9,7 @@
   const SECTION_ICON_SELECTOR =
     'button, [role="button"], [role="menuitemcheckbox"], [role="menuitem"], [class*="menu-item"]';
   const OBSERVER_OPTIONS = { childList: true, subtree: true };
+  let brandingScheduled = false;
 
   function createMesheryLogo(className, size) {
     const logo = document.createElement('img');
@@ -90,19 +91,51 @@
     return changed;
   }
 
+  function hasPendingBrandingTargets() {
+    if (document.querySelector(`${POWERED_BY_SELECTOR}:not([data-meshery-powered-by="true"])`)) {
+      return true;
+    }
+
+    if (document.querySelector('[data-testid="loader"] svg:not([data-meshery-logo="true"])')) {
+      return true;
+    }
+
+    return Array.from(document.querySelectorAll(SECTION_ICON_SELECTOR)).some((element) => {
+      if (!normalizeText(element.textContent).includes('report')) {
+        return false;
+      }
+
+      return Boolean(element.querySelector('svg:not([data-meshery-logo="true"])'));
+    });
+  }
+
   function applyBranding() {
     replacePoweredBy();
     replaceLoaderLogo();
     replaceSectionPickerLogos();
   }
 
+  function scheduleBranding() {
+    if (brandingScheduled) {
+      return;
+    }
+
+    brandingScheduled = true;
+    window.requestAnimationFrame(() => {
+      brandingScheduled = false;
+      applyBranding();
+    });
+  }
+
   function observeBranding() {
     const observer = new MutationObserver(() => {
-      applyBranding();
+      if (hasPendingBrandingTargets()) {
+        scheduleBranding();
+      }
     });
 
     observer.observe(document.body, OBSERVER_OPTIONS);
-    applyBranding();
+    scheduleBranding();
   }
 
   if (document.body) {
