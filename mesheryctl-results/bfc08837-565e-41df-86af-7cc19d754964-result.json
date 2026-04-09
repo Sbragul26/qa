@@ -1,0 +1,23 @@
+{
+  "uuid": "bfc08837-565e-41df-86af-7cc19d754964",
+  "name": "given a valid connection-id is provided as an argument when running mesheryctl connection view --save then a details in default format is displayed # skip No connection ID available",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1775762576719,
+  "stop": 1775762576720,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
