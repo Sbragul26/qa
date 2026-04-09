@@ -1,0 +1,23 @@
+{
+  "uuid": "56dccb41-ea6e-41e7-9486-7be5ed1c212d",
+  "name": "given an invalid directory when running mesheryctl registry generate then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1775702430413,
+  "stop": 1775702430414,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
