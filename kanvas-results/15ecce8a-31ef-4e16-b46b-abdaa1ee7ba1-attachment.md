@@ -1,0 +1,91 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "meshery-logo-light-text" [ref=e5]
+    - 'heading "YAML: The only language that can make you long for the sweet embrace of death." [level=1] [ref=e37]'
+  - generic [ref=e39]:
+    - navigation:
+      - generic [ref=e40]:
+        - generic [ref=e42] [cursor=pointer]:
+          - img [ref=e43]
+          - img [ref=e44]
+        - list [ref=e45]:
+          - button "Dashboard" [ref=e47] [cursor=pointer]:
+            - link "Dashboard" [ref=e48]:
+              - /url: /
+              - generic [ref=e49]:
+                - img [ref=e51]
+                - generic [ref=e56]: Dashboard
+          - button "Lifecycle" [ref=e58] [cursor=pointer]:
+            - link "Lifecycle" [ref=e59]:
+              - /url: /management/connections
+              - generic [ref=e60]:
+                - img [ref=e62]
+                - generic [ref=e65]: Lifecycle
+          - button "Configuration" [ref=e67] [cursor=pointer]:
+            - link "Configuration" [ref=e68]:
+              - /url: /configuration/designs
+              - generic [ref=e69]:
+                - img [ref=e71]
+                - generic [ref=e76]: Configuration
+          - button "meshery-button-2 Performance" [ref=e78] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e79]:
+              - /url: /performance
+              - generic [ref=e80]:
+                - img "meshery-button-2" [ref=e82]
+                - generic [ref=e108]: Performance
+          - button "Extensions" [ref=e110] [cursor=pointer]:
+            - link "Extensions" [ref=e111]:
+              - /url: /extensions
+              - generic [ref=e112]:
+                - img [ref=e114]
+                - generic [ref=e141]: Extensions
+          - separator [ref=e142]
+          - list [ref=e143]:
+            - button "Kanvas" [ref=e144] [cursor=pointer]:
+              - link "Kanvas" [ref=e145]:
+                - /url: /extension/meshmap
+                - generic [ref=e147]:
+                  - img [ref=e149]
+                  - generic:
+                    - generic: Kanvas
+          - separator [ref=e150]
+        - generic [ref=e151]:
+          - img [ref=e154] [cursor=pointer]
+          - group [ref=e156]:
+            - listitem [ref=e157]:
+              - button [ref=e158] [cursor=pointer]:
+                - img [ref=e159]
+          - listitem [ref=e161]:
+            - generic [ref=e162]: v1.0.6-1
+    - generic [ref=e163]:
+      - banner [ref=e164]:
+        - generic [ref=e166]:
+          - generic [ref=e168]:
+            - button [ref=e170] [cursor=pointer]:
+              - img [ref=e171]
+            - text: /
+            - button [ref=e180] [cursor=pointer]:
+              - img [ref=e181]
+            - progressbar [ref=e185]:
+              - img [ref=e186]
+            - text: /
+            - heading "KanvasBETA" [level=5] [ref=e188]:
+              - text: Kanvas
+              - superscript [ref=e189]: BETA
+          - generic [ref=e191]:
+            - button "contexts" [ref=e194] [cursor=pointer]:
+              - generic [ref=e195]:
+                - img [ref=e196]
+                - generic [ref=e197]: "2"
+            - button [ref=e200] [cursor=pointer]:
+              - img [ref=e201]
+            - button [ref=e208] [cursor=pointer]:
+              - img [ref=e210]
+            - button [ref=e213] [cursor=pointer]:
+              - img [ref=e214]
+      - main [ref=e217]
+  - alert [ref=e218]
+```
