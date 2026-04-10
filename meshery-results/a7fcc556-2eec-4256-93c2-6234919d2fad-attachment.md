@@ -1,0 +1,117 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - button "Configuration" [ref=e33] [cursor=pointer]:
+            - link "Configuration" [ref=e34]:
+              - /url: /configuration/designs
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e42]: Configuration
+          - button "meshery-button-2 Performance" [ref=e44] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e45]:
+              - /url: /performance
+              - generic [ref=e46]:
+                - img "meshery-button-2" [ref=e48]
+                - generic [ref=e74]: Performance
+          - button "Extensions" [ref=e76] [cursor=pointer]:
+            - link "Extensions" [ref=e77]:
+              - /url: /extensions
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e107]: Extensions
+          - separator [ref=e108]
+          - list [ref=e109]:
+            - button "Kanvas" [ref=e110] [cursor=pointer]:
+              - link "Kanvas" [ref=e111]:
+                - /url: /extension/meshmap
+                - generic [ref=e113]:
+                  - img [ref=e115]
+                  - generic [ref=e117]: Kanvas
+          - separator [ref=e118]
+        - generic [ref=e119]:
+          - img [ref=e122] [cursor=pointer]
+          - group [ref=e124]:
+            - listitem [ref=e125]:
+              - link [ref=e126] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e128]
+            - listitem [ref=e130]:
+              - link [ref=e131] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e133]
+            - listitem [ref=e142]:
+              - link [ref=e143] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e145]
+            - listitem [ref=e147]:
+              - link [ref=e148] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e150]
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - text: v1.0.6
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v1.0.6
+                - img [ref=e156]
+              - text: Running latest
+    - generic [ref=e158]:
+      - banner [ref=e159]:
+        - generic [ref=e161]:
+          - generic [ref=e163]:
+            - button [ref=e165] [cursor=pointer]:
+              - img [ref=e166]
+            - text: /
+            - button [ref=e175] [cursor=pointer]:
+              - img [ref=e176]
+            - group [ref=e180]:
+              - generic [ref=e185]:
+                - combobox [ref=e186] [cursor=pointer]:
+                  - generic [ref=e187]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading [level=5]
+          - generic [ref=e189]:
+            - button "contexts" [ref=e192] [cursor=pointer]:
+              - generic [ref=e193]:
+                - img [ref=e194]
+                - generic [ref=e195]: "0"
+            - button "60" [ref=e198] [cursor=pointer]:
+              - generic [ref=e199]:
+                - img [ref=e200]
+                - generic [ref=e203]: "60"
+            - button [ref=e207] [cursor=pointer]:
+              - img [ref=e209]
+            - button [ref=e212] [cursor=pointer]:
+              - img [ref=e213]
+      - generic [ref=e215]:
+        - main [ref=e216]
+        - contentinfo [ref=e217]:
+          - paragraph [ref=e218]:
+            - generic [ref=e219] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e220]
+              - text: by the Meshery Community
+  - alert [ref=e222]
+```
