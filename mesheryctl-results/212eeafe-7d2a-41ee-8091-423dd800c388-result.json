@@ -1,0 +1,23 @@
+{
+  "uuid": "212eeafe-7d2a-41ee-8091-423dd800c388",
+  "name": "given valid spreadsheet credentials when running mesheryctl registry update then models are updated successfully # skip Spreadsheet credentials not configured",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1775850950988,
+  "stop": 1775850950989,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

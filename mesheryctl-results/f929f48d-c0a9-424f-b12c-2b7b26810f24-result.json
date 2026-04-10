@@ -1,0 +1,23 @@
+{
+  "uuid": "f929f48d-c0a9-424f-b12c-2b7b26810f24",
+  "name": "given no connection-id is provided as an argument when running mesheryctl connection view then a message error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1775850950988,
+  "stop": 1775850950989,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
