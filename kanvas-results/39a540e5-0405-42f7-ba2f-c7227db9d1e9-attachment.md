@@ -1,0 +1,9 @@
+# Page snapshot
+
+```yaml
+- generic [active]:
+  - generic [ref=e2]:
+    - img "meshery-logo-light-text" [ref=e4]
+    - heading "May your coffee be strong and your YAML be valid. We both know one of these will never happen." [level=1] [ref=e36]
+  - alert [ref=e37]
+```
