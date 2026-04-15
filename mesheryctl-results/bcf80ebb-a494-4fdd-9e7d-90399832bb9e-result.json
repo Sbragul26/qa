@@ -1,0 +1,44 @@
+{
+  "uuid": "bcf80ebb-a494-4fdd-9e7d-90399832bb9e",
+  "name": "TestReadValidationErrorMessages/given_invalid_directory_path_when_isDirPath_then_error_message_indicates_directory_does_not_exist",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages/given_invalid_directory_path_when_isDirPath_then_error_message_indicates_directory_does_not_exist",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776288440785,
+  "stop": 1776288440785,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages/given_invalid_directory_path_when_isDirPath_then_error_message_indicates_directory_does_not_exist"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
