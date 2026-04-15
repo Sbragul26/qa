@@ -1,0 +1,46 @@
+{
+  "uuid": "3b779d73-0386-4488-9400-d2e043126e05",
+  "name": "TestModelInit/model_init_fail_if_model/version_folder_esists",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/model_init_fail_if_model/version_folder_esists",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776281179239,
+  "stop": 1776281179255,
+  "statusDetails": {
+    "message": "Error: folder test-case-aws-ec2-controller/v1.0.0 exists, please specify different model name or version | Short Description: Error model init | Probable Cause: Error during run of model init command | Suggested Remediation: Ensure passing all params according to the command description\n    init_test.go:281: removed created folders"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/model_init_fail_if_model/version_folder_esists"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
