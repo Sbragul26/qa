@@ -1,0 +1,44 @@
+{
+  "uuid": "0769f62b-a0aa-4921-af36-90e349c848fb",
+  "name": "TestParseRelationshipToAlias/wrong_subtype_returns_false",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestParseRelationshipToAlias/wrong_subtype_returns_false",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776335726230,
+  "stop": 1776335726230,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestParseRelationshipToAlias/wrong_subtype_returns_false"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
