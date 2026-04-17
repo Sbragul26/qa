@@ -1,0 +1,46 @@
+{
+  "uuid": "ac9f0bbf-5ca6-4c7f-b946-5f24fbae4951",
+  "name": "TestCreateWorkspace/given_no_flags_provided_when_workspace_create_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestCreateWorkspace/given_no_flags_provided_when_workspace_create_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776467054220,
+  "stop": 1776467054221,
+  "statusDetails": {
+    "message": "Error: Invalid value for --orgId '', Invalid value for --name '' | Short Description: Invalid flag(s) provided | Probable Cause: The value for one or more flags provided is invalid. | Suggested Remediation: Provide valid flag value and try again."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateWorkspace/given_no_flags_provided_when_workspace_create_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
