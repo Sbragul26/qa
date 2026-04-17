@@ -1,0 +1,44 @@
+{
+  "uuid": "01e58840-110e-41c6-95ff-36833d9eb1c5",
+  "name": "TestK8sHealthzHandler",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestK8sHealthzHandler",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776466998684,
+  "stop": 1776466998686,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestK8sHealthzHandler"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

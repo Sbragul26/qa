@@ -1,0 +1,44 @@
+{
+  "uuid": "8e11a3fc-6447-4995-bbe0-f8224be37a25",
+  "name": "TestControllerEventActedUponFallsBackToUserID",
+  "fullName": "github.com/meshery/meshery/server/models::TestControllerEventActedUponFallsBackToUserID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776467031375,
+  "stop": 1776467031376,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestControllerEventActedUponFallsBackToUserID"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
