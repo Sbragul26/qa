@@ -1,0 +1,35 @@
+{
+  "uuid": "2cfbcc0c-ab71-4424-af7b-2c682b4b5f1e",
+  "name": "meshery config.yaml provider is Layer5",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776647376123,
+  "stop": 1776647376124,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    },
+    {
+      "name": "type",
+      "value": "end2end"
+    }
+  ]
+}

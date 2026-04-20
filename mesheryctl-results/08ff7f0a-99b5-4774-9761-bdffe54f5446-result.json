@@ -1,0 +1,35 @@
+{
+  "uuid": "08ff7f0a-99b5-4774-9761-bdffe54f5446",
+  "name": "mesheryctl system help display help",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776647376125,
+  "stop": 1776647376126,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    },
+    {
+      "name": "type",
+      "value": "end2end"
+    }
+  ]
+}
