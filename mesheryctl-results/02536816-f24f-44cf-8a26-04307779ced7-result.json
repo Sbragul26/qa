@@ -1,0 +1,35 @@
+{
+  "uuid": "02536816-f24f-44cf-8a26-04307779ced7",
+  "name": "given a valid context-name as an argument when running mesheryctl system context view --context then it displays the detailed context",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776647280572,
+  "stop": 1776647280573,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "unit",
+      "value": "ci"
+    },
+    {
+      "name": "type",
+      "value": "end2end"
+    }
+  ]
+}

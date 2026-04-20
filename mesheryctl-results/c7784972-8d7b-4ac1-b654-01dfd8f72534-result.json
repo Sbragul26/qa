@@ -1,0 +1,35 @@
+{
+  "uuid": "c7784972-8d7b-4ac1-b654-01dfd8f72534",
+  "name": "mesheryctl system token create fails without token name",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776647280573,
+  "stop": 1776647280574,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "unit",
+      "value": "ci"
+    },
+    {
+      "name": "type",
+      "value": "end2end"
+    }
+  ]
+}

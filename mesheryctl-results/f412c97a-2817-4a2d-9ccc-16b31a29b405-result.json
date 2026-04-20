@@ -1,0 +1,35 @@
+{
+  "uuid": "f412c97a-2817-4a2d-9ccc-16b31a29b405",
+  "name": "given no arguments when running mesheryctl registry generate then usage instructions are displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776647280582,
+  "stop": 1776647280583,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "unit",
+      "value": "ci"
+    },
+    {
+      "name": "type",
+      "value": "end2end"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "uuid": "f74ce2f5-3148-4de7-8e5c-c3cec4c71fd8",
+  "name": "given no component-name provided when mesheryctl component view then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776647280581,
+  "stop": 1776647280582,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "unit",
+      "value": "ci"
+    },
+    {
+      "name": "type",
+      "value": "end2end"
+    }
+  ]
+}
