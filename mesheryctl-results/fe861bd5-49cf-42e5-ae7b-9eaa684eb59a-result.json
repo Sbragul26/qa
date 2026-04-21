@@ -1,0 +1,46 @@
+{
+  "uuid": "fe861bd5-49cf-42e5-ae7b-9eaa684eb59a",
+  "name": "TestDeleteModel/given_a_non-existent_model_name_when_running_model_delete_then_ErrModelNotFound_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestDeleteModel/given_a_non-existent_model_name_when_running_model_delete_then_ErrModelNotFound_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776740341813,
+  "stop": 1776740341814,
+  "statusDetails": {
+    "message": "Error: Failed to delete model with name or ID 'nonexistent-model' | Short Description: Failed to delete model | Probable Cause: The specified model name or ID may not exist | Suggested Remediation: Verify the model name or ID using 'mesheryctl model list' and try again"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteModel/given_a_non-existent_model_name_when_running_model_delete_then_ErrModelNotFound_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
