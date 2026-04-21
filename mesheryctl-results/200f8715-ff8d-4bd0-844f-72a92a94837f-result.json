@@ -1,0 +1,46 @@
+{
+  "uuid": "200f8715-ff8d-4bd0-844f-72a92a94837f",
+  "name": "TestCreateEnvironment",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestCreateEnvironment",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776807229389,
+  "stop": 1776807229402,
+  "statusDetails": {
+    "message": "testing.go:558: Test 'Create environment without arguments' executed\n    testing.go:558: Test 'Create environment successfully' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateEnvironment"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

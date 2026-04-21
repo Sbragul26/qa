@@ -1,0 +1,44 @@
+{
+  "uuid": "65457800-752a-427d-97f1-ee15a819da72",
+  "name": "TestContextViewCmd/Error_for_viewing_a_non-existing_context",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextViewCmd/Error_for_viewing_a_non-existing_context",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776807248853,
+  "stop": 1776807248854,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextViewCmd/Error_for_viewing_a_non-existing_context"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

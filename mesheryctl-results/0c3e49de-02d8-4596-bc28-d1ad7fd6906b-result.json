@@ -1,0 +1,46 @@
+{
+  "uuid": "0c3e49de-02d8-4596-bc28-d1ad7fd6906b",
+  "name": "TestImportModelReturnsErrorForURLImportFailure",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestImportModelReturnsErrorForURLImportFailure",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776807237609,
+  "stop": 1776807237614,
+  "statusDetails": {
+    "message": "Error: internal server error | Short Description: Internal Server Error | Probable Cause: An unexpected error occurred on the server side | Suggested Remediation: Check the server logs using 'mesheryctl system logs' for more details and try again later"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestImportModelReturnsErrorForURLImportFailure"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
