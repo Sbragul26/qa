@@ -1,0 +1,46 @@
+{
+  "uuid": "3828df3e-f659-4ebe-bf7f-53072f55341c",
+  "name": "TestGetComponentMetadataWithNilModel/ValidRecordWithModel",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetComponentMetadataWithNilModel/ValidRecordWithModel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776830663346,
+  "stop": 1776830663353,
+  "statusDetails": {
+    "message": "2026/04/22 04:04:23 \u001b[31;1m/home/runner/work/meshery/meshery/server/models/meshsync_events.go:321 \u001b[35;1mrecord not found\n\u001b[0m\u001b[33m[0.202ms] \u001b[34;1m[rows:0]\u001b[0m SELECT * FROM `component_definition_dbs` WHERE component->>'version' = \"v1\" AND component->>'kind' = \"Pod\" ORDER BY `component_definition_dbs`.`id` LIMIT 1"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetComponentMetadataWithNilModel/ValidRecordWithModel"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
