@@ -1,0 +1,269 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation:
+      - generic [ref=e4]:
+        - generic [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+          - img [ref=e8]
+        - list [ref=e9]:
+          - button "Dashboard" [ref=e11] [cursor=pointer]:
+            - link "Dashboard" [ref=e12]:
+              - /url: /
+              - generic [ref=e13]:
+                - img [ref=e15]
+                - generic [ref=e20]: Dashboard
+          - button "Lifecycle" [ref=e22] [cursor=pointer]:
+            - link "Lifecycle" [ref=e23]:
+              - /url: /management/connections
+              - generic [ref=e24]:
+                - img [ref=e26]
+                - generic [ref=e29]: Lifecycle
+          - button "Configuration" [ref=e31] [cursor=pointer]:
+            - link "Configuration" [ref=e32]:
+              - /url: /configuration/designs
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e40]: Configuration
+          - button "meshery-button-2 Performance" [ref=e42] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e43]:
+              - /url: /performance
+              - generic [ref=e44]:
+                - img "meshery-button-2" [ref=e46]
+                - generic [ref=e72]: Performance
+          - button "Extensions" [ref=e74] [cursor=pointer]:
+            - link "Extensions" [ref=e75]:
+              - /url: /extensions
+              - generic [ref=e76]:
+                - img [ref=e78]
+                - generic [ref=e105]: Extensions
+          - separator [ref=e106]
+          - list [ref=e107]:
+            - button "Kanvas" [ref=e108] [cursor=pointer]:
+              - link "Kanvas" [ref=e109]:
+                - /url: /extension/meshmap
+                - generic [ref=e111]:
+                  - img [ref=e113]
+                  - generic:
+                    - generic: Kanvas
+          - separator [ref=e114]
+        - generic [ref=e115]:
+          - img [ref=e118] [cursor=pointer]
+          - group [ref=e120]:
+            - listitem [ref=e121]:
+              - button [ref=e122] [cursor=pointer]:
+                - img [ref=e123]
+          - listitem [ref=e126]:
+            - generic [ref=e127]: v1.0.10-1
+    - generic [ref=e128]:
+      - banner [ref=e129]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - img [ref=e135]
+            - generic [ref=e152]:
+              - button [ref=e154] [cursor=pointer]:
+                - img [ref=e155]
+              - text: /
+              - button [ref=e164] [cursor=pointer]:
+                - img [ref=e165]
+              - group [ref=e169]:
+                - generic [ref=e174]:
+                  - combobox [ref=e175] [cursor=pointer]:
+                    - generic [ref=e176]: My other workspace
+                  - textbox: dcba6398-f859-49f7-99af-1041234fc6cd
+                  - img
+                  - group
+              - text: /
+              - generic [ref=e178]:
+                - generic [ref=e181]:
+                  - textbox [ref=e182]: Untitled Design
+                  - group
+                - button [ref=e184] [cursor=pointer]:
+                  - img [ref=e185]
+                - generic [ref=e199]:
+                  - button [ref=e201] [cursor=pointer]:
+                    - img [ref=e202]
+                  - paragraph [ref=e204]: Unable to save. Retrying...
+          - generic [ref=e205]:
+            - generic [ref=e207]:
+              - img "Workflow Bot" [ref=e209] [cursor=pointer]
+              - img "Workflow Bot" [ref=e211] [cursor=pointer]
+              - img "Lee Calcote" [ref=e213] [cursor=pointer]
+            - generic [ref=e214]:
+              - button "contexts" [ref=e217] [cursor=pointer]:
+                - generic [ref=e218]:
+                  - img [ref=e219]
+                  - generic [ref=e220]: "2"
+              - button "92" [ref=e223] [cursor=pointer]:
+                - generic [ref=e224]:
+                  - img [ref=e225]
+                  - generic [ref=e228]: "92"
+              - button [ref=e232] [cursor=pointer]:
+                - img [ref=e234]
+              - button [ref=e236] [cursor=pointer]:
+                - img [ref=e237]
+      - main [ref=e240]:
+        - generic [ref=e241]:
+          - generic [ref=e243]:
+            - group [ref=e245]:
+              - generic [ref=e246]:
+                - button [disabled]:
+                  - generic:
+                    - img
+              - button [ref=e248] [cursor=pointer]:
+                - img [ref=e250]
+            - generic [ref=e271]:
+              - generic [ref=e272]:
+                - img [ref=e275]
+                - group [ref=e279]:
+                  - button "Layers" [ref=e281] [cursor=pointer]:
+                    - img [ref=e283]
+                    - paragraph [ref=e288]: Layers
+                  - generic [ref=e289]:
+                    - button "Comments" [disabled]:
+                      - generic:
+                        - img
+                      - paragraph: Comments
+                  - group [ref=e291]:
+                    - button "Actions" [disabled]:
+                      - paragraph: Actions
+                    - button [disabled]:
+                      - img
+                  - group [ref=e293]:
+                    - button "Share" [disabled]
+                    - button [disabled]:
+                      - img
+                - generic:
+                  - button "CANVAS_CONTROLS" [ref=e294] [cursor=pointer]:
+                    - img [ref=e295]
+                  - menu:
+                    - menuitem "Grid":
+                      - img
+                    - menuitem "Constrained":
+                      - img
+                    - menuitem "hierarchical":
+                      - img
+                    - menuitem "star":
+                      - img
+                    - menuitem "bus":
+                      - img
+                    - menuitem "ring":
+                      - img
+                - generic:
+                  - button "CANVAS_CONTROLS" [ref=e312] [cursor=pointer]:
+                    - img [ref=e313]
+                  - menu:
+                    - menuitem "Zoom in":
+                      - img
+                    - menuitem "Fit":
+                      - paragraph: Fit
+                    - menuitem "Zoom out":
+                      - img
+                    - menuitem "FullScreen":
+                      - img
+                - img [ref=e321]
+              - generic:
+                - heading [level=6]
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                    - generic:
+                      - generic:
+                        - img
+                  - separator
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button:
+                          - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button:
+                          - img
+                  - separator
+                  - generic:
+                    - generic:
+                      - generic:
+                        - button:
+                          - img
+                  - generic:
+                    - button:
+                      - img
+                  - generic:
+                    - generic:
+                      - img
+                  - generic:
+                    - button:
+                      - img
+                  - generic:
+                    - button:
+                      - img
+                  - separator
+                  - generic:
+                    - generic:
+                      - button:
+                        - generic:
+                          - img
+                  - generic:
+                    - generic:
+                      - button:
+                        - generic:
+                          - img
+                  - separator
+                  - generic:
+                    - button:
+                      - img
+                  - separator
+                  - generic:
+                    - generic:
+                      - button:
+                        - generic:
+                          - img
+            - generic:
+              - button "Feedback" [ref=e327] [cursor=pointer]
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - img [ref=e332]
+                  - paragraph [ref=e335]: Feedback
+                  - generic [ref=e336]:
+                    - img [ref=e339]
+                    - img [ref=e343] [cursor=pointer]
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - button "Issue" [ref=e349] [cursor=pointer]:
+                      - img [ref=e351]
+                      - paragraph [ref=e353]: Issue
+                    - button "Suggestion" [ref=e354] [cursor=pointer]:
+                      - img [ref=e356]
+                      - paragraph [ref=e362]: Suggestion
+                    - button "Meet Request" [ref=e363] [cursor=pointer]:
+                      - img [ref=e365]
+                      - paragraph [ref=e370]: Meet Request
+                  - textbox "I’m having an issue with..." [ref=e372]
+                - generic [ref=e374]:
+                  - generic [ref=e375]:
+                    - generic [ref=e376] [cursor=pointer]:
+                      - checkbox [ref=e377]
+                      - img [ref=e378]
+                    - paragraph [ref=e380]: We may email you for more information or updates
+                  - button "Send" [disabled]
+            - status [ref=e381]
+          - button [ref=e382] [cursor=pointer]:
+            - img [ref=e384]
+      - generic [ref=e390]:
+        - img [ref=e391]
+        - paragraph [ref=e394]: "Status Code: 400 .failed to send design Untitled Design to remote provider Layer5: Bad request. The design might be corrupt | Short Description: Unable to post data to the Provider. | Short Description: Error failed to save design. | Probable Cause: Cannot save the design due to an invalid path or URL | Suggested Remediation: Verify that you have an active user session. Try logging and in again..Confirm that you have sufficient permissions to save the design..Try reducing the size of the design file by removing the number of images, using alternative image formats or removing other non-critical components from the design. See https://docs.layer5.io/kanvas/advanced/performance/."
+        - group [ref=e396]:
+          - button "Open" [ref=e397] [cursor=pointer]:
+            - img [ref=e398]
+          - button "Close" [ref=e402] [cursor=pointer]:
+            - img [ref=e403]
+  - alert [ref=e406]
+  - generic: Name *
+```
