@@ -1,0 +1,23 @@
+{
+  "uuid": "bcfc7451-fa8f-4413-a22f-7232853f7e2f",
+  "name": "given no context-name as an argument when running mesheryctl system context create then the error message displays",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1776832764518,
+  "stop": 1776832764519,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

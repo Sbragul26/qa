@@ -1,0 +1,25 @@
+{
+  "uuid": "87cf43a4-bf07-40d9-ac1d-09d35dd99de5",
+  "name": "given an invalid file path when mesheryctl design deploy --file invalid-file-path --source source-type then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776832764527,
+  "stop": 1776832764528,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 003-design/05-design-deploy.bats, line 17)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (2 lines):\n  Error: Response Status Code 400. Server emitted an error: Status Code: 400 .failed to send design nginx.yaml to remote provider Layer5: Bad request. The design might be corrupt | Short Description: Unable to post data to the Provider. | Short Description: Error failed to save design. | Probable Cause: Cannot save the design due to an invalid path or URL | Suggested Remediation: Verify that you have an active user session. Try logging and in again..Confirm that you have sufficient permissions to save the design..Try reducing the size of the design file by removing the number of images, using alternative image formats or removing other non-critical components from the design. See https://docs.layer5.io/kanvas/advanced/performance/.\n   | Short Description: Failed response server error | Probable Cause: Invalid API call | Suggested Remediation: Check your network connection and the status of Meshery Server via `mesheryctl system status`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
