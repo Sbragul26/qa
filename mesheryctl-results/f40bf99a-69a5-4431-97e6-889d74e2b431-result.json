@@ -1,0 +1,46 @@
+{
+  "uuid": "f40bf99a-69a5-4431-97e6-889d74e2b431",
+  "name": "TestProfileCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776889922912,
+  "stop": 1776889922985,
+  "statusDetails": {
+    "message": "testing.go:738: List perf test\n    testing.go:738: List perf test\n    testing.go:738: List perf test\n    testing.go:738: List perf test\n    testing.go:738: List perf test\n    testing.go:644: Test 'No profiles found' executed\n    testing.go:644: Test 'invalid output format' executed\n    testing.go:644: Test 'Unmarshal error' executed\n    testing.go:644: Test 'Server Error 400' executed\n    testing.go:644: Test 'failing add authentication test' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
