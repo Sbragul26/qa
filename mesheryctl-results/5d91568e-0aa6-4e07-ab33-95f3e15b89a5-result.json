@@ -1,0 +1,44 @@
+{
+  "uuid": "5d91568e-0aa6-4e07-ab33-95f3e15b89a5",
+  "name": "TestPrepender/Leaf_command_(single_subcommand)",
+  "fullName": "github.com/meshery/meshery/mesheryctl/doc::TestPrepender/Leaf_command_(single_subcommand)",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776962852376,
+  "stop": 1776962852376,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/doc"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/doc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPrepender/Leaf_command_(single_subcommand)"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
