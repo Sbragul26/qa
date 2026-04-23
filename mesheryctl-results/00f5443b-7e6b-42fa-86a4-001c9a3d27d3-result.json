@@ -1,0 +1,44 @@
+{
+  "uuid": "00f5443b-7e6b-42fa-86a4-001c9a3d27d3",
+  "name": "TestTokenDeleteCmd/delete_the_passed_token",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestTokenDeleteCmd/delete_the_passed_token",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776958025422,
+  "stop": 1776958025424,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTokenDeleteCmd/delete_the_passed_token"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
