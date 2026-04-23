@@ -1,0 +1,44 @@
+{
+  "uuid": "43de4746-c43c-4f50-9112-79208d629f54",
+  "name": "TestAssignInitialCtx_AttachesLoggerBeforeClientSetAssignment",
+  "fullName": "github.com/meshery/meshery/server/machines/kubernetes::TestAssignInitialCtx_AttachesLoggerBeforeClientSetAssignment",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776958967228,
+  "stop": 1776958967230,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/machines"
+    },
+    {
+      "name": "suite",
+      "value": "server/machines/kubernetes"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAssignInitialCtx_AttachesLoggerBeforeClientSetAssignment"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
