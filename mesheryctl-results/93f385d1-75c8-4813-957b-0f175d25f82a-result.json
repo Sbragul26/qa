@@ -1,0 +1,44 @@
+{
+  "uuid": "93f385d1-75c8-4813-957b-0f175d25f82a",
+  "name": "TestDesignListCmd/given_no_arguments_provided_when_design_list_then_design_list_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestDesignListCmd/given_no_arguments_provided_when_design_list_then_design_list_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776980331306,
+  "stop": 1776980331327,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignListCmd/given_no_arguments_provided_when_design_list_then_design_list_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
