@@ -1,0 +1,44 @@
+{
+  "uuid": "ca6971e1-f916-4d5c-bc18-4363d858517e",
+  "name": "TestRegoSyntax/hierarchical_parent_and_edge_network.rego",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRegoSyntax/hierarchical_parent_and_edge_network.rego",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776985817528,
+  "stop": 1776985817530,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRegoSyntax/hierarchical_parent_and_edge_network.rego"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
