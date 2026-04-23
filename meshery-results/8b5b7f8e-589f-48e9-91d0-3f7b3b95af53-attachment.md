@@ -1,0 +1,307 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - button "Configuration" [ref=e33] [cursor=pointer]:
+            - link "Configuration" [ref=e34]:
+              - /url: /configuration/designs
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e42]: Configuration
+          - button "meshery-button-2 Performance" [ref=e44] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e45]:
+              - /url: /performance
+              - generic [ref=e46]:
+                - img "meshery-button-2" [ref=e48]
+                - generic [ref=e74]: Performance
+          - button "Extensions" [ref=e76] [cursor=pointer]:
+            - link "Extensions" [active] [ref=e77]:
+              - /url: /extensions
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e107]: Extensions
+          - separator [ref=e108]
+          - list [ref=e109]:
+            - button "Kanvas" [ref=e110] [cursor=pointer]:
+              - link "Kanvas" [ref=e111]:
+                - /url: /extension/meshmap
+                - generic [ref=e113]:
+                  - img [ref=e115]
+                  - generic [ref=e117]: Kanvas
+          - separator [ref=e118]
+        - generic [ref=e119]:
+          - img [ref=e122] [cursor=pointer]
+          - group [ref=e124]:
+            - listitem [ref=e125]:
+              - link [ref=e126] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e128]
+            - listitem [ref=e130]:
+              - link [ref=e131] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e133]
+            - listitem [ref=e142]:
+              - link [ref=e143] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e145]
+            - listitem [ref=e147]:
+              - link [ref=e148] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e150]
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - text: v1.0.11
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v1.0.11
+                - img [ref=e156]
+              - text: Running latest
+    - generic [ref=e158]:
+      - banner [ref=e159]:
+        - generic [ref=e161]:
+          - generic [ref=e163]:
+            - button [ref=e165] [cursor=pointer]:
+              - img [ref=e166]
+            - text: /
+            - button [ref=e175] [cursor=pointer]:
+              - img [ref=e176]
+            - group [ref=e180]:
+              - generic [ref=e185]:
+                - combobox [ref=e186] [cursor=pointer]:
+                  - generic [ref=e187]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading "Dashboard" [level=5] [ref=e188]
+          - generic [ref=e190]:
+            - button "contexts" [ref=e193] [cursor=pointer]:
+              - generic [ref=e194]:
+                - img [ref=e195]
+                - generic [ref=e196]: "6062"
+            - button "99+" [ref=e199] [cursor=pointer]:
+              - generic [ref=e200]:
+                - img [ref=e201]
+                - generic [ref=e204]: 99+
+            - button [ref=e208] [cursor=pointer]:
+              - img [ref=e210]
+            - button [ref=e213] [cursor=pointer]:
+              - img [ref=e214]
+      - generic [ref=e216]:
+        - main [ref=e217]:
+          - tablist [ref=e221]:
+            - tab "Overview" [selected] [ref=e222] [cursor=pointer]:
+              - img [ref=e223]
+              - text: Overview
+            - tab "Node" [ref=e248] [cursor=pointer]:
+              - img [ref=e249]
+              - text: Node
+            - tab "Namespace" [ref=e255] [cursor=pointer]:
+              - img [ref=e256]
+              - text: Namespace
+            - tab "Workload" [ref=e262] [cursor=pointer]:
+              - img [ref=e263]
+              - text: Workload
+            - tab "Configuration" [ref=e269] [cursor=pointer]:
+              - img [ref=e270]
+              - text: Configuration
+            - tab "Network" [ref=e276] [cursor=pointer]:
+              - img [ref=e277]
+              - text: Network
+            - tab "Security" [ref=e283] [cursor=pointer]:
+              - img [ref=e284]
+              - text: Security
+            - tab "Storage" [ref=e290] [cursor=pointer]:
+              - img [ref=e291]
+              - text: Storage
+            - tab "CRDS" [ref=e297] [cursor=pointer]:
+              - img [ref=e298]
+              - text: CRDS
+          - tabpanel [ref=e305]:
+            - generic [ref=e308]:
+              - generic [ref=e310]:
+                - generic [ref=e312]:
+                  - generic [ref=e313]:
+                    - heading "Cluster Resource Overview" [level=6] [ref=e314]
+                    - generic [ref=e315]:
+                      - generic [ref=e316]:
+                        - combobox [ref=e317] [cursor=pointer]: All Resources
+                        - textbox: all
+                        - img
+                      - button [ref=e318] [cursor=pointer]:
+                        - img [ref=e319]
+                  - generic [ref=e321]:
+                    - heading "No workloads found in your cluster(s)." [level=5] [ref=e322]
+                    - link "Connect Clusters" [ref=e323] [cursor=pointer]:
+                      - /url: /management/connections
+                      - button "Connect Clusters" [ref=e324]:
+                        - img [ref=e325]
+                        - text: Connect Clusters
+                - generic [ref=e329]:
+                  - generic [ref=e330]:
+                    - img [ref=e331]
+                    - generic [ref=e334]: GETTING STARTED
+                  - generic [ref=e335]:
+                    - paragraph [ref=e336]: New here? Follow along these guided tasks to help you get the most of your account.
+                    - paragraph [ref=e337]:
+                      - generic [ref=e340]: 0%
+                    - button "Start" [ref=e342] [cursor=pointer]
+                - generic [ref=e346]:
+                  - generic [ref=e347]:
+                    - img [ref=e348]
+                    - heading "HELP CENTER" [level=6] [ref=e352]
+                  - list [ref=e354]:
+                    - listitem [ref=e355]:
+                      - img [ref=e357]
+                      - link "Cloud Docs" [ref=e366] [cursor=pointer]:
+                        - /url: https://docs.layer5.io/cloud
+                      - superscript [ref=e367]:
+                        - img [ref=e368]
+                    - listitem [ref=e370]:
+                      - img [ref=e372]
+                      - link "Kanvas Docs" [ref=e381] [cursor=pointer]:
+                        - /url: https://docs.layer5.io/kanvas
+                      - superscript [ref=e382]:
+                        - img [ref=e383]
+                    - listitem [ref=e385]:
+                      - img [ref=e387]
+                      - link "Support Request" [ref=e396] [cursor=pointer]:
+                        - /url: https://cloud.layer5.io/support
+                      - superscript [ref=e397]:
+                        - img [ref=e398]
+                    - listitem [ref=e400]:
+                      - img [ref=e402]
+                      - link "Discussion Forum" [ref=e411] [cursor=pointer]:
+                        - /url: https://meshery.io/community/#discussion-forums
+                      - superscript [ref=e412]:
+                        - img [ref=e413]
+                    - listitem [ref=e415]:
+                      - img [ref=e417]
+                      - link "Slack" [ref=e426] [cursor=pointer]:
+                        - /url: https://slack.meshery.io
+                      - superscript [ref=e427]:
+                        - img [ref=e428]
+                - generic [ref=e432]:
+                  - generic [ref=e433]:
+                    - generic [ref=e434]:
+                      - img [ref=e435]
+                      - heading "MY RECENT DESIGNS" [level=6] [ref=e444]
+                    - button "Sort by" [ref=e445] [cursor=pointer]:
+                      - img [ref=e446]
+                  - list [ref=e449]:
+                    - listitem [ref=e450]:
+                      - img [ref=e452]
+                      - link "GuestBook App" [ref=e461] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=9587e520-b2fb-4cbb-8f52-a9db0bffec86
+                      - generic "Thu, Oct 9, 2025 5:55 AM" [ref=e463]:
+                        - paragraph [ref=e464]: 6 months ago
+                    - listitem [ref=e465]:
+                      - img [ref=e467]
+                      - link "GuestBook App" [ref=e476] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=a3ca2193-17b0-47e0-b8a9-3888a3cb6fa6
+                      - generic "Tue, Oct 7, 2025 7:47 PM" [ref=e478]:
+                        - paragraph [ref=e479]: 7 months ago
+                    - listitem [ref=e480]:
+                      - img [ref=e482]
+                      - link "GuestBook App" [ref=e491] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=5cccc293-fc28-4a55-a07e-c040a68e9f6b
+                      - generic "Sat, Oct 4, 2025 4:33 PM" [ref=e493]:
+                        - paragraph [ref=e494]: 7 months ago
+                    - listitem [ref=e495]:
+                      - img [ref=e497]
+                      - link "GuestBook App" [ref=e506] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=b4edfa8a-c81c-48e1-93da-84ba47de49d0
+                      - generic "Sat, Oct 4, 2025 10:07 AM" [ref=e508]:
+                        - paragraph [ref=e509]: 7 months ago
+                  - generic [ref=e510]:
+                    - link "See All Designs" [ref=e511] [cursor=pointer]:
+                      - /url: https://cloud.layer5.io/catalog/content/my-designs
+                    - button [ref=e512] [cursor=pointer]:
+                      - img [ref=e513]
+                - generic [ref=e516]:
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - img [ref=e519]
+                      - heading "WORKSPACE ACTIVITY" [level=6] [ref=e523]
+                    - generic [ref=e524]:
+                      - combobox [ref=e525] [cursor=pointer]: eks-sandbox
+                      - textbox: d26aa57e-e9ec-4424-878c-a794bd3a3b7d
+                      - img
+                  - list [ref=e526]:
+                    - generic [ref=e531]:
+                      - strong [ref=e532]: "Mar 28:"
+                      - text: lekaf974 created workspace eks-sandbox
+                  - link "All Workspaces" [ref=e534] [cursor=pointer]:
+                    - /url: /management/workspaces
+                - link "KUBERNETES CLUSTER STATUS" [ref=e536] [cursor=pointer]:
+                  - /url: /management/connections
+                  - generic [ref=e537]:
+                    - generic [ref=e538]:
+                      - generic [ref=e539]:
+                        - img [ref=e540]
+                        - heading "KUBERNETES CLUSTER STATUS" [level=6] [ref=e543]
+                      - img [ref=e546]
+                    - img [ref=e550]:
+                      - generic [ref=e553]:
+                        - generic [ref=e554]: Clusters Status
+                        - generic [ref=e558]:
+                          - generic: "99"
+                      - generic [ref=e561]:
+                        - generic [ref=e562]:
+                          - generic: connected
+                        - generic [ref=e564]:
+                          - generic: deleted
+              - button "Edit" [ref=e566] [cursor=pointer]:
+                - generic [ref=e567]: Edit
+                - img [ref=e569]
+          - generic [ref=e571]:
+            - generic [ref=e572]:
+              - heading "Collaborative management enabled" [level=6] [ref=e573]
+              - button "Close" [ref=e575] [cursor=pointer]:
+                - img [ref=e576]
+            - img "pop-up" [ref=e579]
+            - heading "Friends don't let friends GitOps alone. Visually design and collaborate in real-time with other Meshery users." [level=6] [ref=e580]
+            - button "Open Kanvas" [ref=e583] [cursor=pointer]
+        - contentinfo [ref=e584]:
+          - paragraph [ref=e585]:
+            - generic [ref=e586] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e587]
+              - text: by the Meshery Community
+      - generic:
+        - generic [ref=e594]:
+          - img [ref=e595]
+          - paragraph [ref=e598]: Connection updated.
+          - group [ref=e600]:
+            - button "Open" [ref=e601] [cursor=pointer]:
+              - img [ref=e602]
+            - button "Close" [ref=e606] [cursor=pointer]:
+              - img [ref=e607]
+        - generic [ref=e614]:
+          - img [ref=e615]
+          - paragraph [ref=e618]: MeshSync connected in embedded mode
+          - group [ref=e620]:
+            - button "Open" [ref=e621] [cursor=pointer]:
+              - img [ref=e622]
+            - button "Close" [ref=e626] [cursor=pointer]:
+              - img [ref=e627]
+  - alert [ref=e630]
+```
