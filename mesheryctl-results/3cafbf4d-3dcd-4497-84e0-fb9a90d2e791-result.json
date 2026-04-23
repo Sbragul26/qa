@@ -1,0 +1,44 @@
+{
+  "uuid": "3cafbf4d-3dcd-4497-84e0-fb9a90d2e791",
+  "name": "TestApplyCmd/given_valid_file_when_design_apply_with_--skip-save_then_design_is_applied_without_saving",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd/given_valid_file_when_design_apply_with_--skip-save_then_design_is_applied_without_saving",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776987390266,
+  "stop": 1776987390268,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/given_valid_file_when_design_apply_with_--skip-save_then_design_is_applied_without_saving"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
