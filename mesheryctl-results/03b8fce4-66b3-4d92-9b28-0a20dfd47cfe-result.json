@@ -1,0 +1,25 @@
+{
+  "uuid": "03b8fce4-66b3-4d92-9b28-0a20dfd47cfe",
+  "name": "given all requirements met when running mesheryctl connection list --kind kind-name then the connections of specified kind is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1776980181247,
+  "stop": 1776980181248,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 007-connection/02-connection-list.bats, line 12)\n  `assert_output --partial \"Total number of connection\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Total number of connection\noutput (13 lines):\n  No connections found\n  Page: 1\n  ID                                    NAME                  TYPE      KIND        STATUS\n  bf1082db-bccd-8c92-20db-2c2382480cd6  minikube              platform  kubernetes  connected\n  2b3d0f84-a810-d0b0-0ee4-0e0d5cafeff3  playground-context    platform  kubernetes  connected\n  658d9d17-5145-bd13-9607-f1158743163f  minikube              platform  kubernetes  connected\n  b10613ab-209c-5907-91aa-18d99f2cdcc4  minikube              platform  kubernetes  connected\n  b83b5707-873a-a549-1ab0-d1c24715b32e  minikube              platform  kubernetes  connected\n  cd7138bf-0ad5-64a7-bf8e-0439e2c0b0e0  minikube              platform  kubernetes  connected\n  5c642c23-fa51-4d0b-8ede-618edb1db8e5  meshery-juggernaut-1  platform  meshery     connected\n  2e231b9b-074a-4ae0-a149-27f2e6bbb481  meshery-bullseye-4    platform  meshery     connected\n  eff9419c-e5b1-7530-94ea-7e5b33112ba2  minikube              platform  kubernetes  connected\n  50713ee0-3768-9a95-eeec-f647d426ca4f  minikube              platform  kubernetes  connected\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
