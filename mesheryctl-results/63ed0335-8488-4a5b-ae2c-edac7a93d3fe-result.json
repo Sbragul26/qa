@@ -1,0 +1,44 @@
+{
+  "uuid": "63ed0335-8488-4a5b-ae2c-edac7a93d3fe",
+  "name": "TestGenerateCmdFlags/output_flag_exists_with_correct_default",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestGenerateCmdFlags/output_flag_exists_with_correct_default",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776985823775,
+  "stop": 1776985823775,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateCmdFlags/output_flag_exists_with_correct_default"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
