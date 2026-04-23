@@ -1,0 +1,44 @@
+{
+  "uuid": "dd6020b1-1d71-4162-a52e-6ac170f59541",
+  "name": "TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor/canonical_only",
+  "fullName": "github.com/meshery/meshery/server/models::TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor/canonical_only",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776987376087,
+  "stop": 1776987376087,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor/canonical_only"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

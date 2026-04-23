@@ -1,0 +1,44 @@
+{
+  "uuid": "4fe90ad9-0d98-43d6-b9ba-8937210ed57d",
+  "name": "TestSendWithNilChannel",
+  "fullName": "github.com/meshery/meshery/server/models::TestSendWithNilChannel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776987376120,
+  "stop": 1776987376120,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSendWithNilChannel"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

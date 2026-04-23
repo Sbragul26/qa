@@ -1,0 +1,44 @@
+{
+  "uuid": "b9d1e880-652b-4f48-a4b9-e53dfd96f6d6",
+  "name": "TestPrefixMatch/#00",
+  "fullName": "github.com/meshery/meshery/server/internal/store::TestPrefixMatch/#00",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776987366837,
+  "stop": 1776987366837,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/internal"
+    },
+    {
+      "name": "suite",
+      "value": "server/internal/store"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPrefixMatch/#00"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
