@@ -1,0 +1,44 @@
+{
+  "uuid": "32f24241-7851-44bd-a857-550204b8e3a5",
+  "name": "TestRemoteProviderDoRequest_RejectsNonOKRefreshResponses",
+  "fullName": "github.com/meshery/meshery/server/models::TestRemoteProviderDoRequest_RejectsNonOKRefreshResponses",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776964249043,
+  "stop": 1776964249045,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoteProviderDoRequest_RejectsNonOKRefreshResponses"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

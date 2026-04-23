@@ -1,0 +1,44 @@
+{
+  "uuid": "fb2e750d-6ef6-47cb-bdf0-ff0a40ffc489",
+  "name": "TestObjectGetNested/array_out_of_bounds",
+  "fullName": "github.com/meshery/meshery/server/policies::TestObjectGetNested/array_out_of_bounds",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776964258941,
+  "stop": 1776964258941,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestObjectGetNested/array_out_of_bounds"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
