@@ -1,0 +1,44 @@
+{
+  "uuid": "e6c28871-b5cb-41b4-acbe-7238274b3fc8",
+  "name": "TestEvaluationTracker_DistinctDesignsAreIndependent",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestEvaluationTracker_DistinctDesignsAreIndependent",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776986945225,
+  "stop": 1776986945226,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEvaluationTracker_DistinctDesignsAreIndependent"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
