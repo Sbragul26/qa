@@ -1,0 +1,44 @@
+{
+  "uuid": "5a74707a-b3d3-4bd0-8690-48b1a69d666f",
+  "name": "TestPolicyImplication/sibling",
+  "fullName": "github.com/meshery/meshery/server/policies::TestPolicyImplication/sibling",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777049716209,
+  "stop": 1777049716209,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPolicyImplication/sibling"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

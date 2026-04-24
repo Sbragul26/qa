@@ -1,0 +1,44 @@
+{
+  "uuid": "d8e1ad9d-bd5d-40d0-b576-defb70343956",
+  "name": "TestHierarchicalSideEffects",
+  "fullName": "github.com/meshery/meshery/server/policies::TestHierarchicalSideEffects",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777049716212,
+  "stop": 1777049716212,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHierarchicalSideEffects"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

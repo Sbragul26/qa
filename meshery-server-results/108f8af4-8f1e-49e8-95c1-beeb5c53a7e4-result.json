@@ -1,0 +1,44 @@
+{
+  "uuid": "108f8af4-8f1e-49e8-95c1-beeb5c53a7e4",
+  "name": "TestRemoteProviderDoRequest_RejectsRefreshResponsesWithoutToken",
+  "fullName": "github.com/meshery/meshery/server/models::TestRemoteProviderDoRequest_RejectsRefreshResponsesWithoutToken",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777049704791,
+  "stop": 1777049704795,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoteProviderDoRequest_RejectsRefreshResponsesWithoutToken"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

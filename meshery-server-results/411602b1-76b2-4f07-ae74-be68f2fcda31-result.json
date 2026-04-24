@@ -1,0 +1,46 @@
+{
+  "uuid": "411602b1-76b2-4f07-ae74-be68f2fcda31",
+  "name": "TestAuthMiddleWare",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestAuthMiddleWare",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1777049672458,
+  "stop": 1777049672458,
+  "statusDetails": {
+    "message": "middlewares_test.go:9: Skipping test in short mode."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAuthMiddleWare"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
