@@ -1,0 +1,25 @@
+{
+  "uuid": "55293c89-a7e8-4ed9-8ca9-9916b4b52777",
+  "name": "given all requirements met when running mesheryctl connection list then header of total number of connections followed by a list are displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1776999161528,
+  "stop": 1776999161529,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 007-connection/02-connection-list.bats, line 26)\n  `assert_output --partial \"Total number of connection\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  Total number of connection\noutput (4 lines):\n  No connections found\n  Page: 1\n  ID                                    NAME      TYPE      KIND        STATUS\n  7864b4a2-f03b-856c-be23-455829ef63a0  minikube  platform  kubernetes  connected\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

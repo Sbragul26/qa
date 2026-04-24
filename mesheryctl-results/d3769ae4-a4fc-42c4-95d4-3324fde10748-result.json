@@ -1,0 +1,25 @@
+{
+  "uuid": "d3769ae4-a4fc-42c4-95d4-3324fde10748",
+  "name": "given missing --type flag when running mesheryctl connection create then it fails displaying error message",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776999161527,
+  "stop": 1776999161528,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 178,\n in test file 007-connection/00-connection.bats, line 14)\n  `assert_output --regexp \"$LIST_COMMAND_OUTPUT_REGEX_PATTERN\"' failed\n\n-- regular expression does not match output --\nregexp : Total number of [a-z]+s: [0-9]+$\noutput : No connections found\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
