@@ -1,0 +1,44 @@
+{
+  "uuid": "60c522cf-da8a-4f41-9453-20eefb28aa34",
+  "name": "TestSMPPerformanceTestConfigValidator/given_valid_absolute_endpoints,_when_validating_config,_then_no_error_is_returned",
+  "fullName": "github.com/meshery/meshery/server/models::TestSMPPerformanceTestConfigValidator/given_valid_absolute_endpoints,_when_validating_config,_then_no_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777009775199,
+  "stop": 1777009775199,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSMPPerformanceTestConfigValidator/given_valid_absolute_endpoints,_when_validating_config,_then_no_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

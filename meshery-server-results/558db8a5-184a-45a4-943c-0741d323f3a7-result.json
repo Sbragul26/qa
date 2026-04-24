@@ -1,0 +1,44 @@
+{
+  "uuid": "558db8a5-184a-45a4-943c-0741d323f3a7",
+  "name": "TestDesignPostPayload_UnmarshalPrecedenceCanonicalWins",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignPostPayload_UnmarshalPrecedenceCanonicalWins",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777009741928,
+  "stop": 1777009741928,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignPostPayload_UnmarshalPrecedenceCanonicalWins"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

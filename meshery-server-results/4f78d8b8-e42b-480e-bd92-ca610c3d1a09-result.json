@@ -1,0 +1,44 @@
+{
+  "uuid": "4f78d8b8-e42b-480e-bd92-ca610c3d1a09",
+  "name": "TestStaticUUIDDeterminism",
+  "fullName": "github.com/meshery/meshery/server/policies::TestStaticUUIDDeterminism",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777009785169,
+  "stop": 1777009785169,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestStaticUUIDDeterminism"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
