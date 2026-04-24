@@ -1,0 +1,44 @@
+{
+  "uuid": "c5427a68-8e27-423f-9c91-0f67e3b3caac",
+  "name": "TestSendWithValidQueue",
+  "fullName": "github.com/meshery/meshery/server/models::TestSendWithValidQueue",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777001448682,
+  "stop": 1777001448682,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSendWithValidQueue"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
