@@ -1,0 +1,44 @@
+{
+  "uuid": "c77ff50f-6c3e-4797-8298-39b38d2b0e57",
+  "name": "TestGraph_DetectCycle/Cycle_does_not_exists_when_the_graph_is_connected",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/planner::TestGraph_DetectCycle/Cycle_does_not_exists_when_the_graph_is_connected",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777062759798,
+  "stop": 1777062759798,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/planner"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGraph_DetectCycle/Cycle_does_not_exists_when_the_graph_is_connected"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
