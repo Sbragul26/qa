@@ -1,0 +1,44 @@
+{
+  "uuid": "00f57169-f1ee-47e5-8f3a-8d784e8546b4",
+  "name": "TestReadValidationErrorMessages_Direct/given_empty_validation_errors_then_returns_nil",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct/given_empty_validation_errors_then_returns_nil",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776999291640,
+  "stop": 1776999291640,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct/given_empty_validation_errors_then_returns_nil"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
