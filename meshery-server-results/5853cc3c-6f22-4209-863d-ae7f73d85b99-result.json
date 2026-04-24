@@ -1,0 +1,44 @@
+{
+  "uuid": "5853cc3c-6f22-4209-863d-ae7f73d85b99",
+  "name": "TestIsRelationshipFeasible/wildcard",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIsRelationshipFeasible/wildcard",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777009755284,
+  "stop": 1777009755284,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsRelationshipFeasible/wildcard"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

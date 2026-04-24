@@ -1,0 +1,44 @@
+{
+  "uuid": "1604d59d-9f66-492f-b6d1-80823286b499",
+  "name": "TestNewUUIDNonDeterminism",
+  "fullName": "github.com/meshery/meshery/server/policies::TestNewUUIDNonDeterminism",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777009757890,
+  "stop": 1777009757892,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestNewUUIDNonDeterminism"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

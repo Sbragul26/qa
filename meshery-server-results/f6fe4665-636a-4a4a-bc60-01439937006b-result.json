@@ -1,0 +1,46 @@
+{
+  "uuid": "f6fe4665-636a-4a4a-bc60-01439937006b",
+  "name": "TestClose",
+  "fullName": "github.com/meshery/meshery/server/router::TestClose",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1777009756456,
+  "stop": 1777009756456,
+  "statusDetails": {
+    "message": "server_test.go:9: Skipping test in short mode."
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/router"
+    },
+    {
+      "name": "suite",
+      "value": "server/router"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestClose"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
