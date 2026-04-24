@@ -1,0 +1,44 @@
+{
+  "uuid": "2284927a-c1ed-4652-9cf1-606e828fc1c5",
+  "name": "TestSMPPerformanceTestConfigValidator",
+  "fullName": "github.com/meshery/meshery/server/models::TestSMPPerformanceTestConfigValidator",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776999301320,
+  "stop": 1776999301322,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSMPPerformanceTestConfigValidator"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

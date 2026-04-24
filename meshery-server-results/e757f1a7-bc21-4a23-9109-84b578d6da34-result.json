@@ -1,0 +1,46 @@
+{
+  "uuid": "e757f1a7-bc21-4a23-9109-84b578d6da34",
+  "name": "TestSaveMesheryPattern_SendsPatternDataWrapperKey",
+  "fullName": "github.com/meshery/meshery/server/models::TestSaveMesheryPattern_SendsPatternDataWrapperKey",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1776999301303,
+  "stop": 1776999301307,
+  "statusDetails": {
+    "message": "remote_provider_patterns_test.go:80: expected request body to carry wrapper key \"patternData\" (Cloud's MesheryPatternRequestBody.PatternData JSON tag), got keys: [pattern_data save]\n        body: {\"pattern_data\":{\"id\":\"5e41fa49-39f8-47bf-b78a-b23f65c7fa7b\",\"name\":\"Untitled Design\",\"patternFile\":\"name: Untitled Design\\n\",\"user_id\":null,\"location\":null,\"visibility\":\"\",\"catalogData\":{\"published_version\":\"\",\"compatibility\":null,\"pattern_caveats\":\"\",\"pattern_info\":\"\",\"type\":\"\"},\"type\":{\"String\":\"\",\"Valid\":false},\"source_content\":null,\"view_count\":0,\"share_count\":0,\"download_count\":0,\"clone_count\":0,\"deployment_count\":0,\"workspace_id\":\"00000000-0000-0000-0000-000000000000\",\"orgId\":\"00000000-0000-0000-0000-000000000000\"},\"save\":true}\n    remote_provider_patterns_test.go:86: unexpected snake_case wrapper key \"pattern_data\" in request body — Cloud's tag is camelCase\n        body: {\"pattern_data\":{\"id\":\"5e41fa49-39f8-47bf-b78a-b23f65c7fa7b\",\"name\":\"Untitled Design\",\"patternFile\":\"name: Untitled Design\\n\",\"user_id\":null,\"location\":null,\"visibility\":\"\",\"catalogData\":{\"published_version\":\"\",\"compatibility\":null,\"pattern_caveats\":\"\",\"pattern_info\":\"\",\"type\":\"\"},\"type\":{\"String\":\"\",\"Valid\":false},\"source_content\":null,\"view_count\":0,\"share_count\":0,\"download_count\":0,\"clone_count\":0,\"deployment_count\":0,\"workspace_id\":\"00000000-0000-0000-0000-000000000000\",\"orgId\":\"00000000-0000-0000-0000-000000000000\"},\"save\":true}"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSaveMesheryPattern_SendsPatternDataWrapperKey"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
