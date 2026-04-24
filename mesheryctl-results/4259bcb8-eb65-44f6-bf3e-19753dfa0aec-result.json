@@ -1,0 +1,44 @@
+{
+  "uuid": "4259bcb8-eb65-44f6-bf3e-19753dfa0aec",
+  "name": "TestGetCurrentK8sContext/nil_client",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestGetCurrentK8sContext/nil_client",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777049754109,
+  "stop": 1777049754109,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetCurrentK8sContext/nil_client"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
