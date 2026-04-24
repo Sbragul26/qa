@@ -1,0 +1,44 @@
+{
+  "uuid": "b8050001-26a5-4747-8799-6a2b1955502f",
+  "name": "TestClosestArgs",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestClosestArgs",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776989085527,
+  "stop": 1776989085528,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestClosestArgs"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "b808befe-6621-4eb5-b941-0725d4693b6d",
+  "name": "TestRunProviderWithNoCmdOrFlag",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestRunProviderWithNoCmdOrFlag",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1776989078915,
+  "stop": 1776989078916,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRunProviderWithNoCmdOrFlag"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
