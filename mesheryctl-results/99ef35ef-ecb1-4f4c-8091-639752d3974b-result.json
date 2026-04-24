@@ -1,0 +1,44 @@
+{
+  "uuid": "99ef35ef-ecb1-4f4c-8091-639752d3974b",
+  "name": "TestAuth/MakeRequest",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestAuth/MakeRequest",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777026719408,
+  "stop": 1777026719409,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAuth/MakeRequest"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

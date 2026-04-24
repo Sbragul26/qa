@@ -1,0 +1,44 @@
+{
+  "uuid": "38f4e7fc-c0a6-49a7-be9c-e73cc5eab3c9",
+  "name": "TestGenerateCmdLatestOnlyFlagParsing/Parse_true",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestGenerateCmdLatestOnlyFlagParsing/Parse_true",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777026708363,
+  "stop": 1777026708363,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateCmdLatestOnlyFlagParsing/Parse_true"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
