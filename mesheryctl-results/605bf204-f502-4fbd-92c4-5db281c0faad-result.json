@@ -1,0 +1,23 @@
+{
+  "uuid": "605bf204-f502-4fbd-92c4-5db281c0faad",
+  "name": "given a valid format and --save flag provided when mesheryctl component view component-name -o json --save then the output is saved in file in specified format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777009641292,
+  "stop": 1777009641293,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

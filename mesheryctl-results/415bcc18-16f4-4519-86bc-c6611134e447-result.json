@@ -1,0 +1,25 @@
+{
+  "uuid": "415bcc18-16f4-4519-86bc-c6611134e447",
+  "name": "given no connection-id is provided as an argument when running mesheryctl connection view then a message error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777009641296,
+  "stop": 1777009641297,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 178,\n in test file 007-connection/02-connection-list.bats, line 40)\n  `assert_output --regexp \"$LIST_COMMAND_OUTPUT_REGEX_PATTERN\"' failed\n\n-- regular expression does not match output --\nregexp : Total number of [a-z]+s: [0-9]+$\noutput : No connections found\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
