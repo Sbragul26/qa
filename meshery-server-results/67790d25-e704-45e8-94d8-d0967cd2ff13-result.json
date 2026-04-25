@@ -1,0 +1,44 @@
+{
+  "uuid": "67790d25-e704-45e8-94d8-d0967cd2ff13",
+  "name": "TestAddMeshsyncDeploymentModeToMetadata/overwrites_existing_mode_in_metadata",
+  "fullName": "github.com/meshery/meshery/server/models/connections::TestAddMeshsyncDeploymentModeToMetadata/overwrites_existing_mode_in_metadata",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777082173672,
+  "stop": 1777082173672,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAddMeshsyncDeploymentModeToMetadata/overwrites_existing_mode_in_metadata"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
