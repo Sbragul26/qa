@@ -1,0 +1,44 @@
+{
+  "uuid": "6d977b8b-0303-4ca5-89b0-3926dc908999",
+  "name": "TestTokenDeleteCmd/delete_the_passed_token(with_a_token_name_that_doesn't_exist)",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestTokenDeleteCmd/delete_the_passed_token(with_a_token_name_that_doesn't_exist)",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777082138776,
+  "stop": 1777082138777,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTokenDeleteCmd/delete_the_passed_token(with_a_token_name_that_doesn't_exist)"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
