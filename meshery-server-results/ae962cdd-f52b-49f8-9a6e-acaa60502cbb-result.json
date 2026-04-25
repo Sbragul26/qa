@@ -1,0 +1,44 @@
+{
+  "uuid": "ae962cdd-f52b-49f8-9a6e-acaa60502cbb",
+  "name": "TestListenForCoreEvents_StopsBlockedSendOnCancellation",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestListenForCoreEvents_StopsBlockedSendOnCancellation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777085932169,
+  "stop": 1777085932269,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListenForCoreEvents_StopsBlockedSendOnCancellation"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
