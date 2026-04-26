@@ -1,0 +1,44 @@
+{
+  "uuid": "b10c4be2-7450-494b-a3b0-148fe9f6c2f0",
+  "name": "TestCleanupConcurrentRelationshipsSameField",
+  "fullName": "github.com/meshery/meshery/server/policies::TestCleanupConcurrentRelationshipsSameField",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777217326326,
+  "stop": 1777217326328,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCleanupConcurrentRelationshipsSameField"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

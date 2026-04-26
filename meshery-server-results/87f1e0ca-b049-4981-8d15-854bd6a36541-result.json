@@ -1,0 +1,44 @@
+{
+  "uuid": "87f1e0ca-b049-4981-8d15-854bd6a36541",
+  "name": "TestDesignPostPayload_UnmarshalResetsDesignFileOnReuse",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignPostPayload_UnmarshalResetsDesignFileOnReuse",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777217283818,
+  "stop": 1777217283818,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignPostPayload_UnmarshalResetsDesignFileOnReuse"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
