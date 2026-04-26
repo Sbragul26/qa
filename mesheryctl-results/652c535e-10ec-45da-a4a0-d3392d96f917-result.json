@@ -1,0 +1,44 @@
+{
+  "uuid": "652c535e-10ec-45da-a4a0-d3392d96f917",
+  "name": "TestStringInSlice/test_with_string_present",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestStringInSlice/test_with_string_present",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777217352208,
+  "stop": 1777217352208,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestStringInSlice/test_with_string_present"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

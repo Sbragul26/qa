@@ -1,0 +1,44 @@
+{
+  "uuid": "f960c7cb-35c9-447f-b65b-c61b987d4f5b",
+  "name": "TestInitConfigUseCases/given_permission_denied_when_calling_initconfig_then_returns_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root::TestInitConfigUseCases/given_permission_denied_when_calling_initconfig_then_returns_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777217317075,
+  "stop": 1777217317075,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInitConfigUseCases/given_permission_denied_when_calling_initconfig_then_returns_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

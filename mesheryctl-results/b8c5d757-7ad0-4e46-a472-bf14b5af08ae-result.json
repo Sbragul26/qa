@@ -1,0 +1,44 @@
+{
+  "uuid": "b8c5d757-7ad0-4e46-a472-bf14b5af08ae",
+  "name": "TestPrereq",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestPrereq",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777217352066,
+  "stop": 1777217352068,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPrereq"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
