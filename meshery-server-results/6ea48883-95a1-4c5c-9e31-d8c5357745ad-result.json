@@ -1,0 +1,44 @@
+{
+  "uuid": "6ea48883-95a1-4c5c-9e31-d8c5357745ad",
+  "name": "TestIsRelationshipDenied",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIsRelationshipDenied",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777327969308,
+  "stop": 1777327969308,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsRelationshipDenied"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
