@@ -1,0 +1,44 @@
+{
+  "uuid": "ae6884ec-db8c-4ace-82fd-aee4fb63e023",
+  "name": "TestRemoteProvider_OutboundOrgIdIsCanonical/GetCatalogMesheryPatterns_uses_orgId_(q.Add_plural_form)",
+  "fullName": "github.com/meshery/meshery/server/models::TestRemoteProvider_OutboundOrgIdIsCanonical/GetCatalogMesheryPatterns_uses_orgId_(q.Add_plural_form)",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777330446399,
+  "stop": 1777330446400,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoteProvider_OutboundOrgIdIsCanonical/GetCatalogMesheryPatterns_uses_orgId_(q.Add_plural_form)"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "be4c9aa5-e1cf-4c77-abcd-54d226d12c40",
+  "name": "TestMesheryPatternUPDATERequestBody_UnmarshalPatternDataAcceptsBothSpellings",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestMesheryPatternUPDATERequestBody_UnmarshalPatternDataAcceptsBothSpellings",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777330414737,
+  "stop": 1777330414739,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMesheryPatternUPDATERequestBody_UnmarshalPatternDataAcceptsBothSpellings"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

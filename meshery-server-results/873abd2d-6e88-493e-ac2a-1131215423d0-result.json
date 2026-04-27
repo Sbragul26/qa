@@ -1,0 +1,44 @@
+{
+  "uuid": "873abd2d-6e88-493e-ac2a-1131215423d0",
+  "name": "TestMesheryPatternPOSTRequestBody_UnmarshalResetsOnReuse",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestMesheryPatternPOSTRequestBody_UnmarshalResetsOnReuse",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777330414737,
+  "stop": 1777330414737,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMesheryPatternPOSTRequestBody_UnmarshalResetsOnReuse"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

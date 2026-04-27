@@ -1,0 +1,44 @@
+{
+  "uuid": "a88cedcf-4734-4886-a006-babeab09289a",
+  "name": "TestSchemasWorkspaceAutoMigrateAndPersistMetadata",
+  "fullName": "github.com/meshery/meshery/server/models::TestSchemasWorkspaceAutoMigrateAndPersistMetadata",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777330446404,
+  "stop": 1777330446406,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSchemasWorkspaceAutoMigrateAndPersistMetadata"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
