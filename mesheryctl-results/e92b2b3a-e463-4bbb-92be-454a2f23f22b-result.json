@@ -1,0 +1,44 @@
+{
+  "uuid": "e92b2b3a-e463-4bbb-92be-454a2f23f22b",
+  "name": "TestDeleteModel/given_a_valid_model-id_when_running_model_delete_then_model_is_deleted_successfully",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestDeleteModel/given_a_valid_model-id_when_running_model_delete_then_model_is_deleted_successfully",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777330464081,
+  "stop": 1777330464082,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteModel/given_a_valid_model-id_when_running_model_delete_then_model_is_deleted_successfully"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
