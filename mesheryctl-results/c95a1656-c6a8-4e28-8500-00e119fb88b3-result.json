@@ -1,0 +1,23 @@
+{
+  "uuid": "c95a1656-c6a8-4e28-8500-00e119fb88b3",
+  "name": "given a valid format provided when mesheryctl component view component-name -o yaml then the output is displayed in specified format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777327813667,
+  "stop": 1777327813668,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
