@@ -1,0 +1,25 @@
+{
+  "uuid": "1f8c2db2-ecb6-432c-a975-7b9b15fec90a",
+  "name": "given all requirements met when running mesheryctl design list --count then the total numbers of designs is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1777346892424,
+  "stop": 1777346892425,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 003-design/03-design-list.bats, line 15)\n  `assert_success' failed\n\n-- command failed --\nstatus : 2\noutput (26 lines):\n  panic: runtime error: invalid memory address or nil pointer dereference\n  [signal SIGSEGV: segmentation violation code=0x1 addr=0x0 pc=0x5061db7]\n\n  goroutine 1 [running]:\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/design.formatTimeToString(0x0?, 0xb1?)\n  \t/home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/design/list.go:135 +0x37\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/design.processDesignData(0xc0002b4180)\n  \t/home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/design/list.go:110 +0x14a\n  github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display.ListAsyncPagination[...].func1(0x0?, 0xa)\n  \t/home/runner/work/meshery/meshery/mesheryctl/internal/cli/pkg/display/pagination_handlers.go:26 +0x76\n  github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display.HandlePaginationAsync[...]({{0x62f8885, 0xb}, 0xa, 0x1, {0x62e3c25, 0x6}, {0xc000a91540, 0x5, 0x5}, 0x0, ...}, ...)\n  \t/home/runner/work/meshery/meshery/mesheryctl/internal/cli/pkg/display/pagination.go:77 +0x5c2\n  github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display.ListAsyncPagination[...]({{0x62f8885, 0xb}, 0xa, 0x1, {0x62e3c25, 0x6}, {0xc000a91540, 0x5, 0x5}, 0x0, ...}, ...)\n  \t/home/runner/work/meshery/meshery/mesheryctl/internal/cli/pkg/display/display.go:67 +0x105\n  github.com/meshery/meshery/mesheryctl/internal/cli/root/design.init.func11(0x96cedc0, {0xc000b55920?, 0x4?, 0x62db530?})\n  \t/home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/design/list.go:100 +0x226\n  github.com/spf13/cobra.(*Command).execute(0x96cedc0, {0xc000b55900, 0x2, 0x2})\n  \t/home/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1015 +0xb02\n  github.com/spf13/cobra.(*Command).ExecuteC(0x96cb160)\n  \t/home/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1148 +0x465\n  github.com/spf13/cobra.(*Command).Execute(...)\n  \t/home/runner/go/pkg/mod/github.com/spf13/cobra@v1.10.2/command.go:1071\n  github.com/meshery/meshery/mesheryctl/internal/cli/root.Execute(...)\n  \t/home/runner/work/meshery/meshery/mesheryctl/internal/cli/root/root.go:98\n  main.main()\n  \t/home/runner/work/meshery/meshery/mesheryctl/cmd/mesheryctl/main.go:26 +0x29\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
