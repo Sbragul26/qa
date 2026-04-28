@@ -1,0 +1,44 @@
+{
+  "uuid": "6b4e5a16-0dcb-49c8-90e4-840148a4c03e",
+  "name": "TestListenForCoreEvents_IgnoresUnexpectedPayloads",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestListenForCoreEvents_IgnoresUnexpectedPayloads",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777347003017,
+  "stop": 1777347003223,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListenForCoreEvents_IgnoresUnexpectedPayloads"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
