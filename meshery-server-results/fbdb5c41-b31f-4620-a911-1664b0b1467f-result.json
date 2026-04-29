@@ -1,0 +1,44 @@
+{
+  "uuid": "fbdb5c41-b31f-4620-a911-1664b0b1467f",
+  "name": "TestGetUserByIDHandler_InvalidUUIDReturnsJSON",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGetUserByIDHandler_InvalidUUIDReturnsJSON",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777436425713,
+  "stop": 1777436425713,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetUserByIDHandler_InvalidUUIDReturnsJSON"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
