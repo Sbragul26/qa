@@ -1,0 +1,44 @@
+{
+  "uuid": "91778847-6c88-4af6-a43a-12e50c4320fd",
+  "name": "Test_convertToComposeSummaries/empty_input_returns_empty_output",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::Test_convertToComposeSummaries/empty_input_returns_empty_output",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777480610009,
+  "stop": 1777480610009,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_convertToComposeSummaries/empty_input_returns_empty_output"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
