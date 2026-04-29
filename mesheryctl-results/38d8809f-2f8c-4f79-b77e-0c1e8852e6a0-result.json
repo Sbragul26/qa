@@ -1,0 +1,25 @@
+{
+  "uuid": "38d8809f-2f8c-4f79-b77e-0c1e8852e6a0",
+  "name": "given an invalid model-id is provided as an argument when running mesheryctl model delete invalid-id then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1777461028511,
+  "stop": 1777461028512,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/07-model-delete.bats, line 17)\n  `assert_output --partial \"[ model-id ] is required\"' failed\n\n-- output does not contain substring --\nsubstring (1 lines):\n  [ model-id ] is required\noutput (4 lines):\n  Error: [ model-id | model-name ] is required\n\n  Usage: mesheryctl model delete [model-id | model-name]\n  Run 'mesheryctl model delete --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
