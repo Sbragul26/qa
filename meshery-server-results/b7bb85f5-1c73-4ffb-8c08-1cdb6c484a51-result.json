@@ -1,0 +1,44 @@
+{
+  "uuid": "b7bb85f5-1c73-4ffb-8c08-1cdb6c484a51",
+  "name": "TestParseRelationshipToAlias/nil_from.ID_returns_false",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestParseRelationshipToAlias/nil_from.ID_returns_false",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777480509632,
+  "stop": 1777480509635,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestParseRelationshipToAlias/nil_from.ID_returns_false"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

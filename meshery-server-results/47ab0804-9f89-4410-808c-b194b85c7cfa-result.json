@@ -1,0 +1,44 @@
+{
+  "uuid": "47ab0804-9f89-4410-808c-b194b85c7cfa",
+  "name": "TestGraph_DetectCycle",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/planner::TestGraph_DetectCycle",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777480540982,
+  "stop": 1777480540982,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/planner"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGraph_DetectCycle"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
