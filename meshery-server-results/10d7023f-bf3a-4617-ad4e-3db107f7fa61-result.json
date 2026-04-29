@@ -1,0 +1,44 @@
+{
+  "uuid": "10d7023f-bf3a-4617-ad4e-3db107f7fa61",
+  "name": "TestEdgeNetworkPatchingCleanupOnDelete",
+  "fullName": "github.com/meshery/meshery/server/policies::TestEdgeNetworkPatchingCleanupOnDelete",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777436448854,
+  "stop": 1777436448854,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEdgeNetworkPatchingCleanupOnDelete"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

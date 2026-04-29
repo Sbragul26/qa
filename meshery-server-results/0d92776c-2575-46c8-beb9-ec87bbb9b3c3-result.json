@@ -1,0 +1,44 @@
+{
+  "uuid": "0d92776c-2575-46c8-beb9-ec87bbb9b3c3",
+  "name": "TestAliasSideEffects",
+  "fullName": "github.com/meshery/meshery/server/policies::TestAliasSideEffects",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777436448838,
+  "stop": 1777436448838,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAliasSideEffects"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

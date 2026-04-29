@@ -1,0 +1,44 @@
+{
+  "uuid": "b6752d17-adcc-4aa3-bd43-0f31dfe5c822",
+  "name": "TestWriteMeshkitError_ErrTransientProvider",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestWriteMeshkitError_ErrTransientProvider",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777436396843,
+  "stop": 1777436396843,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWriteMeshkitError_ErrTransientProvider"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "e6f60d63-458c-429a-947c-d9311bbb6399",
+  "name": "TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor/canonical_wins_over_legacy_when_both_present",
+  "fullName": "github.com/meshery/meshery/server/models::TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor/canonical_wins_over_legacy_when_both_present",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777436437675,
+  "stop": 1777436437676,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor/canonical_wins_over_legacy_when_both_present"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

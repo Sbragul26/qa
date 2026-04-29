@@ -1,0 +1,44 @@
+{
+  "uuid": "4ef5bcc2-0f96-4625-a0b7-18649088ef1d",
+  "name": "TestAddCtxControllerHandlersReturnsEarlyOnInvalidConfig",
+  "fullName": "github.com/meshery/meshery/server/models::TestAddCtxControllerHandlersReturnsEarlyOnInvalidConfig",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777436437671,
+  "stop": 1777436437673,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAddCtxControllerHandlersReturnsEarlyOnInvalidConfig"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
