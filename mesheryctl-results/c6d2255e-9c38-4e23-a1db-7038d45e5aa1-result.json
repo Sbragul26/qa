@@ -1,0 +1,44 @@
+{
+  "uuid": "c6d2255e-9c38-4e23-a1db-7038d45e5aa1",
+  "name": "TestContextCreateCmd/given_multiple_context_name_provided_when_system_context_create_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextCreateCmd/given_multiple_context_name_provided_when_system_context_create_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777488026295,
+  "stop": 1777488026295,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextCreateCmd/given_multiple_context_name_provided_when_system_context_create_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

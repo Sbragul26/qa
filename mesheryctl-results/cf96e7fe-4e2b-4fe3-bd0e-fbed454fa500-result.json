@@ -1,0 +1,44 @@
+{
+  "uuid": "cf96e7fe-4e2b-4fe3-bd0e-fbed454fa500",
+  "name": "TestClosestArgs/Test_FindClosestArg",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestClosestArgs/Test_FindClosestArg",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777488032737,
+  "stop": 1777488032738,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestClosestArgs/Test_FindClosestArg"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
