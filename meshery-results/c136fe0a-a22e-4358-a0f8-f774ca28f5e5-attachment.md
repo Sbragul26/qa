@@ -1,0 +1,188 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button [ref=e13] [cursor=pointer]:
+            - link [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button [ref=e24] [cursor=pointer]:
+            - link [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - button [ref=e33] [cursor=pointer]:
+            - link [ref=e34]:
+              - /url: /configuration/designs
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e42]: Configuration
+          - button [ref=e44] [cursor=pointer]:
+            - link [ref=e45]:
+              - /url: /performance
+              - generic [ref=e46]:
+                - img [ref=e48]
+                - generic [ref=e74]: Performance
+          - button [ref=e76] [cursor=pointer]:
+            - link [ref=e77]:
+              - /url: /extensions
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e107]: Extensions
+          - separator [ref=e108]
+        - generic [ref=e109]:
+          - img [ref=e112] [cursor=pointer]
+          - group [ref=e114]:
+            - listitem [ref=e115]:
+              - link [ref=e116] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e118]
+            - listitem [ref=e120]:
+              - link [ref=e121] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e123]
+            - listitem [ref=e132]:
+              - link [ref=e133] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e135]
+            - listitem [ref=e137]:
+              - link [ref=e138] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e140]
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - text: v1.0.13
+              - link [ref=e145] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v1.0.13
+                - img [ref=e146]
+              - text: Running latest
+    - generic [ref=e148]:
+      - banner [ref=e149]:
+        - generic [ref=e151]:
+          - generic [ref=e153]:
+            - button [ref=e155] [cursor=pointer]:
+              - img [ref=e156]
+            - text: /
+            - button [ref=e165] [cursor=pointer]:
+              - img [ref=e166]
+            - text: /
+            - heading [level=5] [ref=e170]: Settings
+          - generic [ref=e172]:
+            - button [ref=e175] [cursor=pointer]:
+              - generic [ref=e176]:
+                - img [ref=e177]
+                - generic [ref=e178]: "0"
+            - button [ref=e181] [cursor=pointer]:
+              - img [ref=e182]
+            - button [ref=e189] [cursor=pointer]:
+              - img [ref=e191]
+            - button [ref=e194] [cursor=pointer]:
+              - img [ref=e195]
+      - generic [ref=e197]:
+        - main [ref=e198]:
+          - generic [ref=e199]:
+            - tablist [ref=e203]:
+              - tab [ref=e204] [cursor=pointer]:
+                - img [ref=e205]
+                - text: Overview
+              - tab [ref=e206] [cursor=pointer]:
+                - img [ref=e207]
+                - text: Adapters
+              - tab [ref=e209] [cursor=pointer]:
+                - img [ref=e210]
+                - text: Metrics
+              - tab [selected] [ref=e212] [cursor=pointer]:
+                - img [ref=e213]
+                - text: Registry
+              - tab [ref=e215] [cursor=pointer]:
+                - img [ref=e216]
+                - text: Reset
+            - generic [ref=e221]:
+              - generic [ref=e223]:
+                - button [ref=e224] [cursor=pointer]:
+                  - img [ref=e226]
+                  - text: Create Model
+                - button [ref=e228] [cursor=pointer]:
+                  - img [ref=e230]
+                  - text: Import Model
+              - generic [ref=e232]:
+                - generic [ref=e233] [cursor=pointer]:
+                  - generic [ref=e234]: (0)
+                  - text: Models
+                - generic [ref=e235] [cursor=pointer]:
+                  - generic [ref=e236]: (0)
+                  - text: Components
+                - generic [ref=e237] [cursor=pointer]:
+                  - generic [ref=e238]: (0)
+                  - text: Relationships
+                - generic [ref=e239] [cursor=pointer]:
+                  - generic [ref=e240]: (0)
+                  - text: Registrants
+              - generic [ref=e241]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]:
+                    - generic [ref=e246]:
+                      - button [ref=e248] [cursor=pointer]:
+                        - img [ref=e249]
+                      - button [ref=e256] [cursor=pointer]:
+                        - img [ref=e257]
+                      - generic [ref=e264]:
+                        - generic [ref=e265]:
+                          - generic:
+                            - switch [disabled]
+                        - generic [ref=e267]: Duplicates
+                      - button [ref=e268] [cursor=pointer]:
+                        - img [ref=e269]
+                    - button [ref=e273] [cursor=pointer]:
+                      - img [ref=e274]
+                  - progressbar [ref=e277]:
+                    - img [ref=e278]
+                - paragraph [ref=e281]: No Models selected
+        - contentinfo [ref=e282]:
+          - paragraph [ref=e283]:
+            - generic [ref=e284] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e285]
+              - text: by the Meshery Community
+  - alert [ref=e288]: Settings | Meshery
+  - dialog [ref=e291]:
+    - generic [ref=e292]:
+      - generic [ref=e293]: Create Model
+      - button [ref=e295] [cursor=pointer]:
+        - img [ref=e296]
+    - generic [ref=e302]:
+      - generic [ref=e304]:
+        - img [ref=e307]
+        - generic [ref=e310]: Model Details
+      - generic [ref=e314]:
+        - img [ref=e317]
+        - generic [ref=e322]: Model Categorization
+      - generic [ref=e326]:
+        - img [ref=e329]
+        - generic [ref=e332]: Styling
+      - generic [ref=e336]:
+        - img [ref=e339]
+        - generic [ref=e342]: Source
+      - generic [ref=e346]:
+        - img [ref=e349]
+        - generic [ref=e352]: Additional Details
+      - generic [ref=e356]:
+        - img [ref=e359]
+        - generic [ref=e376]: Finalize Generation
+      - generic [ref=e380]:
+        - img [ref=e383]
+        - generic [ref=e390]: Finish
+    - generic [ref=e396]:
+      - button "Back" [ref=e397] [cursor=pointer]
+      - button "Finish" [active] [ref=e398] [cursor=pointer]: Finish
+```
