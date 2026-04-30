@@ -1,0 +1,44 @@
+{
+  "uuid": "d24a8357-de28-4791-b605-c544e7ad9b79",
+  "name": "TestReadValidationErrorMessages/given_invalid_oneof_value_when_isOneof_then_error_message_contains_valid_values",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages/given_invalid_oneof_value_when_isOneof_then_error_message_contains_valid_values",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777515241833,
+  "stop": 1777515241833,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages/given_invalid_oneof_value_when_isOneof_then_error_message_contains_valid_values"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
