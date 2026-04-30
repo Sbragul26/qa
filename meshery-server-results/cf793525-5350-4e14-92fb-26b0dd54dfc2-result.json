@@ -1,0 +1,44 @@
+{
+  "uuid": "cf793525-5350-4e14-92fb-26b0dd54dfc2",
+  "name": "TestGetUserByIDHandler_NilRespReturnsJSON",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGetUserByIDHandler_NilRespReturnsJSON",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777515198598,
+  "stop": 1777515198598,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetUserByIDHandler_NilRespReturnsJSON"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

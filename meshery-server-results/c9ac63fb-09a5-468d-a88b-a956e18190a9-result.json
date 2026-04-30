@@ -1,0 +1,44 @@
+{
+  "uuid": "c9ac63fb-09a5-468d-a88b-a956e18190a9",
+  "name": "TestWorkspacePersisterUpdateWorkspace_PreservesOrganizationIDWhenOmitted",
+  "fullName": "github.com/meshery/meshery/server/models::TestWorkspacePersisterUpdateWorkspace_PreservesOrganizationIDWhenOmitted",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777515231399,
+  "stop": 1777515231404,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWorkspacePersisterUpdateWorkspace_PreservesOrganizationIDWhenOmitted"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "118621fd-3ba7-44d2-91b1-9b61fd078168",
+  "name": "TestRegoSyntax/namespace_integration_test.rego",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRegoSyntax/namespace_integration_test.rego",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777515245244,
+  "stop": 1777515245253,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRegoSyntax/namespace_integration_test.rego"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
