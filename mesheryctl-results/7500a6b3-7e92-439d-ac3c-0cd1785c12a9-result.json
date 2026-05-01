@@ -1,0 +1,25 @@
+{
+  "uuid": "7500a6b3-7e92-439d-ac3c-0cd1785c12a9",
+  "name": "Search for a known component",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1777615433450,
+  "stop": 1777615433451,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 005-component/01-component-list.bats, line 25)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput (4 lines):\n  Error: Unable to connect to Meshery server at http://localhost:9081 (current context).\n  Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n\n  For additional details see https://docs.meshery.io/reference/error-codes#ErrFailRequestCode-1090 | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

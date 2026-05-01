@@ -1,0 +1,23 @@
+{
+  "uuid": "cac039e2-e47c-4c6c-91f1-97e7042665de",
+  "name": "given a directory missing required csv files when running mesheryctl registry generate then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777615433450,
+  "stop": 1777615433451,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
