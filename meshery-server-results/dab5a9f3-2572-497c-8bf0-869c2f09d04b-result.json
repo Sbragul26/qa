@@ -1,0 +1,44 @@
+{
+  "uuid": "dab5a9f3-2572-497c-8bf0-869c2f09d04b",
+  "name": "TestResolvePath/wildcard_non-array_target",
+  "fullName": "github.com/meshery/meshery/server/policies::TestResolvePath/wildcard_non-array_target",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777615617328,
+  "stop": 1777615617329,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolvePath/wildcard_non-array_target"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

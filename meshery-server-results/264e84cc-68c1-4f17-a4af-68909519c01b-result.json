@@ -1,0 +1,46 @@
+{
+  "uuid": "264e84cc-68c1-4f17-a4af-68909519c01b",
+  "name": "TestMapPreferencePersisterReadFromPersisterReturnsDefaultsWhenMissing",
+  "fullName": "github.com/meshery/meshery/server/models::TestMapPreferencePersisterReadFromPersisterReturnsDefaultsWhenMissing",
+  "status": "skipped",
+  "stage": "finished",
+  "start": 1777615604053,
+  "stop": 1777615604053,
+  "statusDetails": {
+    "message": "preference_map_persister_test.go:20: TODO: https://github.com/meshery/meshery/issues/18238 - implement MapPreferencePersister tests"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMapPreferencePersisterReadFromPersisterReturnsDefaultsWhenMissing"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
