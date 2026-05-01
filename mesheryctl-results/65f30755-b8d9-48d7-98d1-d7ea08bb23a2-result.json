@@ -1,0 +1,44 @@
+{
+  "uuid": "65f30755-b8d9-48d7-98d1-d7ea08bb23a2",
+  "name": "TestValidateSemver/given_invalid_characters_when_isSemver_then_returns_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestValidateSemver/given_invalid_characters_when_isSemver_then_returns_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777615611982,
+  "stop": 1777615611982,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidateSemver/given_invalid_characters_when_isSemver_then_returns_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
