@@ -1,0 +1,46 @@
+{
+  "uuid": "4070fc7d-344f-412f-bae5-9dd41bd3f48f",
+  "name": "TestProcessEvaluationResponse_NilPointerGuard/type_assertion_failure_routes_to_unknownComponents",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_NilPointerGuard/type_assertion_failure_routes_to_unknownComponents",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777713035351,
+  "stop": 1777713035413,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_NilPointerGuard/type_assertion_failure_routes_to_unknownComponents\n=== CONT  TestProcessEvaluationResponse_NilPointerGuard/type_assertion_failure_routes_to_unknownComponents"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_NilPointerGuard/type_assertion_failure_routes_to_unknownComponents"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "99f2f753-f7af-465e-9a15-caa2b2c4f19e",
+  "name": "TestGetMeshSyncInfo_BrokerEndpointError",
+  "fullName": "github.com/meshery/meshery/server/internal/graphql/model::TestGetMeshSyncInfo_BrokerEndpointError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777713057965,
+  "stop": 1777713057965,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/internal"
+    },
+    {
+      "name": "suite",
+      "value": "server/internal/graphql/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMeshSyncInfo_BrokerEndpointError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

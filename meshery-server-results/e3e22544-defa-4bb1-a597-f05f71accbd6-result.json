@@ -1,0 +1,44 @@
+{
+  "uuid": "e3e22544-defa-4bb1-a597-f05f71accbd6",
+  "name": "TestEncodeIntoResponseWriter_DemonstratesLatentBug",
+  "fullName": "github.com/meshery/meshery/server/models/httputil::TestEncodeIntoResponseWriter_DemonstratesLatentBug",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777713067177,
+  "stop": 1777713067177,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/httputil"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEncodeIntoResponseWriter_DemonstratesLatentBug"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
