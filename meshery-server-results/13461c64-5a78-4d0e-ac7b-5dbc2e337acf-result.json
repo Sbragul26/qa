@@ -1,0 +1,44 @@
+{
+  "uuid": "13461c64-5a78-4d0e-ac7b-5dbc2e337acf",
+  "name": "TestDesignPostPayload_UnmarshalPrecedenceCanonicalWins/designFile_beats_patternFile",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignPostPayload_UnmarshalPrecedenceCanonicalWins/designFile_beats_patternFile",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777831984080,
+  "stop": 1777831984081,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignPostPayload_UnmarshalPrecedenceCanonicalWins/designFile_beats_patternFile"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

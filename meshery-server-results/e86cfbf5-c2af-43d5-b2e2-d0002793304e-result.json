@@ -1,0 +1,44 @@
+{
+  "uuid": "e86cfbf5-c2af-43d5-b2e2-d0002793304e",
+  "name": "TestWriteJSONEmptyObject_HonorsNon200Status",
+  "fullName": "github.com/meshery/meshery/server/models/httputil::TestWriteJSONEmptyObject_HonorsNon200Status",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777832016017,
+  "stop": 1777832016017,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/httputil"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWriteJSONEmptyObject_HonorsNon200Status"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

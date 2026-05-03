@@ -1,0 +1,44 @@
+{
+  "uuid": "9f10cab8-2637-48b2-ae90-a2ac7713f8a2",
+  "name": "TestSet/When_value_is_a_string",
+  "fullName": "github.com/meshery/meshery/server/internal/store::TestSet/When_value_is_a_string",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777832006292,
+  "stop": 1777832006292,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/internal"
+    },
+    {
+      "name": "suite",
+      "value": "server/internal/store"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSet/When_value_is_a_string"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

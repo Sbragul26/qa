@@ -1,0 +1,44 @@
+{
+  "uuid": "517b3b9e-9afa-4691-9fcc-6efa06b7ba75",
+  "name": "TestRegoSyntax/feasibility_evaluation.rego",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRegoSyntax/feasibility_evaluation.rego",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777832031209,
+  "stop": 1777832031210,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRegoSyntax/feasibility_evaluation.rego"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
