@@ -1,0 +1,44 @@
+{
+  "uuid": "add9fdcd-195a-4f58-93b0-255149bf7a3a",
+  "name": "TestClosestArgs/Test_levenshtein",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestClosestArgs/Test_levenshtein",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777830198970,
+  "stop": 1777830198971,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestClosestArgs/Test_levenshtein"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
