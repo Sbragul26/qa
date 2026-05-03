@@ -1,0 +1,23 @@
+{
+  "uuid": "b4aa7454-89fe-4f00-9198-a40e061ef234",
+  "name": "given help flag when running mesheryctl system config eks --help then usage information is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777831830132,
+  "stop": 1777831830133,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

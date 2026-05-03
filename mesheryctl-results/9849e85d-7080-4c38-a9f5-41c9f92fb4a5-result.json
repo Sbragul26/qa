@@ -1,0 +1,23 @@
+{
+  "uuid": "9849e85d-7080-4c38-a9f5-41c9f92fb4a5",
+  "name": "given a valid context-name provided when running mesheryctl system context delete context-name then the specified context is deleted",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777831830131,
+  "stop": 1777831830132,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

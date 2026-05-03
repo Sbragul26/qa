@@ -1,0 +1,23 @@
+{
+  "uuid": "ebf9af47-0497-4513-a278-2c7cabdc9361",
+  "name": "given an invalid connection-id is provided as an argument when running mesheryctl connection view --save then a message error is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1777831830130,
+  "stop": 1777831830131,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
