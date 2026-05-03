@@ -1,0 +1,44 @@
+{
+  "uuid": "183b8485-59b0-4502-9b97-e3118ad01800",
+  "name": "TestIsRelationshipFeasible/exact_match",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIsRelationshipFeasible/exact_match",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777830163354,
+  "stop": 1777830163354,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsRelationshipFeasible/exact_match"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

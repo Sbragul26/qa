@@ -1,0 +1,46 @@
+{
+  "uuid": "0cb9b5c9-caf1-42d3-9e74-228dd36e9bd6",
+  "name": "TestResolveProviderName/cookie_wins_over_enforced_default",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName/cookie_wins_over_enforced_default",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777830120520,
+  "stop": 1777830120522,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolveProviderName/cookie_wins_over_enforced_default\n=== CONT  TestResolveProviderName/cookie_wins_over_enforced_default"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName/cookie_wins_over_enforced_default"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
