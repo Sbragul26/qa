@@ -1,0 +1,44 @@
+{
+  "uuid": "8eeb79f1-5144-4b62-a0ef-84ed7ead91f0",
+  "name": "TestDeleteCmd/Delete_Kuma-Test",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestDeleteCmd/Delete_Kuma-Test",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777832042696,
+  "stop": 1777832042701,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/Delete_Kuma-Test"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

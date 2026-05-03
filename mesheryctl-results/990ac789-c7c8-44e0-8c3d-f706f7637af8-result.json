@@ -1,0 +1,44 @@
+{
+  "uuid": "990ac789-c7c8-44e0-8c3d-f706f7637af8",
+  "name": "TestReadValidationErrorMessages_Direct/given_abspath_validation_error_then_formats_abspath_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct/given_abspath_validation_error_then_formats_abspath_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777832024195,
+  "stop": 1777832024195,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct/given_abspath_validation_error_then_formats_abspath_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

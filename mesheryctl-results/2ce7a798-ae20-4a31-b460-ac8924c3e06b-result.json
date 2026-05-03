@@ -1,0 +1,44 @@
+{
+  "uuid": "2ce7a798-ae20-4a31-b460-ac8924c3e06b",
+  "name": "TestRemoveMesh/Test_Remove_Linkerd_",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestRemoveMesh/Test_Remove_Linkerd_",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777832027947,
+  "stop": 1777832027949,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoveMesh/Test_Remove_Linkerd_"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

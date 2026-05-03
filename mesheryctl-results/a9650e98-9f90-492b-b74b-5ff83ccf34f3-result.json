@@ -1,0 +1,44 @@
+{
+  "uuid": "a9650e98-9f90-492b-b74b-5ff83ccf34f3",
+  "name": "TestStringContainedInSlice",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestStringContainedInSlice",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777832065973,
+  "stop": 1777832065973,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestStringContainedInSlice"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

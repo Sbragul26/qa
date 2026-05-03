@@ -1,0 +1,46 @@
+{
+  "uuid": "749a7b06-a76a-4e33-95f2-ab8a64ec8364",
+  "name": "TestRelationship/Display_error_without_any_flags_or_args",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestRelationship/Display_error_without_any_flags_or_args",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777832057080,
+  "stop": 1777832057081,
+  "statusDetails": {
+    "message": "Error: no command specified. Usage: mesheryctl relationship [subcommand]\nRun 'mesheryctl relationship --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRelationship/Display_error_without_any_flags_or_args"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
