@@ -1,0 +1,44 @@
+{
+  "uuid": "9d43470c-7432-4df1-bff6-7c40b1e5ec33",
+  "name": "TestPromptAsyncPagination/Given_Missing_Token_When_PromptAsyncPagination_Then_AuthError",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::TestPromptAsyncPagination/Given_Missing_Token_When_PromptAsyncPagination_Then_AuthError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777831071975,
+  "stop": 1777831071975,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPromptAsyncPagination/Given_Missing_Token_When_PromptAsyncPagination_Then_AuthError"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

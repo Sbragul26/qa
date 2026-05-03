@@ -1,0 +1,44 @@
+{
+  "uuid": "b9c57082-8d9a-4330-8754-6f16775fae9f",
+  "name": "TestGenerateCmdTimeoutFlagParsing/Parse_5_minutes",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestGenerateCmdTimeoutFlagParsing/Parse_5_minutes",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777831108560,
+  "stop": 1777831108560,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateCmdTimeoutFlagParsing/Parse_5_minutes"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

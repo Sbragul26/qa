@@ -1,0 +1,44 @@
+{
+  "uuid": "bb6db0f8-e8e4-47b2-8404-7efa5a06d1c3",
+  "name": "TestContainsStringPrefix/str_is_present_in_the_slice",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestContainsStringPrefix/str_is_present_in_the_slice",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777831122170,
+  "stop": 1777831122170,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContainsStringPrefix/str_is_present_in_the_slice"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
