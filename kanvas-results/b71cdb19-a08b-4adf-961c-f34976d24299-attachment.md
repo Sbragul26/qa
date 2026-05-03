@@ -1,0 +1,248 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation:
+      - generic [ref=e4]:
+        - generic [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+          - img [ref=e8]
+        - list [ref=e9]:
+          - button "Dashboard" [ref=e11] [cursor=pointer]:
+            - link "Dashboard" [ref=e12]:
+              - /url: /
+              - generic [ref=e13]:
+                - img [ref=e15]
+                - generic [ref=e20]: Dashboard
+          - button "Lifecycle" [ref=e22] [cursor=pointer]:
+            - link "Lifecycle" [ref=e23]:
+              - /url: /management/connections
+              - generic [ref=e24]:
+                - img [ref=e26]
+                - generic [ref=e29]: Lifecycle
+          - button "Configuration" [ref=e31] [cursor=pointer]:
+            - link "Configuration" [ref=e32]:
+              - /url: /configuration/designs
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e40]: Configuration
+          - button "meshery-button-2 Performance" [ref=e42] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e43]:
+              - /url: /performance
+              - generic [ref=e44]:
+                - img "meshery-button-2" [ref=e46]
+                - generic [ref=e72]: Performance
+          - button "Extensions" [ref=e74] [cursor=pointer]:
+            - link "Extensions" [ref=e75]:
+              - /url: /extensions
+              - generic [ref=e76]:
+                - img [ref=e78]
+                - generic [ref=e105]: Extensions
+          - separator [ref=e106]
+          - list [ref=e107]:
+            - button "Kanvas" [ref=e108] [cursor=pointer]:
+              - link "Kanvas" [ref=e109]:
+                - /url: /extension/meshmap
+                - generic [ref=e111]:
+                  - img [ref=e113]
+                  - generic:
+                    - generic: Kanvas
+          - separator [ref=e114]
+        - generic [ref=e115]:
+          - img [ref=e118] [cursor=pointer]
+          - group [ref=e120]:
+            - listitem [ref=e121]:
+              - button [ref=e122] [cursor=pointer]:
+                - img [ref=e123]
+          - listitem [ref=e126]:
+            - generic [ref=e127]: v1.0.17-1
+    - generic [ref=e128]:
+      - banner [ref=e129]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - img [ref=e135]
+            - generic [ref=e152]:
+              - button [ref=e154] [cursor=pointer]:
+                - img [ref=e155]
+              - text: /
+              - button [ref=e164] [cursor=pointer]:
+                - img [ref=e165]
+              - group [ref=e169]:
+                - generic [ref=e174]:
+                  - combobox [ref=e175] [cursor=pointer]:
+                    - generic [ref=e176]: My other workspace
+                  - textbox: dcba6398-f859-49f7-99af-1041234fc6cd
+                  - img
+                  - group
+              - text: /
+              - generic [ref=e178]:
+                - generic [ref=e181]:
+                  - textbox [ref=e182]: Untitled Design
+                  - group
+                - button [ref=e184] [cursor=pointer]:
+                  - img [ref=e185]
+                - button [ref=e201] [cursor=pointer]:
+                  - img [ref=e202]
+          - generic [ref=e205]:
+            - button "contexts" [ref=e208] [cursor=pointer]:
+              - generic [ref=e209]:
+                - img [ref=e210]
+                - generic [ref=e211]: "0"
+            - button "99+" [ref=e214] [cursor=pointer]:
+              - generic [ref=e215]:
+                - img [ref=e216]
+                - generic [ref=e219]: 99+
+            - button [ref=e223] [cursor=pointer]:
+              - img [ref=e225]
+            - button [ref=e227] [cursor=pointer]:
+              - img [ref=e228]
+      - main [ref=e231]:
+        - generic [ref=e232]:
+          - generic [ref=e234]:
+            - group [ref=e236]:
+              - generic [ref=e237]:
+                - button [disabled]:
+                  - generic:
+                    - img
+              - button [ref=e239] [cursor=pointer]:
+                - img [ref=e241]
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - img [ref=e266]
+                - generic [ref=e268]:
+                  - img [ref=e269]
+                  - paragraph [ref=e271]: file operations like new, open, save, export, import, etc.
+                - generic [ref=e273]:
+                  - generic [ref=e274] [cursor=pointer]:
+                    - img [ref=e277]
+                    - generic [ref=e373]:
+                      - heading "Getting Started" [level=2] [ref=e375]
+                      - paragraph [ref=e376]: Walk-throughs and sample scenarios
+                  - generic [ref=e377] [cursor=pointer]:
+                    - img [ref=e380]
+                    - generic [ref=e424]:
+                      - heading "Start from template" [level=2] [ref=e426]
+                      - paragraph [ref=e427]: Choose from existing design patterns
+                  - generic [ref=e428] [cursor=pointer]:
+                    - img [ref=e430]
+                    - generic [ref=e440]:
+                      - heading "Drop file or browse..." [level=2] [ref=e442]
+                      - paragraph [ref=e443]: Files can be manifests, images, text...
+                - group [ref=e446]:
+                  - button "Layers" [ref=e448] [cursor=pointer]:
+                    - img [ref=e450]
+                    - paragraph [ref=e455]: Layers
+                  - generic [ref=e456]:
+                    - button "Comments" [disabled]:
+                      - generic:
+                        - img
+                      - paragraph: Comments
+                  - group [ref=e458]:
+                    - button "Actions" [disabled]:
+                      - paragraph: Actions
+                    - button [disabled]:
+                      - img
+                  - group [ref=e460]:
+                    - button "Share" [disabled]
+                    - button [disabled]:
+                      - img
+                - generic:
+                  - button "CANVAS_CONTROLS" [ref=e461] [cursor=pointer]:
+                    - img [ref=e462]
+                  - menu:
+                    - menuitem "Grid":
+                      - img
+                    - menuitem "Constrained":
+                      - img
+                    - menuitem "hierarchical":
+                      - img
+                    - menuitem "star":
+                      - img
+                    - menuitem "bus":
+                      - img
+                    - menuitem "ring":
+                      - img
+                  - img [ref=e479]
+                  - paragraph [ref=e481]: select a layout for your design
+                - generic:
+                  - button "CANVAS_CONTROLS" [ref=e482] [cursor=pointer]:
+                    - img [ref=e483]
+                  - menu:
+                    - menuitem "Zoom in" [disabled]:
+                      - img
+                    - menuitem "Fit" [disabled]:
+                      - paragraph: Fit
+                    - menuitem "Zoom out" [disabled]:
+                      - img
+                    - menuitem "FullScreen":
+                      - img
+                  - img [ref=e487]
+                  - paragraph [ref=e489]: fit-to-screen, full-screen, zoom
+                - img [ref=e494]
+              - generic:
+                - heading [level=6]
+              - generic [ref=e500]:
+                - generic [ref=e501]:
+                  - img [ref=e504] [cursor=pointer]
+                  - img [ref=e511] [cursor=pointer]
+                - separator [ref=e514]
+                - button [ref=e518] [cursor=pointer]:
+                  - img [ref=e519]
+                - button [ref=e539] [cursor=pointer]:
+                  - img [ref=e540]
+                - separator [ref=e543]
+                - button [ref=e547] [cursor=pointer]:
+                  - img [ref=e548]
+                - button [ref=e554]:
+                  - img [ref=e555]
+                - img [ref=e560]
+                - button [ref=e563]:
+                  - img [ref=e564]
+                - button [ref=e568]:
+                  - img [ref=e569]
+                - separator [ref=e573]
+                - button [ref=e576] [cursor=pointer]:
+                  - img [ref=e578]
+                - button [ref=e589] [cursor=pointer]:
+                  - img [ref=e591]
+                - separator [ref=e599]
+                - button [ref=e601] [cursor=pointer]:
+                  - img [ref=e602]
+                - separator [ref=e616]
+                - button [ref=e619] [cursor=pointer]:
+                  - img [ref=e621]
+            - generic:
+              - button "Feedback" [ref=e623] [cursor=pointer]
+              - generic [ref=e625]:
+                - generic [ref=e626]:
+                  - img [ref=e628]
+                  - paragraph [ref=e631]: Feedback
+                  - generic [ref=e632]:
+                    - img [ref=e635]
+                    - img [ref=e639] [cursor=pointer]
+                - generic [ref=e643]:
+                  - generic [ref=e644]:
+                    - button "Issue" [ref=e645] [cursor=pointer]:
+                      - img [ref=e647]
+                      - paragraph [ref=e649]: Issue
+                    - button "Suggestion" [ref=e650] [cursor=pointer]:
+                      - img [ref=e652]
+                      - paragraph [ref=e658]: Suggestion
+                    - button "Meet Request" [ref=e659] [cursor=pointer]:
+                      - img [ref=e661]
+                      - paragraph [ref=e666]: Meet Request
+                  - textbox "I’m having an issue with..." [ref=e668]
+                - generic [ref=e670]:
+                  - generic [ref=e671]:
+                    - generic [ref=e672] [cursor=pointer]:
+                      - checkbox [ref=e673]
+                      - img [ref=e674]
+                    - paragraph [ref=e676]: We may email you for more information or updates
+                  - button "Send" [disabled]
+            - status [ref=e677]
+          - button [ref=e678] [cursor=pointer]:
+            - img [ref=e680]
+  - alert [ref=e682]
+  - generic: Name *
+```
