@@ -1,0 +1,44 @@
+{
+  "uuid": "6791d340-36cb-4b47-9470-7ebf629b4f00",
+  "name": "TestWriteMeshkitError_SerializesMeshKitStructure",
+  "fullName": "github.com/meshery/meshery/server/models/httputil::TestWriteMeshkitError_SerializesMeshKitStructure",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777935593842,
+  "stop": 1777935593843,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/httputil"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWriteMeshkitError_SerializesMeshKitStructure"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

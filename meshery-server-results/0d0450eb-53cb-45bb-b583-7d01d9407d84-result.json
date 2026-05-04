@@ -1,0 +1,44 @@
+{
+  "uuid": "0d0450eb-53cb-45bb-b583-7d01d9407d84",
+  "name": "TestErrEncodePattern_PreservesMeshKitCode",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestErrEncodePattern_PreservesMeshKitCode",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777935562876,
+  "stop": 1777935562878,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestErrEncodePattern_PreservesMeshKitCode"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
