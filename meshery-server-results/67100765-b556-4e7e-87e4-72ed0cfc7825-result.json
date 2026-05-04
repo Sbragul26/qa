@@ -1,0 +1,44 @@
+{
+  "uuid": "67100765-b556-4e7e-87e4-72ed0cfc7825",
+  "name": "TestWriteJSONError_ShapeIsParseableJSON",
+  "fullName": "github.com/meshery/meshery/server/models/httputil::TestWriteJSONError_ShapeIsParseableJSON",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777897936833,
+  "stop": 1777897936837,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/httputil"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWriteJSONError_ShapeIsParseableJSON"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
