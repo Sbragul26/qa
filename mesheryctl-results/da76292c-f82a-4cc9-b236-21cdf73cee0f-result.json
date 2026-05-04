@@ -1,0 +1,44 @@
+{
+  "uuid": "da76292c-f82a-4cc9-b236-21cdf73cee0f",
+  "name": "TestGenerateCmdHelp",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestGenerateCmdHelp",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777935623943,
+  "stop": 1777935623944,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateCmdHelp"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

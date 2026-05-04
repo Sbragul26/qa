@@ -1,0 +1,44 @@
+{
+  "uuid": "1fbdb870-ca9d-45d6-be0e-1320d1bbcbdf",
+  "name": "TestGenerateCmdMutualExclusivity",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestGenerateCmdMutualExclusivity",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777935623943,
+  "stop": 1777935623943,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateCmdMutualExclusivity"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
