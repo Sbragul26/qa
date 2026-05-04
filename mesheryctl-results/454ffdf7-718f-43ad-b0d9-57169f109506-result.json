@@ -1,0 +1,23 @@
+{
+  "uuid": "454ffdf7-718f-43ad-b0d9-57169f109506",
+  "name": "mesheryctl system dashboard succeeds when meshery server is running",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1777897721870,
+  "stop": 1777897721871,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

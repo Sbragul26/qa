@@ -1,0 +1,23 @@
+{
+  "uuid": "b7b03486-280b-494f-abac-393815aaf211",
+  "name": "given help flag when running mesheryctl system config minikube --help then usage information is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777897721884,
+  "stop": 1777897721885,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
