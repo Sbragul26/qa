@@ -1,0 +1,44 @@
+{
+  "uuid": "d6241120-7b51-484b-9cf6-c6dba73f917a",
+  "name": "TestPromptAsyncPagination/Given_Invalid_Token_When_PromptAsyncPagination_Then_InvalidTokenError",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::TestPromptAsyncPagination/Given_Invalid_Token_When_PromptAsyncPagination_Then_InvalidTokenError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777930583766,
+  "stop": 1777930583767,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPromptAsyncPagination/Given_Invalid_Token_When_PromptAsyncPagination_Then_InvalidTokenError"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
