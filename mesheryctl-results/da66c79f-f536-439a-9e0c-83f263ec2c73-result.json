@@ -1,0 +1,46 @@
+{
+  "uuid": "da66c79f-f536-439a-9e0c-83f263ec2c73",
+  "name": "TestModelInit/given_trailing_folder_separator_in_the_path_when_model_init_then_model_is_initialized_in_the_path_without_trailing_separator",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/given_trailing_folder_separator_in_the_path_when_model_init_then_model_is_initialized_in_the_path_without_trailing_separator",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778009642664,
+  "stop": 1778009642676,
+  "statusDetails": {
+    "message": "init_test.go:281: removed created folders"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/given_trailing_folder_separator_in_the_path_when_model_init_then_model_is_initialized_in_the_path_without_trailing_separator"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

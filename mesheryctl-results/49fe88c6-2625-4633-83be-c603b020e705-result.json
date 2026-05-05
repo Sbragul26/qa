@@ -1,0 +1,44 @@
+{
+  "uuid": "49fe88c6-2625-4633-83be-c603b020e705",
+  "name": "TestConnectionDeleteCmd/given_a_valid_connectionID_provided_when_running_mesheryctl_connection_delete_then_the_connection_is_deleted",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionDeleteCmd/given_a_valid_connectionID_provided_when_running_mesheryctl_connection_delete_then_the_connection_is_deleted",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778009630103,
+  "stop": 1778009630103,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionDeleteCmd/given_a_valid_connectionID_provided_when_running_mesheryctl_connection_delete_then_the_connection_is_deleted"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
