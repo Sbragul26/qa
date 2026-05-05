@@ -1,0 +1,44 @@
+{
+  "uuid": "432562e8-7924-44f4-bef9-9340f1ded801",
+  "name": "TestApplyCmd/given_valid_file_when_design_apply_then_design_is_applied",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::TestApplyCmd/given_valid_file_when_design_apply_then_design_is_applied",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777971261194,
+  "stop": 1777971261203,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestApplyCmd/given_valid_file_when_design_apply_then_design_is_applied"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

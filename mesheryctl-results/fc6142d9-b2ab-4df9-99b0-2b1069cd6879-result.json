@@ -1,0 +1,44 @@
+{
+  "uuid": "fc6142d9-b2ab-4df9-99b0-2b1069cd6879",
+  "name": "TestAreAllPodsRunning/Are_All_Pods_Running",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestAreAllPodsRunning/Are_All_Pods_Running",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777971286523,
+  "stop": 1777971286523,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAreAllPodsRunning/Are_All_Pods_Running"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
