@@ -1,0 +1,44 @@
+{
+  "uuid": "7ea6d5e0-0016-4e6f-8f36-b31083481b66",
+  "name": "TestGetMeshSyncInfo_NilMeshsync",
+  "fullName": "github.com/meshery/meshery/server/internal/graphql/model::TestGetMeshSyncInfo_NilMeshsync",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777953730879,
+  "stop": 1777953730879,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/internal"
+    },
+    {
+      "name": "suite",
+      "value": "server/internal/graphql/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMeshSyncInfo_NilMeshsync"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
