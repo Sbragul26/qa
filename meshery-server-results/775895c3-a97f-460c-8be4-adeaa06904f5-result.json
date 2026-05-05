@@ -1,0 +1,44 @@
+{
+  "uuid": "775895c3-a97f-460c-8be4-adeaa06904f5",
+  "name": "TestBindingIdentificationEmptyValues",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBindingIdentificationEmptyValues",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777940751828,
+  "stop": 1777940751831,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBindingIdentificationEmptyValues"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

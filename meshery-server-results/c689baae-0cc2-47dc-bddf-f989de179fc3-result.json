@@ -1,0 +1,44 @@
+{
+  "uuid": "c689baae-0cc2-47dc-bddf-f989de179fc3",
+  "name": "TestWriteJSONMessage_SetsHeadersAndEncodesPayload",
+  "fullName": "github.com/meshery/meshery/server/models/httputil::TestWriteJSONMessage_SetsHeadersAndEncodesPayload",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777940739064,
+  "stop": 1777940739064,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/httputil"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWriteJSONMessage_SetsHeadersAndEncodesPayload"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
