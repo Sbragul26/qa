@@ -1,0 +1,44 @@
+{
+  "uuid": "024cf0b4-f18f-4f50-ba2e-741a1b860db4",
+  "name": "TestProfileCmd/given_no_argument_when_profile_then_display_profiles",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd/given_no_argument_when_profile_then_display_profiles",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778022031729,
+  "stop": 1778022031743,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd/given_no_argument_when_profile_then_display_profiles"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

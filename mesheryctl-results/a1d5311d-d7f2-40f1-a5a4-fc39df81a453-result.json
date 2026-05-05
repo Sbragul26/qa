@@ -1,0 +1,44 @@
+{
+  "uuid": "a1d5311d-d7f2-40f1-a5a4-fc39df81a453",
+  "name": "TestMakeRequest_Failures/Given_no_token_provided_when_received_a_GET_request_then_an_error_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/api::TestMakeRequest_Failures/Given_no_token_provided_when_received_a_GET_request_then_an_error_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778022003070,
+  "stop": 1778022003070,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/api"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMakeRequest_Failures/Given_no_token_provided_when_received_a_GET_request_then_an_error_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

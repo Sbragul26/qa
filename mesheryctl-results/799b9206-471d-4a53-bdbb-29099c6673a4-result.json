@@ -1,0 +1,44 @@
+{
+  "uuid": "799b9206-471d-4a53-bdbb-29099c6673a4",
+  "name": "TestCheckKubectlVersion/v1.12.1",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestCheckKubectlVersion/v1.12.1",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778022048066,
+  "stop": 1778022048067,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCheckKubectlVersion/v1.12.1"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
