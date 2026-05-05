@@ -1,0 +1,44 @@
+{
+  "uuid": "38c75969-fbc1-429a-a7e3-2f04c13c0bc0",
+  "name": "TestSaveUserCredential_ClientSuppliedUserIdCannotOverride",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestSaveUserCredential_ClientSuppliedUserIdCannotOverride",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778009560596,
+  "stop": 1778009560596,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSaveUserCredential_ClientSuppliedUserIdCannotOverride"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

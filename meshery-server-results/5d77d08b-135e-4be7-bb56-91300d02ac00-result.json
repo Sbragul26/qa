@@ -1,0 +1,44 @@
+{
+  "uuid": "5d77d08b-135e-4be7-bb56-91300d02ac00",
+  "name": "TestConvertFileToDesign_UnsupportedExtensionWrappedAsErrConvertToDesign",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestConvertFileToDesign_UnsupportedExtensionWrappedAsErrConvertToDesign",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778009561427,
+  "stop": 1778009561427,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConvertFileToDesign_UnsupportedExtensionWrappedAsErrConvertToDesign"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

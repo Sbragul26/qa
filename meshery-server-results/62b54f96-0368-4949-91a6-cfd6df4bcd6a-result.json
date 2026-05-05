@@ -1,0 +1,44 @@
+{
+  "uuid": "62b54f96-0368-4949-91a6-cfd6df4bcd6a",
+  "name": "TestListenForCoreEvents_SingleUserReceivesAndStops",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestListenForCoreEvents_SingleUserReceivesAndStops",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778009560702,
+  "stop": 1778009560802,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListenForCoreEvents_SingleUserReceivesAndStops"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
