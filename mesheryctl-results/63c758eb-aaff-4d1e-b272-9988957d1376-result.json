@@ -1,0 +1,44 @@
+{
+  "uuid": "63c758eb-aaff-4d1e-b272-9988957d1376",
+  "name": "TestDoc/Test_GenMarkdownCustom_with_parent_command_and_manually_added_content",
+  "fullName": "github.com/meshery/meshery/mesheryctl/doc::TestDoc/Test_GenMarkdownCustom_with_parent_command_and_manually_added_content",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777953739860,
+  "stop": 1777953739860,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/doc"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/doc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDoc/Test_GenMarkdownCustom_with_parent_command_and_manually_added_content"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
