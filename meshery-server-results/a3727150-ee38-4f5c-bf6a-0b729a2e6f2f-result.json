@@ -1,0 +1,46 @@
+{
+  "uuid": "a3727150-ee38-4f5c-bf6a-0b729a2e6f2f",
+  "name": "TestProcessEvaluationResponse_PreservesUserCustomizationsOnExistingComponents",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_PreservesUserCustomizationsOnExistingComponents",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1777953689425,
+  "stop": 1777953689551,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_PreservesUserCustomizationsOnExistingComponents\n=== CONT  TestProcessEvaluationResponse_PreservesUserCustomizationsOnExistingComponents"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_PreservesUserCustomizationsOnExistingComponents"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
