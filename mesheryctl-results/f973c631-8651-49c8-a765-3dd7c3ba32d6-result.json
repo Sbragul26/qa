@@ -1,0 +1,44 @@
+{
+  "uuid": "f973c631-8651-49c8-a765-3dd7c3ba32d6",
+  "name": "TestValidateAbsolutePath/given_empty_path_when_isAbsPath_then_returns_no_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestValidateAbsolutePath/given_empty_path_when_isAbsPath_then_returns_no_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778040422148,
+  "stop": 1778040422148,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidateAbsolutePath/given_empty_path_when_isAbsPath_then_returns_no_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

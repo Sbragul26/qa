@@ -1,0 +1,44 @@
+{
+  "uuid": "a021d0cc-da0d-4f86-b120-4638030d0273",
+  "name": "TestTruncateID",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestTruncateID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778040460411,
+  "stop": 1778040460411,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTruncateID"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
