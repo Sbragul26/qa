@@ -1,0 +1,494 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation:
+      - generic [ref=e4]:
+        - generic [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+          - img [ref=e8]
+        - list [ref=e9]:
+          - button "Dashboard" [ref=e11] [cursor=pointer]:
+            - link "Dashboard" [ref=e12]:
+              - /url: /
+              - generic [ref=e13]:
+                - img [ref=e15]
+                - generic [ref=e20]: Dashboard
+          - button "Lifecycle" [ref=e22] [cursor=pointer]:
+            - link "Lifecycle" [ref=e23]:
+              - /url: /management/connections
+              - generic [ref=e24]:
+                - img [ref=e26]
+                - generic [ref=e29]: Lifecycle
+          - button "Configuration" [ref=e31] [cursor=pointer]:
+            - link "Configuration" [ref=e32]:
+              - /url: /configuration/designs
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e40]: Configuration
+          - button "meshery-button-2 Performance" [ref=e42] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e43]:
+              - /url: /performance
+              - generic [ref=e44]:
+                - img "meshery-button-2" [ref=e46]
+                - generic [ref=e72]: Performance
+          - button "Extensions" [ref=e74] [cursor=pointer]:
+            - link "Extensions" [ref=e75]:
+              - /url: /extensions
+              - generic [ref=e76]:
+                - img [ref=e78]
+                - generic [ref=e105]: Extensions
+          - separator [ref=e106]
+          - list [ref=e107]:
+            - button "Kanvas" [ref=e108] [cursor=pointer]:
+              - link "Kanvas" [ref=e109]:
+                - /url: /extension/meshmap
+                - generic [ref=e111]:
+                  - img [ref=e113]
+                  - generic [ref=e115]: Kanvas
+          - separator [ref=e116]
+        - generic [ref=e117]:
+          - img [ref=e120] [cursor=pointer]
+          - group [ref=e122]:
+            - listitem [ref=e123]:
+              - button [ref=e124] [cursor=pointer]:
+                - img [ref=e125]
+          - listitem [ref=e128]:
+            - generic [ref=e129]: v1.0.18-1
+    - generic [ref=e130]:
+      - banner [ref=e131]:
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - img [ref=e137]
+            - generic [ref=e154]:
+              - button [ref=e156] [cursor=pointer]:
+                - img [ref=e157]
+              - text: /
+              - button [ref=e166] [cursor=pointer]:
+                - img [ref=e167]
+              - group [ref=e171]:
+                - generic [ref=e176]:
+                  - combobox [ref=e177] [cursor=pointer]:
+                    - generic [ref=e178]: My other workspace
+                  - textbox: dcba6398-f859-49f7-99af-1041234fc6cd
+                  - img
+                  - group
+              - text: /
+              - generic [ref=e180]:
+                - generic [ref=e183]:
+                  - textbox [ref=e184]: Untitled Design
+                  - group
+                - button [ref=e186] [cursor=pointer]:
+                  - img [ref=e187]
+                - button [ref=e203] [cursor=pointer]:
+                  - img [ref=e204]
+          - generic [ref=e207]:
+            - button "contexts" [ref=e210] [cursor=pointer]:
+              - generic [ref=e211]:
+                - img [ref=e212]
+                - generic [ref=e213]: "0"
+            - button "99+" [ref=e216] [cursor=pointer]:
+              - generic [ref=e217]:
+                - img [ref=e218]
+                - generic [ref=e221]: 99+
+            - button [ref=e225] [cursor=pointer]:
+              - img [ref=e227]
+            - button [ref=e229] [cursor=pointer]:
+              - img [ref=e230]
+      - main [ref=e233]:
+        - generic [ref=e234]:
+          - generic [ref=e236]:
+            - group [ref=e238]:
+              - generic [ref=e239]:
+                - button [disabled]:
+                  - generic:
+                    - img
+              - button [ref=e241] [cursor=pointer]:
+                - img [ref=e243]
+            - generic [ref=e264]:
+              - generic [ref=e265]:
+                - img [ref=e268]
+                - group [ref=e272]:
+                  - button "Layers" [ref=e274] [cursor=pointer]:
+                    - img [ref=e276]
+                    - paragraph [ref=e281]: Layers
+                  - button "Comments" [ref=e283] [cursor=pointer]:
+                    - img [ref=e285]
+                    - paragraph [ref=e288]: Comments
+                  - group [ref=e290]:
+                    - button "Actions" [ref=e291] [cursor=pointer]:
+                      - paragraph [ref=e292]: Actions
+                    - button [ref=e293] [cursor=pointer]:
+                      - img [ref=e294]
+                  - group [ref=e297]:
+                    - button "Share" [ref=e298] [cursor=pointer]
+                    - separator [ref=e299]
+                    - button [ref=e300] [cursor=pointer]:
+                      - img [ref=e301]
+                - generic:
+                  - button "CANVAS_CONTROLS" [ref=e303] [cursor=pointer]:
+                    - img [ref=e304]
+                  - menu:
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                - generic:
+                  - button "CANVAS_CONTROLS" [ref=e321] [cursor=pointer]:
+                    - img [ref=e322]
+                  - menu:
+                    - menuitem:
+                      - img
+                    - menuitem "Fit":
+                      - paragraph: Fit
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                - img [ref=e330]
+              - generic:
+                - heading [level=6]
+              - generic [ref=e337]:
+                - generic [ref=e338]:
+                  - img [ref=e341] [cursor=pointer]
+                  - img [ref=e348] [cursor=pointer]
+                - separator [ref=e351]
+                - button [ref=e355] [cursor=pointer]:
+                  - img [ref=e356]
+                - button [ref=e376] [cursor=pointer]:
+                  - img [ref=e377]
+                - separator [ref=e380]
+                - button [ref=e384] [cursor=pointer]:
+                  - img [ref=e385]
+                - button [ref=e391]:
+                  - img [ref=e392]
+                - img [ref=e397]
+                - button [ref=e400]:
+                  - img [ref=e401]
+                - button [ref=e405]:
+                  - img [ref=e406]
+                - separator [ref=e410]
+                - button [ref=e413] [cursor=pointer]:
+                  - img [ref=e415]
+                - button [ref=e426] [cursor=pointer]:
+                  - img [ref=e428]
+                - separator [ref=e436]
+                - button [ref=e438] [cursor=pointer]:
+                  - img [ref=e439]
+                - separator [ref=e453]
+                - button [active] [ref=e456] [cursor=pointer]:
+                  - generic [ref=e457]:
+                    - img [ref=e458]
+                    - img [ref=e461]
+            - generic:
+              - button "Feedback" [ref=e464] [cursor=pointer]
+              - generic [ref=e466]:
+                - generic [ref=e467]:
+                  - img [ref=e469]
+                  - paragraph [ref=e472]: Feedback
+                  - generic [ref=e473]:
+                    - img [ref=e476]
+                    - img [ref=e480] [cursor=pointer]
+                - generic [ref=e484]:
+                  - generic [ref=e485]:
+                    - button "Issue" [ref=e486] [cursor=pointer]:
+                      - img [ref=e488]
+                      - paragraph [ref=e490]: Issue
+                    - button "Suggestion" [ref=e491] [cursor=pointer]:
+                      - img [ref=e493]
+                      - paragraph [ref=e499]: Suggestion
+                    - button "Meet Request" [ref=e500] [cursor=pointer]:
+                      - img [ref=e502]
+                      - paragraph [ref=e507]: Meet Request
+                  - textbox "I’m having an issue with..." [ref=e509]
+                - generic [ref=e511]:
+                  - generic [ref=e512]:
+                    - generic [ref=e513] [cursor=pointer]:
+                      - checkbox [ref=e514]
+                      - img [ref=e515]
+                    - paragraph [ref=e517]: We may email you for more information or updates
+                  - button "Send" [disabled]
+            - status [ref=e518]
+          - button [ref=e519] [cursor=pointer]:
+            - img [ref=e521]
+  - alert [ref=e523]
+  - generic: Name *
+  - tooltip "Actor Barrel Bevel BottomRoundRectangle Card Circle Cloud ConcaveHexagon Cone Corner Crescent Cross Cube CutRectangle Diagonal snip rectengle DiagonalStripe Diamond EightPointStar Explosion Flash Flash2 HalfFrame Heptagon Hexagon HorizontalCrossbar IsometricCube LayerdRectengle LeftTriangle LightningBolt Message NoSymbol NotEqual Note ObtuseTriangle OffPageConnector Parallelogram Pentagon Plus Pyramid Rectangle Rhomboid RightRhomboid RightTriangle RoundDiamond RoundHeptagon RoundHexagon RoundOctagon RoundPentagon RoundRectangle RoundTag RoundTriangle SixPointStar SlantedParallelogram Star Star (Four Point) Switch Tag Tee Trapezoid Triangle User Vee VerticalCrossbar X X (Destruction) XWing" [ref=e525]:
+    - generic [ref=e529]:
+      - generic [ref=e533]:
+        - textbox "Search..." [ref=e534]
+        - group
+      - button "Actor" [ref=e535]:
+        - generic [ref=e536]:
+          - img [ref=e537]
+          - generic [ref=e539]: Actor
+      - button "Barrel" [ref=e540]:
+        - generic [ref=e541]:
+          - img [ref=e542]
+          - generic [ref=e544]: Barrel
+      - button "Bevel" [ref=e545]:
+        - generic [ref=e546]:
+          - img [ref=e547]
+          - generic [ref=e549]: Bevel
+      - button "BottomRoundRectangle" [ref=e550]:
+        - generic [ref=e551]:
+          - img [ref=e552]
+          - generic [ref=e554]: BottomRoundRectangle
+      - button "Card" [ref=e555]:
+        - generic [ref=e556]:
+          - img [ref=e557]
+          - generic [ref=e559]: Card
+      - button "Circle" [ref=e560]:
+        - generic [ref=e561]:
+          - img [ref=e562]
+          - generic [ref=e564]: Circle
+      - button "Cloud" [ref=e565]:
+        - generic [ref=e566]:
+          - img [ref=e567]
+          - generic [ref=e569]: Cloud
+      - button "ConcaveHexagon" [ref=e570]:
+        - generic [ref=e571]:
+          - img [ref=e572]
+          - generic [ref=e574]: ConcaveHexagon
+      - button "Cone" [ref=e575]:
+        - generic [ref=e576]:
+          - img [ref=e577]
+          - generic [ref=e579]: Cone
+      - button "Corner" [ref=e580]:
+        - generic [ref=e581]:
+          - img [ref=e582]
+          - generic [ref=e584]: Corner
+      - button "Crescent" [ref=e585]:
+        - generic [ref=e586]:
+          - img [ref=e587]
+          - generic [ref=e589]: Crescent
+      - button "Cross" [ref=e590]:
+        - generic [ref=e591]:
+          - img [ref=e592]
+          - generic [ref=e594]: Cross
+      - button "Cube" [ref=e595]:
+        - generic [ref=e596]:
+          - img [ref=e597]
+          - generic [ref=e599]: Cube
+      - button "CutRectangle" [ref=e600]:
+        - generic [ref=e601]:
+          - img [ref=e602]
+          - generic [ref=e604]: CutRectangle
+      - button "Diagonal snip rectengle" [ref=e605]:
+        - generic [ref=e606]:
+          - img [ref=e607]
+          - generic [ref=e609]: Diagonal snip rectengle
+      - button "DiagonalStripe" [ref=e610]:
+        - generic [ref=e611]:
+          - img [ref=e612]
+          - generic [ref=e614]: DiagonalStripe
+      - button "Diamond" [ref=e615]:
+        - generic [ref=e616]:
+          - img [ref=e617]
+          - generic [ref=e619]: Diamond
+      - button "EightPointStar" [ref=e620]:
+        - generic [ref=e621]:
+          - img [ref=e622]
+          - generic [ref=e624]: EightPointStar
+      - button "Explosion" [ref=e625]:
+        - generic [ref=e626]:
+          - img [ref=e627]
+          - generic [ref=e629]: Explosion
+      - button "Flash" [ref=e630]:
+        - generic [ref=e631]:
+          - img [ref=e632]
+          - generic [ref=e634]: Flash
+      - button "Flash2" [ref=e635]:
+        - generic [ref=e636]:
+          - img [ref=e637]
+          - generic [ref=e639]: Flash2
+      - button "HalfFrame" [ref=e640]:
+        - generic [ref=e641]:
+          - img [ref=e642]
+          - generic [ref=e644]: HalfFrame
+      - button "Heptagon" [ref=e645]:
+        - generic [ref=e646]:
+          - img [ref=e647]
+          - generic [ref=e649]: Heptagon
+      - button "Hexagon" [ref=e650]:
+        - generic [ref=e651]:
+          - img [ref=e652]
+          - generic [ref=e654]: Hexagon
+      - button "HorizontalCrossbar" [ref=e655]:
+        - generic [ref=e656]:
+          - img [ref=e657]
+          - generic [ref=e659]: HorizontalCrossbar
+      - button "IsometricCube" [ref=e660]:
+        - generic [ref=e661]:
+          - img [ref=e662]
+          - generic [ref=e664]: IsometricCube
+      - button "LayerdRectengle" [ref=e665]:
+        - generic [ref=e666]:
+          - img [ref=e667]
+          - generic [ref=e669]: LayerdRectengle
+      - button "LeftTriangle" [ref=e670]:
+        - generic [ref=e671]:
+          - img [ref=e672]
+          - generic [ref=e674]: LeftTriangle
+      - button "LightningBolt" [ref=e675]:
+        - generic [ref=e676]:
+          - img [ref=e677]
+          - generic [ref=e679]: LightningBolt
+      - button "Message" [ref=e680]:
+        - generic [ref=e681]:
+          - img [ref=e682]
+          - generic [ref=e684]: Message
+      - button "NoSymbol" [ref=e685]:
+        - generic [ref=e686]:
+          - img [ref=e687]
+          - generic [ref=e689]: NoSymbol
+      - button "NotEqual" [ref=e690]:
+        - generic [ref=e691]:
+          - img [ref=e692]
+          - generic [ref=e694]: NotEqual
+      - button "Note" [ref=e695]:
+        - generic [ref=e696]:
+          - img [ref=e697]
+          - generic [ref=e699]: Note
+      - button "ObtuseTriangle" [ref=e700]:
+        - generic [ref=e701]:
+          - img [ref=e702]
+          - generic [ref=e704]: ObtuseTriangle
+      - button "OffPageConnector" [ref=e705]:
+        - generic [ref=e706]:
+          - img [ref=e707]
+          - generic [ref=e709]: OffPageConnector
+      - button "Parallelogram" [ref=e710]:
+        - generic [ref=e711]:
+          - img [ref=e712]
+          - generic [ref=e714]: Parallelogram
+      - button "Pentagon" [ref=e715]:
+        - generic [ref=e716]:
+          - img [ref=e717]
+          - generic [ref=e719]: Pentagon
+      - button "Plus" [ref=e720]:
+        - generic [ref=e721]:
+          - img [ref=e722]
+          - generic [ref=e724]: Plus
+      - button "Pyramid" [ref=e725]:
+        - generic [ref=e726]:
+          - img [ref=e727]
+          - generic [ref=e729]: Pyramid
+      - button "Rectangle" [ref=e730]:
+        - generic [ref=e731]:
+          - img [ref=e732]
+          - generic [ref=e734]: Rectangle
+      - button "Rhomboid" [ref=e735]:
+        - generic [ref=e736]:
+          - img [ref=e737]
+          - generic [ref=e739]: Rhomboid
+      - button "RightRhomboid" [ref=e740]:
+        - generic [ref=e741]:
+          - img [ref=e742]
+          - generic [ref=e744]: RightRhomboid
+      - button "RightTriangle" [ref=e745]:
+        - generic [ref=e746]:
+          - img [ref=e747]
+          - generic [ref=e749]: RightTriangle
+      - button "RoundDiamond" [ref=e750]:
+        - generic [ref=e751]:
+          - img [ref=e752]
+          - generic [ref=e754]: RoundDiamond
+      - button "RoundHeptagon" [ref=e755]:
+        - generic [ref=e756]:
+          - img [ref=e757]
+          - generic [ref=e759]: RoundHeptagon
+      - button "RoundHexagon" [ref=e760]:
+        - generic [ref=e761]:
+          - img [ref=e762]
+          - generic [ref=e764]: RoundHexagon
+      - button "RoundOctagon" [ref=e765]:
+        - generic [ref=e766]:
+          - img [ref=e767]
+          - generic [ref=e769]: RoundOctagon
+      - button "RoundPentagon" [ref=e770]:
+        - generic [ref=e771]:
+          - img [ref=e772]
+          - generic [ref=e774]: RoundPentagon
+      - button "RoundRectangle" [ref=e775]:
+        - generic [ref=e776]:
+          - img [ref=e777]
+          - generic [ref=e779]: RoundRectangle
+      - button "RoundTag" [ref=e780]:
+        - generic [ref=e781]:
+          - img [ref=e782]
+          - generic [ref=e784]: RoundTag
+      - button "RoundTriangle" [ref=e785]:
+        - generic [ref=e786]:
+          - img [ref=e787]
+          - generic [ref=e789]: RoundTriangle
+      - button "SixPointStar" [ref=e790]:
+        - generic [ref=e791]:
+          - img [ref=e792]
+          - generic [ref=e794]: SixPointStar
+      - button "SlantedParallelogram" [ref=e795]:
+        - generic [ref=e796]:
+          - img [ref=e797]
+          - generic [ref=e799]: SlantedParallelogram
+      - button "Star" [ref=e800]:
+        - generic [ref=e801]:
+          - img [ref=e802]
+          - generic [ref=e804]: Star
+      - button "Star (Four Point)" [ref=e805]:
+        - generic [ref=e806]:
+          - img [ref=e807]
+          - generic [ref=e809]: Star (Four Point)
+      - button "Switch" [ref=e810]:
+        - generic [ref=e811]:
+          - img [ref=e812]
+          - generic [ref=e814]: Switch
+      - button "Tag" [ref=e815]:
+        - generic [ref=e816]:
+          - img [ref=e817]
+          - generic [ref=e819]: Tag
+      - button "Tee" [ref=e820]:
+        - generic [ref=e821]:
+          - img [ref=e822]
+          - generic [ref=e824]: Tee
+      - button "Trapezoid" [ref=e825]:
+        - generic [ref=e826]:
+          - img [ref=e827]
+          - generic [ref=e829]: Trapezoid
+      - button "Triangle" [ref=e830]:
+        - generic [ref=e831]:
+          - img [ref=e832]
+          - generic [ref=e834]: Triangle
+      - button "User" [ref=e835]:
+        - generic [ref=e836]:
+          - img [ref=e837]
+          - generic [ref=e839]: User
+      - button "Vee" [ref=e840]:
+        - generic [ref=e841]:
+          - img [ref=e842]
+          - generic [ref=e844]: Vee
+      - button "VerticalCrossbar" [ref=e845]:
+        - generic [ref=e846]:
+          - img [ref=e847]
+          - generic [ref=e849]: VerticalCrossbar
+      - button "X" [ref=e850]:
+        - generic [ref=e851]:
+          - img [ref=e852]
+          - generic [ref=e854]: X
+      - button "X (Destruction)" [ref=e855]:
+        - generic [ref=e856]:
+          - img [ref=e857]
+          - generic [ref=e859]: X (Destruction)
+      - button "XWing" [ref=e860]:
+        - generic [ref=e861]:
+          - img [ref=e862]
+          - generic [ref=e864]: XWing
+```
