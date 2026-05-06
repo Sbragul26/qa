@@ -1,0 +1,25 @@
+{
+  "uuid": "1993cef0-6508-4e42-bbf5-11cbaecd361b",
+  "name": "mesheryctl perf apply with URL and mesh istio runs successfully",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1778067319962,
+  "stop": 1778067319963,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 004-perf/00-perf-apply.bats, line 28)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Get \"http://localhost:9081/api/user/performance/profiles?pagesize=25&page=0&search=test-profile\": dial tcp [::1]:9081: connect: connection refused | Short Description: Failed to make a request | Probable Cause: Meshery server is not reachable. | Suggested Remediation: Please ensure that the Meshery server is running and accessible. You can try running 'mesheryctl system restart'.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
