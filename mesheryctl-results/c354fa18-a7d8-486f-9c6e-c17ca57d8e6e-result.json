@@ -1,0 +1,44 @@
+{
+  "uuid": "c354fa18-a7d8-486f-9c6e-c17ca57d8e6e",
+  "name": "TestViewCmd/given_context_override_when_view_then_display_specified_context_channel_and_version",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestViewCmd/given_context_override_when_view_then_display_specified_context_channel_and_version",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778109629140,
+  "stop": 1778109629140,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewCmd/given_context_override_when_view_then_display_specified_context_channel_and_version"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
