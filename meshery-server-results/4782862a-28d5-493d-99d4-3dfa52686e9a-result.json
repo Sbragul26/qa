@@ -1,0 +1,44 @@
+{
+  "uuid": "4782862a-28d5-493d-99d4-3dfa52686e9a",
+  "name": "TestResolvePath",
+  "fullName": "github.com/meshery/meshery/server/policies::TestResolvePath",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778109659591,
+  "stop": 1778109659592,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolvePath"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
