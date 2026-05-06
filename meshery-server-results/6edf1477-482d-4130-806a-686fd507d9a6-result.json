@@ -1,0 +1,44 @@
+{
+  "uuid": "6edf1477-482d-4130-806a-686fd507d9a6",
+  "name": "TestIsValidBinding",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIsValidBinding",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778107163415,
+  "stop": 1778107163417,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsValidBinding"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "9a446f34-8012-45d7-8952-5cf5f69f47d2",
+  "name": "TestRegoSyntax/utils.rego",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRegoSyntax/utils.rego",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778107165699,
+  "stop": 1778107165703,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRegoSyntax/utils.rego"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

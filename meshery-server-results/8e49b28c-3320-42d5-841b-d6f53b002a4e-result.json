@@ -1,0 +1,44 @@
+{
+  "uuid": "8e49b28c-3320-42d5-841b-d6f53b002a4e",
+  "name": "TestIsTransientProviderError/Could_not_reach_remote_provider_is_transient",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestIsTransientProviderError/Could_not_reach_remote_provider_is_transient",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778107116654,
+  "stop": 1778107116654,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsTransientProviderError/Could_not_reach_remote_provider_is_transient"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
