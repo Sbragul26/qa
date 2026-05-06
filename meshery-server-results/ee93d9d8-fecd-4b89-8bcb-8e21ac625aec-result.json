@@ -1,0 +1,44 @@
+{
+  "uuid": "ee93d9d8-fecd-4b89-8bcb-8e21ac625aec",
+  "name": "TestWalletPatching",
+  "fullName": "github.com/meshery/meshery/server/policies::TestWalletPatching",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778067569347,
+  "stop": 1778067569347,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWalletPatching"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "e66679b9-cf2f-4e17-971e-db4bc0973360",
+  "name": "TestProviderUIHandler_PreservesQueryStringOnAutoSelect",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProviderUIHandler_PreservesQueryStringOnAutoSelect",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778067521970,
+  "stop": 1778067521970,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProviderUIHandler_PreservesQueryStringOnAutoSelect"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
