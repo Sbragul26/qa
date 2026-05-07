@@ -1,0 +1,44 @@
+{
+  "uuid": "08cddd11-2ae0-40d3-a612-f63f68b6631f",
+  "name": "TestReadValidationErrorMessages_Direct/given_relpath_validation_error_then_formats_relpath_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct/given_relpath_validation_error_then_formats_relpath_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778177846032,
+  "stop": 1778177846032,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct/given_relpath_validation_error_then_formats_relpath_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
