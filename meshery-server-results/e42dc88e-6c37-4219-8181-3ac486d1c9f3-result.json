@@ -1,0 +1,44 @@
+{
+  "uuid": "e42dc88e-6c37-4219-8181-3ac486d1c9f3",
+  "name": "TestPolicyImplication/edge_non-binding",
+  "fullName": "github.com/meshery/meshery/server/policies::TestPolicyImplication/edge_non-binding",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197136239,
+  "stop": 1778197136239,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPolicyImplication/edge_non-binding"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

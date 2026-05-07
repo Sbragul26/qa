@@ -1,0 +1,44 @@
+{
+  "uuid": "070f8a46-8fd3-4bc1-80ea-af6ca49c55b2",
+  "name": "TestHandlerWrappers_ForwardToHttputil/writeMeshkitError",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestHandlerWrappers_ForwardToHttputil/writeMeshkitError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197088450,
+  "stop": 1778197088450,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHandlerWrappers_ForwardToHttputil/writeMeshkitError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

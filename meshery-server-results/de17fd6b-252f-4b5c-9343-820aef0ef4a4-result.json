@@ -1,0 +1,44 @@
+{
+  "uuid": "de17fd6b-252f-4b5c-9343-820aef0ef4a4",
+  "name": "TestOrganizationsPage_UnmarshalAcceptsEitherKeyFlavor/both_flavors_absent_zeroes_the_fields",
+  "fullName": "github.com/meshery/meshery/server/models::TestOrganizationsPage_UnmarshalAcceptsEitherKeyFlavor/both_flavors_absent_zeroes_the_fields",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197120463,
+  "stop": 1778197120463,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrganizationsPage_UnmarshalAcceptsEitherKeyFlavor/both_flavors_absent_zeroes_the_fields"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
