@@ -1,0 +1,46 @@
+{
+  "uuid": "541b88c8-2ccb-4dc8-9352-3a8d1608d9ea",
+  "name": "TestAskForConfirmation/test_with_input_'no'",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestAskForConfirmation/test_with_input_'no'",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197144750,
+  "stop": 1778197144750,
+  "statusDetails": {
+    "message": "question? [y/n]?"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAskForConfirmation/test_with_input_'no'"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

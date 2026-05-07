@@ -1,0 +1,44 @@
+{
+  "uuid": "9b18629e-0946-49f2-b853-cba1f6bf6eb1",
+  "name": "TestContextSwitchCmd/switch_to_a_different_context",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextSwitchCmd/switch_to_a_different_context",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197138358,
+  "stop": 1778197138361,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextSwitchCmd/switch_to_a_different_context"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

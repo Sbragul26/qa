@@ -1,0 +1,44 @@
+{
+  "uuid": "f5b4e01c-df9d-4b91-88ad-952ab39aba05",
+  "name": "TestSetProvider",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/config::TestSetProvider",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197111318,
+  "stop": 1778197111318,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/config"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSetProvider"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

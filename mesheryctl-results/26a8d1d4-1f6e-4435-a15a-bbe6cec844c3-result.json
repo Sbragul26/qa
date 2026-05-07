@@ -1,0 +1,44 @@
+{
+  "uuid": "26a8d1d4-1f6e-4435-a15a-bbe6cec844c3",
+  "name": "TestYAMLOutputFormatterSaver_Save_WriteError",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::TestYAMLOutputFormatterSaver_Save_WriteError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197100437,
+  "stop": 1778197100437,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestYAMLOutputFormatterSaver_Save_WriteError"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

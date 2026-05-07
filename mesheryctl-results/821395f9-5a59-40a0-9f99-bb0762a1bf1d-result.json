@@ -1,0 +1,46 @@
+{
+  "uuid": "821395f9-5a59-40a0-9f99-bb0762a1bf1d",
+  "name": "TestSearch_WithFlags",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestSearch_WithFlags",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197136467,
+  "stop": 1778197136481,
+  "statusDetails": {
+    "message": "testing.go:458: List relationships test\n    testing.go:458: List relationships test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSearch_WithFlags"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

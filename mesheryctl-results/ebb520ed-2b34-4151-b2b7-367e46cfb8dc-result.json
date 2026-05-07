@@ -1,0 +1,44 @@
+{
+  "uuid": "ebb520ed-2b34-4151-b2b7-367e46cfb8dc",
+  "name": "TestReadValidationErrorMessages_Direct/given_oneof_validation_error_then_formats_oneof_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct/given_oneof_validation_error_then_formats_oneof_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778197106096,
+  "stop": 1778197106096,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct/given_oneof_validation_error_then_formats_oneof_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
