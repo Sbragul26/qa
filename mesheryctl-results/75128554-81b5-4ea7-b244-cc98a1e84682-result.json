@@ -1,0 +1,44 @@
+{
+  "uuid": "75128554-81b5-4ea7-b244-cc98a1e84682",
+  "name": "TestReadValidationErrorMessages/given_empty_required_field_when_isRequired_then_error_message_indicates_field_is_required",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages/given_empty_required_field_when_isRequired_then_error_message_indicates_field_is_required",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778534455491,
+  "stop": 1778534455495,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages/given_empty_required_field_when_isRequired_then_error_message_indicates_field_is_required"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
