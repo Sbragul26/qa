@@ -1,0 +1,44 @@
+{
+  "uuid": "00af3516-e53c-45c3-8d14-4d6df22f8312",
+  "name": "TestMesheryPatternUPDATERequestBody_UnmarshalPrecedenceCanonicalWins",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestMesheryPatternUPDATERequestBody_UnmarshalPrecedenceCanonicalWins",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778534418725,
+  "stop": 1778534418730,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMesheryPatternUPDATERequestBody_UnmarshalPrecedenceCanonicalWins"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

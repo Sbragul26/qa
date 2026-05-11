@@ -1,0 +1,44 @@
+{
+  "uuid": "f6f2c6fe-7a46-4195-a68b-13e1bbc2f022",
+  "name": "TestIsTransientProviderError",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestIsTransientProviderError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778534418733,
+  "stop": 1778534418734,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsTransientProviderError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
