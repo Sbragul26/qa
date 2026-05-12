@@ -1,0 +1,44 @@
+{
+  "uuid": "8ee07502-35d1-44d8-b316-4b48d8e2e4a1",
+  "name": "TestBehaviorAlignment/from_and_to_missing_component",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBehaviorAlignment/from_and_to_missing_component",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778585819083,
+  "stop": 1778585819323,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBehaviorAlignment/from_and_to_missing_component"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
