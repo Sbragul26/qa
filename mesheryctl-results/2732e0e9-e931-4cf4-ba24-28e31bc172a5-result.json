@@ -1,0 +1,44 @@
+{
+  "uuid": "2732e0e9-e931-4cf4-ba24-28e31bc172a5",
+  "name": "TestReadValidationErrorMessages_Direct",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778585760877,
+  "stop": 1778585760879,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "1c4b18f9-b9f2-4777-a657-93551ae5b687",
+  "name": "TestSetCmd/Set_GKE_Platform_Channel",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestSetCmd/Set_GKE_Platform_Channel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778585794504,
+  "stop": 1778585794504,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSetCmd/Set_GKE_Platform_Channel"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

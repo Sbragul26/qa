@@ -1,0 +1,46 @@
+{
+  "uuid": "b436f331-d3bb-44ff-8857-615a2a868c18",
+  "name": "TestSetCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestSetCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778585794484,
+  "stop": 1778585794504,
+  "statusDetails": {
+    "message": "channel_test.go:100: Set ChannelCmd Passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSetCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

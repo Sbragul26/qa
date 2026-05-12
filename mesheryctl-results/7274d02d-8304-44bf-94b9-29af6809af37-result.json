@@ -1,0 +1,44 @@
+{
+  "uuid": "7274d02d-8304-44bf-94b9-29af6809af37",
+  "name": "TestSetFileLocation",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestSetFileLocation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778585801082,
+  "stop": 1778585801082,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSetFileLocation"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

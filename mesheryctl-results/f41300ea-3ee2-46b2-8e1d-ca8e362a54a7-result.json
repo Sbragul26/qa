@@ -1,0 +1,44 @@
+{
+  "uuid": "f41300ea-3ee2-46b2-8e1d-ca8e362a54a7",
+  "name": "TestListManifests/ListManifests_with_empty_manifest",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestListManifests/ListManifests_with_empty_manifest",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778585801240,
+  "stop": 1778585801482,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListManifests/ListManifests_with_empty_manifest"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

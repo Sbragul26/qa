@@ -1,0 +1,46 @@
+{
+  "uuid": "edda2512-18ce-4b9c-8332-99c79ffc1a97",
+  "name": "TestContextDeleteCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextDeleteCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778585794514,
+  "stop": 1778585794516,
+  "statusDetails": {
+    "message": "context_test.go:220: DeleteContextCmd test Passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextDeleteCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
