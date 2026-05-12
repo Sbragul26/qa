@@ -1,0 +1,44 @@
+{
+  "uuid": "65c98328-c12a-4775-9ed9-022fd7731d67",
+  "name": "TestHierarchicalIdentifyRelationship",
+  "fullName": "github.com/meshery/meshery/server/policies::TestHierarchicalIdentifyRelationship",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778545510877,
+  "stop": 1778545510878,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHierarchicalIdentifyRelationship"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
