@@ -1,0 +1,46 @@
+{
+  "uuid": "9b6179f7-b147-444a-b279-6c407fb9b9fb",
+  "name": "TestConnectionViewCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionViewCmd",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1778545478342,
+  "stop": 1778545478353,
+  "statusDetails": {
+    "message": "testing.go:458: List connection test\n    testing.go:458: List connection test\n    testing.go:458: List connection test\n    testing.go:458: List connection test\n    testing.go:458: List connection test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionViewCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "b9c0240e-c7d2-4dde-af68-c8cd821af0f8",
+  "name": "TestGKEConfigValidation",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestGKEConfigValidation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778545508099,
+  "stop": 1778545508099,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGKEConfigValidation"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

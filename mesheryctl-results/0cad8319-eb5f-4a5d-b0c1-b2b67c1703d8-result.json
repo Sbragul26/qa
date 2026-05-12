@@ -1,0 +1,46 @@
+{
+  "uuid": "0cad8319-eb5f-4a5d-b0c1-b2b67c1703d8",
+  "name": "TestCreateEnvironment",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestCreateEnvironment",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778545482522,
+  "stop": 1778545482540,
+  "statusDetails": {
+    "message": "testing.go:558: Test 'given no flags provided when environment create then throw error' executed\n    testing.go:558: Test 'given invalid organization ID when environment create then throw error' executed\n    testing.go:558: Test 'given empty flag values when environment create then throw error' executed\n    testing.go:558: Test 'given missing flag orgId when environment create then throw error' executed\n    testing.go:558: Test 'given missing flag name when environment create then throw error' executed\n    testing.go:558: Test 'given missing flag description when environment create then throw error' executed\n    testing.go:558: Test 'given all flags provided when environment create then environment is created' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateEnvironment"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
