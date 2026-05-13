@@ -1,0 +1,44 @@
+{
+  "uuid": "f2bb4a39-d559-4341-9d35-9c17f4d1ee61",
+  "name": "TestDeleteModel/given_a_non-existent_model_name_when_running_model_delete_then_ErrModelNotFound_is_returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestDeleteModel/given_a_non-existent_model_name_when_running_model_delete_then_ErrModelNotFound_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778711338452,
+  "stop": 1778711338455,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteModel/given_a_non-existent_model_name_when_running_model_delete_then_ErrModelNotFound_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
