@@ -1,0 +1,44 @@
+{
+  "uuid": "e674a47a-4b09-4db7-8fad-2fe8cc422f22",
+  "name": "TestWriteJSONEmptyObject_SetsHeadersAndWritesEmptyObject",
+  "fullName": "github.com/meshery/meshery/server/models/httputil::TestWriteJSONEmptyObject_SetsHeadersAndWritesEmptyObject",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778802476007,
+  "stop": 1778802476007,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/httputil"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWriteJSONEmptyObject_SetsHeadersAndWritesEmptyObject"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

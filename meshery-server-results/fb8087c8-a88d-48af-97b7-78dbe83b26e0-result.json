@@ -1,0 +1,44 @@
+{
+  "uuid": "fb8087c8-a88d-48af-97b7-78dbe83b26e0",
+  "name": "TestSendStreamEvent",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestSendStreamEvent",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778802443140,
+  "stop": 1778802443140,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSendStreamEvent"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
