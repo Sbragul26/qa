@@ -1,0 +1,516 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: extensions.spec.ts >> Extensions Section Tests >> Verify Kanvas Snapshot UI elements
+- Location: tests/e2e/extensions.spec.ts:26:7
+
+# Error details
+
+```
+Test timeout of 60000ms exceeded.
+```
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByTestId('kanvas-snapshot-heading')
+Expected: visible
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 60000ms
+  - waiting for getByTestId('kanvas-snapshot-heading')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - generic [ref=e32]:
+            - button "Configuration":
+              - link "Configuration":
+                - /url: /configuration/designs
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Configuration
+          - button "meshery-button-2 Performance" [ref=e34] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e35]:
+              - /url: /performance
+              - generic [ref=e36]:
+                - img "meshery-button-2" [ref=e38]
+                - generic [ref=e64]: Performance
+          - button "Extensions" [ref=e66] [cursor=pointer]:
+            - link "Extensions" [active] [ref=e67]:
+              - /url: /extensions
+              - generic [ref=e68]:
+                - img [ref=e70]
+                - generic [ref=e97]: Extensions
+          - generic [ref=e98]:
+            - separator [ref=e99]
+            - button "Kanvas" [ref=e101] [cursor=pointer]:
+              - link "Kanvas" [ref=e102]:
+                - /url: /extension/meshmap
+                - generic [ref=e104]:
+                  - img [ref=e106]
+                  - generic [ref=e108]: Kanvas
+          - separator [ref=e109]
+        - generic [ref=e110]:
+          - img [ref=e113] [cursor=pointer]
+          - group [ref=e115]:
+            - listitem [ref=e116]:
+              - link [ref=e117] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e119]
+            - listitem [ref=e121]:
+              - link [ref=e122] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e124]
+            - listitem [ref=e133]:
+              - link [ref=e134] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e136]
+            - listitem [ref=e138]:
+              - link [ref=e139] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e141]
+          - listitem [ref=e143]:
+            - generic [ref=e144]:
+              - text: v1.0.22
+              - link [ref=e146] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v1.0.22
+                - img [ref=e147]
+              - text: Running latest
+    - generic [ref=e149]:
+      - banner [ref=e150]:
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - button [ref=e156] [cursor=pointer]:
+              - img [ref=e157]
+            - text: /
+            - button [ref=e166] [cursor=pointer]:
+              - img [ref=e167]
+            - group [ref=e171]:
+              - generic [ref=e176]:
+                - combobox [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading "Dashboard" [level=5] [ref=e179]
+          - generic [ref=e181]:
+            - button "contexts" [ref=e184] [cursor=pointer]:
+              - generic [ref=e185]:
+                - img [ref=e186]
+                - generic [ref=e187]: "0"
+            - button "99+" [ref=e190] [cursor=pointer]:
+              - generic [ref=e191]:
+                - img [ref=e192]
+                - generic [ref=e195]: 99+
+            - button [ref=e199] [cursor=pointer]:
+              - img [ref=e201]
+            - button [ref=e204] [cursor=pointer]:
+              - img [ref=e205]
+      - generic [ref=e207]:
+        - main [ref=e208]:
+          - tablist [ref=e212]:
+            - tab "Overview" [selected] [ref=e213] [cursor=pointer]:
+              - img [ref=e214]
+              - text: Overview
+            - tab "Node" [ref=e239] [cursor=pointer]:
+              - img [ref=e240]
+              - text: Node
+            - tab "Namespace" [ref=e246] [cursor=pointer]:
+              - img [ref=e247]
+              - text: Namespace
+            - tab "Workload" [ref=e253] [cursor=pointer]:
+              - img [ref=e254]
+              - text: Workload
+            - tab "Configuration" [ref=e260] [cursor=pointer]:
+              - img [ref=e261]
+              - text: Configuration
+            - tab "Network" [ref=e267] [cursor=pointer]:
+              - img [ref=e268]
+              - text: Network
+            - tab "Security" [ref=e274] [cursor=pointer]:
+              - img [ref=e275]
+              - text: Security
+            - tab "Storage" [ref=e281] [cursor=pointer]:
+              - img [ref=e282]
+              - text: Storage
+            - tab "CRDS" [ref=e288] [cursor=pointer]:
+              - img [ref=e289]
+              - text: CRDS
+          - tabpanel [ref=e296]:
+            - generic [ref=e299]:
+              - generic [ref=e301]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]:
+                    - heading "Cluster Resource Overview" [level=6] [ref=e305]
+                    - generic [ref=e306]:
+                      - generic [ref=e307]:
+                        - combobox [ref=e308] [cursor=pointer]: All Resources
+                        - textbox: all
+                        - img
+                      - button [ref=e309] [cursor=pointer]:
+                        - img [ref=e311]
+                  - list [ref=e313]:
+                    - listitem:
+                      - generic [ref=e316]:
+                        - img "APIService"
+                        - heading "21" [level=6] [ref=e317]
+                    - listitem:
+                      - generic [ref=e320]:
+                        - img "ClusterRole"
+                        - heading "7" [level=6] [ref=e321]
+                    - listitem:
+                      - generic [ref=e324]:
+                        - img "ConfigMap"
+                        - heading "13" [level=6] [ref=e325]
+                    - listitem:
+                      - generic [ref=e328]:
+                        - img "DaemonSet"
+                        - heading "2" [level=6] [ref=e329]
+                    - listitem:
+                      - generic [ref=e332]:
+                        - img "Deployment"
+                        - heading "2" [level=6] [ref=e333]
+                    - listitem:
+                      - generic [ref=e336]:
+                        - img "EndpointSlice"
+                        - heading "2" [level=6] [ref=e337]
+                    - listitem:
+                      - generic [ref=e340]:
+                        - img "Endpoints"
+                        - heading "2" [level=6] [ref=e341]
+                    - listitem:
+                      - generic [ref=e344]:
+                        - img "Namespace"
+                        - heading "5" [level=6] [ref=e345]
+                    - listitem:
+                      - generic [ref=e348]:
+                        - img "Node"
+                        - heading "1" [level=6] [ref=e349]
+                    - listitem:
+                      - generic [ref=e352]:
+                        - img "Pod"
+                        - heading "1" [level=6] [ref=e353]
+                    - listitem:
+                      - generic [ref=e356]:
+                        - img "ReplicaSet"
+                        - heading "2" [level=6] [ref=e357]
+                    - listitem:
+                      - generic [ref=e360]:
+                        - img "Secret"
+                        - heading "1" [level=6] [ref=e361]
+                    - listitem:
+                      - generic [ref=e364]:
+                        - img "Service"
+                        - heading "2" [level=6] [ref=e365]
+                    - listitem:
+                      - generic [ref=e368]:
+                        - img "StorageClass"
+                        - heading "1" [level=6] [ref=e369]
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - img [ref=e374]
+                    - generic [ref=e377]: GETTING STARTED
+                  - generic [ref=e378]:
+                    - paragraph [ref=e379]: New here? Follow along these guided tasks to help you get the most of your account.
+                    - paragraph [ref=e380]:
+                      - generic [ref=e383]: 0%
+                    - button "Start" [ref=e385] [cursor=pointer]
+                - generic [ref=e389]:
+                  - generic [ref=e390]:
+                    - img [ref=e391]
+                    - heading "HELP CENTER" [level=6] [ref=e395]
+                  - list [ref=e397]:
+                    - listitem [ref=e398]:
+                      - img [ref=e400]
+                      - link "Cloud Docs" [ref=e409] [cursor=pointer]:
+                        - /url: https://docs.layer5.io/cloud
+                      - superscript [ref=e410]:
+                        - img [ref=e411]
+                    - listitem [ref=e413]:
+                      - img [ref=e415]
+                      - link "Kanvas Docs" [ref=e424] [cursor=pointer]:
+                        - /url: https://docs.layer5.io/kanvas
+                      - superscript [ref=e425]:
+                        - img [ref=e426]
+                    - listitem [ref=e428]:
+                      - img [ref=e430]
+                      - link "Support Request" [ref=e439] [cursor=pointer]:
+                        - /url: https://cloud.meshery.io/support
+                      - superscript [ref=e440]:
+                        - img [ref=e441]
+                    - listitem [ref=e443]:
+                      - img [ref=e445]
+                      - link "Discussion Forum" [ref=e454] [cursor=pointer]:
+                        - /url: https://meshery.io/community/#discussion-forums
+                      - superscript [ref=e455]:
+                        - img [ref=e456]
+                    - listitem [ref=e458]:
+                      - img [ref=e460]
+                      - link "Slack" [ref=e469] [cursor=pointer]:
+                        - /url: https://slack.meshery.io
+                      - superscript [ref=e470]:
+                        - img [ref=e471]
+                - generic [ref=e475]:
+                  - generic [ref=e476]:
+                    - generic [ref=e477]:
+                      - img [ref=e478]
+                      - heading "MY RECENT DESIGNS" [level=6] [ref=e487]
+                    - button "Sort by" [ref=e488] [cursor=pointer]:
+                      - img [ref=e489]
+                  - list [ref=e492]:
+                    - listitem [ref=e493]:
+                      - img [ref=e495]
+                      - link "Meshery" [ref=e504] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=e27d10c1-f9bd-43ce-8aff-07f55dbca142
+                      - generic "Thu, May 14, 2026 4:22 PM" [ref=e506]:
+                        - paragraph [ref=e507]: an hour ago
+                    - listitem [ref=e508]:
+                      - img [ref=e510]
+                      - link "Untitled Design" [ref=e519] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=f20bd591-b947-4b6b-8935-3d26edb8c417
+                      - generic "Thu, May 14, 2026 4:14 PM" [ref=e521]:
+                        - paragraph [ref=e522]: an hour ago
+                    - listitem [ref=e523]:
+                      - img [ref=e525]
+                      - link "Untitled Design" [ref=e534] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=cd33e96b-e332-476c-a4ca-b810f3ea134e
+                      - generic "Thu, May 14, 2026 3:31 PM" [ref=e536]:
+                        - paragraph [ref=e537]: 2 hours ago
+                    - listitem [ref=e538]:
+                      - img [ref=e540]
+                      - link "Untitled Design" [ref=e549] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=40e00ced-7777-4f30-b5ea-d7ab224250ad
+                      - generic "Thu, May 14, 2026 3:23 PM" [ref=e551]:
+                        - paragraph [ref=e552]: 2 hours ago
+                    - listitem [ref=e553]:
+                      - img [ref=e555]
+                      - link "Untitled Design" [ref=e564] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=2509fb46-985f-4b9c-ad0d-4984669453e7
+                      - generic "Thu, May 14, 2026 2:52 PM" [ref=e566]:
+                        - paragraph [ref=e567]: 2 hours ago
+                    - listitem [ref=e568]:
+                      - img [ref=e570]
+                      - link "[Tutorial] Exploring Kubernetes Pod" [ref=e579] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=20597507-870c-449c-91b1-9c615bdec2af
+                      - generic "Thu, May 14, 2026 11:52 AM" [ref=e581]:
+                        - paragraph [ref=e582]: 5 hours ago
+                    - listitem [ref=e583]:
+                      - img [ref=e585]
+                      - link "Meshery Certification Tracks (Copy)" [ref=e594] [cursor=pointer]:
+                        - /url: /extension/meshmap?mode=design&design=d368f4b4-6b04-4a59-a1f3-4f36a83331a8
+                      - generic "Thu, May 14, 2026 8:23 AM" [ref=e596]:
+                        - paragraph [ref=e597]: 9 hours ago
+                  - generic [ref=e598]:
+                    - link "See All Designs" [ref=e599] [cursor=pointer]:
+                      - /url: https://cloud.meshery.io/catalog/content/my-designs
+                    - button [ref=e600] [cursor=pointer]:
+                      - img [ref=e601]
+                - generic [ref=e604]:
+                  - generic [ref=e605]:
+                    - generic [ref=e606]:
+                      - img [ref=e607]
+                      - heading "WORKSPACE ACTIVITY" [level=6] [ref=e611]
+                    - generic [ref=e612]:
+                      - combobox [ref=e613] [cursor=pointer]: eks-sandbox
+                      - textbox: d26aa57e-e9ec-4424-878c-a794bd3a3b7d
+                      - img
+                  - list [ref=e614]:
+                    - generic [ref=e619]:
+                      - strong [ref=e620]: "Mar 28:"
+                      - text: lekaf974 created workspace eks-sandbox
+                  - link "All Workspaces" [ref=e622] [cursor=pointer]:
+                    - /url: /management/workspaces
+                - link "KUBERNETES CLUSTER STATUS" [ref=e624] [cursor=pointer]:
+                  - /url: /management/connections
+                  - generic [ref=e625]:
+                    - generic [ref=e626]:
+                      - generic [ref=e627]:
+                        - img [ref=e628]
+                        - heading "KUBERNETES CLUSTER STATUS" [level=6] [ref=e631]
+                      - img [ref=e634]
+                    - img [ref=e638]:
+                      - generic [ref=e641]:
+                        - generic [ref=e642]: Clusters Status
+                        - generic [ref=e643]:
+                          - generic: "1"
+                        - generic [ref=e646]:
+                          - generic: "9"
+                      - generic [ref=e649]:
+                        - generic [ref=e650]:
+                          - generic: connected
+                        - generic [ref=e652]:
+                          - generic: not found
+              - button "Edit" [ref=e654] [cursor=pointer]:
+                - generic [ref=e655]: Edit
+                - img [ref=e657]
+        - contentinfo [ref=e659]:
+          - paragraph [ref=e660]:
+            - generic [ref=e661] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e662]
+              - text: by the Meshery Community
+      - generic:
+        - generic [ref=e669]:
+          - img [ref=e670]
+          - paragraph [ref=e673]: MeshSync connected in embedded mode
+          - group [ref=e675]:
+            - button "Open" [ref=e676] [cursor=pointer]:
+              - img [ref=e677]
+            - button "Close" [ref=e681] [cursor=pointer]:
+              - img [ref=e682]
+        - generic [ref=e689]:
+          - img [ref=e690]
+          - paragraph [ref=e693]: MeshSync connected in embedded mode
+          - group [ref=e695]:
+            - button "Open" [ref=e696] [cursor=pointer]:
+              - img [ref=e697]
+            - button "Close" [ref=e701] [cursor=pointer]:
+              - img [ref=e702]
+  - alert [ref=e705]
+```
+
+# Test source
+
+```ts
+  1   | import { expect } from '@playwright/test';
+  2   | import { DashboardPage } from './DashboardPage';
+  3   | 
+  4   | export class ExtensionsPage {
+  5   |   constructor(page) {
+  6   |     this.page = page;
+  7   |     this.extensionNavRegion = page.getByTestId('extension-navigation-region');
+  8   |     this.extensionRootNavItems = page.getByTestId('extension-nav-root-item');
+  9   |     this.extensionRegionTopLevelLists = this.extensionNavRegion.locator(':scope > ul');
+  10  | 
+  11  |     this.kanvasSnapshotHeading = page.getByTestId('kanvas-snapshot-heading');
+  12  |     this.kanvasSnapshotDescription = page.getByTestId('kanvas-snapshot-description');
+  13  |     this.kanvasSnapshotEnableBtn = page.getByTestId('kanvas-snapshot-enable-btn');
+  14  |     this.kanvasSnapshotImage = page.getByTestId('kanvas-snapshot-image');
+  15  | 
+  16  |     this.performanceHeading = page.getByTestId('performance-analysis-heading');
+  17  |     this.performanceEnableBtn = page.getByTestId('performance-analysis-enable-btn');
+  18  | 
+  19  |     this.kanvasSignupHeading = page.getByTestId('kanvas-signup-heading');
+  20  |     this.kanvasSignupBtn = page.getByTestId('kanvas-signup-btn');
+  21  | 
+  22  |     this.dockerExtensionHeading = page.getByTestId('docker-extension-heading');
+  23  |     this.dockerExtensionDownloadBtn = page.getByTestId('docker-extension-download-btn');
+  24  | 
+  25  |     this.designEmbedLearnMoreBtn = page.getByTestId('design-embed-learn-more-btn');
+  26  | 
+  27  |     this.catalogSectionHeading = page.getByTestId('catalog-section-heading');
+  28  |     this.catalogToggleSwitch = page.getByTestId('catalog-toggle-switch');
+  29  |     this.catalogLink = page.getByTestId('catalog-link');
+  30  | 
+  31  |     this.adapterDocsIstioLink = page.getByTestId('adapter-docs-istio');
+  32  |   }
+  33  | 
+  34  |   async goto() {
+  35  |     const dashboardPage = new DashboardPage(this.page);
+  36  |     await dashboardPage.navigateToDashboard();
+  37  |     await dashboardPage.navigateToExtensions();
+  38  |   }
+  39  | 
+  40  |   async verifyKanvasSnapshotDetails() {
+> 41  |     await expect(this.kanvasSnapshotHeading).toBeVisible();
+      |                                              ^ Error: expect(locator).toBeVisible() failed
+  42  |     await expect(this.kanvasSnapshotDescription).toBeVisible();
+  43  |     await expect(this.kanvasSnapshotEnableBtn).toBeVisible();
+  44  |     await expect(this.kanvasSnapshotEnableBtn).toBeEnabled();
+  45  |     await expect(this.kanvasSnapshotImage).toBeVisible();
+  46  |   }
+  47  | 
+  48  |   async verifyPerformanceAnalysisDetails() {
+  49  |     await expect(this.performanceHeading).toBeVisible();
+  50  |     await expect(this.performanceEnableBtn).toBeVisible();
+  51  |     await expect(this.performanceEnableBtn).toBeEnabled();
+  52  |   }
+  53  | 
+  54  |   async toggleCatalog() {
+  55  |     await this.catalogToggleSwitch.click();
+  56  |   }
+  57  | 
+  58  |   async verifyExtensionNavItemsUseTopLevelLayout() {
+  59  |     await expect(this.extensionNavRegion).toBeVisible();
+  60  |     await expect(this.extensionRootNavItems.first()).toBeVisible();
+  61  |     await expect(this.extensionRegionTopLevelLists).toHaveCount(0);
+  62  |   }
+  63  | 
+  64  |   normalizeUrl(url) {
+  65  |     const parsedUrl = new URL(url);
+  66  |     const normalizedPath = parsedUrl.pathname.replace(/\/+$/, '') || '/';
+  67  |     return `${parsedUrl.origin}${normalizedPath}${parsedUrl.search}${parsedUrl.hash}`;
+  68  |   }
+  69  | 
+  70  |   async verifyNewTab(locator, expectedUrl) {
+  71  |     const href = await locator.getAttribute('href');
+  72  | 
+  73  |     if (href) {
+  74  |       expect(href).not.toBe('');
+  75  |       expect(this.normalizeUrl(href)).toBe(this.normalizeUrl(expectedUrl));
+  76  |       return;
+  77  |     }
+  78  | 
+  79  |     await this.page.evaluate(() => {
+  80  |       window.__mesheryOpenedUrl = null;
+  81  |       // Save original window.open so it can be restored after the check.
+  82  |       window.__mesheryOriginalOpen = window.open;
+  83  |       window.open = (...args) => {
+  84  |         window.__mesheryOpenedUrl = args[0] ?? null;
+  85  |         return null;
+  86  |       };
+  87  |     });
+  88  | 
+  89  |     await locator.click();
+  90  | 
+  91  |     try {
+  92  |       await expect
+  93  |         .poll(async () => {
+  94  |           const openedUrl = await this.page.evaluate(() => window.__mesheryOpenedUrl);
+  95  |           return openedUrl ? this.normalizeUrl(openedUrl) : null;
+  96  |         })
+  97  |         .toBe(this.normalizeUrl(expectedUrl));
+  98  |     } finally {
+  99  |       await this.page.evaluate(() => {
+  100 |         if (window.__mesheryOriginalOpen) {
+  101 |           window.open = window.__mesheryOriginalOpen;
+  102 |           delete window.__mesheryOriginalOpen;
+  103 |         }
+  104 |       });
+  105 |     }
+  106 |   }
+  107 | }
+  108 | 
+```
