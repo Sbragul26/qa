@@ -1,0 +1,414 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: extensions.spec.ts >> Extensions Section Tests >> Verify Meshery Design Embed Details
+- Location: tests/e2e/extensions.spec.ts:46:7
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: "https://meshery.io/extensions/meshery-design-embed"
+Received: "https://docs.layer5.io/kanvas/designer/embedding-designs"
+
+Call Log:
+- Test timeout of 60000ms exceeded
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - generic [ref=e32]:
+            - button "Configuration":
+              - link "Configuration":
+                - /url: /configuration/designs
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Configuration
+          - button "meshery-button-2 Performance" [ref=e34] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e35]:
+              - /url: /performance
+              - generic [ref=e36]:
+                - img "meshery-button-2" [ref=e38]
+                - generic [ref=e64]: Performance
+          - button "Extensions" [ref=e66] [cursor=pointer]:
+            - link "Extensions" [ref=e67]:
+              - /url: /extensions
+              - generic [ref=e68]:
+                - img [ref=e70]
+                - generic [ref=e97]: Extensions
+          - generic [ref=e98]:
+            - separator [ref=e99]
+            - button "Kanvas" [ref=e101] [cursor=pointer]:
+              - link "Kanvas" [ref=e102]:
+                - /url: /extension/meshmap
+                - generic [ref=e104]:
+                  - img [ref=e106]
+                  - generic [ref=e108]: Kanvas
+          - separator [ref=e109]
+        - generic [ref=e110]:
+          - img [ref=e113] [cursor=pointer]
+          - group [ref=e115]:
+            - listitem [ref=e116]:
+              - link [ref=e117] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e119]
+            - listitem [ref=e121]:
+              - link [ref=e122] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e124]
+            - listitem [ref=e133]:
+              - link [ref=e134] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e136]
+            - listitem [ref=e138]:
+              - link [ref=e139] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e141]
+          - listitem [ref=e143]:
+            - generic [ref=e144]:
+              - text: v1.0.22
+              - link [ref=e146] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/v1.0.22
+                - img [ref=e147]
+              - text: Running latest
+    - generic [ref=e149]:
+      - banner [ref=e150]:
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - button [ref=e156] [cursor=pointer]:
+              - img [ref=e157]
+            - text: /
+            - button [ref=e166] [cursor=pointer]:
+              - img [ref=e167]
+            - group [ref=e171]:
+              - generic [ref=e176]:
+                - combobox [ref=e177] [cursor=pointer]:
+                  - generic [ref=e178]: My Workspace
+                - textbox: 7ab472e8-3e13-422e-97b1-da98f968b11f
+                - img
+                - group
+            - text: /
+            - heading "Extensions" [level=5] [ref=e179]
+          - generic [ref=e181]:
+            - button "contexts" [ref=e184] [cursor=pointer]:
+              - generic [ref=e185]:
+                - img [ref=e186]
+                - generic [ref=e187]: "0"
+            - button "99+" [ref=e190] [cursor=pointer]:
+              - generic [ref=e191]:
+                - img [ref=e192]
+                - generic [ref=e195]: 99+
+            - button [ref=e199] [cursor=pointer]:
+              - img [ref=e201]
+            - button [ref=e204] [cursor=pointer]:
+              - img [ref=e205]
+      - generic [ref=e207]:
+        - main [ref=e208]:
+          - generic [ref=e209]:
+            - generic [ref=e211]:
+              - generic [ref=e212]: "GitHub Action: Kanvas Snapshot"
+              - paragraph [ref=e213]:
+                - img "Kanvas Snapshot Logo" [ref=e214]
+                - generic [ref=e215]: Connect Kanvas to your GitHub repo and see changes pull request-to-pull request. Get snapshots of your infrastructure directly in your PRs.
+              - button "Enable" [ref=e217] [cursor=pointer]
+            - generic [ref=e219]:
+              - generic [ref=e220]: "GitHub Action: Performance Analysis"
+              - paragraph [ref=e221]:
+                - img "Meshery Performance Logo" [ref=e222]
+                - generic [ref=e223]: Characterize the performance of your services using Meshery's performance analysis GitHub Action to benchmark and visually compare percentiles (e.g. P99) over time.
+              - button "Enable" [ref=e225] [cursor=pointer]
+            - generic [ref=e227]:
+              - generic [ref=e228]: Kanvas
+              - paragraph [ref=e229]:
+                - img "Kanvas Icon" [ref=e230]
+                - generic [ref=e231]: Collaboratively design and manage your infra and apps. Kanvas is now publicly available.
+              - generic [ref=e232]:
+                - button "Enabled" [disabled]
+            - generic [ref=e234]:
+              - generic [ref=e235]: Kanvas Snapshot Helm Plugin
+              - paragraph [ref=e236]:
+                - img "Helm Chart Logo" [ref=e237]
+                - generic [ref=e238]: The Kanvas Snapshot Helm Plugin allows you to generate a visual snapshot of your Helm charts directly from the command line. It simplifies the process of creating Meshery Snapshots, providing a visual representation of packaged Helm charts.
+              - button "Learn More" [ref=e240] [cursor=pointer]
+            - generic [ref=e242]:
+              - generic [ref=e243]: Meshery Docker Extension
+              - paragraph [ref=e244]:
+                - img "Docker Logo" [ref=e245]
+                - generic [ref=e246]: Connect Meshery to your Kubernetes cluster via Docker Desktop and let MeshSync discover your clusters. Use Kanvas's no-code designer to collaboratively design and manage your infrastructure with ready-made patterns from Meshery Catalog.
+              - button "Download" [ref=e248] [cursor=pointer]
+            - generic [ref=e250]:
+              - generic [ref=e251]: Meshery Design Embed
+              - paragraph [ref=e252]:
+                - img "Meshery Design Logo" [ref=e253]
+                - generic [ref=e254]: Meshery Design Embedding lets you export designs in an interactive format that seamlessly integrates with websites, blogs, and platforms using HTML, CSS, and JavaScript, making it easy to share with stakeholders.
+              - button "Learn More" [active] [ref=e256] [cursor=pointer]: Learn More
+            - generic [ref=e258]:
+              - generic [ref=e259]: Meshery Cloud
+              - paragraph [ref=e260]:
+                - img "Cloud Logo" [ref=e261]
+                - generic [ref=e262]: A comprehensive platform offering identity and collaboration services, private catalogs, GitOps, and multi-Meshery management. Leverage its extensible authorization framework and organizational hierarchy for streamlined cloud infrastructure management.
+              - button "Learn More" [ref=e264] [cursor=pointer]
+            - generic [ref=e266]:
+              - generic [ref=e267]: Kubectl Plugin for Kanvas Snapshot
+              - paragraph [ref=e268]:
+                - img "Kubectl Plugin Logo" [ref=e269]
+                - generic [ref=e270]: Generate visual snapshots of your Kubernetes manifests directly from kubectl. Cluster configurations and workflows with Kanvas Snapshots. Receive snapshots via email or get instant terminal URL display.
+              - button "Learn More" [ref=e272] [cursor=pointer]
+            - generic [ref=e274]:
+              - generic [ref=e275]: Kubectl Plugin for MeshSync Snapshot
+              - paragraph [ref=e276]:
+                - img "MeshSync Logo" [ref=e277]
+                - generic [ref=e278]: Capture cluster state directly from kubectl with simplified networking and access requirements. Generate MeshSync snapshots for offline management and visualization in Meshery Server, without requiring full Meshery Operator deployment.
+              - button "Learn More" [ref=e280] [cursor=pointer]
+            - generic [ref=e282]:
+              - generic [ref=e283]: Meshery Catalog
+              - paragraph [ref=e284]:
+                - img [ref=e285]
+                - generic [ref=e290]: Enable access to the cloud native catalog, supporting design patterns, WebAssembly filters (soon), and OPA policies (soon). Import any catalog item and customize.
+              - generic [ref=e291]:
+                - heading "Explore the Meshery Catalog" [level=6] [ref=e292]:
+                  - text: Explore the
+                  - link "Meshery Catalog" [ref=e293] [cursor=pointer]:
+                    - /url: https://meshery.io/catalog
+                - switch [checked] [ref=e296] [cursor=pointer]
+            - generic [ref=e300]:
+              - generic [ref=e301]: Meshery Adapter for Istio
+              - generic [ref=e302]:
+                - img [ref=e303]
+                - generic [ref=e304]: Deploy the Meshery Adapter for Istio in order to enable deeper lifecycle management of Istio.
+              - generic [ref=e305]:
+                - heading "Open Adapter docs" [level=6] [ref=e306]:
+                  - link "Open Adapter docs" [ref=e307] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e311] [cursor=pointer]
+            - generic [ref=e315]:
+              - generic [ref=e316]: Meshery Adapter for Linkerd
+              - generic [ref=e317]:
+                - img [ref=e318]
+                - generic [ref=e319]: Deploy the Meshery Adapter for Linkerd in order to enable deeper lifecycle management of Linkerd.
+              - generic [ref=e320]:
+                - heading "Open Adapter docs" [level=6] [ref=e321]:
+                  - link "Open Adapter docs" [ref=e322] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e326] [cursor=pointer]
+            - generic [ref=e330]:
+              - generic [ref=e331]: Meshery Adapter for Consul
+              - generic [ref=e332]:
+                - img [ref=e333]
+                - generic [ref=e334]: Deploy the Meshery Adapter for Consul in order to enable deeper lifecycle management of Consul.
+              - generic [ref=e335]:
+                - heading "Open Adapter docs" [level=6] [ref=e336]:
+                  - link "Open Adapter docs" [ref=e337] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e341] [cursor=pointer]
+            - generic [ref=e345]:
+              - generic [ref=e346]: Meshery Adapter for Network Service Mesh
+              - generic [ref=e347]:
+                - img [ref=e348]
+                - generic [ref=e349]: Deploy the Meshery Adapter for Network Service Mesh in order to enable deeper lifecycle management of Network Service Mesh.
+              - generic [ref=e350]:
+                - heading "Open Adapter docs" [level=6] [ref=e351]:
+                  - link "Open Adapter docs" [ref=e352] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e356] [cursor=pointer]
+            - generic [ref=e360]:
+              - generic [ref=e361]: Meshery Adapter for Traefik Mesh
+              - generic [ref=e362]:
+                - img [ref=e363]
+                - generic [ref=e364]: Deploy the Meshery Adapter for Traefik Mesh in order to enable deeper lifecycle management of Traefik Mesh.
+              - generic [ref=e365]:
+                - heading "Open Adapter docs" [level=6] [ref=e366]:
+                  - link "Open Adapter docs" [ref=e367] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e371] [cursor=pointer]
+            - generic [ref=e375]:
+              - generic [ref=e376]: Meshery Adapter for Kuma
+              - generic [ref=e377]:
+                - img [ref=e378]
+                - generic [ref=e379]: Deploy the Meshery Adapter for Kuma in order to enable deeper lifecycle management of Kuma.
+              - generic [ref=e380]:
+                - heading "Open Adapter docs" [level=6] [ref=e381]:
+                  - link "Open Adapter docs" [ref=e382] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e386] [cursor=pointer]
+            - generic [ref=e390]:
+              - generic [ref=e391]: Meshery Adapter for NGINX Service Mesh
+              - generic [ref=e392]:
+                - img [ref=e393]
+                - generic [ref=e394]: Deploy the Meshery Adapter for NGINX Service Mesh in order to enable deeper lifecycle management of NGINX Service Mesh.
+              - generic [ref=e395]:
+                - heading "Open Adapter docs" [level=6] [ref=e396]:
+                  - link "Open Adapter docs" [ref=e397] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e401] [cursor=pointer]
+            - generic [ref=e405]:
+              - generic [ref=e406]: Meshery Adapter for Cilium Service Mesh
+              - generic [ref=e407]:
+                - img [ref=e408]
+                - generic [ref=e409]: Deploy the Meshery Adapter for Cilium Service Mesh in order to enable deeper lifecycle management of Cilium Service Mesh.
+              - generic [ref=e410]:
+                - heading "Open Adapter docs" [level=6] [ref=e411]:
+                  - link "Open Adapter docs" [ref=e412] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e416] [cursor=pointer]
+            - generic [ref=e420]:
+              - generic [ref=e421]: Meshery Adapter for Nighthawk
+              - generic [ref=e422]:
+                - img [ref=e423]
+                - generic [ref=e424]: Deploy the Meshery Adapter for Performance Characterization by Meshery Nighthawk in order to enable deeper lifecycle management of Performance Characterization by Meshery Nighthawk.
+              - generic [ref=e425]:
+                - heading "Open Adapter docs" [level=6] [ref=e426]:
+                  - link "Open Adapter docs" [ref=e427] [cursor=pointer]:
+                    - /url: https://docs.meshery.io/concepts/architecture/adapters
+                - switch [ref=e431] [cursor=pointer]
+        - contentinfo [ref=e434]:
+          - paragraph [ref=e435]:
+            - generic [ref=e436] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e437]
+              - text: by the Meshery Community
+  - alert [ref=e440]: Extensions | Meshery
+```
+
+# Test source
+
+```ts
+  1   | import { expect } from '@playwright/test';
+  2   | import { DashboardPage } from './DashboardPage';
+  3   | 
+  4   | export class ExtensionsPage {
+  5   |   constructor(page) {
+  6   |     this.page = page;
+  7   |     this.extensionNavRegion = page.getByTestId('extension-navigation-region');
+  8   |     this.extensionRootNavItems = page.getByTestId('extension-nav-root-item');
+  9   |     this.extensionRegionTopLevelLists = this.extensionNavRegion.locator(':scope > ul');
+  10  | 
+  11  |     this.kanvasSnapshotHeading = page.getByTestId('kanvas-snapshot-heading');
+  12  |     this.kanvasSnapshotDescription = page.getByTestId('kanvas-snapshot-description');
+  13  |     this.kanvasSnapshotEnableBtn = page.getByTestId('kanvas-snapshot-enable-btn');
+  14  |     this.kanvasSnapshotImage = page.getByTestId('kanvas-snapshot-image');
+  15  | 
+  16  |     this.performanceHeading = page.getByTestId('performance-analysis-heading');
+  17  |     this.performanceEnableBtn = page.getByTestId('performance-analysis-enable-btn');
+  18  | 
+  19  |     this.kanvasSignupHeading = page.getByTestId('kanvas-signup-heading');
+  20  |     this.kanvasSignupBtn = page.getByTestId('kanvas-signup-btn');
+  21  | 
+  22  |     this.dockerExtensionHeading = page.getByTestId('docker-extension-heading');
+  23  |     this.dockerExtensionDownloadBtn = page.getByTestId('docker-extension-download-btn');
+  24  | 
+  25  |     this.designEmbedLearnMoreBtn = page.getByTestId('design-embed-learn-more-btn');
+  26  | 
+  27  |     this.catalogSectionHeading = page.getByTestId('catalog-section-heading');
+  28  |     this.catalogToggleSwitch = page.getByTestId('catalog-toggle-switch');
+  29  |     this.catalogLink = page.getByTestId('catalog-link');
+  30  | 
+  31  |     this.adapterDocsIstioLink = page.getByTestId('adapter-docs-istio');
+  32  |   }
+  33  | 
+  34  |   async goto() {
+  35  |     const dashboardPage = new DashboardPage(this.page);
+  36  |     await dashboardPage.navigateToDashboard();
+  37  |     await dashboardPage.navigateToExtensions();
+  38  |   }
+  39  | 
+  40  |   async verifyKanvasSnapshotDetails() {
+  41  |     await expect(this.kanvasSnapshotHeading).toBeVisible();
+  42  |     await expect(this.kanvasSnapshotDescription).toBeVisible();
+  43  |     await expect(this.kanvasSnapshotEnableBtn).toBeVisible();
+  44  |     await expect(this.kanvasSnapshotEnableBtn).toBeEnabled();
+  45  |     await expect(this.kanvasSnapshotImage).toBeVisible();
+  46  |   }
+  47  | 
+  48  |   async verifyPerformanceAnalysisDetails() {
+  49  |     await expect(this.performanceHeading).toBeVisible();
+  50  |     await expect(this.performanceEnableBtn).toBeVisible();
+  51  |     await expect(this.performanceEnableBtn).toBeEnabled();
+  52  |   }
+  53  | 
+  54  |   async toggleCatalog() {
+  55  |     await this.catalogToggleSwitch.click();
+  56  |   }
+  57  | 
+  58  |   async verifyExtensionNavItemsUseTopLevelLayout() {
+  59  |     await expect(this.extensionNavRegion).toBeVisible();
+  60  |     await expect(this.extensionRootNavItems.first()).toBeVisible();
+  61  |     await expect(this.extensionRegionTopLevelLists).toHaveCount(0);
+  62  |   }
+  63  | 
+  64  |   normalizeUrl(url) {
+  65  |     const parsedUrl = new URL(url);
+  66  |     const normalizedPath = parsedUrl.pathname.replace(/\/+$/, '') || '/';
+  67  |     return `${parsedUrl.origin}${normalizedPath}${parsedUrl.search}${parsedUrl.hash}`;
+  68  |   }
+  69  | 
+  70  |   async verifyNewTab(locator, expectedUrl) {
+  71  |     const href = await locator.getAttribute('href');
+  72  | 
+  73  |     if (href) {
+  74  |       expect(href).not.toBe('');
+  75  |       expect(this.normalizeUrl(href)).toBe(this.normalizeUrl(expectedUrl));
+  76  |       return;
+  77  |     }
+  78  | 
+  79  |     await this.page.evaluate(() => {
+  80  |       window.__mesheryOpenedUrl = null;
+  81  |       // Save original window.open so it can be restored after the check.
+  82  |       window.__mesheryOriginalOpen = window.open;
+  83  |       window.open = (...args) => {
+  84  |         window.__mesheryOpenedUrl = args[0] ?? null;
+  85  |         return null;
+  86  |       };
+  87  |     });
+  88  | 
+  89  |     await locator.click();
+  90  | 
+  91  |     try {
+> 92  |       await expect
+      |       ^ Error: expect(received).toBe(expected) // Object.is equality
+  93  |         .poll(async () => {
+  94  |           const openedUrl = await this.page.evaluate(() => window.__mesheryOpenedUrl);
+  95  |           return openedUrl ? this.normalizeUrl(openedUrl) : null;
+  96  |         })
+  97  |         .toBe(this.normalizeUrl(expectedUrl));
+  98  |     } finally {
+  99  |       await this.page.evaluate(() => {
+  100 |         if (window.__mesheryOriginalOpen) {
+  101 |           window.open = window.__mesheryOriginalOpen;
+  102 |           delete window.__mesheryOriginalOpen;
+  103 |         }
+  104 |       });
+  105 |     }
+  106 |   }
+  107 | }
+  108 | 
+```
