@@ -1,0 +1,46 @@
+{
+  "uuid": "d96bf789-25e1-43aa-ae00-55a8c7e7c9a1",
+  "name": "TestGenerateErrorOutput",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestGenerateErrorOutput",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778884660167,
+  "stop": 1778884660169,
+  "statusDetails": {
+    "message": "generate_test.go:86: Generate experimental relationship test for argument validation has passed\n    generate_test.go:86: Generate experimental relationship test for argument validation has passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateErrorOutput"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

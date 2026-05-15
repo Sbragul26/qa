@@ -1,0 +1,44 @@
+{
+  "uuid": "96c1c9b0-c523-4414-95a6-055b95adebaa",
+  "name": "TestReadValidationErrorMessages_Direct/given_semver_validation_error_then_formats_semver_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct/given_semver_validation_error_then_formats_semver_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778884628620,
+  "stop": 1778884628621,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct/given_semver_validation_error_then_formats_semver_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

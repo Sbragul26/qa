@@ -1,0 +1,44 @@
+{
+  "uuid": "59ec4145-61f5-4919-ae6a-abb4172aecdd",
+  "name": "TestViewProviderCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestViewProviderCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778884662419,
+  "stop": 1778884662422,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewProviderCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

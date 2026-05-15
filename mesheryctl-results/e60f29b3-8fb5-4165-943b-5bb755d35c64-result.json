@@ -1,0 +1,44 @@
+{
+  "uuid": "e60f29b3-8fb5-4165-943b-5bb755d35c64",
+  "name": "TestDoc",
+  "fullName": "github.com/meshery/meshery/mesheryctl/doc::TestDoc",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778884622568,
+  "stop": 1778884622571,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/doc"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/doc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDoc"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
