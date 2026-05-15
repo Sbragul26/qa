@@ -1,0 +1,44 @@
+{
+  "uuid": "ab5cb62c-2ebd-404f-a07b-5a510f3daf4d",
+  "name": "TestGetMeshSyncInfo_NilBroker",
+  "fullName": "github.com/meshery/meshery/server/internal/graphql/model::TestGetMeshSyncInfo_NilBroker",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778879318323,
+  "stop": 1778879318323,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/internal"
+    },
+    {
+      "name": "suite",
+      "value": "server/internal/graphql/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMeshSyncInfo_NilBroker"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

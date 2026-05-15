@@ -1,0 +1,44 @@
+{
+  "uuid": "02230197-21e1-4301-bcca-873fe0d46eea",
+  "name": "TestFromAndToComponentsExist",
+  "fullName": "github.com/meshery/meshery/server/policies::TestFromAndToComponentsExist",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778879343238,
+  "stop": 1778879343238,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFromAndToComponentsExist"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

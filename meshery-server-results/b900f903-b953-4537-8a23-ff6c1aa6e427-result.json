@@ -1,0 +1,44 @@
+{
+  "uuid": "b900f903-b953-4537-8a23-ff6c1aa6e427",
+  "name": "TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor",
+  "fullName": "github.com/meshery/meshery/server/models::TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778879327679,
+  "stop": 1778879327681,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMeshmodelsAPIResponse_UnmarshalAcceptsEitherKeyFlavor"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
