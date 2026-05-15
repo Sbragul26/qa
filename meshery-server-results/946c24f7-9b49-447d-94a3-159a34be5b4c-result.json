@@ -1,0 +1,44 @@
+{
+  "uuid": "946c24f7-9b49-447d-94a3-159a34be5b4c",
+  "name": "TestWalletCleanupOnDeleteFullPipeline",
+  "fullName": "github.com/meshery/meshery/server/policies::TestWalletCleanupOnDeleteFullPipeline",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778884703772,
+  "stop": 1778884703773,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWalletCleanupOnDeleteFullPipeline"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
