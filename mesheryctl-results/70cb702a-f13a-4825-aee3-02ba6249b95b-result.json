@@ -1,0 +1,23 @@
+{
+  "uuid": "70cb702a-f13a-4825-aee3-02ba6249b95b",
+  "name": "given a non-existent component when mesheryctl component search component-name is run then no components are found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778886174133,
+  "stop": 1778886174134,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
