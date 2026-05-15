@@ -1,0 +1,23 @@
+{
+  "uuid": "73f1ee94-862d-4254-8a90-0d933bf818f7",
+  "name": "given more than one argument when running mesheryctl system config minikube then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778884469392,
+  "stop": 1778884469393,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

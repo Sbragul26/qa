@@ -1,0 +1,23 @@
+{
+  "uuid": "7d29f856-a676-4b46-818b-798f0e953065",
+  "name": "given valid credentials when running mesheryctl registry publish to website with md format then models are published # skip Spreadsheet credentials not configured",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778884469387,
+  "stop": 1778884469388,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

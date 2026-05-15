@@ -1,0 +1,23 @@
+{
+  "uuid": "bce84d40-fb3a-4f5f-a1bb-3fa07f04af8b",
+  "name": "given no arguments when running mesheryctl registry update then an error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778884469386,
+  "stop": 1778884469387,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
