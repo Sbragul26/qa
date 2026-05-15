@@ -1,0 +1,23 @@
+{
+  "uuid": "44feaa70-ee5b-4ca2-9374-79a534aaf7d8",
+  "name": "given a valid model-id is provided as an argument when running mesheryctl model delete then the model is deleted successfully",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1778879159580,
+  "stop": 1778879159581,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

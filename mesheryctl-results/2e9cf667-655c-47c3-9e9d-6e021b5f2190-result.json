@@ -1,0 +1,23 @@
+{
+  "uuid": "2e9cf667-655c-47c3-9e9d-6e021b5f2190",
+  "name": "given an invalid system when running mesheryctl registry publish then an error is displayed # skip Spreadsheet credentials not configured",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1778879159677,
+  "stop": 1778879159678,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
