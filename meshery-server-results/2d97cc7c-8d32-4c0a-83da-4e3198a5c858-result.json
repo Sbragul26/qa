@@ -1,0 +1,44 @@
+{
+  "uuid": "2d97cc7c-8d32-4c0a-83da-4e3198a5c858",
+  "name": "TestListenForCoreEvents_UnsubscribesOnExit",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestListenForCoreEvents_UnsubscribesOnExit",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779047517246,
+  "stop": 1779047517447,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListenForCoreEvents_UnsubscribesOnExit"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
