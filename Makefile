@@ -30,6 +30,18 @@ define results-sync
 	fi
 endef
 
+
+define results-sync-path
+    @rm -rf $(2)
+    @mkdir -p $(2)
+    @if [ -n "$(1)" ] && [ -d "$(1)" ]; then \
+        echo "Copying results from $(1) → $(2)"; \
+        cp -r "$(1)"/* $(2)/ ; \
+    else \
+        echo "$(1) not set or directory does not exist, skipping"; \
+    fi
+endef
+
 # --------------------------------------------------
 # Targets
 # --------------------------------------------------
@@ -49,6 +61,16 @@ meshery-server-results-sync:
 mesheryctl-results-sync:
 	@echo "Syncing mesheryctl Test Results..."
 	$(call results-sync,MESHERYCTL_RESULTS_PATH,mesheryctl-results)
+
+## Generic sync - make project-results-sync RESULTS_DIR=path/to/results PROJECT=myproject
+project-results-sync:
+	@if [ -z "$(RESULTS_DIR)" ] || [ -z "$(PROJECT)" ]; then \
+		echo "RESULTS_DIR and PROJECT must be set"; \
+        exit 1; \
+    fi
+	@echo "Syncing $(PROJECT) results..."
+	$(call results-sync-path,$(RESULTS_DIR),$(PROJECT)-results)
+
 
 
 ## Setup environment; Install prequisites
