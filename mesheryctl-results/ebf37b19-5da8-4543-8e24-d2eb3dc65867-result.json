@@ -1,0 +1,44 @@
+{
+  "uuid": "ebf37b19-5da8-4543-8e24-d2eb3dc65867",
+  "name": "TestTokenCreateCmd/create_the_passed_token_with_default_location_and_set_it_as_the_current_token",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestTokenCreateCmd/create_the_passed_token_with_default_location_and_set_it_as_the_current_token",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779047584009,
+  "stop": 1779047584015,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTokenCreateCmd/create_the_passed_token_with_default_location_and_set_it_as_the_current_token"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
