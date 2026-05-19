@@ -1,0 +1,44 @@
+{
+  "uuid": "35571719-fc9d-40bb-83ed-ad9326b6ac11",
+  "name": "TestReadValidationErrorMessages_Direct/given_multiple_validation_errors_then_joins_messages_with_comma",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct/given_multiple_validation_errors_then_joins_messages_with_comma",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779190974933,
+  "stop": 1779190974934,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct/given_multiple_validation_errors_then_joins_messages_with_comma"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
