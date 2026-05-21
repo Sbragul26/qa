@@ -1,0 +1,44 @@
+{
+  "uuid": "0f5e9bb8-5c63-4c7c-8e90-822fdf022cce",
+  "name": "TestGetCommitSHA",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/config::TestGetCommitSHA",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779382600184,
+  "stop": 1779382600185,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/config"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetCommitSHA"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
