@@ -1,0 +1,44 @@
+{
+  "uuid": "ce98cac2-a7e3-4356-892c-29a65e46a258",
+  "name": "TestGetComponentMetadataReturnsAssociatedModelName",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetComponentMetadataReturnsAssociatedModelName",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779382618409,
+  "stop": 1779382618417,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetComponentMetadataReturnsAssociatedModelName"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "47e7834c-d836-4642-9214-0b22285716f3",
+  "name": "TestMatchLabelsPolicyIdentificationIsDeterministic",
+  "fullName": "github.com/meshery/meshery/server/policies::TestMatchLabelsPolicyIdentificationIsDeterministic",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779382634451,
+  "stop": 1779382634456,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMatchLabelsPolicyIdentificationIsDeterministic"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

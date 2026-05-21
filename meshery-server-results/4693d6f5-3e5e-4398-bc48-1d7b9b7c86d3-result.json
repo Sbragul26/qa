@@ -1,0 +1,46 @@
+{
+  "uuid": "4693d6f5-3e5e-4398-bc48-1d7b9b7c86d3",
+  "name": "TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779382585764,
+  "stop": 1779382585822,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace\n=== CONT  TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_NilPointerGuard/ReturnDiffOnly_option_populates_Design_from_Trace"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

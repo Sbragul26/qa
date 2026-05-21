@@ -1,0 +1,44 @@
+{
+  "uuid": "5a60da64-54e6-488d-b785-af2252c43987",
+  "name": "TestCanonicalSeedTypedStructIsAddressIndependent",
+  "fullName": "github.com/meshery/meshery/server/policies::TestCanonicalSeedTypedStructIsAddressIndependent",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779382637428,
+  "stop": 1779382637429,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCanonicalSeedTypedStructIsAddressIndependent"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

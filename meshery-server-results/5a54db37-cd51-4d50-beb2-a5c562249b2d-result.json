@@ -1,0 +1,46 @@
+{
+  "uuid": "5a54db37-cd51-4d50-beb2-a5c562249b2d",
+  "name": "TestIdentifyInventoryAdditions_PreservesToSideModelForCrossModelRelationships",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIdentifyInventoryAdditions_PreservesToSideModelForCrossModelRelationships",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779382634477,
+  "stop": 1779382637429,
+  "statusDetails": {
+    "message": "=== PAUSE TestIdentifyInventoryAdditions_PreservesToSideModelForCrossModelRelationships\n=== CONT  TestIdentifyInventoryAdditions_PreservesToSideModelForCrossModelRelationships"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIdentifyInventoryAdditions_PreservesToSideModelForCrossModelRelationships"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
