@@ -1,0 +1,44 @@
+{
+  "uuid": "039f6c10-2d85-430e-aba5-0057977c110d",
+  "name": "TestObjectGetNested/empty_path",
+  "fullName": "github.com/meshery/meshery/server/policies::TestObjectGetNested/empty_path",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779404490577,
+  "stop": 1779404490577,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestObjectGetNested/empty_path"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
