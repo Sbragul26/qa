@@ -1,0 +1,44 @@
+{
+  "uuid": "761cc3f5-4dfc-4d24-8d14-d761b0bc52b1",
+  "name": "TestValidate/meshmodel_validate",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestValidate/meshmodel_validate",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779403930126,
+  "stop": 1779403930149,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidate/meshmodel_validate"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

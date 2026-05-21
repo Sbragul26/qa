@@ -1,0 +1,46 @@
+{
+  "uuid": "f5d04eba-9e2a-4f6c-9289-5829f8e5eba4",
+  "name": "TestResolveProviderName/uppercase_canonical_name_normalizes_to_canonical_Local",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName/uppercase_canonical_name_normalizes_to_canonical_Local",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779403930076,
+  "stop": 1779403930077,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolveProviderName/uppercase_canonical_name_normalizes_to_canonical_Local\n=== CONT  TestResolveProviderName/uppercase_canonical_name_normalizes_to_canonical_Local"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName/uppercase_canonical_name_normalizes_to_canonical_Local"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

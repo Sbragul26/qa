@@ -1,0 +1,44 @@
+{
+  "uuid": "5f321d0c-7263-44fe-8245-45e7c90bcfb3",
+  "name": "TestOrganizationsPage_UnmarshalAcceptsEitherKeyFlavor/canonical_wins_when_both_present",
+  "fullName": "github.com/meshery/meshery/server/models::TestOrganizationsPage_UnmarshalAcceptsEitherKeyFlavor/canonical_wins_when_both_present",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779403962253,
+  "stop": 1779403962253,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrganizationsPage_UnmarshalAcceptsEitherKeyFlavor/canonical_wins_when_both_present"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

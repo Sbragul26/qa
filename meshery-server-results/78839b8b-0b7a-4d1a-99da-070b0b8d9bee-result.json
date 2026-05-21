@@ -1,0 +1,44 @@
+{
+  "uuid": "78839b8b-0b7a-4d1a-99da-070b0b8d9bee",
+  "name": "TestMatchValues/equal_as_strings",
+  "fullName": "github.com/meshery/meshery/server/policies::TestMatchValues/equal_as_strings",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779403980699,
+  "stop": 1779403980699,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMatchValues/equal_as_strings"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

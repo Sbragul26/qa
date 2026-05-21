@@ -1,0 +1,44 @@
+{
+  "uuid": "715fad3e-cbf8-47c1-9da6-57738a64907f",
+  "name": "TestInventoryPatchingFullPipeline",
+  "fullName": "github.com/meshery/meshery/server/policies::TestInventoryPatchingFullPipeline",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779403977886,
+  "stop": 1779403977887,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInventoryPatchingFullPipeline"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
