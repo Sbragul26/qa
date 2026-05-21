@@ -1,0 +1,25 @@
+{
+  "uuid": "5762e3f3-e347-4f7f-b7bc-89aed7220d0e",
+  "name": "mesheryctl model export displays usage instructions when no model name provided",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779401392655,
+  "stop": 1779401392656,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/02-model-import.bats, line 69)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
