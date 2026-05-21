@@ -1,0 +1,25 @@
+{
+  "uuid": "fb8d2e54-a9ae-495b-b507-59e162c4812a",
+  "name": "mesheryctl design import with an invalid path displays an error message",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779404850068,
+  "stop": 1779404850069,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 003-design/01-design-import.bats, line 16)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
