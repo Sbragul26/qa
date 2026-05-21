@@ -1,0 +1,44 @@
+{
+  "uuid": "4f97e902-b7d1-4055-8ee2-fed903789286",
+  "name": "TestReadValidationErrorMessages_Direct/given_unknown_validation_tag_then_falls_back_to_generic_message",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct/given_unknown_validation_tag_then_falls_back_to_generic_message",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779404281151,
+  "stop": 1779404281151,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct/given_unknown_validation_tag_then_falls_back_to_generic_message"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

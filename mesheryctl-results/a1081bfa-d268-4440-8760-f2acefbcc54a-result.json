@@ -1,0 +1,44 @@
+{
+  "uuid": "a1081bfa-d268-4440-8760-f2acefbcc54a",
+  "name": "TestViewModel/given_a_valid_model-name_when_model_view_then_display_detailed_information",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestViewModel/given_a_valid_model-name_when_model_view_then_display_detailed_information",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779404303827,
+  "stop": 1779404303832,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewModel/given_a_valid_model-name_when_model_view_then_display_detailed_information"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

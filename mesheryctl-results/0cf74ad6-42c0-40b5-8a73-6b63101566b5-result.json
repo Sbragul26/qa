@@ -1,0 +1,44 @@
+{
+  "uuid": "0cf74ad6-42c0-40b5-8a73-6b63101566b5",
+  "name": "TestDeleteCmd/Delete_RolloutAndIstio",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestDeleteCmd/Delete_RolloutAndIstio",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779404298588,
+  "stop": 1779404298588,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteCmd/Delete_RolloutAndIstio"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

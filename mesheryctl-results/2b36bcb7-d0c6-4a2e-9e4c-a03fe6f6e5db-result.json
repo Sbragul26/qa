@@ -1,0 +1,46 @@
+{
+  "uuid": "2b36bcb7-d0c6-4a2e-9e4c-a03fe6f6e5db",
+  "name": "TestModelInit/given_custom_path_and_version_when_model_init_model_is_initialized_with_custom_path_and_version_specified",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/given_custom_path_and_version_when_model_init_model_is_initialized_with_custom_path_and_version_specified",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779404303646,
+  "stop": 1779404303674,
+  "statusDetails": {
+    "message": "init_test.go:275: removed created folders"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/given_custom_path_and_version_when_model_init_model_is_initialized_with_custom_path_and_version_specified"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
