@@ -1,0 +1,44 @@
+{
+  "uuid": "45f93e7e-55c7-4ca5-a812-a620dc47b8ad",
+  "name": "TestValidateSemver",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestValidateSemver",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779405162051,
+  "stop": 1779405162054,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidateSemver"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

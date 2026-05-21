@@ -1,0 +1,44 @@
+{
+  "uuid": "91f29525-3ec0-4f36-9547-cdfdf25274ea",
+  "name": "TestTokenCreateCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestTokenCreateCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779405198398,
+  "stop": 1779405198415,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTokenCreateCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
