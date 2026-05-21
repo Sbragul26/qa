@@ -1,0 +1,44 @@
+{
+  "uuid": "d6459672-7cdc-4f9c-8492-323a44119355",
+  "name": "TestResetCmd/Reset_the_meshery_config_file_with_docker_platform",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestResetCmd/Reset_the_meshery_config_file_with_docker_platform",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779405584863,
+  "stop": 1779405586626,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResetCmd/Reset_the_meshery_config_file_with_docker_platform"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
