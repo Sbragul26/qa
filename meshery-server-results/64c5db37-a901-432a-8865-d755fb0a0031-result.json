@@ -1,0 +1,46 @@
+{
+  "uuid": "64c5db37-a901-432a-8865-d755fb0a0031",
+  "name": "TestInventoryNamespaceIdentification",
+  "fullName": "github.com/meshery/meshery/server/policies::TestInventoryNamespaceIdentification",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779405580416,
+  "stop": 1779405580418,
+  "statusDetails": {
+    "message": "patching_test.go:805: Identified: 2 relationships\n    patching_test.go:809:   from=00000000-0000-0000-0000-000000000002 to=00000000-0000-0000-0000-000000000001 status=approved\n    patching_test.go:809:   from=00000000-0000-0000-0000-000000000003 to=00000000-0000-0000-0000-000000000001 status=approved"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInventoryNamespaceIdentification"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

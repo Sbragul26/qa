@@ -1,0 +1,46 @@
+{
+  "uuid": "732f6109-9d65-4e6e-9677-4d50e411a44a",
+  "name": "TestResolveProviderName/non-local_provider_name_is_returned_verbatim_(remote_names_not_normalized)",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName/non-local_provider_name_is_returned_verbatim_(remote_names_not_normalized)",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779405531981,
+  "stop": 1779405531981,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolveProviderName/non-local_provider_name_is_returned_verbatim_(remote_names_not_normalized)\n=== CONT  TestResolveProviderName/non-local_provider_name_is_returned_verbatim_(remote_names_not_normalized)"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName/non-local_provider_name_is_returned_verbatim_(remote_names_not_normalized)"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
