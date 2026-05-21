@@ -1,0 +1,44 @@
+{
+  "uuid": "15807010-a62a-4155-991d-3ff6706384ac",
+  "name": "TestSplitAndTrim",
+  "fullName": "github.com/meshery/meshery/server/helpers/utils::TestSplitAndTrim",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779405132911,
+  "stop": 1779405132913,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/helpers"
+    },
+    {
+      "name": "suite",
+      "value": "server/helpers/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSplitAndTrim"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
