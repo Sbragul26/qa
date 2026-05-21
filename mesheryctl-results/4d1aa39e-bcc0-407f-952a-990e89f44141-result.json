@@ -1,0 +1,25 @@
+{
+  "uuid": "4d1aa39e-bcc0-407f-952a-990e89f44141",
+  "name": "given an invalid source type when mesheryctl design deploy --file file-path --source invalid-source-type then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1779405082528,
+  "stop": 1779405082529,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 003-design/05-design-deploy.bats, line 25)\n  `assert_output --partial \"Invalid value for --file '$TESTDATA_DIR/nonexistent.yaml'\"' failed\n\n-- output does not contain substring --\nsubstring : Invalid value for --file '/tmp/tmp.XHx2Lk4EpP/testdata/design/nonexistent.yaml'\noutput    : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

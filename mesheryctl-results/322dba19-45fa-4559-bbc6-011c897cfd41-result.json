@@ -1,0 +1,23 @@
+{
+  "uuid": "322dba19-45fa-4559-bbc6-011c897cfd41",
+  "name": "given registrant-def without registrant-cred when running mesheryctl registry generate then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779405082530,
+  "stop": 1779405082531,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
