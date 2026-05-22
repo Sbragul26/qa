@@ -1,0 +1,44 @@
+{
+  "uuid": "af7c117a-f5c7-4daa-baa0-c827547687bb",
+  "name": "TestPatternV1beta1ToV1beta3_PreservesAliasContractLostByJSON",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/utils::TestPatternV1beta1ToV1beta3_PreservesAliasContractLostByJSON",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779493413999,
+  "stop": 1779493414003,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPatternV1beta1ToV1beta3_PreservesAliasContractLostByJSON"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

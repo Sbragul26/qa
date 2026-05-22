@@ -1,0 +1,44 @@
+{
+  "uuid": "4195549c-93ab-4d3b-8cde-ce2f3effc76f",
+  "name": "TestAliasIsInvalidStatusMatrix/malformed",
+  "fullName": "github.com/meshery/meshery/server/policies::TestAliasIsInvalidStatusMatrix/malformed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779493418691,
+  "stop": 1779493418691,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAliasIsInvalidStatusMatrix/malformed"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

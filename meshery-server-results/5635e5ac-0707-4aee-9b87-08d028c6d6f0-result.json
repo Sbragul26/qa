@@ -1,0 +1,44 @@
+{
+  "uuid": "5635e5ac-0707-4aee-9b87-08d028c6d6f0",
+  "name": "TestWriteMeshkitError_NonMeshkitErrorStillJSON",
+  "fullName": "github.com/meshery/meshery/server/models/httputil::TestWriteMeshkitError_NonMeshkitErrorStillJSON",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779493402716,
+  "stop": 1779493402716,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/httputil"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWriteMeshkitError_NonMeshkitErrorStillJSON"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
