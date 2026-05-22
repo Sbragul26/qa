@@ -1,0 +1,46 @@
+{
+  "uuid": "b10c7db7-ae8b-44d4-bc07-c163a2359cb2",
+  "name": "TestViewWorkspace/given_too_many_arguments_when_running_workspace_view_then_return_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestViewWorkspace/given_too_many_arguments_when_running_workspace_view_then_return_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779493392151,
+  "stop": 1779493392151,
+  "statusDetails": {
+    "message": "Error: please provide exactly one workspace name or ID\n\nUsage: mesheryctl workspace view [workspace-name|workspace-id]\nRun 'mesheryctl workspace view --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewWorkspace/given_too_many_arguments_when_running_workspace_view_then_return_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

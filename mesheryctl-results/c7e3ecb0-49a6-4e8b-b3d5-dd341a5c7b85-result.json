@@ -1,0 +1,44 @@
+{
+  "uuid": "c7e3ecb0-49a6-4e8b-b3d5-dd341a5c7b85",
+  "name": "TestFullConfiguration",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestFullConfiguration",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779493398626,
+  "stop": 1779493401313,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFullConfiguration"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

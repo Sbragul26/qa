@@ -1,0 +1,44 @@
+{
+  "uuid": "c3259ebb-2de1-42a5-a248-b97882352eff",
+  "name": "TestMakeRequest_Failures",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/api::TestMakeRequest_Failures",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779493352413,
+  "stop": 1779493352420,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/api"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMakeRequest_Failures"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

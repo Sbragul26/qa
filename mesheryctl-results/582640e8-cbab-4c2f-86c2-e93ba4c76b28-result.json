@@ -1,0 +1,44 @@
+{
+  "uuid": "582640e8-cbab-4c2f-86c2-e93ba4c76b28",
+  "name": "TestValidateRelativePath/given_dot_relative_path_when_isRelPath_then_returns_no_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestValidateRelativePath/given_dot_relative_path_when_isRelPath_then_returns_no_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779493358488,
+  "stop": 1779493358488,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidateRelativePath/given_dot_relative_path_when_isRelPath_then_returns_no_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
