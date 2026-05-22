@@ -1,0 +1,23 @@
+{
+  "uuid": "9ac01d01-89bf-439b-a6ae-504566502787",
+  "name": "given an invalid output format when running mesheryctl registry publish website then an error is displayed # skip Spreadsheet credentials not configured",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779487492229,
+  "stop": 1779487492230,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
