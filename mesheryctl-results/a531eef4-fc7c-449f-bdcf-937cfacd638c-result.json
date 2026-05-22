@@ -1,0 +1,23 @@
+{
+  "uuid": "a531eef4-fc7c-449f-bdcf-937cfacd638c",
+  "name": "given all requirements are met, when running mesheryctl system check --preflight then required sections and prerequisites result are displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779422314202,
+  "stop": 1779422314203,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
