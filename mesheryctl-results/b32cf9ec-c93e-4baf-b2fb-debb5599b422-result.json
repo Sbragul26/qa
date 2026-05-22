@@ -1,0 +1,44 @@
+{
+  "uuid": "b32cf9ec-c93e-4baf-b2fb-debb5599b422",
+  "name": "TestConnectionListCmd/given_a_--kind_flag_provided_when_running_mesheryctl_connection_list_--kind_valid-kind_then_the_list_of_connections_with_specified_kind_is_displayed",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionListCmd/given_a_--kind_flag_provided_when_running_mesheryctl_connection_list_--kind_valid-kind_then_the_list_of_connections_with_specified_kind_is_displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779448921831,
+  "stop": 1779448921843,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionListCmd/given_a_--kind_flag_provided_when_running_mesheryctl_connection_list_--kind_valid-kind_then_the_list_of_connections_with_specified_kind_is_displayed"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

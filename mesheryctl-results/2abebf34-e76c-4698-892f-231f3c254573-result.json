@@ -1,0 +1,44 @@
+{
+  "uuid": "2abebf34-e76c-4698-892f-231f3c254573",
+  "name": "TestContextCreateCmd/given_no_context_provided_when_system_context_create__then_thorw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestContextCreateCmd/given_no_context_provided_when_system_context_create__then_thorw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779448946022,
+  "stop": 1779448946022,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContextCreateCmd/given_no_context_provided_when_system_context_create__then_thorw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
