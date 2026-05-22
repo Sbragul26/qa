@@ -1,0 +1,44 @@
+{
+  "uuid": "91bc212c-854b-408e-94c7-60f46c1e87bc",
+  "name": "TestPrerequisiteChecking",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestPrerequisiteChecking",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779487656652,
+  "stop": 1779487656653,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPrerequisiteChecking"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
