@@ -1,0 +1,44 @@
+{
+  "uuid": "97df1535-5145-42e6-ae57-5863cfb34328",
+  "name": "TestDefaultLocalProviderUpdateWorkspace_ReturnsErrorForInvalidUUID",
+  "fullName": "github.com/meshery/meshery/server/models::TestDefaultLocalProviderUpdateWorkspace_ReturnsErrorForInvalidUUID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779422790225,
+  "stop": 1779422790225,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDefaultLocalProviderUpdateWorkspace_ReturnsErrorForInvalidUUID"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

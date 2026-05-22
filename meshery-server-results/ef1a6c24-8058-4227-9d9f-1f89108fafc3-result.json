@@ -1,0 +1,44 @@
+{
+  "uuid": "ef1a6c24-8058-4227-9d9f-1f89108fafc3",
+  "name": "TestControllerEventActedUponReturnsNilWithoutValidIDs",
+  "fullName": "github.com/meshery/meshery/server/models::TestControllerEventActedUponReturnsNilWithoutValidIDs",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779422729694,
+  "stop": 1779422729694,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestControllerEventActedUponReturnsNilWithoutValidIDs"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

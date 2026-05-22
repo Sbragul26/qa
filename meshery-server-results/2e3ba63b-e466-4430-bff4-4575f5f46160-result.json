@@ -1,0 +1,44 @@
+{
+  "uuid": "2e3ba63b-e466-4430-bff4-4575f5f46160",
+  "name": "TestShouldPersistControllerEvent",
+  "fullName": "github.com/meshery/meshery/server/models::TestShouldPersistControllerEvent",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779422729694,
+  "stop": 1779422729694,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestShouldPersistControllerEvent"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

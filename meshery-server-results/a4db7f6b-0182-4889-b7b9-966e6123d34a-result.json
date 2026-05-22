@@ -1,0 +1,44 @@
+{
+  "uuid": "a4db7f6b-0182-4889-b7b9-966e6123d34a",
+  "name": "TestDesignPostPayload_UnmarshalAcceptsAllDesignFileKeyFlavors/legacy_design_file_only",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignPostPayload_UnmarshalAcceptsAllDesignFileKeyFlavors/legacy_design_file_only",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779422697106,
+  "stop": 1779422697107,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignPostPayload_UnmarshalAcceptsAllDesignFileKeyFlavors/legacy_design_file_only"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

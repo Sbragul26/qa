@@ -1,0 +1,44 @@
+{
+  "uuid": "37997eeb-f104-4284-a53c-81a3f1aacca2",
+  "name": "TestLoginHandler_NoneProviderRedirectsHome",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestLoginHandler_NoneProviderRedirectsHome",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779422697138,
+  "stop": 1779422697139,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestLoginHandler_NoneProviderRedirectsHome"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
