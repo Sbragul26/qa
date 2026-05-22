@@ -1,0 +1,44 @@
+{
+  "uuid": "bc3aa863-9b69-46cd-9d1c-ceefd8a39fba",
+  "name": "TestMeshmodelsAPIResponse_MarshalEmitsBothKeyFlavors",
+  "fullName": "github.com/meshery/meshery/server/models::TestMeshmodelsAPIResponse_MarshalEmitsBothKeyFlavors",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779422463695,
+  "stop": 1779422463696,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMeshmodelsAPIResponse_MarshalEmitsBothKeyFlavors"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

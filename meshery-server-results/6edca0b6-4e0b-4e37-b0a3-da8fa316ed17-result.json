@@ -1,0 +1,44 @@
+{
+  "uuid": "6edca0b6-4e0b-4e37-b0a3-da8fa316ed17",
+  "name": "TestDecodeRefURL/given_invalid_base64_string_when_DecodeRefURL_then_return_error",
+  "fullName": "github.com/meshery/meshery/server/core::TestDecodeRefURL/given_invalid_base64_string_when_DecodeRefURL_then_return_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779422419138,
+  "stop": 1779422419138,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/core"
+    },
+    {
+      "name": "suite",
+      "value": "server/core"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDecodeRefURL/given_invalid_base64_string_when_DecodeRefURL_then_return_error"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
