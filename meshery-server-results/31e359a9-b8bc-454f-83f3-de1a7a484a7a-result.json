@@ -1,0 +1,44 @@
+{
+  "uuid": "31e359a9-b8bc-454f-83f3-de1a7a484a7a",
+  "name": "TestRunRelationshipEvaluation_RecoversPanic",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestRunRelationshipEvaluation_RecoversPanic",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779487595456,
+  "stop": 1779487595456,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRunRelationshipEvaluation_RecoversPanic"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

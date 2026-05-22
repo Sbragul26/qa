@@ -1,0 +1,44 @@
+{
+  "uuid": "ef89d0ba-be13-49c8-89a4-c876a18dc1f4",
+  "name": "TestStringSliceToInterface",
+  "fullName": "github.com/meshery/meshery/server/policies::TestStringSliceToInterface",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779487644777,
+  "stop": 1779487644777,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestStringSliceToInterface"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
