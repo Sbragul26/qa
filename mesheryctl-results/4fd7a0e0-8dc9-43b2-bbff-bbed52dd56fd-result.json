@@ -1,0 +1,46 @@
+{
+  "uuid": "4fd7a0e0-8dc9-43b2-bbff-bbed52dd56fd",
+  "name": "TestModelInit/given_no_model_name_provided_when_model_init_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/given_no_model_name_provided_when_model_init_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779740834736,
+  "stop": 1779740834740,
+  "statusDetails": {
+    "message": "Error: model init requires one argument: 'Model name' using kebab-cased (eg. model-name, aws-model-name) | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/given_no_model_name_provided_when_model_init_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
