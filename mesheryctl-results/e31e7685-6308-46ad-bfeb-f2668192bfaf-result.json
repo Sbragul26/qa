@@ -1,0 +1,23 @@
+{
+  "uuid": "e31e7685-6308-46ad-bfeb-f2668192bfaf",
+  "name": "given spreadsheet-cred without spreadsheet-id when running mesheryctl registry update then an error about missing flag is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779720662669,
+  "stop": 1779720662670,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
