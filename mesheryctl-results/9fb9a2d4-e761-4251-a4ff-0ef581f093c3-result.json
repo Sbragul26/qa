@@ -1,0 +1,44 @@
+{
+  "uuid": "9fb9a2d4-e761-4251-a4ff-0ef581f093c3",
+  "name": "TestCreateEnvironment/given_all_flags_provided_when_environment_create_then_environment_is_created",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestCreateEnvironment/given_all_flags_provided_when_environment_create_then_environment_is_created",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779739335485,
+  "stop": 1779739335490,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateEnvironment/given_all_flags_provided_when_environment_create_then_environment_is_created"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
