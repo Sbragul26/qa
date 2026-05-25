@@ -1,0 +1,44 @@
+{
+  "uuid": "f5759b31-68fd-40bc-8a6a-471b9650ad65",
+  "name": "TestRelationshipV1alpha3ToV1beta2_PreservesAliasedFields",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/utils::TestRelationshipV1alpha3ToV1beta2_PreservesAliasedFields",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779710842458,
+  "stop": 1779710842458,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRelationshipV1alpha3ToV1beta2_PreservesAliasedFields"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

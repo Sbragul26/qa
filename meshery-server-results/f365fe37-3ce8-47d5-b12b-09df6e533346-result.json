@@ -1,0 +1,44 @@
+{
+  "uuid": "f365fe37-3ce8-47d5-b12b-09df6e533346",
+  "name": "TestSMPPerformanceTestConfigValidator/given_an_unrecognized_generator,_when_validating_config,_then_ErrLoadgenerator_is_returned",
+  "fullName": "github.com/meshery/meshery/server/models::TestSMPPerformanceTestConfigValidator/given_an_unrecognized_generator,_when_validating_config,_then_ErrLoadgenerator_is_returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779710891861,
+  "stop": 1779710891862,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSMPPerformanceTestConfigValidator/given_an_unrecognized_generator,_when_validating_config,_then_ErrLoadgenerator_is_returned"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

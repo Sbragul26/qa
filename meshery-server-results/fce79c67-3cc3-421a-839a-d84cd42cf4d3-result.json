@@ -1,0 +1,44 @@
+{
+  "uuid": "fce79c67-3cc3-421a-839a-d84cd42cf4d3",
+  "name": "TestSet",
+  "fullName": "github.com/meshery/meshery/server/internal/store::TestSet",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779710821574,
+  "stop": 1779710821574,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/internal"
+    },
+    {
+      "name": "suite",
+      "value": "server/internal/store"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSet"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
