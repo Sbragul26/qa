@@ -1,0 +1,46 @@
+{
+  "uuid": "3383503d-8e02-4fc6-bde9-438ce6f477d8",
+  "name": "TestModelInit/given_output_format_yaml_when_model_init_model_is_initialized_in_yaml_format",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelInit/given_output_format_yaml_when_model_init_model_is_initialized_in_yaml_format",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779710836759,
+  "stop": 1779710836770,
+  "statusDetails": {
+    "message": "init_test.go:275: removed created folders"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelInit/given_output_format_yaml_when_model_init_model_is_initialized_in_yaml_format"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

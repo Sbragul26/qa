@@ -1,0 +1,44 @@
+{
+  "uuid": "ab457338-56c0-49a1-be14-e9db4c1d5462",
+  "name": "TestReadValidationErrorMessages_Direct/given_custom_error_exists_then_uses_custom_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestReadValidationErrorMessages_Direct/given_custom_error_exists_then_uses_custom_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779710814924,
+  "stop": 1779710814924,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestReadValidationErrorMessages_Direct/given_custom_error_exists_then_uses_custom_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

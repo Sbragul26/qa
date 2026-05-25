@@ -1,0 +1,46 @@
+{
+  "uuid": "1c675da1-c450-4b11-8c1f-5dc1474dfd5e",
+  "name": "TestProfilesToStringArraysHandlesMissingLoadGenerators",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfilesToStringArraysHandlesMissingLoadGenerators",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779710838045,
+  "stop": 1779710838045,
+  "statusDetails": {
+    "message": "=== PAUSE TestProfilesToStringArraysHandlesMissingLoadGenerators\n=== CONT  TestProfilesToStringArraysHandlesMissingLoadGenerators"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfilesToStringArraysHandlesMissingLoadGenerators"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

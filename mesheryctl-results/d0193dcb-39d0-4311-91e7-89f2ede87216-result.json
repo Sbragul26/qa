@@ -1,0 +1,46 @@
+{
+  "uuid": "d0193dcb-39d0-4311-91e7-89f2ede87216",
+  "name": "TestSafeClose/SafeClose",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestSafeClose/SafeClose",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779710853174,
+  "stop": 1779710853174,
+  "statusDetails": {
+    "message": "close error"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSafeClose/SafeClose"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "1448583f-ff4f-4d56-8997-aedf7f93d3ad",
+  "name": "TestViewCmd/Fetch_Kuma_Filter_View_with_ID",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestViewCmd/Fetch_Kuma_Filter_View_with_ID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779710831841,
+  "stop": 1779710831844,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewCmd/Fetch_Kuma_Filter_View_with_ID"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
