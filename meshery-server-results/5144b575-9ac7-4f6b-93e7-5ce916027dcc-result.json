@@ -1,0 +1,44 @@
+{
+  "uuid": "5144b575-9ac7-4f6b-93e7-5ce916027dcc",
+  "name": "TestSplitAndTrim/drops_empty_entries_from_trailing_or_doubled_separators",
+  "fullName": "github.com/meshery/meshery/server/helpers/utils::TestSplitAndTrim/drops_empty_entries_from_trailing_or_doubled_separators",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779720850064,
+  "stop": 1779720850064,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/helpers"
+    },
+    {
+      "name": "suite",
+      "value": "server/helpers/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSplitAndTrim/drops_empty_entries_from_trailing_or_doubled_separators"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
