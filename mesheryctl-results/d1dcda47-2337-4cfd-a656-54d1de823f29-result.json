@@ -1,0 +1,25 @@
+{
+  "uuid": "d1dcda47-2337-4cfd-a656-54d1de823f29",
+  "name": "given an invalid file path when mesheryctl design deploy --file invalid-file-path --source source-type then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1779767774428,
+  "stop": 1779767774429,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 003-design/05-design-deploy.bats, line 17)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

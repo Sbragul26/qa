@@ -1,0 +1,23 @@
+{
+  "uuid": "31590470-3c9c-4601-823c-5a04001f14b1",
+  "name": "given help flag when running mesheryctl system config --help then deprecation warning is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779767774490,
+  "stop": 1779767774491,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

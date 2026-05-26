@@ -1,0 +1,23 @@
+{
+  "uuid": "dcad798f-bf75-4bdd-9b6e-7f7eff4d7cf7",
+  "name": "given help flag when running mesheryctl system config gke --help then usage information is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779767774490,
+  "stop": 1779767774491,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
