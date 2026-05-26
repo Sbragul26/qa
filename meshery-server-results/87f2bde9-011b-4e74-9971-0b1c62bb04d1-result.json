@@ -1,0 +1,44 @@
+{
+  "uuid": "87f2bde9-011b-4e74-9971-0b1c62bb04d1",
+  "name": "TestEvaluationTracker_SingleLeader",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestEvaluationTracker_SingleLeader",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779767870088,
+  "stop": 1779767870088,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEvaluationTracker_SingleLeader"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

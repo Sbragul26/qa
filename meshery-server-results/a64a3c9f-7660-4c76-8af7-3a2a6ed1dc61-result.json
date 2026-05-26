@@ -1,0 +1,44 @@
+{
+  "uuid": "a64a3c9f-7660-4c76-8af7-3a2a6ed1dc61",
+  "name": "TestProviderTracker_RemoteFailureReportsOfflineWithoutBlockingPeers",
+  "fullName": "github.com/meshery/meshery/server/models::TestProviderTracker_RemoteFailureReportsOfflineWithoutBlockingPeers",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779767902784,
+  "stop": 1779767917786,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProviderTracker_RemoteFailureReportsOfflineWithoutBlockingPeers"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "667ba774-a0c8-4b9f-ae4a-6594c194103f",
+  "name": "TestRemoteProviderGetViewsOfWorkspace_ReturnsErrorWhenProviderUnreachable",
+  "fullName": "github.com/meshery/meshery/server/models::TestRemoteProviderGetViewsOfWorkspace_ReturnsErrorWhenProviderUnreachable",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779767918009,
+  "stop": 1779767918009,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoteProviderGetViewsOfWorkspace_ReturnsErrorWhenProviderUnreachable"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

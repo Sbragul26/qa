@@ -1,0 +1,46 @@
+{
+  "uuid": "54ba24c7-4acc-4297-bf7e-7f66c2842a8f",
+  "name": "TestProcessEvaluationResponse_HydratesMultipleAddedComponents",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_HydratesMultipleAddedComponents",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779767870924,
+  "stop": 1779767871083,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_HydratesMultipleAddedComponents\n=== CONT  TestProcessEvaluationResponse_HydratesMultipleAddedComponents"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_HydratesMultipleAddedComponents"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
