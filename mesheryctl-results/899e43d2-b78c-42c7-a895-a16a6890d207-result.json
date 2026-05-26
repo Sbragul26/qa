@@ -1,0 +1,44 @@
+{
+  "uuid": "899e43d2-b78c-42c7-a895-a16a6890d207",
+  "name": "TestInitConfigUseCases/given_an_empty_config_file_when_calling_initConfig_then_empty_config_creates_default",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root::TestInitConfigUseCases/given_an_empty_config_file_when_calling_initConfig_then_empty_config_creates_default",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779767953589,
+  "stop": 1779767953592,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInitConfigUseCases/given_an_empty_config_file_when_calling_initConfig_then_empty_config_creates_default"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
