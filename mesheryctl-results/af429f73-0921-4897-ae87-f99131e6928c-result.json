@@ -1,0 +1,44 @@
+{
+  "uuid": "af429f73-0921-4897-ae87-f99131e6928c",
+  "name": "TestListAsyncPagination/Given_All_Requirements_Met_When_ListAsyncPagination_Then_Successful_Count_Response",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::TestListAsyncPagination/Given_All_Requirements_Met_When_ListAsyncPagination_Then_Successful_Count_Response",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779887465442,
+  "stop": 1779887465448,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListAsyncPagination/Given_All_Requirements_Met_When_ListAsyncPagination_Then_Successful_Count_Response"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
