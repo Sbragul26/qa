@@ -1,0 +1,299 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: connections.spec.ts >> Connection Management Tests >> Verify that UI components are displayed
+- Location: tests/e2e/connections.spec.ts:60:7
+
+# Error details
+
+```
+Test timeout of 60000ms exceeded while running "beforeEach" hook.
+```
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByTestId('ConnectionTable-search')
+Expected: visible
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 60000ms
+  - waiting for getByTestId('ConnectionTable-search')
+
+```
+
+```yaml
+- navigation:
+  - img
+  - img
+  - list:
+    - button "Dashboard":
+      - link "Dashboard":
+        - /url: /
+        - img
+        - text: Dashboard
+    - button "Lifecycle":
+      - link "Lifecycle":
+        - /url: /management/connections
+        - img
+        - text: Lifecycle
+    - list:
+      - button "Connections":
+        - img
+        - text: Connections
+      - button "Environments":
+        - img
+        - text: Environments
+      - button "Workspaces":
+        - img
+        - text: Workspaces
+      - button "Adapters":
+        - img
+        - text: Adapters
+    - button "Configuration":
+      - link "Configuration":
+        - /url: /configuration/designs
+        - img
+        - text: Configuration
+    - button "meshery-button-2 Performance":
+      - link "meshery-button-2 Performance":
+        - /url: /performance
+        - img "meshery-button-2"
+        - text: Performance
+    - button "Extensions":
+      - link "Extensions":
+        - /url: /extensions
+        - img
+        - text: Extensions
+    - separator
+  - img
+  - group:
+    - listitem:
+      - link:
+        - /url: https://docs.meshery.io
+        - img
+    - listitem:
+      - link:
+        - /url: https://slack.meshery.io
+        - img
+    - listitem:
+      - link:
+        - /url: https://meshery.io/community#community-forums
+        - img
+    - listitem:
+      - link:
+        - /url: https://github.com/meshery/meshery/issues/new/choose
+        - img
+  - listitem:
+    - text: v1.0.30
+    - link:
+      - /url: https://docs.meshery.io/project/releases/v1.0.30
+      - img
+    - text: Running latest
+- banner:
+  - button:
+    - img
+  - text: /
+  - button:
+    - img
+  - text: /
+  - heading "Connections" [level=5]
+  - button "contexts":
+    - img
+    - text: "1"
+  - button:
+    - img
+  - button
+  - button:
+    - img
+- main:
+  - alert:
+    - heading "Uh-oh!😔 Please pardon the mesh." [level=2]
+    - code:
+      - strong: "Error:"
+      - text: "Minified React error #301; visit https://react.dev/errors/301 for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    - strong: "Version:"
+    - paragraph:
+      - text: We apologize for the inconvenience. The issue may be on our end. If troubleshooting doesn't work, please check out our support channels
+      - link "Discuss Forum":
+        - /url: https://discuss.layer5.io/
+      - text: or
+      - link "Slack":
+        - /url: https://slack.layer5.io/
+    - button "Try Again"
+- contentinfo:
+  - paragraph:
+    - text: Built with
+    - img
+    - text: by the Meshery Community
+- alert: Connections | Meshery
+```
+
+# Test source
+
+```ts
+  1   | import { expect, Page, Response } from '@playwright/test';
+  2   | import { test } from './fixtures/project';
+  3   | import { ENV } from './env';
+  4   | import { DashboardPage } from './pages/DashboardPage';
+  5   | import { waitForSnackBar } from './utils/waitForSnackBar';
+  6   | 
+  7   | // Define the shape of the transition test objects
+  8   | interface TransitionTest {
+  9   |   name: string;
+  10  |   transitionOption: string;
+  11  |   statusAfterTransition: string;
+  12  |   restorationOption: string;
+  13  | }
+  14  | 
+  15  | // These tests need to be updated to reflect the latest connection api changes
+  16  | function waitForConnectionsApiResponse(page: Page): Promise<Response> {
+  17  |   return page.waitForResponse(
+  18  |     (response) =>
+  19  |       response.url().includes('/api/integrations/connections') && response.status() === 200,
+  20  |   );
+  21  | }
+  22  | 
+  23  | // name: Name of the test
+  24  | // transitionOption: Option to be chosen from dropdown to transition to another state
+  25  | // statusAfterTransition: Text shown in current state after transition
+  26  | // restorationOption: Option to be chosen from dropdown to transition back to connected state
+  27  | const transitionTests: TransitionTest[] = [
+  28  |   // skip: this is broken
+  29  |   // {
+  30  |   //   name: 'Transition to disconnected state and then back to connected state',
+  31  |   //   transitionOption: 'disconnected',
+  32  |   //   statusAfterTransition: 'disconnected',
+  33  |   //   restorationOption: 'connected',
+  34  |   // },
+  35  |   // {
+  36  |   //   name: 'Transition to ignored state and then back to connected state',
+  37  |   //   transitionOption: 'ignored',
+  38  |   //   statusAfterTransition: 'ignored',
+  39  |   //   restorationOption: 'registered',
+  40  |   // },
+  41  |   // {
+  42  |   //   name: 'Transition to not found state and then back to connected state',
+  43  |   //   transitionOption: 'not found',
+  44  |   //   statusAfterTransition: 'not found',
+  45  |   //   restorationOption: 'discovered',
+  46  |   // },
+  47  | ];
+  48  | 
+  49  | test.describe.serial('Connection Management Tests', () => {
+  50  |   test.beforeEach(async ({ page }) => {
+  51  |     const dashboardPage = new DashboardPage(page);
+  52  |     await dashboardPage.navigateToDashboard();
+  53  |     const initialConnectionsRes = waitForConnectionsApiResponse(page);
+  54  |     await dashboardPage.navigateToConnections();
+  55  |     await page.waitForURL(/\/management\/connections/);
+  56  |     await initialConnectionsRes;
+> 57  |     await expect(page.getByTestId('ConnectionTable-search')).toBeVisible();
+      |                                                              ^ Error: expect(locator).toBeVisible() failed
+  58  |   });
+  59  | 
+  60  |   test('Verify that UI components are displayed', async ({ page }) => {
+  61  |     // Verify that connections table is displayed (by checking for table headings)
+  62  |     const headings = ['Name', 'Environments', 'Kind', 'Category', 'Status', 'Actions'];
+  63  |     for (const heading of headings) {
+  64  |       await expect(page.getByRole('columnheader', { name: heading })).toBeVisible();
+  65  |     }
+  66  |   });
+  67  | 
+  68  |   // test('Add a cluster connection by uploading kubeconfig file', async ({
+  69  |   //   page,
+  70  |   //   clusterMetaData,
+  71  |   // }) => {
+  72  |   //   await page.getByRole('tab', { name: 'Connections' }).click();
+  73  | 
+  74  |   //   const addConnectionReq = page.waitForRequest(
+  75  |   //     (request) =>
+  76  |   //       request.url() === `${ENV.MESHERY_SERVER_URL}/api/system/kubernetes` &&
+  77  |   //       request.method() === 'POST',
+  78  |   //   );
+  79  |   //   const addConnectionRes = page.waitForResponse(
+  80  |   //     (response) =>
+  81  |   //       response.url() === `${ENV.MESHERY_SERVER_URL}/api/system/kubernetes` &&
+  82  |   //       response.status() === 200,
+  83  |   //   );
+  84  |   //   await page.getByTestId('connection-addCluster').click();
+  85  | 
+  86  |   //   // Verify "Add Kubernetes Cluster(s)" modal opens
+  87  |   //   await expect(page.getByTestId('connection-addKubernetesModal')).toBeVisible();
+  88  | 
+  89  |   //   const fileChooserPromise = page.waitForEvent('filechooser');
+  90  |   //   await page.getByTestId('connection-uploadKubeConfig').click();
+  91  |   //   const fileChooser = await fileChooserPromise;
+  92  |   //   // Attach existing kubeconfig file of the system, to test the upload without making any changes in configuration
+  93  |   //   const kubeConfigPath = `${os.homedir()}/.kube/config`;
+  94  |   //   await fileChooser.setFiles(kubeConfigPath);
+  95  | 
+  96  |   //   await page.getByRole('button', { name: 'IMPORT', exact: true }).click();
+  97  | 
+  98  |   //   await addConnectionReq;
+  99  |   //   await addConnectionRes;
+  100 | 
+  101 |   //   await page.getByRole('button', { name: 'OK' }).click();
+  102 | 
+  103 |   //   // Search for the newly added cluster
+  104 |   //   await page.getByTestId('ConnectionTable-search').getByRole('button').click();
+  105 | 
+  106 |   //   const getConnectionsRes = waitForConnectionsApiResponse(page);
+  107 | 
+  108 |   //   await page.getByRole('textbox', { name: 'Search Connections...' }).click();
+  109 |   //   await page.getByRole('textbox', { name: 'Search Connections...' }).fill(clusterMetaData.name);
+  110 | 
+  111 |   //   await getConnectionsRes;
+  112 | 
+  113 |   //   const newConnectionRow = page.getByRole('menuitem', { hasText: clusterMetaData.name }).first();
+  114 |   //   await expect(newConnectionRow).toContainText('connected');
+  115 |   // });
+  116 | 
+  117 |   transitionTests.forEach((t) => {
+  118 |     test(t.name, async ({ page, clusterMetaData }) => {
+  119 |       const stateTransitionReq = page.waitForRequest(
+  120 |         (request) =>
+  121 |           request.url() ===
+  122 |             `${ENV.MESHERY_SERVER_URL}/api/integrations/connections/kubernetes/status` &&
+  123 |           request.method() === 'PUT',
+  124 |       );
+  125 | 
+  126 |       const stateTransitionRes = page.waitForResponse(
+  127 |         (response) =>
+  128 |           response.url() ===
+  129 |             `${ENV.MESHERY_SERVER_URL}/api/integrations/connections/kubernetes/status` &&
+  130 |           response.status() === 202,
+  131 |       );
+  132 | 
+  133 |       const getFilteredConnectionsRes = waitForConnectionsApiResponse(page);
+  134 | 
+  135 |       const getStatusUpdateConnectionsRes = waitForConnectionsApiResponse(page);
+  136 | 
+  137 |       await page.getByTestId('ConnectionTable-search').getByRole('button').click();
+  138 |       await page.getByRole('textbox', { name: 'Search Connections...' }).fill(clusterMetaData.name);
+  139 | 
+  140 |       await getFilteredConnectionsRes;
+  141 | 
+  142 |       const matchingRows = page.getByRole('menuitem', { hasText: clusterMetaData.name });
+  143 | 
+  144 |       const connectedRow = matchingRows
+  145 |         .filter({
+  146 |           has: page.locator('span', { hasText: 'connected' }),
+  147 |         })
+  148 |         .first();
+  149 | 
+  150 |       await expect(connectedRow).toBeVisible();
+  151 | 
+  152 |       // ===== TRANSITIONING TO A NEW STATE =====
+  153 | 
+  154 |       // open state transition options dropdown
+  155 |       await connectedRow.locator('span', { hasText: 'connected' }).click();
+  156 |       await page.getByRole('option', { name: t.transitionOption }).click();
+  157 | 
+```
