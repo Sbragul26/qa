@@ -1,0 +1,44 @@
+{
+  "uuid": "85b386ed-6132-4e6f-9bc8-e0ce5fe295c4",
+  "name": "TestIsRelationshipFeasible/kind_mismatch",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIsRelationshipFeasible/kind_mismatch",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779887552598,
+  "stop": 1779887552598,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsRelationshipFeasible/kind_mismatch"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

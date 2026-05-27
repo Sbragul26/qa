@@ -1,0 +1,44 @@
+{
+  "uuid": "1802dfa5-223d-47e6-ae4c-5489afa08611",
+  "name": "TestBehaviorAlignment/match_values",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBehaviorAlignment/match_values",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779887550932,
+  "stop": 1779887551276,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBehaviorAlignment/match_values"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

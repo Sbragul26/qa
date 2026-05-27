@@ -1,0 +1,44 @@
+{
+  "uuid": "700f06e4-5daf-4ebf-ba8a-019f523aefe1",
+  "name": "TestDesignPostPayload_UnmarshalAllSpellingsAbsentZeroes",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestDesignPostPayload_UnmarshalAllSpellingsAbsentZeroes",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779887494783,
+  "stop": 1779887494784,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignPostPayload_UnmarshalAllSpellingsAbsentZeroes"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
