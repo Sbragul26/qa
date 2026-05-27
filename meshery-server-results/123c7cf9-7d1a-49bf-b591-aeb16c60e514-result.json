@@ -1,0 +1,44 @@
+{
+  "uuid": "123c7cf9-7d1a-49bf-b591-aeb16c60e514",
+  "name": "TestMeshsyncStoreUpdatesNonErrorObjectWrapped",
+  "fullName": "github.com/meshery/meshery/server/models::TestMeshsyncStoreUpdatesNonErrorObjectWrapped",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779886788211,
+  "stop": 1779886788312,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMeshsyncStoreUpdatesNonErrorObjectWrapped"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

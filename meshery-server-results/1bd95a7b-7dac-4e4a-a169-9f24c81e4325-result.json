@@ -1,0 +1,44 @@
+{
+  "uuid": "1bd95a7b-7dac-4e4a-a169-9f24c81e4325",
+  "name": "TestEdgeBindingPolicyImplication",
+  "fullName": "github.com/meshery/meshery/server/policies::TestEdgeBindingPolicyImplication",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779886803180,
+  "stop": 1779886803180,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEdgeBindingPolicyImplication"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

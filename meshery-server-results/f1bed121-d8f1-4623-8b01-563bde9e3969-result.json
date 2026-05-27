@@ -1,0 +1,44 @@
+{
+  "uuid": "f1bed121-d8f1-4623-8b01-563bde9e3969",
+  "name": "TestRelationshipEvaluationScenarios",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRelationshipEvaluationScenarios",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779886804893,
+  "stop": 1779886805940,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRelationshipEvaluationScenarios"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

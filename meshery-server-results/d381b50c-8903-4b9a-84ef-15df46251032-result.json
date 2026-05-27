@@ -1,0 +1,44 @@
+{
+  "uuid": "d381b50c-8903-4b9a-84ef-15df46251032",
+  "name": "TestRunRelationshipEvaluation_PassesThroughEvalError",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestRunRelationshipEvaluation_PassesThroughEvalError",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779886755558,
+  "stop": 1779886755559,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRunRelationshipEvaluation_PassesThroughEvalError"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

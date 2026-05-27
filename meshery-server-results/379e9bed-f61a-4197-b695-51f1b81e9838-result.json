@@ -1,0 +1,44 @@
+{
+  "uuid": "379e9bed-f61a-4197-b695-51f1b81e9838",
+  "name": "TestPolicyImplication/hierarchical_inventory",
+  "fullName": "github.com/meshery/meshery/server/policies::TestPolicyImplication/hierarchical_inventory",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779886803178,
+  "stop": 1779886803179,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPolicyImplication/hierarchical_inventory"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
