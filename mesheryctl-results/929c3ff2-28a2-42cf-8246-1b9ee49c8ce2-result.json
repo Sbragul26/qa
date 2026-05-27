@@ -1,0 +1,44 @@
+{
+  "uuid": "929c3ff2-28a2-42cf-8246-1b9ee49c8ce2",
+  "name": "TestListModel/List_model_no_data",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestListModel/List_model_no_data",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779886954528,
+  "stop": 1779886954529,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListModel/List_model_no_data"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
