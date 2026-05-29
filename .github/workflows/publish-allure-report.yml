@@ -19,12 +19,6 @@ on:
         required: true
         default: "warning"
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
@@ -34,11 +28,11 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v6.0.2
-        with:
-          persist-credentials: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v6.4.0
@@ -51,6 +45,15 @@ jobs:
 
       - name: Generate Allure Report 🔧
         run: make report-build
+
+      - name: Commit & push updated history
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: update allure history"
+          commit_options: "--signoff"
+          file_pattern: history.jsonl
+          commit_user_name: meshery-ci
+          commit_user_email: ci@meshery.io
 
       - name: Setup Pages
         uses: actions/configure-pages@v6.0.0
@@ -65,8 +68,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
     needs: build
     steps:
       - name: Deploy to GitHub Pages 🚀
         id: deployment
         uses: actions/deploy-pages@v5.0.0
+
