@@ -16,7 +16,7 @@ const isProject = (labels, projectName) =>
 export default defineConfig({
   name: "Meshery Quality Dashboard",
   output: "./allure-report",
-  historyPath: "./history.json",
+  historyPath: "./history.jsonl",
   plugins: {
     dashboard: {
       options: {
