@@ -1,0 +1,44 @@
+{
+  "uuid": "063d4d95-9e2c-4691-84ef-1c6c44e00f5c",
+  "name": "TestPopLast/nil",
+  "fullName": "github.com/meshery/meshery/server/policies::TestPopLast/nil",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780077869343,
+  "stop": 1780077869343,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPopLast/nil"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
