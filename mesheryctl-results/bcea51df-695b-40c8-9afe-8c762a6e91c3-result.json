@@ -1,0 +1,44 @@
+{
+  "uuid": "bcea51df-695b-40c8-9afe-8c762a6e91c3",
+  "name": "Test_Given_OutputFormatter_When_Display_Then_Content_Is_Displayed_Without_Error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::Test_Given_OutputFormatter_When_Display_Then_Content_Is_Displayed_Without_Error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1779887465429,
+  "stop": 1779887465430,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Given_OutputFormatter_When_Display_Then_Content_Is_Displayed_Without_Error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
