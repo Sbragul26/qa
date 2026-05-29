@@ -81,7 +81,13 @@ report-setup:
 report-build: 
 	@echo "Generating QA Report..."
 	rm -rf allure-results || true
-	mkdir -p allure-results
+	mkdir -p allure-results/history
+	@if [ -f history.jsonl ]; then \
+		echo "Restoring prior history..."; \
+		cp history.jsonl allure-results/history/history.jsonl; \
+	else \
+		echo "No prior history — first run"; \
+	fi
 	cp kanvas-results/* allure-results/ || true
 	cp meshery-results/* allure-results/ || true
 	cp meshery-server-results/* allure-results/ || true
