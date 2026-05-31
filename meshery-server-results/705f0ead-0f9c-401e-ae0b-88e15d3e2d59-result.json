@@ -1,0 +1,44 @@
+{
+  "uuid": "705f0ead-0f9c-401e-ae0b-88e15d3e2d59",
+  "name": "TestGetAll/When_key_does_not_exists",
+  "fullName": "github.com/meshery/meshery/server/internal/store::TestGetAll/When_key_does_not_exists",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780246706342,
+  "stop": 1780246706342,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/internal"
+    },
+    {
+      "name": "suite",
+      "value": "server/internal/store"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetAll/When_key_does_not_exists"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

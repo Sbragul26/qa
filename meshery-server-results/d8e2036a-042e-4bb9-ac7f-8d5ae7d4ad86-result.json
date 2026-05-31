@@ -1,0 +1,44 @@
+{
+  "uuid": "d8e2036a-042e-4bb9-ac7f-8d5ae7d4ad86",
+  "name": "TestBindingPatchingCleanupOnDelete",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBindingPatchingCleanupOnDelete",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780246732870,
+  "stop": 1780246732871,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBindingPatchingCleanupOnDelete"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

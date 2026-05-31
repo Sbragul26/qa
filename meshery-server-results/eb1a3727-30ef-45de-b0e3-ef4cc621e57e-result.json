@@ -1,0 +1,44 @@
+{
+  "uuid": "eb1a3727-30ef-45de-b0e3-ef4cc621e57e",
+  "name": "TestAddMeshsyncDeploymentModeToMetadata/nil_metadata_is_a_no-op,_not_a_panic",
+  "fullName": "github.com/meshery/meshery/server/models/connections::TestAddMeshsyncDeploymentModeToMetadata/nil_metadata_is_a_no-op,_not_a_panic",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780246716173,
+  "stop": 1780246716173,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAddMeshsyncDeploymentModeToMetadata/nil_metadata_is_a_no-op,_not_a_panic"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
