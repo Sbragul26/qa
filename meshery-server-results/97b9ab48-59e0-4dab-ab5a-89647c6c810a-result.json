@@ -1,0 +1,44 @@
+{
+  "uuid": "97b9ab48-59e0-4dab-ab5a-89647c6c810a",
+  "name": "TestBuildDesignSavedEventMetadata_UsesCanonicalCamelCaseKeys",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestBuildDesignSavedEventMetadata_UsesCanonicalCamelCaseKeys",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780218592143,
+  "stop": 1780218592143,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBuildDesignSavedEventMetadata_UsesCanonicalCamelCaseKeys"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
