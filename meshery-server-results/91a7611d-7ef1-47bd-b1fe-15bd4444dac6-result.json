@@ -1,0 +1,44 @@
+{
+  "uuid": "91a7611d-7ef1-47bd-b1fe-15bd4444dac6",
+  "name": "TestRemoteProvider_GetUserByID_SystemInstanceReturnsSentinel",
+  "fullName": "github.com/meshery/meshery/server/models::TestRemoteProvider_GetUserByID_SystemInstanceReturnsSentinel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780218303117,
+  "stop": 1780218303117,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoteProvider_GetUserByID_SystemInstanceReturnsSentinel"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
