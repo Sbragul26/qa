@@ -1,0 +1,44 @@
+{
+  "uuid": "4cebf7f5-9799-4b39-a57e-065643be4cba",
+  "name": "TestValidateRelativeOrAbsolutePath",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestValidateRelativeOrAbsolutePath",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780304377376,
+  "stop": 1780304377377,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidateRelativeOrAbsolutePath"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

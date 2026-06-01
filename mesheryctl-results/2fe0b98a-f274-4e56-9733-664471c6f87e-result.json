@@ -1,0 +1,46 @@
+{
+  "uuid": "2fe0b98a-f274-4e56-9733-664471c6f87e",
+  "name": "TestWorkspaces/Given_no_argument_provided_trigger_an_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/workspaces::TestWorkspaces/Given_no_argument_provided_trigger_an_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780304409992,
+  "stop": 1780304409993,
+  "statusDetails": {
+    "message": "Error: no subcommand specified. Usage: mesheryctl workspace [subcommand]\nRun 'mesheryctl workspace --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/workspaces"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWorkspaces/Given_no_argument_provided_trigger_an_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

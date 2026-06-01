@@ -1,0 +1,46 @@
+{
+  "uuid": "54a0be31-7adc-4088-b4d5-7a42f32e3416",
+  "name": "TestListCmd",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/filter::TestListCmd",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780304394537,
+  "stop": 1780304394547,
+  "statusDetails": {
+    "message": "testing.go:542: Test 'Fetch Filter List' executed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/filter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListCmd"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

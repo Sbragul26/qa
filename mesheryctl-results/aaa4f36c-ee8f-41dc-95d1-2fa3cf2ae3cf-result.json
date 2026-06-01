@@ -1,0 +1,44 @@
+{
+  "uuid": "aaa4f36c-ee8f-41dc-95d1-2fa3cf2ae3cf",
+  "name": "TestPromptAsyncPagination/Given_Single_Result_When_PromptAsyncPagination_Then_AutoSelect",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::TestPromptAsyncPagination/Given_Single_Result_When_PromptAsyncPagination_Then_AutoSelect",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780304371501,
+  "stop": 1780304371503,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPromptAsyncPagination/Given_Single_Result_When_PromptAsyncPagination_Then_AutoSelect"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
