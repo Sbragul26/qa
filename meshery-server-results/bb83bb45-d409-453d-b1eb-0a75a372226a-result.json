@@ -1,0 +1,44 @@
+{
+  "uuid": "bb83bb45-d409-453d-b1eb-0a75a372226a",
+  "name": "TestConvertRelationships/skips_unsupported_relationship_shapes",
+  "fullName": "github.com/meshery/meshery/server/policies::TestConvertRelationships/skips_unsupported_relationship_shapes",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780304389373,
+  "stop": 1780304389373,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConvertRelationships/skips_unsupported_relationship_shapes"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
