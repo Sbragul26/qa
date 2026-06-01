@@ -1,0 +1,44 @@
+{
+  "uuid": "579902a8-12a4-4d44-ad6f-5fac6fab9ada",
+  "name": "TestOrganizationsPage_MarshalEmitsBothKeyFlavors",
+  "fullName": "github.com/meshery/meshery/server/models::TestOrganizationsPage_MarshalEmitsBothKeyFlavors",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780280716031,
+  "stop": 1780280716032,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestOrganizationsPage_MarshalEmitsBothKeyFlavors"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

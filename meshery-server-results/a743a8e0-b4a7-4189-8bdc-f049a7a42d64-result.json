@@ -1,0 +1,44 @@
+{
+  "uuid": "a743a8e0-b4a7-4189-8bdc-f049a7a42d64",
+  "name": "TestValidate",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestValidate",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780280683490,
+  "stop": 1780280683515,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidate"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

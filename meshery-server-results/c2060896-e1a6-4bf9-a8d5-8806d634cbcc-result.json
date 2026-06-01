@@ -1,0 +1,44 @@
+{
+  "uuid": "c2060896-e1a6-4bf9-a8d5-8806d634cbcc",
+  "name": "TestAdaptersTrackerLifecycle",
+  "fullName": "github.com/meshery/meshery/server/helpers::TestAdaptersTrackerLifecycle",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780280699472,
+  "stop": 1780280699472,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/helpers"
+    },
+    {
+      "name": "suite",
+      "value": "server/helpers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAdaptersTrackerLifecycle"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
