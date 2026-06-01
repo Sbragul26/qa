@@ -1,0 +1,23 @@
+{
+  "uuid": "021b051a-b1a5-424f-8078-2a518f5a2c41",
+  "name": "given invalid spreadsheet credentials when running mesheryctl registry update then an error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780304089435,
+  "stop": 1780304089436,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

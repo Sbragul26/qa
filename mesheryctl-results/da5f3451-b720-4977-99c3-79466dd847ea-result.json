@@ -1,0 +1,23 @@
+{
+  "uuid": "da5f3451-b720-4977-99c3-79466dd847ea",
+  "name": "given all requirements are met, when running mesheryctl system check then required sections are displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780304089426,
+  "stop": 1780304089427,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

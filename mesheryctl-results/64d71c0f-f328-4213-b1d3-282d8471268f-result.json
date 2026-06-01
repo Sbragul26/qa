@@ -1,0 +1,23 @@
+{
+  "uuid": "64d71c0f-f328-4213-b1d3-282d8471268f",
+  "name": "given aws CLI is not installed when running mesheryctl system config eks then an error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780304089440,
+  "stop": 1780304089441,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
