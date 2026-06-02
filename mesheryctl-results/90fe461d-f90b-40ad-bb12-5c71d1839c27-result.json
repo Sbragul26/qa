@@ -1,0 +1,23 @@
+{
+  "uuid": "90fe461d-f90b-40ad-bb12-5c71d1839c27",
+  "name": "given an invalid subcommand when running mesheryctl system config then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780432405379,
+  "stop": 1780432405380,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
