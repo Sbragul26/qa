@@ -1,0 +1,44 @@
+{
+  "uuid": "2404da35-0238-40e3-ae09-47a610b549b4",
+  "name": "TestListenForCoreEvents_MultiUserBlockedSendsExitOnCancellation",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestListenForCoreEvents_MultiUserBlockedSendsExitOnCancellation",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780432669618,
+  "stop": 1780432669720,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListenForCoreEvents_MultiUserBlockedSendsExitOnCancellation"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
