@@ -1,0 +1,44 @@
+{
+  "uuid": "05fd9d57-7415-47ac-9696-c2addb49db6c",
+  "name": "TestCreateConfigFile",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestCreateConfigFile",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780432761195,
+  "stop": 1780432761195,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateConfigFile"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "0ed3e93b-be96-4030-a1a7-e0631766b0f7",
+  "name": "TestBackupConfigFile",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestBackupConfigFile",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780432761095,
+  "stop": 1780432761096,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBackupConfigFile"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

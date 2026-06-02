@@ -1,0 +1,44 @@
+{
+  "uuid": "4a88edee-df95-4b5a-826b-2e26a3b84b4b",
+  "name": "TestCheckMesheryNsDelete",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestCheckMesheryNsDelete",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780432761095,
+  "stop": 1780432761095,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCheckMesheryNsDelete"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
