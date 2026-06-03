@@ -1,0 +1,44 @@
+{
+  "uuid": "552e3886-e5ad-43a2-ba84-8f6d58389877",
+  "name": "TestEvaluationTracker_CoalescesConcurrent",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestEvaluationTracker_CoalescesConcurrent",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780494113488,
+  "stop": 1780494113490,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEvaluationTracker_CoalescesConcurrent"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
