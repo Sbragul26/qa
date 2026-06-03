@@ -1,0 +1,46 @@
+{
+  "uuid": "0985018f-5811-4e00-8e0d-219a4a6aa576",
+  "name": "TestRelationship/Display_error_given_invalid_command",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestRelationship/Display_error_given_invalid_command",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780518479990,
+  "stop": 1780518479990,
+  "statusDetails": {
+    "message": "Error: 'invalidCommand' is an invalid subcommand. Please provide required options from [view]. Use 'mesheryctl relationship --help' to display usage guide.\n\nSee https://docs.meshery.io/reference/mesheryctl/relationships for usage details"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRelationship/Display_error_given_invalid_command"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
