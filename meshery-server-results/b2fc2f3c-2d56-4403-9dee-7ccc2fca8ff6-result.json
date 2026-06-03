@@ -1,0 +1,44 @@
+{
+  "uuid": "b2fc2f3c-2d56-4403-9dee-7ccc2fca8ff6",
+  "name": "TestIsDirectReference",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIsDirectReference",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780518481343,
+  "stop": 1780518481344,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsDirectReference"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "76047778-128f-4b0b-a409-4725eecb70e6",
+  "name": "TestIsDirectReference/single_wildcard_segment_is_indirect",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIsDirectReference/single_wildcard_segment_is_indirect",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780518481343,
+  "stop": 1780518481343,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsDirectReference/single_wildcard_segment_is_indirect"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
