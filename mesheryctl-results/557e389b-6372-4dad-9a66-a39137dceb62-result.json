@@ -1,0 +1,44 @@
+{
+  "uuid": "557e389b-6372-4dad-9a66-a39137dceb62",
+  "name": "TestValidateBoolean",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestValidateBoolean",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780494098962,
+  "stop": 1780494098962,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidateBoolean"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

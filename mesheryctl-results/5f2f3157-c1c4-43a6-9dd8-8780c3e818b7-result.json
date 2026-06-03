@@ -1,0 +1,46 @@
+{
+  "uuid": "5f2f3157-c1c4-43a6-9dd8-8780c3e818b7",
+  "name": "TestSetContext",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/config::TestSetContext",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780494104586,
+  "stop": 1780494104586,
+  "statusDetails": {
+    "message": "FailFailFailFailFailFailFailFailFailFail"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/config"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSetContext"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
