@@ -1,0 +1,25 @@
+{
+  "uuid": "361b51bb-d52c-4bf7-aa57-4d382a66c455",
+  "name": "given a multiple component-name provided when mesheryctl component view component1 component2 then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780518157582,
+  "stop": 1780518157583,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n from function `setup' in test file 005-component/03-component-view.bats, line 25)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

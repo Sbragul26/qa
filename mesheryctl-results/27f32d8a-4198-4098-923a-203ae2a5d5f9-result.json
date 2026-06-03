@@ -1,0 +1,23 @@
+{
+  "uuid": "27f32d8a-4198-4098-923a-203ae2a5d5f9",
+  "name": "given no subcommand when running mesheryctl system config then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780518157587,
+  "stop": 1780518157588,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

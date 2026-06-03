@@ -1,0 +1,23 @@
+{
+  "uuid": "222dc148-212b-4e12-bbb2-636ec2a9bdc4",
+  "name": "mesheryctl system token list does not include deleted token",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780518157566,
+  "stop": 1780518157567,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
