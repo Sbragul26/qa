@@ -1,0 +1,46 @@
+{
+  "uuid": "71bca4af-77d8-4623-8f16-a8ae7d9f2d88",
+  "name": "TestConnectionViewCmd/given_an_invalid_argument_for_--output-format_flag_provided_when_connection_view_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/connections::TestConnectionViewCmd/given_an_invalid_argument_for_--output-format_flag_provided_when_connection_view_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780572688464,
+  "stop": 1780572688464,
+  "statusDetails": {
+    "message": "Error: Provided output format \"foo\" is invalid | Short Description: Invalid Output Format | Probable Cause: The specified output format is not supported | Suggested Remediation: Ensure using [json|yaml] as the output format"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConnectionViewCmd/given_an_invalid_argument_for_--output-format_flag_provided_when_connection_view_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "6bddd197-f256-4f3d-880a-d1ec04a6994a",
+  "name": "TestSearch_WithFlags/Search_registered_relationships_no_matching_result(s)_found",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestSearch_WithFlags/Search_registered_relationships_no_matching_result(s)_found",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780572711051,
+  "stop": 1780572711052,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSearch_WithFlags/Search_registered_relationships_no_matching_result(s)_found"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

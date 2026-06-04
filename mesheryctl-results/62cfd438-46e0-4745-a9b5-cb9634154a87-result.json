@@ -1,0 +1,44 @@
+{
+  "uuid": "62cfd438-46e0-4745-a9b5-cb9634154a87",
+  "name": "TestInitConfigUseCases",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root::TestInitConfigUseCases",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780572681562,
+  "stop": 1780572681583,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInitConfigUseCases"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

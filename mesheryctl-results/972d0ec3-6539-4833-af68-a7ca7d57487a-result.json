@@ -1,0 +1,46 @@
+{
+  "uuid": "972d0ec3-6539-4833-af68-a7ca7d57487a",
+  "name": "TestGenerateCSVDataOutput",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestGenerateCSVDataOutput",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780572711011,
+  "stop": 1780572711036,
+  "statusDetails": {
+    "message": "generate_test.go:282: Generate CSV relationship test passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerateCSVDataOutput"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
