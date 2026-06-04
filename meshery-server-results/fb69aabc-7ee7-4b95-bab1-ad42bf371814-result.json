@@ -1,0 +1,44 @@
+{
+  "uuid": "fb69aabc-7ee7-4b95-bab1-ad42bf371814",
+  "name": "TestGetUserByIDHandler_ProviderErrorReturnsJSON",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestGetUserByIDHandler_ProviderErrorReturnsJSON",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780584032494,
+  "stop": 1780584032494,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetUserByIDHandler_ProviderErrorReturnsJSON"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
