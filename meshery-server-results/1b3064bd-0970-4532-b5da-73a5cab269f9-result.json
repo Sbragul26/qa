@@ -1,0 +1,44 @@
+{
+  "uuid": "1b3064bd-0970-4532-b5da-73a5cab269f9",
+  "name": "TestProviderTracker_OverlappingVerifyAllCoalesces",
+  "fullName": "github.com/meshery/meshery/server/models::TestProviderTracker_OverlappingVerifyAllCoalesces",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780572707927,
+  "stop": 1780572708129,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProviderTracker_OverlappingVerifyAllCoalesces"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

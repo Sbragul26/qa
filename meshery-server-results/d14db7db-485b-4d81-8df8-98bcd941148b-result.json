@@ -1,0 +1,44 @@
+{
+  "uuid": "d14db7db-485b-4d81-8df8-98bcd941148b",
+  "name": "TestSplitAndTrim/trims_whitespace_around_entries",
+  "fullName": "github.com/meshery/meshery/server/helpers/utils::TestSplitAndTrim/trims_whitespace_around_entries",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780572676750,
+  "stop": 1780572676750,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/helpers"
+    },
+    {
+      "name": "suite",
+      "value": "server/helpers/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSplitAndTrim/trims_whitespace_around_entries"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
