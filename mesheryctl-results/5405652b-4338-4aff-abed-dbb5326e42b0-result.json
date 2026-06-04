@@ -1,0 +1,25 @@
+{
+  "uuid": "5405652b-4338-4aff-abed-dbb5326e42b0",
+  "name": "given no required flags when mesheryctl design deploy then an appropriate error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780583834141,
+  "stop": 1780583834142,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 003-design/05-design-deploy.bats, line 32)\n  `assert_output --partial \"Invalid value for --source-type 'InvalidSourceType'\"' failed\n\n-- output does not contain substring --\nsubstring : Invalid value for --source-type 'InvalidSourceType'\noutput    : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

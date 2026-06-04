@@ -1,0 +1,25 @@
+{
+  "uuid": "0f58dc87-dc52-408e-b822-6ae6a8e7fa6b",
+  "name": "given no arguments when running mesheryctl registry generate then usage instructions are displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780583834145,
+  "stop": 1780583834146,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n from function `setup' in test file 005-component/03-component-view.bats, line 25)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

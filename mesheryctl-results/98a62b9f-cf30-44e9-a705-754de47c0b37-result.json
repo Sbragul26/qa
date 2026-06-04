@@ -1,0 +1,25 @@
+{
+  "uuid": "98a62b9f-cf30-44e9-a705-754de47c0b37",
+  "name": "mesheryctl model import fails for invalid model artifact",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780583834134,
+  "stop": 1780583834135,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/02-model-import.bats, line 38)\n  `assert_output --partial \"The archive may contain unsupported compression formats or features.\"' failed\n\n-- output does not contain substring --\nsubstring : The archive may contain unsupported compression formats or features.\noutput    : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

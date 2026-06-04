@@ -1,0 +1,25 @@
+{
+  "uuid": "4bb6040a-5883-450d-9ebf-87dc99aca6a8",
+  "name": "mesheryctl design import -f nginx.yaml displays imported and output the design Id",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780583834140,
+  "stop": 1780583834141,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/07-model-delete.bats, line 41)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
