@@ -1,0 +1,25 @@
+{
+  "uuid": "710f8b9b-a846-48eb-94f5-a30e1cd405ac",
+  "name": "Help for components list command",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780575791497,
+  "stop": 1780575791498,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 004-perf/02-perf-result.bats, line 11)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

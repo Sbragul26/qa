@@ -1,0 +1,23 @@
+{
+  "uuid": "6f2360aa-cdb2-47c1-a18d-1ad66b518f58",
+  "name": "given an invalid model name when running mesheryctl registry update then zero models are updated # skip Spreadsheet credentials not configured",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780575791502,
+  "stop": 1780575791503,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

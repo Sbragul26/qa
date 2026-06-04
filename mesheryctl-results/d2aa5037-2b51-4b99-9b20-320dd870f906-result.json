@@ -1,0 +1,25 @@
+{
+  "uuid": "d2aa5037-2b51-4b99-9b20-320dd870f906",
+  "name": "mesheryctl model import fails for invalid files",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780575791491,
+  "stop": 1780575791492,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/02-model-import.bats, line 22)\n  `assert_output --partial \"No component found in model provided. Models must have at least one component.\"' failed\n\n-- output does not contain substring --\nsubstring : No component found in model provided. Models must have at least one component.\noutput    : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

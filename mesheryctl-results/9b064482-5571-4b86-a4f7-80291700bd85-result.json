@@ -1,0 +1,23 @@
+{
+  "uuid": "9b064482-5571-4b86-a4f7-80291700bd85",
+  "name": "given more than one argument when running mesheryctl system config aks then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780575791504,
+  "stop": 1780575791505,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
