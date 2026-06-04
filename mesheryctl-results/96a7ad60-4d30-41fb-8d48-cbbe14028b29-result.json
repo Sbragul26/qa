@@ -1,0 +1,25 @@
+{
+  "uuid": "96a7ad60-4d30-41fb-8d48-cbbe14028b29",
+  "name": "mesheryctl perf apply with URL and mesh istio runs successfully",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780586135622,
+  "stop": 1780586135623,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 004-perf/00-perf-apply.bats, line 20)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
