@@ -1,0 +1,44 @@
+{
+  "uuid": "be1b08e7-25c6-4ddd-b9c5-fdaa0faafb19",
+  "name": "TestContainsStringPrefix",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestContainsStringPrefix",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780586365190,
+  "stop": 1780586365192,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContainsStringPrefix"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

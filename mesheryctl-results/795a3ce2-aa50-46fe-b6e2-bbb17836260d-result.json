@@ -1,0 +1,44 @@
+{
+  "uuid": "795a3ce2-aa50-46fe-b6e2-bbb17836260d",
+  "name": "TestIsPodRequired",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestIsPodRequired",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780586358971,
+  "stop": 1780586358971,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsPodRequired"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
