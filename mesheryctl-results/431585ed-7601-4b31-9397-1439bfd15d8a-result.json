@@ -1,0 +1,44 @@
+{
+  "uuid": "431585ed-7601-4b31-9397-1439bfd15d8a",
+  "name": "TestPromptAsyncPagination",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::TestPromptAsyncPagination",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780674435384,
+  "stop": 1780674435390,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPromptAsyncPagination"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

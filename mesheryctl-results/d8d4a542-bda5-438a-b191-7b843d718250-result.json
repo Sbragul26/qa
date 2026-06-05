@@ -1,0 +1,46 @@
+{
+  "uuid": "d8d4a542-bda5-438a-b191-7b843d718250",
+  "name": "TestDeleteEnvironment/Delete_environment_without_arguments",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/environments::TestDeleteEnvironment/Delete_environment_without_arguments",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780674449731,
+  "stop": 1780674449732,
+  "statusDetails": {
+    "message": "Error: [ Environment ID ] isn't specified\n\nUsage: mesheryctl environment delete [environmentId]\nRun 'mesheryctl environment delete --help' to see detailed help message | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/environments"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeleteEnvironment/Delete_environment_without_arguments"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

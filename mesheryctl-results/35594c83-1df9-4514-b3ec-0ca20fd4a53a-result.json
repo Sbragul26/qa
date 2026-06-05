@@ -1,0 +1,44 @@
+{
+  "uuid": "35594c83-1df9-4514-b3ec-0ca20fd4a53a",
+  "name": "TestStringWithCharset",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestStringWithCharset",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780674472551,
+  "stop": 1780674472551,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestStringWithCharset"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
