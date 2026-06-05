@@ -1,0 +1,44 @@
+{
+  "uuid": "6e2490cc-81ea-43e1-92db-c9b7f8dc5321",
+  "name": "TestRemoteProviderDoRequest_XAPIKeyAnonymousOnly",
+  "fullName": "github.com/meshery/meshery/server/models::TestRemoteProviderDoRequest_XAPIKeyAnonymousOnly",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780681985033,
+  "stop": 1780681985034,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoteProviderDoRequest_XAPIKeyAnonymousOnly"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

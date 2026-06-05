@@ -1,0 +1,44 @@
+{
+  "uuid": "27fd28fb-3c5b-42b9-acec-185041b9b721",
+  "name": "TestRemoteProvider_InitializeStampsFallbackName",
+  "fullName": "github.com/meshery/meshery/server/models::TestRemoteProvider_InitializeStampsFallbackName",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780681985026,
+  "stop": 1780681985026,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoteProvider_InitializeStampsFallbackName"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
