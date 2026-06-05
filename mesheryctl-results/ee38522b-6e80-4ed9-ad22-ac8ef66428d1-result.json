@@ -1,0 +1,44 @@
+{
+  "uuid": "ee38522b-6e80-4ed9-ad22-ac8ef66428d1",
+  "name": "TestTokenCreateCmd/creating_a_token_which_already_exists",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestTokenCreateCmd/creating_a_token_which_already_exists",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780684917490,
+  "stop": 1780684917495,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTokenCreateCmd/creating_a_token_which_already_exists"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

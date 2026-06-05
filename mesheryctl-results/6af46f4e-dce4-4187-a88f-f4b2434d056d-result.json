@@ -1,0 +1,44 @@
+{
+  "uuid": "6af46f4e-dce4-4187-a88f-f4b2434d056d",
+  "name": "TestAuth",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestAuth",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780684921058,
+  "stop": 1780684921061,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAuth"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

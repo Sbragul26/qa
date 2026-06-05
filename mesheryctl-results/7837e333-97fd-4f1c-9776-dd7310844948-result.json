@@ -1,0 +1,44 @@
+{
+  "uuid": "7837e333-97fd-4f1c-9776-dd7310844948",
+  "name": "TestValidateSemver/given_empty_string_when_isSemver_then_returns_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/flags::TestValidateSemver/given_empty_string_when_isSemver_then_returns_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780684884485,
+  "stop": 1780684884485,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/flags"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestValidateSemver/given_empty_string_when_isSemver_then_returns_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
