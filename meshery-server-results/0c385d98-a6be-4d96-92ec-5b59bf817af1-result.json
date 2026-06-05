@@ -1,0 +1,46 @@
+{
+  "uuid": "0c385d98-a6be-4d96-92ec-5b59bf817af1",
+  "name": "TestResolveProviderName/alias_matching_is_case-insensitive",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName/alias_matching_is_case-insensitive",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780674412489,
+  "stop": 1780674412490,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolveProviderName/alias_matching_is_case-insensitive\n=== CONT  TestResolveProviderName/alias_matching_is_case-insensitive"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName/alias_matching_is_case-insensitive"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
