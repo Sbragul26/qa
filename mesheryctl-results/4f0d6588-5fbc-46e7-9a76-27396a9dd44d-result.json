@@ -1,0 +1,25 @@
+{
+  "uuid": "4f0d6588-5fbc-46e7-9a76-27396a9dd44d",
+  "name": "mesheryctl model import succeeds for URL of valid model as OCI artifact",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780681736239,
+  "stop": 1780681736240,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 002-model/02-model-import.bats, line 59)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

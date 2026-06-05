@@ -1,0 +1,25 @@
+{
+  "uuid": "91780dfc-be49-46ae-87a9-7284b6847766",
+  "name": "cli is available",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780681736235,
+  "stop": 1780681736236,
+  "statusDetails": {
+    "message": "## start: Test environment setup ###\n## done: Test environment setup ###"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
