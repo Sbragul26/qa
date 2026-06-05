@@ -1,0 +1,44 @@
+{
+  "uuid": "a3ab1071-f8e4-4ce3-8977-7c4aee33f272",
+  "name": "TestGetBuild",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/config::TestGetBuild",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780682004575,
+  "stop": 1780682004575,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/config"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetBuild"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
