@@ -1,0 +1,646 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation:
+      - generic [ref=e4]:
+        - generic [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+          - img [ref=e8]
+        - list [ref=e9]:
+          - button "Dashboard" [ref=e11] [cursor=pointer]:
+            - link "Dashboard" [ref=e12]:
+              - /url: /
+              - generic [ref=e13]:
+                - img [ref=e15]
+                - generic [ref=e20]: Dashboard
+          - button "Lifecycle" [ref=e22] [cursor=pointer]:
+            - link "Lifecycle" [ref=e23]:
+              - /url: /management/connections
+              - generic [ref=e24]:
+                - img [ref=e26]
+                - generic [ref=e29]: Lifecycle
+          - button "Configuration" [ref=e31] [cursor=pointer]:
+            - link "Configuration" [ref=e32]:
+              - /url: /configuration/designs
+              - generic [ref=e33]:
+                - img [ref=e35]
+                - generic [ref=e40]: Configuration
+          - button "meshery-button-2 Performance" [ref=e42] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e43]:
+              - /url: /performance
+              - generic [ref=e44]:
+                - img "meshery-button-2" [ref=e46]
+                - generic [ref=e72]: Performance
+          - button "Extensions" [ref=e74] [cursor=pointer]:
+            - link "Extensions" [ref=e75]:
+              - /url: /extensions
+              - generic [ref=e76]:
+                - img [ref=e78]
+                - generic [ref=e105]: Extensions
+          - generic [ref=e106]:
+            - separator [ref=e107]
+            - button "Kanvas" [ref=e109] [cursor=pointer]:
+              - link "Kanvas" [ref=e110]:
+                - /url: /extension/meshmap
+                - generic [ref=e112]:
+                  - img [ref=e114]
+                  - generic [ref=e116]: Kanvas
+          - separator [ref=e117]
+        - generic [ref=e118]:
+          - img [ref=e121] [cursor=pointer]
+          - group [ref=e123]:
+            - listitem [ref=e124]:
+              - button [ref=e125] [cursor=pointer]:
+                - img [ref=e126]
+          - listitem [ref=e129]:
+            - generic [ref=e130]: v1.0.38-2
+    - generic [ref=e131]:
+      - banner [ref=e132]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - img [ref=e138]
+            - generic [ref=e155]:
+              - button [ref=e157] [cursor=pointer]:
+                - img [ref=e158]
+              - text: /
+              - button [ref=e167] [cursor=pointer]:
+                - img [ref=e168]
+              - group [ref=e172]:
+                - generic [ref=e177]:
+                  - combobox [ref=e178] [cursor=pointer]:
+                    - generic [ref=e179]: Service Account
+                  - textbox: 017e28f1-da98-4708-a6e6-d03e764e54d6
+                  - img
+                  - group
+              - text: /
+              - generic [ref=e181]:
+                - generic [ref=e184]:
+                  - textbox [ref=e185]: Untitled Design
+                  - group
+                - button [ref=e187] [cursor=pointer]:
+                  - img [ref=e188]
+                - button [ref=e204] [cursor=pointer]:
+                  - img [ref=e205]
+          - generic [ref=e208]:
+            - button "contexts" [ref=e211] [cursor=pointer]:
+              - generic [ref=e212]:
+                - img [ref=e213]
+                - generic [ref=e214]: "2"
+            - button "99+" [ref=e217] [cursor=pointer]:
+              - generic [ref=e218]:
+                - img [ref=e219]
+                - generic [ref=e222]: 99+
+            - button [ref=e226] [cursor=pointer]:
+              - img [ref=e228]
+            - button [ref=e230] [cursor=pointer]:
+              - img [ref=e231]
+      - main [ref=e234]:
+        - generic [ref=e235]:
+          - generic [ref=e237]:
+            - group [ref=e239]:
+              - generic [ref=e240]:
+                - button [disabled]:
+                  - generic:
+                    - img
+              - button [ref=e243] [cursor=pointer]:
+                - img [ref=e245]
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - img [ref=e270]
+                - group [ref=e274]:
+                  - button "Layers" [ref=e276] [cursor=pointer]:
+                    - img [ref=e278]
+                    - paragraph [ref=e283]: Layers
+                  - button "Comments" [ref=e285] [cursor=pointer]:
+                    - img [ref=e287]
+                    - paragraph [ref=e290]: Comments
+                  - group [ref=e292]:
+                    - button "Actions" [ref=e293] [cursor=pointer]:
+                      - paragraph [ref=e294]: Actions
+                    - button [ref=e295] [cursor=pointer]:
+                      - img [ref=e296]
+                  - group [ref=e299]:
+                    - button "Share" [ref=e300] [cursor=pointer]
+                    - separator [ref=e301]
+                    - button [ref=e302] [cursor=pointer]:
+                      - img [ref=e303]
+                - generic:
+                  - button "CANVAS_CONTROLS" [ref=e305] [cursor=pointer]:
+                    - img [ref=e306]
+                  - menu:
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                - generic:
+                  - button "CANVAS_CONTROLS" [ref=e323] [cursor=pointer]:
+                    - img [ref=e324]
+                  - menu:
+                    - menuitem:
+                      - img
+                    - menuitem "Fit":
+                      - paragraph: Fit
+                    - menuitem:
+                      - img
+                    - menuitem:
+                      - img
+                - img [ref=e332]
+              - generic:
+                - heading [level=6]
+              - generic [ref=e339]:
+                - generic [ref=e340]:
+                  - img [ref=e343] [cursor=pointer]
+                  - img [ref=e350] [cursor=pointer]
+                - separator [ref=e353]
+                - button [ref=e357] [cursor=pointer]:
+                  - img [ref=e358]
+                - button [active] [ref=e378] [cursor=pointer]:
+                  - img [ref=e379]
+                - separator [ref=e382]
+                - button [ref=e386] [cursor=pointer]:
+                  - img [ref=e387]
+                - button [ref=e393]:
+                  - img [ref=e394]
+                - img [ref=e399]
+                - button [ref=e402]:
+                  - img [ref=e403]
+                - button [ref=e407]:
+                  - img [ref=e408]
+                - separator [ref=e412]
+                - button [ref=e415] [cursor=pointer]:
+                  - img [ref=e417]
+                - button [ref=e428] [cursor=pointer]:
+                  - img [ref=e430]
+                - separator [ref=e438]
+                - button [ref=e440] [cursor=pointer]:
+                  - img [ref=e441]
+                - separator [ref=e455]
+                - button [ref=e458] [cursor=pointer]:
+                  - img [ref=e460]
+            - generic:
+              - button "Feedback" [ref=e462] [cursor=pointer]
+              - generic [ref=e464]:
+                - generic [ref=e465]:
+                  - img [ref=e467]
+                  - paragraph [ref=e470]: Feedback
+                  - generic [ref=e471]:
+                    - img [ref=e474]
+                    - img [ref=e478] [cursor=pointer]
+                - generic [ref=e482]:
+                  - generic [ref=e483]:
+                    - button "Issue" [ref=e484] [cursor=pointer]:
+                      - img [ref=e486]
+                      - paragraph [ref=e488]: Issue
+                    - button "Suggestion" [ref=e489] [cursor=pointer]:
+                      - img [ref=e491]
+                      - paragraph [ref=e497]: Suggestion
+                    - button "Meet Request" [ref=e498] [cursor=pointer]:
+                      - img [ref=e500]
+                      - paragraph [ref=e505]: Meet Request
+                  - textbox "I’m having an issue with..." [ref=e507]
+                - generic [ref=e509]:
+                  - generic [ref=e510]:
+                    - generic [ref=e511] [cursor=pointer]:
+                      - checkbox [ref=e512]
+                      - img [ref=e513]
+                    - paragraph [ref=e515]: We may email you for more information or updates
+                  - button "Send" [disabled]
+            - status [ref=e516]
+          - button [ref=e517] [cursor=pointer]:
+            - img [ref=e519]
+      - generic [ref=e525]:
+        - img [ref=e526]
+        - paragraph [ref=e529]: Converted design file "Untitled Design" with id "52b578a9-359c-46bd-930b-0681d66ad625" to v1beta3 format
+        - group [ref=e531]:
+          - button "Open" [ref=e532] [cursor=pointer]:
+            - img [ref=e533]
+          - button "Close" [ref=e537] [cursor=pointer]:
+            - img [ref=e538]
+  - alert [ref=e541]
+  - generic: Name *
+  - tooltip [ref=e543]:
+    - generic [ref=e546]:
+      - generic [ref=e547]:
+        - generic [ref=e550]:
+          - textbox "Search..." [ref=e551]
+          - group
+        - generic [ref=e554]:
+          - combobox [ref=e555] [cursor=pointer]: All Versions
+          - textbox: All Versions
+          - img
+      - button "API Group" [ref=e556]:
+        - generic [ref=e557]:
+          - img [ref=e558]:
+            - img [ref=e559]
+          - generic [ref=e562]: API Group
+      - button "API Service" [ref=e563]:
+        - generic [ref=e564]:
+          - img [ref=e565]:
+            - img [ref=e566]
+          - generic [ref=e571]: API Service
+      - button "API Versions" [ref=e572]:
+        - generic [ref=e573]:
+          - img [ref=e574]:
+            - img [ref=e575]
+          - generic [ref=e578]: API Versions
+      - button "Binding" [ref=e579]:
+        - generic [ref=e580]:
+          - img [ref=e581]:
+            - img [ref=e582]
+          - generic [ref=e587]: Binding
+      - button "CSI Driver" [ref=e588]:
+        - generic [ref=e589]:
+          - img [ref=e590]:
+            - img [ref=e591]
+          - generic [ref=e594]: CSI Driver
+      - button "CSI Node" [ref=e595]:
+        - generic [ref=e596]:
+          - img [ref=e597]:
+            - img [ref=e598]
+          - generic [ref=e601]: CSI Node
+      - button "CSI Storage Capacity" [ref=e602]:
+        - generic [ref=e603]:
+          - img [ref=e604]:
+            - img [ref=e605]
+          - generic [ref=e608]: CSI Storage Capacity
+      - button "Certificate Signing Request" [ref=e609]:
+        - generic [ref=e610]:
+          - img [ref=e611]:
+            - img [ref=e612]
+          - generic [ref=e617]: Certificate Signing Request
+      - button "Cluster Role" [ref=e618]:
+        - generic [ref=e619]:
+          - img [ref=e620]:
+            - img [ref=e621]
+          - generic [ref=e624]: Cluster Role
+      - button "Cluster Role Binding" [ref=e625]:
+        - generic [ref=e626]:
+          - img [ref=e627]:
+            - img [ref=e628]
+          - generic [ref=e631]: Cluster Role Binding
+      - button "Cluster Trust Bundle" [ref=e632]:
+        - generic [ref=e633]:
+          - img [ref=e634]:
+            - img [ref=e635]
+          - generic [ref=e638]: Cluster Trust Bundle
+      - button "Component Status" [ref=e639]:
+        - generic [ref=e640]:
+          - img [ref=e641]:
+            - img [ref=e642]
+          - generic [ref=e647]: Component Status
+      - button "Config Map" [ref=e648]:
+        - generic [ref=e649]:
+          - img [ref=e650]:
+            - img [ref=e651]
+          - generic [ref=e656]: Config Map
+      - button "Controller Revision" [ref=e657]:
+        - generic [ref=e658]:
+          - img [ref=e659]:
+            - img [ref=e660]
+          - generic [ref=e663]: Controller Revision
+      - button "Cron Job" [ref=e664]:
+        - generic [ref=e665]:
+          - img [ref=e666]
+          - generic [ref=e668]: Cron Job
+      - button "Custom Resource Definition" [ref=e669]:
+        - generic [ref=e670]:
+          - img [ref=e671]:
+            - img [ref=e672]
+          - generic [ref=e675]: Custom Resource Definition
+      - button "Daemon Set" [ref=e676]:
+        - generic [ref=e677]:
+          - img [ref=e678]
+          - generic [ref=e680]: Daemon Set
+      - button "Delete Options" [ref=e681]:
+        - generic [ref=e682]:
+          - img [ref=e683]:
+            - img [ref=e684]
+          - generic [ref=e687]: Delete Options
+      - button "Deployment" [ref=e688]:
+        - generic [ref=e689]:
+          - img [ref=e690]
+          - generic [ref=e692]: Deployment
+      - button "Device Class" [ref=e693]:
+        - generic [ref=e694]:
+          - img [ref=e695]:
+            - img [ref=e696]
+          - generic [ref=e699]: Device Class
+      - button "Device Taint Rule" [ref=e700]:
+        - generic [ref=e701]:
+          - img [ref=e702]:
+            - img [ref=e703]
+          - generic [ref=e706]: Device Taint Rule
+      - button "Endpoint Slice" [ref=e707]:
+        - generic [ref=e708]:
+          - img [ref=e709]:
+            - img [ref=e710]
+          - generic [ref=e715]: Endpoint Slice
+      - button "Endpoints" [ref=e716]:
+        - generic [ref=e717]:
+          - img [ref=e718]:
+            - img [ref=e719]
+          - generic [ref=e724]: Endpoints
+      - button "Event" [ref=e725]:
+        - generic [ref=e726]:
+          - img [ref=e727]
+          - generic [ref=e729]: Event
+      - button "Eviction" [ref=e730]:
+        - generic [ref=e731]:
+          - img [ref=e732]:
+            - img [ref=e733]
+          - generic [ref=e736]: Eviction
+      - button "Flow Schema" [ref=e737]:
+        - generic [ref=e738]:
+          - img [ref=e739]:
+            - img [ref=e740]
+          - generic [ref=e743]: Flow Schema
+      - button "Horizontal Pod Autoscaler" [ref=e744]:
+        - generic [ref=e745]:
+          - img [ref=e746]
+          - generic [ref=e748]: Horizontal Pod Autoscaler
+      - button "IP Address" [ref=e749]:
+        - generic [ref=e750]:
+          - img [ref=e751]:
+            - img [ref=e752]
+          - generic [ref=e757]: IP Address
+      - button "Ingress" [ref=e758]:
+        - generic [ref=e759]:
+          - img [ref=e760]:
+            - img [ref=e761]
+          - generic [ref=e764]: Ingress
+      - button "Ingress Class" [ref=e765]:
+        - generic [ref=e766]:
+          - img [ref=e767]:
+            - img [ref=e768]
+          - generic [ref=e771]: Ingress Class
+      - button "Job" [ref=e772]:
+        - generic [ref=e773]:
+          - img [ref=e774]:
+            - img [ref=e775]
+          - generic [ref=e778]: Job
+      - button "Lease" [ref=e779]:
+        - generic [ref=e780]:
+          - img [ref=e781]:
+            - img [ref=e782]
+          - generic [ref=e787]: Lease
+      - button "Lease Candidate" [ref=e788]:
+        - generic [ref=e789]:
+          - img [ref=e790]:
+            - img [ref=e791]
+          - generic [ref=e794]: Lease Candidate
+      - button "Limit Range" [ref=e795]:
+        - generic [ref=e796]:
+          - img [ref=e797]:
+            - img [ref=e798]
+          - generic [ref=e803]: Limit Range
+      - button "Local Subject Access Review" [ref=e804]:
+        - generic [ref=e805]:
+          - img [ref=e806]:
+            - img [ref=e807]
+          - generic [ref=e812]: Local Subject Access Review
+      - button "Mutating Admission Policy" [ref=e813]:
+        - generic [ref=e814]:
+          - img [ref=e815]:
+            - img [ref=e816]
+          - generic [ref=e819]: Mutating Admission Policy
+      - button "Mutating Admission Policy Binding" [ref=e820]:
+        - generic [ref=e821]:
+          - img [ref=e822]:
+            - img [ref=e823]
+          - generic [ref=e826]: Mutating Admission Policy Binding
+      - button "Mutating Webhook Configuration" [ref=e827]:
+        - generic [ref=e828]:
+          - img [ref=e829]:
+            - img [ref=e830]
+          - generic [ref=e835]: Mutating Webhook Configuration
+      - button "Namespace" [ref=e836]:
+        - generic [ref=e837]:
+          - img [ref=e838]
+          - generic [ref=e840]: Namespace
+      - button "Network Policy" [ref=e841]:
+        - generic [ref=e842]:
+          - img [ref=e843]:
+            - img [ref=e844]
+          - generic [ref=e847]: Network Policy
+      - button "Node" [ref=e848]:
+        - generic [ref=e849]:
+          - img [ref=e850]
+          - generic [ref=e852]: Node
+      - button "Persistent Volume" [ref=e853]:
+        - generic [ref=e854]:
+          - img [ref=e855]:
+            - img [ref=e856]
+          - generic [ref=e859]: Persistent Volume
+      - button "Persistent Volume Claim" [ref=e860]:
+        - generic [ref=e861]:
+          - img [ref=e862]:
+            - img [ref=e863]
+          - generic [ref=e866]: Persistent Volume Claim
+      - button "Pod" [ref=e867]:
+        - generic [ref=e868]:
+          - img [ref=e869]
+          - generic [ref=e871]: Pod
+      - button "Pod Certificate Request" [ref=e872]:
+        - generic [ref=e873]:
+          - img [ref=e874]:
+            - img [ref=e875]
+          - generic [ref=e878]: Pod Certificate Request
+      - button "Pod Disruption Budget" [ref=e879]:
+        - generic [ref=e880]:
+          - img [ref=e881]:
+            - img [ref=e882]
+          - generic [ref=e886]: Pod Disruption Budget
+      - button "Pod Group" [ref=e887]:
+        - generic [ref=e888]:
+          - img [ref=e889]:
+            - img [ref=e890]
+          - generic [ref=e893]: Pod Group
+      - button "Pod Template" [ref=e894]:
+        - generic [ref=e895]:
+          - img [ref=e896]:
+            - img [ref=e897]
+          - generic [ref=e900]: Pod Template
+      - button "Priority Class" [ref=e901]:
+        - generic [ref=e902]:
+          - img [ref=e903]:
+            - img [ref=e904]
+          - generic [ref=e909]: Priority Class
+      - button "Priority Level Configuration" [ref=e910]:
+        - generic [ref=e911]:
+          - img [ref=e912]:
+            - img [ref=e913]
+          - generic [ref=e918]: Priority Level Configuration
+      - button "Replica Set" [ref=e919]:
+        - generic [ref=e920]:
+          - img [ref=e921]:
+            - img [ref=e922]
+          - generic [ref=e927]: Replica Set
+      - button "Replication Controller" [ref=e928]:
+        - generic [ref=e929]:
+          - img [ref=e930]:
+            - img [ref=e931]
+          - generic [ref=e936]: Replication Controller
+      - button "Resource Claim" [ref=e937]:
+        - generic [ref=e938]:
+          - img [ref=e939]:
+            - img [ref=e940]
+          - generic [ref=e945]: Resource Claim
+      - button "Resource Claim Template" [ref=e946]:
+        - generic [ref=e947]:
+          - img [ref=e948]:
+            - img [ref=e949]
+          - generic [ref=e954]: Resource Claim Template
+      - button "Resource Pool Status Request" [ref=e955]:
+        - generic [ref=e956]:
+          - img [ref=e957]:
+            - img [ref=e958]
+          - generic [ref=e961]: Resource Pool Status Request
+      - button "Resource Quota" [ref=e962]:
+        - generic [ref=e963]:
+          - img [ref=e964]:
+            - img [ref=e965]
+          - generic [ref=e968]: Resource Quota
+      - button "Resource Slice" [ref=e969]:
+        - generic [ref=e970]:
+          - img [ref=e971]:
+            - img [ref=e972]
+          - generic [ref=e975]: Resource Slice
+      - button "Role" [ref=e976]:
+        - generic [ref=e977]:
+          - img [ref=e978]:
+            - img [ref=e979]
+          - generic [ref=e982]: Role
+      - button "Role Binding" [ref=e983]:
+        - generic [ref=e984]:
+          - img [ref=e985]:
+            - img [ref=e986]
+          - generic [ref=e989]: Role Binding
+      - button "Runtime Class" [ref=e990]:
+        - generic [ref=e991]:
+          - img [ref=e992]:
+            - img [ref=e993]
+          - generic [ref=e996]: Runtime Class
+      - button "Scale" [ref=e997]:
+        - generic [ref=e998]:
+          - img [ref=e999]:
+            - img [ref=e1000]
+          - generic [ref=e1003]: Scale
+      - button "Secret" [ref=e1004]:
+        - generic [ref=e1005]:
+          - img [ref=e1006]
+          - generic [ref=e1008]: Secret
+      - button "Self Subject Access Review" [ref=e1009]:
+        - generic [ref=e1010]:
+          - img [ref=e1011]:
+            - img [ref=e1012]
+          - generic [ref=e1017]: Self Subject Access Review
+      - button "Self Subject Review" [ref=e1018]:
+        - generic [ref=e1019]:
+          - img [ref=e1020]:
+            - img [ref=e1021]
+          - generic [ref=e1026]: Self Subject Review
+      - button "Self Subject Rules Review" [ref=e1027]:
+        - generic [ref=e1028]:
+          - img [ref=e1029]:
+            - img [ref=e1030]
+          - generic [ref=e1035]: Self Subject Rules Review
+      - button "Service" [ref=e1036]:
+        - generic [ref=e1037]:
+          - img [ref=e1038]:
+            - img [ref=e1039]
+          - generic [ref=e1042]: Service
+      - button "Service Account" [ref=e1043]:
+        - generic [ref=e1044]:
+          - img [ref=e1045]:
+            - img [ref=e1046]
+          - generic [ref=e1051]: Service Account
+      - button "Service CIDR" [ref=e1052]:
+        - generic [ref=e1053]:
+          - img [ref=e1054]:
+            - img [ref=e1055]
+          - generic [ref=e1060]: Service CIDR
+      - button "Stateful Set" [ref=e1061]:
+        - generic [ref=e1062]:
+          - img [ref=e1063]
+          - generic [ref=e1065]: Stateful Set
+      - button "Status" [ref=e1066]:
+        - generic [ref=e1067]:
+          - img [ref=e1068]:
+            - img [ref=e1069]
+          - generic [ref=e1072]: Status
+      - button "Storage Class" [ref=e1073]:
+        - generic [ref=e1074]:
+          - img [ref=e1075]:
+            - img [ref=e1076]
+          - generic [ref=e1080]: Storage Class
+      - button "Storage Version" [ref=e1081]:
+        - generic [ref=e1082]:
+          - img [ref=e1083]:
+            - img [ref=e1084]
+          - generic [ref=e1089]: Storage Version
+      - button "Storage Version Migration" [ref=e1090]:
+        - generic [ref=e1091]:
+          - img [ref=e1092]:
+            - img [ref=e1093]
+          - generic [ref=e1096]: Storage Version Migration
+      - button "Subject Access Review" [ref=e1097]:
+        - generic [ref=e1098]:
+          - img [ref=e1099]:
+            - img [ref=e1100]
+          - generic [ref=e1105]: Subject Access Review
+      - button "Token Request" [ref=e1106]:
+        - generic [ref=e1107]:
+          - img [ref=e1108]:
+            - img [ref=e1109]
+          - generic [ref=e1112]: Token Request
+      - button "Token Review" [ref=e1113]:
+        - generic [ref=e1114]:
+          - img [ref=e1115]:
+            - img [ref=e1116]
+          - generic [ref=e1119]: Token Review
+      - button "Validating Admission Policy" [ref=e1120]:
+        - generic [ref=e1121]:
+          - img [ref=e1122]:
+            - img [ref=e1123]
+          - generic [ref=e1128]: Validating Admission Policy
+      - button "Validating Admission Policy Binding" [ref=e1129]:
+        - generic [ref=e1130]:
+          - img [ref=e1131]:
+            - img [ref=e1132]
+          - generic [ref=e1137]: Validating Admission Policy Binding
+      - button "Validating Webhook Configuration" [ref=e1138]:
+        - generic [ref=e1139]:
+          - img [ref=e1140]:
+            - img [ref=e1141]
+          - generic [ref=e1146]: Validating Webhook Configuration
+      - button "Volume Attachment" [ref=e1147]:
+        - generic [ref=e1148]:
+          - img [ref=e1149]:
+            - img [ref=e1150]
+          - generic [ref=e1155]: Volume Attachment
+      - button "Volume Attributes Class" [ref=e1156]:
+        - generic [ref=e1157]:
+          - img [ref=e1158]:
+            - img [ref=e1159]
+          - generic [ref=e1162]: Volume Attributes Class
+      - button "Watch Event" [ref=e1163]:
+        - generic [ref=e1164]:
+          - img [ref=e1165]:
+            - img [ref=e1166]
+          - generic [ref=e1169]: Watch Event
+      - button "Workload" [ref=e1170]:
+        - generic [ref=e1171]:
+          - img [ref=e1172]:
+            - img [ref=e1173]
+          - generic [ref=e1176]: Workload
+```
