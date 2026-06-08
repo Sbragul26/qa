@@ -1,0 +1,23 @@
+{
+  "uuid": "11e9fd8c-42bf-400e-939d-bfc9d6c0e5e9",
+  "name": "given an invalid url as an argument when running mesheryctl system context create --url invalid-url then an error message is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780962213241,
+  "stop": 1780962213242,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

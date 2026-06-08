@@ -1,0 +1,25 @@
+{
+  "uuid": "5e18b6ee-e2b4-4ece-91cd-077235ab672a",
+  "name": "mesheryctl model import succeeds for valid model as OCI artifact",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780962213223,
+  "stop": 1780962213224,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/02-model-import.bats, line 45)\n  `assert_output --partial \"An error occurred while attempting to extract the TAR archive\"' failed\n\n-- output does not contain substring --\nsubstring : An error occurred while attempting to extract the TAR archive\noutput    : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

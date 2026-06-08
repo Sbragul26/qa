@@ -1,0 +1,25 @@
+{
+  "uuid": "5f6e6f31-642d-4e83-b349-61d6d53f549d",
+  "name": "given all requirements met when running mesheryctl connection list --count then only the total number of available connections is displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780962213240,
+  "stop": 1780962213241,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 007-connection/02-connection-list.bats, line 32)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

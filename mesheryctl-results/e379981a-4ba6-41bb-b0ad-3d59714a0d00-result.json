@@ -1,0 +1,23 @@
+{
+  "uuid": "e379981a-4ba6-41bb-b0ad-3d59714a0d00",
+  "name": "given all requirements met when running mesheryctl design list --page 1 then the total numbers of designs and a list of designs are displayed",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1780962213232,
+  "stop": 1780962213233,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

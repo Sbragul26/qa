@@ -1,0 +1,23 @@
+{
+  "uuid": "f80d47c1-3a65-48da-8055-a62056247626",
+  "name": "given no GKE cluster credentials when running mesheryctl system config gke then an error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780962213242,
+  "stop": 1780962213243,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

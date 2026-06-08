@@ -1,0 +1,25 @@
+{
+  "uuid": "1c9144e2-355d-469d-ab93-46b334e3b003",
+  "name": "given an invalid connection-id is provided as an argument when running mesheryctl connection delete invalid-connection-id then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780962213240,
+  "stop": 1780962213241,
+  "statusDetails": {
+    "message": "(from function `assert_success' in file /usr/lib/bats-assert/src/assert_success.bash, line 42,\n in test file 007-connection/04-connection-delete.bats, line 25)\n  `assert_success' failed\n\n-- command failed --\nstatus : 1\noutput : Error: Access to this resource is unauthorized. | Short Description: Unauthenticated User | Probable Cause: You haven't logged in to Meshery. | Suggested Remediation: To proceed, log in using `mesheryctl system login`.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
