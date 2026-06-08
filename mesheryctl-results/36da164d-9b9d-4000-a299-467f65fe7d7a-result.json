@@ -1,0 +1,44 @@
+{
+  "uuid": "36da164d-9b9d-4000-a299-467f65fe7d7a",
+  "name": "TestResultCmd/standard_results_output",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestResultCmd/standard_results_output",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780952161838,
+  "stop": 1780952161940,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResultCmd/standard_results_output"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
