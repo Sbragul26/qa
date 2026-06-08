@@ -1,0 +1,44 @@
+{
+  "uuid": "5b09f999-55b1-44e7-8944-1dadf9bf46bd",
+  "name": "TestGenerationOptionsCreation/Custom_timeout_with_latest_only",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestGenerationOptionsCreation/Custom_timeout_with_latest_only",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780952791458,
+  "stop": 1780952791458,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerationOptionsCreation/Custom_timeout_with_latest_only"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "c68d5246-91b1-4037-a507-b211b46d3fcc",
+  "name": "TestListOrganizations/List_organizations_whithout_providing_organization_ID",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/organizations::TestListOrganizations/List_organizations_whithout_providing_organization_ID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780952784911,
+  "stop": 1780952784915,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/organizations"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListOrganizations/List_organizations_whithout_providing_organization_ID"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
