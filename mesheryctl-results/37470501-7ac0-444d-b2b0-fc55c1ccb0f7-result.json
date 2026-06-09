@@ -1,0 +1,44 @@
+{
+  "uuid": "37470501-7ac0-444d-b2b0-fc55c1ccb0f7",
+  "name": "TestCreateDefaultSpinner",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestCreateDefaultSpinner",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780974866436,
+  "stop": 1780974866437,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCreateDefaultSpinner"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "ca8b65ff-51d7-47c4-bedc-ff6fbe6055ce",
+  "name": "TestProviderUnmarshalJSON/Given_canonical_camelCase_provider_fields,_When_unmarshaled,_Then_it_populates_Provider_correctly",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestProviderUnmarshalJSON/Given_canonical_camelCase_provider_fields,_When_unmarshaled,_Then_it_populates_Provider_correctly",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1780974866284,
+  "stop": 1780974866285,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProviderUnmarshalJSON/Given_canonical_camelCase_provider_fields,_When_unmarshaled,_Then_it_populates_Provider_correctly"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
