@@ -1,0 +1,44 @@
+{
+  "uuid": "b173eee2-b51a-46c7-b845-13cd531e33cc",
+  "name": "TestSendStreamEvent/sends_data_when_receiver_is_available",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestSendStreamEvent/sends_data_when_receiver_is_available",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781067993618,
+  "stop": 1781067993619,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSendStreamEvent/sends_data_when_receiver_is_available"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
