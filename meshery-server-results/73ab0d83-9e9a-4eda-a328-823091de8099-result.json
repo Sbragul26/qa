@@ -1,0 +1,46 @@
+{
+  "uuid": "73ab0d83-9e9a-4eda-a328-823091de8099",
+  "name": "TestIdentifyInventoryAdditions_IgnoresNonInventoryRelationships",
+  "fullName": "github.com/meshery/meshery/server/policies::TestIdentifyInventoryAdditions_IgnoresNonInventoryRelationships",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781068168744,
+  "stop": 1781068171287,
+  "statusDetails": {
+    "message": "=== PAUSE TestIdentifyInventoryAdditions_IgnoresNonInventoryRelationships\n=== CONT  TestIdentifyInventoryAdditions_IgnoresNonInventoryRelationships"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIdentifyInventoryAdditions_IgnoresNonInventoryRelationships"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

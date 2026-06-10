@@ -1,0 +1,44 @@
+{
+  "uuid": "81ca313a-efd2-422a-ac87-53d05a1b1eed",
+  "name": "TestAddMeshsyncDeploymentModeToMetadata/adds_mode_to_empty_metadata_map",
+  "fullName": "github.com/meshery/meshery/server/models/connections::TestAddMeshsyncDeploymentModeToMetadata/adds_mode_to_empty_metadata_map",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781068157715,
+  "stop": 1781068157715,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/connections"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAddMeshsyncDeploymentModeToMetadata/adds_mode_to_empty_metadata_map"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

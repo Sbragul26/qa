@@ -1,0 +1,44 @@
+{
+  "uuid": "c5d6c24f-d5f1-4d6d-ad3c-1e4f758affbe",
+  "name": "TestEncodeRefUrl/given_absolute_url_with_query_params_when_EncodeRefUrl_then_return_encoded_string",
+  "fullName": "github.com/meshery/meshery/server/core::TestEncodeRefUrl/given_absolute_url_with_query_params_when_EncodeRefUrl_then_return_encoded_string",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781068110736,
+  "stop": 1781068110736,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/core"
+    },
+    {
+      "name": "suite",
+      "value": "server/core"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestEncodeRefUrl/given_absolute_url_with_query_params_when_EncodeRefUrl_then_return_encoded_string"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
