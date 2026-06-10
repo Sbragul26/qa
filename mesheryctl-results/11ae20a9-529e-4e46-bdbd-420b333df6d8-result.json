@@ -1,0 +1,44 @@
+{
+  "uuid": "11ae20a9-529e-4e46-bdbd-420b333df6d8",
+  "name": "TestCheckK8sVersion",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestCheckK8sVersion",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781114194586,
+  "stop": 1781114194586,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCheckK8sVersion"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
