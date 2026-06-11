@@ -1,0 +1,44 @@
+{
+  "uuid": "0f4ba63f-b7f9-4c94-bf62-5024b6a5b807",
+  "name": "TestResolveProviderName_ReturnsLegacyAliasFlag/canonical_Local_does_not_flag_legacy",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName_ReturnsLegacyAliasFlag/canonical_Local_does_not_flag_legacy",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781149323462,
+  "stop": 1781149323463,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName_ReturnsLegacyAliasFlag/canonical_Local_does_not_flag_legacy"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
