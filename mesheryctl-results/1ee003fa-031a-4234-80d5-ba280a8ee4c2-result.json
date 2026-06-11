@@ -1,0 +1,44 @@
+{
+  "uuid": "1ee003fa-031a-4234-80d5-ba280a8ee4c2",
+  "name": "TestModelGenerate",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestModelGenerate",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781149390504,
+  "stop": 1781149390541,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestModelGenerate"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "c25167a9-4240-4c19-8c16-2659a651b521",
+  "name": "TestProviderUnmarshalJSON",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestProviderUnmarshalJSON",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781149407973,
+  "stop": 1781149407973,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProviderUnmarshalJSON"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
