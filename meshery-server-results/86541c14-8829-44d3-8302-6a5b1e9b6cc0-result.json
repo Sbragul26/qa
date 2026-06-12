@@ -1,0 +1,44 @@
+{
+  "uuid": "86541c14-8829-44d3-8302-6a5b1e9b6cc0",
+  "name": "TestResolveProviderKeyWithProbe_ResolvesCanonicalRemoteName",
+  "fullName": "github.com/meshery/meshery/server/models::TestResolveProviderKeyWithProbe_ResolvesCanonicalRemoteName",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781271238060,
+  "stop": 1781271238061,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderKeyWithProbe_ResolvesCanonicalRemoteName"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

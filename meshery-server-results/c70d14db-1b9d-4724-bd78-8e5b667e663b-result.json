@@ -1,0 +1,46 @@
+{
+  "uuid": "c70d14db-1b9d-4724-bd78-8e5b667e663b",
+  "name": "TestResolvePostLoginRedirect/invalid_base64_falls_back",
+  "fullName": "github.com/meshery/meshery/server/models::TestResolvePostLoginRedirect/invalid_base64_falls_back",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781271238089,
+  "stop": 1781271238091,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolvePostLoginRedirect/invalid_base64_falls_back\n=== CONT  TestResolvePostLoginRedirect/invalid_base64_falls_back"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolvePostLoginRedirect/invalid_base64_falls_back"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

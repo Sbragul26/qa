@@ -1,0 +1,46 @@
+{
+  "uuid": "7e40d751-8358-4847-9cc9-e58a950fdf52",
+  "name": "TestResolveProviderName/legacy_None_cookie_normalizes_to_Local",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName/legacy_None_cookie_normalizes_to_Local",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781271190150,
+  "stop": 1781271190150,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolveProviderName/legacy_None_cookie_normalizes_to_Local\n=== CONT  TestResolveProviderName/legacy_None_cookie_normalizes_to_Local"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName/legacy_None_cookie_normalizes_to_Local"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
