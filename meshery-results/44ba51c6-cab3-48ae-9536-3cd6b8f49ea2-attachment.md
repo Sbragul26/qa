@@ -1,0 +1,383 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: models.spec.ts >> Model Workflow Tests >> Search a Model and Export it
+- Location: tests/e2e/models.spec.ts:104:7
+
+# Error details
+
+```
+Test timeout of 240000ms exceeded.
+```
+
+```
+Error: locator.click: Test timeout of 240000ms exceeded.
+Call log:
+  - waiting for getByRole('combobox', { name: 'enabled' })
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - img [ref=e10]
+        - list [ref=e11]:
+          - button "Dashboard" [ref=e13] [cursor=pointer]:
+            - link "Dashboard" [ref=e14]:
+              - /url: /
+              - generic [ref=e15]:
+                - img [ref=e17]
+                - generic [ref=e22]: Dashboard
+          - button "Lifecycle" [ref=e24] [cursor=pointer]:
+            - link "Lifecycle" [ref=e25]:
+              - /url: /management/connections
+              - generic [ref=e26]:
+                - img [ref=e28]
+                - generic [ref=e31]: Lifecycle
+          - button "Configuration" [ref=e33] [cursor=pointer]:
+            - link "Configuration" [ref=e34]:
+              - /url: /configuration/designs
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e42]: Configuration
+          - button "meshery-button-2 Performance" [ref=e44] [cursor=pointer]:
+            - link "meshery-button-2 Performance" [ref=e45]:
+              - /url: /performance
+              - generic [ref=e46]:
+                - img "meshery-button-2" [ref=e48]
+                - generic [ref=e74]: Performance
+          - button "Extensions" [ref=e76] [cursor=pointer]:
+            - link "Extensions" [ref=e77]:
+              - /url: /extensions
+              - generic [ref=e78]:
+                - img [ref=e80]
+                - generic [ref=e107]: Extensions
+          - separator [ref=e108]
+        - generic [ref=e109]:
+          - img [ref=e112] [cursor=pointer]
+          - group [ref=e114]:
+            - listitem [ref=e115]:
+              - link [ref=e116] [cursor=pointer]:
+                - /url: https://docs.meshery.io
+                - img [ref=e118]
+            - listitem [ref=e120]:
+              - link [ref=e121] [cursor=pointer]:
+                - /url: https://slack.meshery.io
+                - img [ref=e123]
+            - listitem [ref=e132]:
+              - link [ref=e133] [cursor=pointer]:
+                - /url: https://meshery.io/community#community-forums
+                - img [ref=e135]
+            - listitem [ref=e137]:
+              - link [ref=e138] [cursor=pointer]:
+                - /url: https://github.com/meshery/meshery/issues/new/choose
+                - img [ref=e140]
+          - listitem [ref=e142]:
+            - generic [ref=e143]:
+              - text: undefined
+              - link [ref=e145] [cursor=pointer]:
+                - /url: https://docs.meshery.io/project/releases/undefined
+                - img [ref=e146]
+              - generic [ref=e148]:
+                - text: Update available
+                - link [ref=e149] [cursor=pointer]:
+                  - /url: https://docs.meshery.io/project/releases/v1.0.43
+                  - img [ref=e150]
+    - generic [ref=e152]:
+      - banner [ref=e153]:
+        - generic [ref=e155]:
+          - generic [ref=e157]:
+            - button [ref=e159] [cursor=pointer]:
+              - img [ref=e160]
+            - text: /
+            - button [ref=e169] [cursor=pointer]:
+              - img [ref=e170]
+            - text: /
+            - heading "Settings" [level=5] [ref=e174]
+          - generic [ref=e176]:
+            - button "contexts" [ref=e179] [cursor=pointer]:
+              - generic [ref=e180]:
+                - img [ref=e181]
+                - generic [ref=e182]: "0"
+            - button [ref=e185] [cursor=pointer]:
+              - img [ref=e186]
+            - button [ref=e193] [cursor=pointer]:
+              - img [ref=e195]
+            - button [ref=e198] [cursor=pointer]:
+              - img [ref=e199]
+      - generic [ref=e201]:
+        - main [ref=e202]:
+          - generic [ref=e203]:
+            - tablist [ref=e207]:
+              - tab "Meshery logo Overview" [ref=e208] [cursor=pointer]:
+                - img "Meshery logo" [ref=e209]
+                - text: Overview
+              - tab "Adapters" [ref=e210] [cursor=pointer]:
+                - img [ref=e211]
+                - text: Adapters
+              - tab "Metrics" [ref=e213] [cursor=pointer]:
+                - img [ref=e214]
+                - text: Metrics
+              - tab "Registry" [selected] [ref=e216] [cursor=pointer]:
+                - img [ref=e217]
+                - text: Registry
+              - tab "Reset" [ref=e219] [cursor=pointer]:
+                - img [ref=e220]
+                - text: Reset
+            - generic [ref=e225]:
+              - generic [ref=e227]:
+                - button "Create Model" [ref=e228] [cursor=pointer]:
+                  - img [ref=e230]
+                  - text: Create Model
+                - button "Import Model" [ref=e232] [cursor=pointer]:
+                  - img [ref=e234]
+                  - text: Import Model
+              - generic [ref=e236]:
+                - generic [ref=e237] [cursor=pointer]:
+                  - generic [ref=e238]: (1)
+                  - text: Models
+                - generic [ref=e239] [cursor=pointer]:
+                  - generic [ref=e240]: (3,934)
+                  - text: Components
+                - generic [ref=e241] [cursor=pointer]:
+                  - generic [ref=e242]: (589)
+                  - text: Relationships
+                - generic [ref=e243] [cursor=pointer]:
+                  - generic [ref=e244]: (4)
+                  - text: Registrants
+              - generic [ref=e245]:
+                - generic [ref=e247]:
+                  - generic [ref=e250]:
+                    - textbox "Search" [ref=e253]: Test Model 1781891515403
+                    - button [ref=e254] [cursor=pointer]:
+                      - img [ref=e255]
+                  - tree "controlled" [ref=e259]:
+                    - treeitem "Test Model 1781891515403" [ref=e260]:
+                      - generic [ref=e261] [cursor=pointer]:
+                        - img [ref=e263]
+                        - generic [ref=e270]: Test Model 1781891515403
+                - generic [ref=e273]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]:
+                      - img [ref=e276]
+                      - generic [ref=e277]: Test Model 1781891515403
+                    - generic [ref=e278]:
+                      - button "Export Model" [active] [ref=e279] [cursor=pointer]:
+                        - img [ref=e280]
+                        - text: Export
+                      - generic [ref=e283]:
+                        - combobox [ref=e284] [cursor=pointer]: enabled
+                        - textbox: enabled
+                        - img
+                        - group
+                  - generic [ref=e285]:
+                    - generic [ref=e286]:
+                      - generic [ref=e288]:
+                        - generic [ref=e290]:
+                          - paragraph [ref=e291]: API Version
+                          - generic [ref=e292]: v1.3.0
+                        - generic [ref=e294]:
+                          - paragraph [ref=e295]: Components
+                          - generic [ref=e296]: "11"
+                        - generic [ref=e298]:
+                          - paragraph [ref=e299]: Registrant
+                          - generic [ref=e300]: Github
+                      - generic [ref=e302]:
+                        - generic [ref=e304]:
+                          - paragraph [ref=e305]: Category
+                          - generic [ref=e306]: Uncategorized
+                        - generic [ref=e308]:
+                          - paragraph [ref=e309]: Duplicates
+                          - generic [ref=e310]: "0"
+                        - generic [ref=e312]:
+                          - paragraph [ref=e313]: Relationships
+                          - generic [ref=e314]: "0"
+                    - heading "Advanced Details" [level=3] [ref=e316]:
+                      - button "Advanced Details" [ref=e317] [cursor=pointer]:
+                        - generic [ref=e318]: Advanced Details
+                        - img [ref=e320]
+        - contentinfo [ref=e322]:
+          - paragraph [ref=e323]:
+            - generic [ref=e324] [cursor=pointer]:
+              - text: Built with
+              - img [ref=e325]
+              - text: by the Meshery Community
+  - alert [ref=e328]: Settings | Meshery
+```
+
+# Test source
+
+```ts
+  14  | };
+  15  | 
+  16  | // Strongly typed inline
+  17  | const model_import: {
+  18  |   MODEL_NAME: string;
+  19  |   MODEL_URL_IMPORT: string;
+  20  |   MODEL_FILE_IMPORT: string;
+  21  |   MODEL_CSV_IMPORT: {
+  22  |     Model_Name: string;
+  23  |     Models: string;
+  24  |     Components: string;
+  25  |     Relationships: string;
+  26  |   };
+  27  | } = {
+  28  |   MODEL_NAME: `test`,
+  29  |   MODEL_URL_IMPORT:
+  30  |     'https://raw.githubusercontent.com/meshery/meshery/master/ui/tests/e2e/assets/test.tar',
+  31  |   MODEL_FILE_IMPORT: path.resolve('tests/e2e/assets/test.tar'),
+  32  |   MODEL_CSV_IMPORT: {
+  33  |     Model_Name: 'couchbase',
+  34  |     Models: path.resolve('tests/e2e/assets/models.csv'),
+  35  |     Components: path.resolve('tests/e2e/assets/components.csv'),
+  36  |     Relationships: path.resolve('tests/e2e/assets/relationships.csv'),
+  37  |   },
+  38  | };
+  39  | 
+  40  | test.describe.serial('Model Workflow Tests', () => {
+  41  |   // "Create a Model" downloads a model from GitHub during the test body
+  42  |   // and extends its own timeout to 600s via test.setTimeout. The shared
+  43  |   // beforeEach calls navigateToDashboard() + navigateToSettings() + waits
+  44  |   // on settings-tab-registry, each with their own 120s inner timeouts.
+  45  |   // Default BASE_TIMEOUT=60s is too short for the hook on slow CI.
+  46  |   // Configure 240s as the describe default so the hook has enough room on
+  47  |   // every test in this group; Create a Model still extends further in its
+  48  |   // body for the GitHub fetch.
+  49  |   test.describe.configure({ timeout: 240_000 });
+  50  | 
+  51  |   test.beforeEach(async ({ page }) => {
+  52  |     const dashboardPage = new DashboardPage(page);
+  53  |     await dashboardPage.navigateToDashboard();
+  54  |     await dashboardPage.navigateToSettings();
+  55  |     await expect(page.getByTestId('settings-tab-registry')).toBeVisible();
+  56  |     await page.getByTestId('settings-tab-registry').click();
+  57  |   });
+  58  | 
+  59  |   test('Create a Model', async ({ page }) => {
+  60  |     // Model generation downloads from GitHub and can be very slow in CI.
+  61  |     // test.slow() triples the default timeout (60s → 180s).
+  62  |     test.slow();
+  63  |     test.setTimeout(600_000);
+  64  | 
+  65  |     await page.getByTestId('TabBar-Button-CreateModel').click();
+  66  | 
+  67  |     await page.locator('#model-name').fill(model.MODEL_NAME);
+  68  |     await page.locator('#model-display-name').fill(model.MODEL_DISPLAY_NAME);
+  69  | 
+  70  |     await page.getByTestId('UrlStepper-Button-Next').click();
+  71  | 
+  72  |     await expect(page.getByTestId('UrlStepper-Select-Category')).toBeVisible();
+  73  |     await expect(page.getByTestId('UrlStepper-Select-Subcategory')).toBeVisible();
+  74  | 
+  75  |     await page.getByTestId('UrlStepper-Button-Next').click();
+  76  | 
+  77  |     await expect(page.getByTestId('UrlStepper-Select-Logo-Dark-Theme')).toBeVisible();
+  78  |     await expect(page.getByTestId('UrlStepper-Select-Logo-Light-Theme')).toBeVisible();
+  79  | 
+  80  |     await expect(page.getByTestId('UrlStepper-Select-Primary-Color')).toBeVisible();
+  81  |     await expect(page.getByTestId('UrlStepper-Select-Secondary-Color')).toBeVisible();
+  82  |     await expect(page.getByTestId('UrlStepper-Select-Shape')).toBeVisible();
+  83  | 
+  84  |     await page.getByTestId('UrlStepper-Button-Next').click();
+  85  | 
+  86  |     await page.getByTestId('UrlStepper-Select-Source-GitHub').check();
+  87  |     await page.locator('#model-url').fill(model.MODEL_URL);
+  88  | 
+  89  |     await page.getByTestId('UrlStepper-Button-Next').click();
+  90  |     await page.getByTestId('UrlStepper-Visual-Annotation-Checkbox').check();
+  91  |     await page.getByTestId('UrlStepper-Button-Next').click();
+  92  | 
+  93  |     await page.getByTestId('UrlStepper-Button-Generate').click();
+  94  | 
+  95  |     // Model generation fetches from GitHub — wait with extended timeout
+  96  |     await expect(
+  97  |       page.getByTestId(`ModelImportedSection-ModelHeader-${model.MODEL_NAME}`),
+  98  |     ).toBeVisible({ timeout: 540_000 });
+  99  |     await expect(page.getByTestId('ModelImportMessages-Wrapper')).toBeVisible();
+  100 | 
+  101 |     await page.getByTestId('UrlStepper-Button-Finish').click();
+  102 |   });
+  103 | 
+  104 |   test('Search a Model and Export it', async ({ page }) => {
+  105 |     await page.getByTestId('search-icon').click();
+  106 |     await page.locator('#searchClick').click();
+  107 |     await page.locator('#searchClick').fill(model.MODEL_DISPLAY_NAME);
+  108 |     await page.getByText(model.MODEL_DISPLAY_NAME).click();
+  109 | 
+  110 |     const downloadPromise = page.waitForEvent('download');
+  111 |     await page.getByTestId('export-model-button').click();
+  112 |     const download = await downloadPromise;
+  113 |     expect(download).toBeDefined();
+> 114 |     await page.getByRole('combobox', { name: 'enabled' }).click();
+      |                                                           ^ Error: locator.click: Test timeout of 240000ms exceeded.
+  115 |     await page.getByRole('option', { name: 'ignored' }).click();
+  116 |     await expect(page.getByRole('combobox', { name: 'ignored' })).toBeVisible();
+  117 |   });
+  118 | 
+  119 |   test('Import a Model via File Import', async ({ page }) => {
+  120 |     await page.getByTestId('TabBar-Button-ImportModel').click();
+  121 |     await page.getByRole('heading', { name: 'File Import', exact: true }).click();
+  122 | 
+  123 |     await page.setInputFiles('input[type="file"]', model_import.MODEL_FILE_IMPORT);
+  124 | 
+  125 |     await page.getByRole('button', { name: 'Next' }).click();
+  126 | 
+  127 |     await expect(
+  128 |       page.getByTestId(`ModelImportedSection-ModelHeader-${model_import.MODEL_NAME}`),
+  129 |     ).toBeVisible();
+  130 |     await expect(page.getByTestId('ModelImportMessages-Wrapper')).toBeVisible();
+  131 |     await page.getByRole('button', { name: 'Finish' }).click();
+  132 |   });
+  133 | 
+  134 |   test('Import a Model via Url Import', async ({ page }) => {
+  135 |     await page.getByTestId('TabBar-Button-ImportModel').click();
+  136 |     await page.getByRole('heading', { name: 'URL Import', exact: true }).click();
+  137 | 
+  138 |     await page.getByRole('textbox', { name: 'URL' }).click();
+  139 |     await page.getByRole('textbox', { name: 'URL' }).fill(model_import.MODEL_URL_IMPORT);
+  140 | 
+  141 |     await page.getByRole('button', { name: 'Next' }).click();
+  142 | 
+  143 |     await expect(
+  144 |       page.getByTestId(`ModelImportedSection-ModelHeader-${model_import.MODEL_NAME}`),
+  145 |     ).toBeVisible();
+  146 |     await expect(page.getByTestId('ModelImportMessages-Wrapper')).toBeVisible();
+  147 |     await page.getByRole('button', { name: 'Finish' }).click();
+  148 |   });
+  149 | 
+  150 |   test('Import a Model via CSV Import', async ({ page }) => {
+  151 |     await page.getByTestId('TabBar-Button-ImportModel').click();
+  152 |     await page.getByRole('heading', { name: 'CSV Import', exact: true }).click();
+  153 | 
+  154 |     await page.getByRole('button', { name: 'Next' }).click();
+  155 | 
+  156 |     await page.setInputFiles('input[type="file"]', model_import.MODEL_CSV_IMPORT.Models);
+  157 |     await page.getByRole('button', { name: 'Next' }).click();
+  158 |     await page.setInputFiles('input[type="file"]', model_import.MODEL_CSV_IMPORT.Components);
+  159 |     await page.getByRole('button', { name: 'Next' }).click();
+  160 |     await page.setInputFiles('input[type="file"]', model_import.MODEL_CSV_IMPORT.Relationships);
+  161 | 
+  162 |     await page.getByRole('button', { name: 'Generate' }).click();
+  163 | 
+  164 |     await expect(
+  165 |       page.getByTestId(
+  166 |         `ModelImportedSection-ModelHeader-${model_import.MODEL_CSV_IMPORT.Model_Name}`,
+  167 |       ),
+  168 |     ).toBeVisible();
+  169 |     await expect(page.getByTestId('ModelImportMessages-Wrapper')).toBeVisible();
+  170 |     await page.getByRole('button', { name: 'Finish' }).click();
+  171 |   });
+  172 | });
+  173 | 
+```
