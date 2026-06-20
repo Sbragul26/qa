@@ -1,0 +1,44 @@
+{
+  "uuid": "f289696c-e596-4189-9412-a39ba7a51f67",
+  "name": "TestDefaultLocalProviderRemoveExtension_ReturnsErrorForMissingExtension",
+  "fullName": "github.com/meshery/meshery/server/models::TestDefaultLocalProviderRemoveExtension_ReturnsErrorForMissingExtension",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781993069226,
+  "stop": 1781993069226,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDefaultLocalProviderRemoveExtension_ReturnsErrorForMissingExtension"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

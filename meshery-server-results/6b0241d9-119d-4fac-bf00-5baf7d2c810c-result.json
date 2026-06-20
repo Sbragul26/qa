@@ -1,0 +1,44 @@
+{
+  "uuid": "6b0241d9-119d-4fac-bf00-5baf7d2c810c",
+  "name": "TestObjectGetNested/simple",
+  "fullName": "github.com/meshery/meshery/server/policies::TestObjectGetNested/simple",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781993080852,
+  "stop": 1781993080852,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestObjectGetNested/simple"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

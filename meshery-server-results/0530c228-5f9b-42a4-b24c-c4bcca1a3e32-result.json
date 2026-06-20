@@ -1,0 +1,44 @@
+{
+  "uuid": "0530c228-5f9b-42a4-b24c-c4bcca1a3e32",
+  "name": "TestFlushMeshSyncDataNilKubernetesServerIDNoPanic",
+  "fullName": "github.com/meshery/meshery/server/models::TestFlushMeshSyncDataNilKubernetesServerIDNoPanic",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781993069226,
+  "stop": 1781993069226,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFlushMeshSyncDataNilKubernetesServerIDNoPanic"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

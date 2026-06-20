@@ -1,0 +1,44 @@
+{
+  "uuid": "dc3cd1c1-3b12-4935-94ab-1292db95470d",
+  "name": "TestControllerEventActedUponPrefersConnectionID",
+  "fullName": "github.com/meshery/meshery/server/models::TestControllerEventActedUponPrefersConnectionID",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781993069226,
+  "stop": 1781993069226,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestControllerEventActedUponPrefersConnectionID"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

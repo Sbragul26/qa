@@ -1,0 +1,44 @@
+{
+  "uuid": "8b3a1172-a86e-421f-8f80-6f73bcfac9b7",
+  "name": "TestBehaviorAlignment/validation_invalidates_orphaned_relationship",
+  "fullName": "github.com/meshery/meshery/server/policies::TestBehaviorAlignment/validation_invalidates_orphaned_relationship",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781993078448,
+  "stop": 1781993078646,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestBehaviorAlignment/validation_invalidates_orphaned_relationship"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
