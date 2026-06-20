@@ -1,0 +1,44 @@
+{
+  "uuid": "2bf70d45-50ea-4b70-b2d7-48845bbf6502",
+  "name": "TestFindSchemaType/schema_type",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestFindSchemaType/schema_type",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781977821421,
+  "stop": 1781977821421,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestFindSchemaType/schema_type"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

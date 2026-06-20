@@ -1,0 +1,44 @@
+{
+  "uuid": "16633d0e-c111-4406-b6d5-f4a81d4ad9a2",
+  "name": "TestRemoteProviderDoRequest_RetriesWithFreshBodyAfterRefresh",
+  "fullName": "github.com/meshery/meshery/server/models::TestRemoteProviderDoRequest_RetriesWithFreshBodyAfterRefresh",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781977869537,
+  "stop": 1781977869539,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRemoteProviderDoRequest_RetriesWithFreshBodyAfterRefresh"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
