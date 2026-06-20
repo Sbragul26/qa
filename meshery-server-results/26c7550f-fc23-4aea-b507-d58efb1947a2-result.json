@@ -1,0 +1,46 @@
+{
+  "uuid": "26c7550f-fc23-4aea-b507-d58efb1947a2",
+  "name": "TestSelectPostLoginRefValue/ignores_?ref=_query_param_even_when_cookie_missing",
+  "fullName": "github.com/meshery/meshery/server/models::TestSelectPostLoginRefValue/ignores_?ref=_query_param_even_when_cookie_missing",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781923251388,
+  "stop": 1781923251388,
+  "statusDetails": {
+    "message": "=== PAUSE TestSelectPostLoginRefValue/ignores_?ref=_query_param_even_when_cookie_missing\n=== CONT  TestSelectPostLoginRefValue/ignores_?ref=_query_param_even_when_cookie_missing"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSelectPostLoginRefValue/ignores_?ref=_query_param_even_when_cookie_missing"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

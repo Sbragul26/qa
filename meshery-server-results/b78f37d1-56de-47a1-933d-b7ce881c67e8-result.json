@@ -1,0 +1,44 @@
+{
+  "uuid": "b78f37d1-56de-47a1-933d-b7ce881c67e8",
+  "name": "TestListenForCoreEvents_MultiUserBroadcast",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestListenForCoreEvents_MultiUserBroadcast",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781923201261,
+  "stop": 1781923201360,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListenForCoreEvents_MultiUserBroadcast"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

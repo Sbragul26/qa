@@ -1,0 +1,44 @@
+{
+  "uuid": "0766b355-a38b-436f-9148-e3397ae0746b",
+  "name": "TestInstallExtensionHandler_RemoteProviderReturnsNotImplemented",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestInstallExtensionHandler_RemoteProviderReturnsNotImplemented",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781923201871,
+  "stop": 1781923201871,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestInstallExtensionHandler_RemoteProviderReturnsNotImplemented"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

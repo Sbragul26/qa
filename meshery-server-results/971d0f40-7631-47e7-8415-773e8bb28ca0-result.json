@@ -1,0 +1,44 @@
+{
+  "uuid": "971d0f40-7631-47e7-8415-773e8bb28ca0",
+  "name": "TestMeshsyncEventErrorWrappedWithMeshKit",
+  "fullName": "github.com/meshery/meshery/server/models::TestMeshsyncEventErrorWrappedWithMeshKit",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781923235728,
+  "stop": 1781923235931,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMeshsyncEventErrorWrappedWithMeshKit"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

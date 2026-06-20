@@ -1,0 +1,44 @@
+{
+  "uuid": "7a96b978-6a7f-4178-b205-7d7d42f02b3f",
+  "name": "TestHandlerWrappers_ForwardToHttputil",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestHandlerWrappers_ForwardToHttputil",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781923201948,
+  "stop": 1781923201948,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHandlerWrappers_ForwardToHttputil"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
