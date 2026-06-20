@@ -1,0 +1,23 @@
+{
+  "uuid": "3c8cf1e5-8f3a-403b-909b-bd0a1a7214b1",
+  "name": "given fewer than five arguments when running mesheryctl registry publish then an error about required args is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781922966356,
+  "stop": 1781922966357,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
