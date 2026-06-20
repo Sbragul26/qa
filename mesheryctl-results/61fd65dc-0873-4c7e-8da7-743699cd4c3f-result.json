@@ -1,0 +1,44 @@
+{
+  "uuid": "61fd65dc-0873-4c7e-8da7-743699cd4c3f",
+  "name": "TestView/given_model_name_provided_when_running_relationship_view_then_display_registered_relationship",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestView/given_model_name_provided_when_running_relationship_view_then_display_registered_relationship",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781977871586,
+  "stop": 1781977871599,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestView/given_model_name_provided_when_running_relationship_view_then_display_registered_relationship"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

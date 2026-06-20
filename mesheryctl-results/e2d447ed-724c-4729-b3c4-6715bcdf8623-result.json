@@ -1,0 +1,44 @@
+{
+  "uuid": "e2d447ed-724c-4729-b3c4-6715bcdf8623",
+  "name": "Test_convertToComposeSummaries/inspect_state_nil_keeps_health_empty_and_exitcode_zero",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::Test_convertToComposeSummaries/inspect_state_nil_keeps_health_empty_and_exitcode_zero",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781977879673,
+  "stop": 1781977879674,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_convertToComposeSummaries/inspect_state_nil_keeps_health_empty_and_exitcode_zero"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
