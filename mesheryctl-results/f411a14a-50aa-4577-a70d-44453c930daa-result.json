@@ -1,0 +1,23 @@
+{
+  "uuid": "f411a14a-50aa-4577-a70d-44453c930daa",
+  "name": "given more than one argument when running mesheryctl system config gke then an error message is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782020651553,
+  "stop": 1782020651554,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}

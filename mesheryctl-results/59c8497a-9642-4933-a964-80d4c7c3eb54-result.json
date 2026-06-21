@@ -1,0 +1,23 @@
+{
+  "uuid": "59c8497a-9642-4933-a964-80d4c7c3eb54",
+  "name": "given azure CLI is not installed when running mesheryctl system config aks then an error is displayed",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782020651553,
+  "stop": 1782020651554,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
