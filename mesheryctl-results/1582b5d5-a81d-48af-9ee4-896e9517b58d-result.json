@@ -1,0 +1,46 @@
+{
+  "uuid": "1582b5d5-a81d-48af-9ee4-896e9517b58d",
+  "name": "TestAskForInput",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestAskForInput",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782020885079,
+  "stop": 1782020885079,
+  "statusDetails": {
+    "message": "Prompt [data1 data2]:"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestAskForInput"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

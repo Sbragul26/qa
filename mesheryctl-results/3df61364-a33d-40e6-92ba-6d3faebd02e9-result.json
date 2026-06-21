@@ -1,0 +1,44 @@
+{
+  "uuid": "3df61364-a33d-40e6-92ba-6d3faebd02e9",
+  "name": "TestListComponent/list_components_with_page_number",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/components::TestListComponent/list_components_with_page_number",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782020856757,
+  "stop": 1782020856768,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/components"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListComponent/list_components_with_page_number"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

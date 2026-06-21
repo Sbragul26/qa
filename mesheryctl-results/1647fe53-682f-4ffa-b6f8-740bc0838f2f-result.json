@@ -1,0 +1,44 @@
+{
+  "uuid": "1647fe53-682f-4ffa-b6f8-740bc0838f2f",
+  "name": "Test_Given_YAMLOutputFormatterSaver_With_NoFilepath_When_Save_Then_Error_Is_Returned",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::Test_Given_YAMLOutputFormatterSaver_With_NoFilepath_When_Save_Then_Error_Is_Returned",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782020847216,
+  "stop": 1782020847216,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Given_YAMLOutputFormatterSaver_With_NoFilepath_When_Save_Then_Error_Is_Returned"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

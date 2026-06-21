@@ -1,0 +1,44 @@
+{
+  "uuid": "874d9ee5-6617-4888-8c18-32a09b08d39e",
+  "name": "TestProfileCmd/given_yaml_output_flag_when_profile_then_display_profiles_in_yaml_format",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestProfileCmd/given_yaml_output_flag_when_profile_then_display_profiles_in_yaml_format",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1782020874141,
+  "stop": 1782020874191,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProfileCmd/given_yaml_output_flag_when_profile_then_display_profiles_in_yaml_format"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
