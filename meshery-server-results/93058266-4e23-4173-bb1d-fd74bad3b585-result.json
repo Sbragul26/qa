@@ -1,0 +1,44 @@
+{
+  "uuid": "93058266-4e23-4173-bb1d-fd74bad3b585",
+  "name": "TestConcurrentAccess",
+  "fullName": "github.com/meshery/meshery/server/models::TestConcurrentAccess",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782020880332,
+  "stop": 1782020880332,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestConcurrentAccess"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

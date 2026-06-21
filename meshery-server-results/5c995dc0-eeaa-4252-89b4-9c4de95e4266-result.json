@@ -1,0 +1,44 @@
+{
+  "uuid": "5c995dc0-eeaa-4252-89b4-9c4de95e4266",
+  "name": "TestDesignNameFromFileName/given_filename_with_multiple_dots_when_DesignNameFromFileName_then_strip_only_last_extension",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/core::TestDesignNameFromFileName/given_filename_with_multiple_dots_when_DesignNameFromFileName_then_strip_only_last_extension",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782020881864,
+  "stop": 1782020881864,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/core"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDesignNameFromFileName/given_filename_with_multiple_dots_when_DesignNameFromFileName_then_strip_only_last_extension"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

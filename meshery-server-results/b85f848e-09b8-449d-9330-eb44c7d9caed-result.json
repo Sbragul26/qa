@@ -1,0 +1,44 @@
+{
+  "uuid": "b85f848e-09b8-449d-9330-eb44c7d9caed",
+  "name": "TestGetMeshSyncRegistrationQueueLazyInit",
+  "fullName": "github.com/meshery/meshery/server/models::TestGetMeshSyncRegistrationQueueLazyInit",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782020880331,
+  "stop": 1782020880332,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGetMeshSyncRegistrationQueueLazyInit"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
