@@ -1,0 +1,44 @@
+{
+  "uuid": "b8222e68-286b-4949-9ff2-140518f213ab",
+  "name": "TestIsTransientProviderError/nil_is_not_transient",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestIsTransientProviderError/nil_is_not_transient",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782094327245,
+  "stop": 1782094327245,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsTransientProviderError/nil_is_not_transient"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

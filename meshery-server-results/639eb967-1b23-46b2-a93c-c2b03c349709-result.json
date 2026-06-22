@@ -1,0 +1,44 @@
+{
+  "uuid": "639eb967-1b23-46b2-a93c-c2b03c349709",
+  "name": "TestProviderHandler_NoneAliasResolvesToLocal",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProviderHandler_NoneAliasResolvesToLocal",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782094327250,
+  "stop": 1782094327250,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProviderHandler_NoneAliasResolvesToLocal"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

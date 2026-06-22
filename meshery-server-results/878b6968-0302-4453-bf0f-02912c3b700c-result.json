@@ -1,0 +1,44 @@
+{
+  "uuid": "878b6968-0302-4453-bf0f-02912c3b700c",
+  "name": "TestSendWithNilQueue",
+  "fullName": "github.com/meshery/meshery/server/models::TestSendWithNilQueue",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782094361307,
+  "stop": 1782094361307,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSendWithNilQueue"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
