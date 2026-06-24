@@ -1,0 +1,44 @@
+{
+  "uuid": "a5f48864-9521-4917-990f-3b9e638418a4",
+  "name": "TestDeployMesh/Test_Deploy_Istio",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/adapter::TestDeployMesh/Test_Deploy_Istio",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782334336629,
+  "stop": 1782334336637,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/adapter"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDeployMesh/Test_Deploy_Istio"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
