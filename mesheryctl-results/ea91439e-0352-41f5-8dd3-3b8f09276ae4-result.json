@@ -1,0 +1,44 @@
+{
+  "uuid": "ea91439e-0352-41f5-8dd3-3b8f09276ae4",
+  "name": "TestViewModel/given_a_non-existent_model-name_when_model_view_then_display_not_found_message",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestViewModel/given_a_non-existent_model-name_when_model_view_then_display_not_found_message",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782337366706,
+  "stop": 1782337366706,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewModel/given_a_non-existent_model-name_when_model_view_then_display_not_found_message"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
