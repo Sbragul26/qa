@@ -1,0 +1,46 @@
+{
+  "uuid": "a59c589e-7920-4a69-8270-c3c7b8b22d26",
+  "name": "TestProcessEvaluationResponse_NilPointerGuard/empty_registry_routes_to_unknownComponents",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestProcessEvaluationResponse_NilPointerGuard/empty_registry_routes_to_unknownComponents",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782337316685,
+  "stop": 1782337316792,
+  "statusDetails": {
+    "message": "=== PAUSE TestProcessEvaluationResponse_NilPointerGuard/empty_registry_routes_to_unknownComponents\n=== CONT  TestProcessEvaluationResponse_NilPointerGuard/empty_registry_routes_to_unknownComponents"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestProcessEvaluationResponse_NilPointerGuard/empty_registry_routes_to_unknownComponents"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

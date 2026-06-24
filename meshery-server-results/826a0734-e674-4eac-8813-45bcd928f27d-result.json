@@ -1,0 +1,44 @@
+{
+  "uuid": "826a0734-e674-4eac-8813-45bcd928f27d",
+  "name": "TestSendStreamEvent/returns_false_when_context_is_cancelled",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestSendStreamEvent/returns_false_when_context_is_cancelled",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782337315728,
+  "stop": 1782337315728,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSendStreamEvent/returns_false_when_context_is_cancelled"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
