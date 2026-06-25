@@ -1,0 +1,44 @@
+{
+  "uuid": "a8cbb1bb-0526-4427-b128-d99070ccf9b1",
+  "name": "TestUICacheHeaders/non-immutable__next_path_is_not_cached_forever",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestUICacheHeaders/non-immutable__next_path_is_not_cached_forever",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782357298559,
+  "stop": 1782357298559,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUICacheHeaders/non-immutable__next_path_is_not_cached_forever"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

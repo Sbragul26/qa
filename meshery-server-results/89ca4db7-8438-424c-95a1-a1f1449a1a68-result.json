@@ -1,0 +1,44 @@
+{
+  "uuid": "89ca4db7-8438-424c-95a1-a1f1449a1a68",
+  "name": "TestRegoSyntax/deny_relationship_evaluator.rego",
+  "fullName": "github.com/meshery/meshery/server/policies::TestRegoSyntax/deny_relationship_evaluator.rego",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782357332078,
+  "stop": 1782357332079,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/policies"
+    },
+    {
+      "name": "suite",
+      "value": "server/policies"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestRegoSyntax/deny_relationship_evaluator.rego"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

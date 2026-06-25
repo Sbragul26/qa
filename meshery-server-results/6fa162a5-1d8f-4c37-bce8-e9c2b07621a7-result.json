@@ -1,0 +1,46 @@
+{
+  "uuid": "6fa162a5-1d8f-4c37-bce8-e9c2b07621a7",
+  "name": "TestResolveProviderName/header_wins_over_query_and_enforced",
+  "fullName": "github.com/meshery/meshery/server/handlers::TestResolveProviderName/header_wins_over_query_and_enforced",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782357298495,
+  "stop": 1782357298498,
+  "statusDetails": {
+    "message": "=== PAUSE TestResolveProviderName/header_wins_over_query_and_enforced\n=== CONT  TestResolveProviderName/header_wins_over_query_and_enforced"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "suite",
+      "value": "server/handlers"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestResolveProviderName/header_wins_over_query_and_enforced"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

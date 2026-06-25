@@ -1,0 +1,44 @@
+{
+  "uuid": "421a9f27-8596-48ca-a687-f2348befc211",
+  "name": "TestPatternV1beta1ToV1beta3_ConvertsResolvedAliasesToCanonicalWireShape",
+  "fullName": "github.com/meshery/meshery/server/models/pattern/utils::TestPatternV1beta1ToV1beta3_ConvertsResolvedAliasesToCanonicalWireShape",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782357324578,
+  "stop": 1782357324578,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "server/models"
+    },
+    {
+      "name": "suite",
+      "value": "server/models/pattern/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPatternV1beta1ToV1beta3_ConvertsResolvedAliasesToCanonicalWireShape"
+    },
+    {
+      "name": "project",
+      "value": "Meshery"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
