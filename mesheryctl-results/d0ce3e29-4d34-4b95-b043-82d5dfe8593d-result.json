@@ -1,0 +1,44 @@
+{
+  "uuid": "d0ce3e29-4d34-4b95-b043-82d5dfe8593d",
+  "name": "Test_Given_JSONOutputFormatterSaver_With_Filepath_When_Save_Then_File_Is_Created",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/pkg/display::Test_Given_JSONOutputFormatterSaver_With_Filepath_When_Save_Then_File_Is_Created",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782416212305,
+  "stop": 1782416212306,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/pkg/display"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_Given_JSONOutputFormatterSaver_With_Filepath_When_Save_Then_File_Is_Created"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
