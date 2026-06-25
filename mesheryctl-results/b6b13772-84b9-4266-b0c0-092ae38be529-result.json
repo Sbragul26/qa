@@ -1,0 +1,25 @@
+{
+  "uuid": "b6b13772-84b9-4266-b0c0-092ae38be529",
+  "name": "mesheryctl model generate succeeds with valid URL and template",
+  "status": "failed",
+  "stage": "finished",
+  "start": 1782423965541,
+  "stop": 1782423965542,
+  "statusDetails": {
+    "message": "(from function `assert_output' in file /usr/lib/bats-assert/src/assert_output.bash, line 186,\n in test file 002-model/06-model-generate.bats, line 21)\n  `assert_output --partial \"invalid URL\"' failed\n\n-- output does not contain substring --\nsubstring : invalid URL\noutput    : Error: open invalid-url: no such file or directory | Short Description: error reading directory | Probable Cause: Directory does not exist at the location invalid-url.Insufficient permissions | Suggested Remediation: Verify that directory exist at the provided location.Verify sufficient directory read permission.\n--\n"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "bats"
+    },
+    {
+      "name": "language",
+      "value": "bash"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    }
+  ]
+}
