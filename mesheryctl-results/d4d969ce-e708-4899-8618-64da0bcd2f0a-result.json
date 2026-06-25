@@ -1,0 +1,44 @@
+{
+  "uuid": "d4d969ce-e708-4899-8618-64da0bcd2f0a",
+  "name": "TestGenerationOptionsCreation/Short_timeout",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestGenerationOptionsCreation/Short_timeout",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782411249136,
+  "stop": 1782411249136,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestGenerationOptionsCreation/Short_timeout"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
