@@ -1,0 +1,46 @@
+{
+  "uuid": "6c8048fd-92d4-422e-bdb9-ddf84c952df8",
+  "name": "TestView/given_no_model_name_provided_when_running_relationship_view_then_throw_error",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/relationships::TestView/given_no_model_name_provided_when_running_relationship_view_then_throw_error",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782420764113,
+  "stop": 1782420764113,
+  "statusDetails": {
+    "message": "Error: only one argument must be provided and needs to be enclosed by double quotes if it contains spaces (eg. \"model name\", modelName) | Short Description: Invalid Argument | Probable Cause: Invalid Argument | Suggested Remediation: Please check the arguments passed"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/relationships"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestView/given_no_model_name_provided_when_running_relationship_view_then_throw_error"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

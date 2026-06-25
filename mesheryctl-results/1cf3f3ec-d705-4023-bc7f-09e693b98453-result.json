@@ -1,0 +1,44 @@
+{
+  "uuid": "1cf3f3ec-d705-4023-bc7f-09e693b98453",
+  "name": "TestListManifests",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestListManifests",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782420770920,
+  "stop": 1782420771165,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestListManifests"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

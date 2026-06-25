@@ -1,0 +1,44 @@
+{
+  "uuid": "21341199-18ef-4474-b2a3-f74b7e8cb9ac",
+  "name": "TestPreRunEValidation/No_input_source_specified",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestPreRunEValidation/No_input_source_specified",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782420760007,
+  "stop": 1782420760007,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPreRunEValidation/No_input_source_specified"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

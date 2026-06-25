@@ -1,0 +1,46 @@
+{
+  "uuid": "75a7534b-1697-461a-8848-da7021bdf9a2",
+  "name": "TestSearchModel",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestSearchModel",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782420754891,
+  "stop": 1782420754897,
+  "statusDetails": {
+    "message": "testing.go:442: List model test\n    testing.go:442: List model test"
+  },
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSearchModel"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
