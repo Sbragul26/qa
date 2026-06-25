@@ -1,0 +1,44 @@
+{
+  "uuid": "6a9bc6f1-7131-4ae2-ae7a-a9b582bbc8c0",
+  "name": "TestViewCmd/given_no_argument_when_view_then_display_current_context_channel_and_version",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/system::TestViewCmd/given_no_argument_when_view_then_display_current_context_channel_and_version",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782357452799,
+  "stop": 1782357452800,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/system"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestViewCmd/given_no_argument_when_view_then_display_current_context_channel_and_version"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
