@@ -1,0 +1,44 @@
+{
+  "uuid": "5404595f-39e5-41a0-8fae-d7fc0dd0d140",
+  "name": "Test_convertToComposeSummaries/inspect_provides_exited_exitcode",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::Test_convertToComposeSummaries/inspect_provides_exited_exitcode",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782524014828,
+  "stop": 1782524014829,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_convertToComposeSummaries/inspect_provides_exited_exitcode"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "5249dd2d-20b0-48fb-9d88-8758259f0595",
+  "name": "TestIsLocalProvider",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestIsLocalProvider",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782524014843,
+  "stop": 1782524014843,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestIsLocalProvider"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

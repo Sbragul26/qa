@@ -1,0 +1,44 @@
+{
+  "uuid": "bd82b925-4bad-47bf-9747-fb07f9f702e2",
+  "name": "TestHasCSVs",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/model::TestHasCSVs",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782523997377,
+  "stop": 1782523997377,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/model"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestHasCSVs"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
