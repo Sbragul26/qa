@@ -1,0 +1,44 @@
+{
+  "uuid": "3edaa8cb-e534-4e5c-b92e-1b402bc455c7",
+  "name": "TestDefaultModelTimeoutConstant",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/registry::TestDefaultModelTimeoutConstant",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782533667559,
+  "stop": 1782533667559,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/registry"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestDefaultModelTimeoutConstant"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
