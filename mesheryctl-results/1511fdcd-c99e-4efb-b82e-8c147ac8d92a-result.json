@@ -1,0 +1,44 @@
+{
+  "uuid": "1511fdcd-c99e-4efb-b82e-8c147ac8d92a",
+  "name": "TestSplitTestDurationDefaultsUnitlessDuration",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/perf::TestSplitTestDurationDefaultsUnitlessDuration",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782538741906,
+  "stop": 1782538741906,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/perf"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestSplitTestDurationDefaultsUnitlessDuration"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
