@@ -1,0 +1,44 @@
+{
+  "uuid": "c6e92bfb-7deb-4ca7-bd02-c89292df87ed",
+  "name": "TestScriptGeneration",
+  "fullName": "github.com/meshery/meshery/mesheryctl/pkg/utils::TestScriptGeneration",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782735415885,
+  "stop": 1782735415885,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/pkg"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/pkg/utils"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestScriptGeneration"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}

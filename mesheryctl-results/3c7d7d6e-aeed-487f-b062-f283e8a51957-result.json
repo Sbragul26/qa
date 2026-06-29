@@ -1,0 +1,44 @@
+{
+  "uuid": "3c7d7d6e-aeed-487f-b062-f283e8a51957",
+  "name": "Test_importPattern_DisplayErrorsMissingFlags/given_missing_file_flag_when_design_import_then_error_is_thrown",
+  "fullName": "github.com/meshery/meshery/mesheryctl/internal/cli/root/design::Test_importPattern_DisplayErrorsMissingFlags/given_missing_file_flag_when_design_import_then_error_is_thrown",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1782735391420,
+  "stop": 1782735391420,
+  "statusDetails": {},
+  "labels": [
+    {
+      "name": "framework",
+      "value": "go-test"
+    },
+    {
+      "name": "language",
+      "value": "golang"
+    },
+    {
+      "name": "parentSuite",
+      "value": "mesheryctl/internal"
+    },
+    {
+      "name": "suite",
+      "value": "mesheryctl/internal/cli/root/design"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_importPattern_DisplayErrorsMissingFlags/given_missing_file_flag_when_design_import_then_error_is_thrown"
+    },
+    {
+      "name": "project",
+      "value": "mesheryctl"
+    },
+    {
+      "name": "type",
+      "value": "unit"
+    },
+    {
+      "name": "env",
+      "value": "ci"
+    }
+  ]
+}
